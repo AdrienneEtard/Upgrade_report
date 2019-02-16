@@ -1,0 +1,39 @@
+\documentclass[11pt]{report}
+\usepackage{graphicx}
+\usepackage[margin = 0.8in]{geometry} % to set margin width
+%\setlength{\headheight}{10pt}
+
+\usepackage[T1]{fontenc}
+
+% fancy chapter headers
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+
+
+
+% font
+%\usepackage{times}
+
+\begin{document}
+
+\title{Upgrade report}
+\author{Adrienne Etard}
+
+\maketitle
+
+%\begin{abstract}
+%The abstract text goes here.
+%\end{abstract}
+
+
+\section*{Introduction}
+
+\chapter{Literature review}
+%\input{Chapter1}
+
+\chapter{Trait data collection and imputation of missing values}
+\input{Chapters/Chapter2}
+
+\end{document}
