@@ -1,6 +1,6 @@
 \documentclass[11pt]{report}
 \usepackage{graphicx}
-\usepackage[margin = 0.8in]{geometry} % to set margin width
+\usepackage[margin = 2.5cm]{geometry} % to set margin width
 %\setlength{\headheight}{10pt}
 
 \usepackage[T1]{fontenc}
@@ -11,29 +11,52 @@
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
-
-
 % font
 %\usepackage{times}
 
 \begin{document}
 
-\title{Upgrade report}
-\author{Adrienne Etard}
+\input{Title_page}
 
-\maketitle
+%\maketitle
+
+% Declarations and acknoledgements here
+
+% Then, abstract
 
 %\begin{abstract}
 %The abstract text goes here.
 %\end{abstract}
 
+% CONTENTS
+\clearpage
+\tableofcontents
 
-\section*{Introduction}
+%\cleardoublepage
+%\addcontentsline{toc}{section}{List of Tables}
 
-\chapter{Literature review}
+\clearpage
+\listoftables
+%\addcontentsline{toc}{section}{List of Figures}
+
+\clearpage
+\listoffigures
+
+% \clearpage
+% List of abbreviations
+
+\clearpage
+
+%\section*{Introduction}
+
+\chapter{Introduction}
 %\input{Chapter1}
 
 \chapter{Trait data collection and imputation of missing values}
 \input{Chapters/Chapter2}
+
+\chapter{Land-use change impacts on the functional diversity of vertebrate communities}
+
+\chapter{Outline and research questions for the next years}
 
 \end{document}
