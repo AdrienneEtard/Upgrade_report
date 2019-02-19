@@ -1,17 +1,20 @@
-\contentsline {chapter}{\numberline {1}Introduction}{4}
-\contentsline {chapter}{\numberline {2}Trait data collection and imputation of missing values}{5}
-\contentsline {section}{\numberline {2.1}Methods}{5}
-\contentsline {subsection}{\numberline {2.1.1}Ecological trait collection}{5}
-\contentsline {subsection}{\numberline {2.1.2}Tackling taxonomic synonymy}{6}
-\contentsline {subsubsection}{Extraction of synonyms and harmonisation of taxonomy in trait datasets.}{6}
-\contentsline {subsubsection}{Harmonisation of taxonomy in phylogenetic trees (tip labels).}{6}
-\contentsline {subsubsection}{Filtering, manual corrections and transformations}{6}
-\contentsline {subsection}{\numberline {2.1.3}Imputation of missing trait value}{7}
-\contentsline {section}{\numberline {2.2}Results}{7}
-\contentsline {subsection}{\numberline {2.2.1}Increase in trait coverage due to taxonomic correction}{7}
-\contentsline {subsubsection}{Across all species}{7}
-\contentsline {subsubsection}{Across PREDICTS species}{7}
-\contentsline {subsection}{\numberline {2.2.2}Imputation results}{7}
-\contentsline {section}{\numberline {2.3}Discussion}{7}
-\contentsline {chapter}{\numberline {3}Land-use change impacts on the functional diversity of vertebrate communities}{8}
-\contentsline {chapter}{\numberline {4}Outline and research questions for the next years}{9}
+\contentsline {chapter}{\numberline {1}Introduction}{4}% 
+\contentsline {chapter}{\numberline {2}Trait data collection and imputation of missing values}{5}% 
+\contentsline {section}{\numberline {2.1}Methods}{5}% 
+\contentsline {subsection}{\numberline {2.1.1}Ecological trait data collection}{5}% 
+\contentsline {subsection}{\numberline {2.1.2}Taxonomic synonymy}{6}% 
+\contentsline {subsubsection}{Extracting synonyms and harmonising taxonomy in trait datasets.}{6}% 
+\contentsline {subsubsection}{Increasing species representation and harmonising taxonomy in phylogenetic trees.}{6}% 
+\contentsline {paragraph}{Random species attachments.}{6}% 
+\contentsline {paragraph}{Taxonomic correction across tip labels.}{7}% 
+\contentsline {subsection}{\numberline {2.1.3}Trait filtering and transformations}{7}% 
+\contentsline {subsection}{\numberline {2.1.4}Imputation of missing trait values}{7}% 
+\contentsline {subsubsection}{Increase in trait coverage due to taxonomic correction}{7}% 
+\contentsline {subsubsection}{Randomness in missing trait values}{7}% 
+\contentsline {subsubsection}{Species representation in phylogenetic trees}{7}% 
+\contentsline {subsubsection}{Phylogenetic signal}{7}% 
+\contentsline {subsubsection}{Imputations of missing trait values}{7}% 
+\contentsline {section}{\numberline {2.2}Results}{7}% 
+\contentsline {section}{\numberline {2.3}Discussion}{7}% 
+\contentsline {chapter}{\numberline {3}Land-use change impacts on the functional diversity of vertebrate communities}{11}% 
+\contentsline {chapter}{\numberline {4}Outline and research questions for the next years}{12}% 
