@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces \textbf {}}}{8}% 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces \textbf {}}}{9}% 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces \textbf {Percentage of species present in the phylogenies for both corrected and uncorrected datasets.} Overall, taxonomic correction increased species representation in phylogenetic trees. Representation for mammals and birds was high (after correction: 83\% of avian and 94\% of mammalian species had a phylogenetic position). On the other hand, reptiles and amphibians were poorly represented (after correction: only 39\% of reptilian and 42\% of amphibian species were placed in phylogenetic trees). The inset barplot shows representation for species figuring in PREDICTS. For these, species presence in phylogenetic trees after correction was high across all classes, with a minimum representation of 73\% for amphibians.}}{10}% 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Trait coverage across all species before and after taxonomic correction}}{8}{figure.caption.11}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Trait coverage across PREDICTS species before and after taxonomic correction}}{9}{figure.caption.12}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Percentage of species represented in the phylogenies for both corrected and uncorrected trait datasets}}{10}{figure.caption.14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

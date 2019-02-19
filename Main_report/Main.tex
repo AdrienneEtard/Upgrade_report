@@ -1,9 +1,8 @@
 \documentclass[11pt]{report}
 \usepackage{graphicx}
-\usepackage[margin = 2.5cm]{geometry} % to set margin width
-%\setlength{\headheight}{10pt}
-
+\usepackage[margin = 2.5cm]{geometry}
 \usepackage[T1]{fontenc}
+\usepackage{setspace}
 
 % fancy chapter headers
 \usepackage{titlesec, blindtext, color}
@@ -11,8 +10,30 @@
 \newcommand{\hsp}{\hspace{20pt}}
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
-% font
-%\usepackage{times}
+% captions
+\usepackage[labelfont=bf]{caption} %font=small,
+\captionsetup{skip=7pt} 
+\captionsetup{font=footnotesize,font={stretch=1.2}}
+
+% tables
+\usepackage{multirow}
+%\usepackage{longtable} 
+\usepackage{array}
+%\usepackage{verbatim} 
+
+%Line numbering
+\usepackage{lineno}
+
+% clinkable links 
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=false, %set true if you want colored links
+    linktoc=all     %set to all if you want both sections and subsections linked
+    %linkcolor=blue,  %choose some color if you want links to stand out
+}
+
+% line spacing
+%\renewcommand{\baselinestretch}{2}
 
 \begin{document}
 
