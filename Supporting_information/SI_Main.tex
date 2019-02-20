@@ -1,31 +1,78 @@
 % Supporting information for upgrade report
 
-\documentclass[11pt]{report}
+\documentclass[11pt]{article}
 \usepackage{graphicx}
-\usepackage[margin = 0.8in]{geometry} % to set margin width
-%\setlength{\headheight}{10pt}
-
+\usepackage[margin = 2.5cm]{geometry}
 \usepackage[T1]{fontenc}
+\usepackage{setspace}
 
-% fancy chapter headers
-\usepackage{titlesec, blindtext, color}
-\definecolor{gray75}{gray}{0.75}
-\newcommand{\hsp}{\hspace{20pt}}
-\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+% captions
+\usepackage[labelfont=bf]{caption} %font=small,
+\captionsetup{skip=7pt} 
+\captionsetup{font=footnotesize,font={stretch=1.2}}
 
-% font
-%\usepackage{times}
+% tables
+\usepackage{multirow}
+%\usepackage{longtable} 
+\usepackage{array}
+%\usepackage{verbatim} 
+
+%Line numbering
+\usepackage{lineno}
+
+% clinkable links 
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+    colorlinks=false, %set true if you want colored links
+    linktoc=all     %set to all if you want both sections and subsections linked
+    %linkcolor=blue,  %choose some color if you want links to stand out
+}
+
+% line spacing
+%\renewcommand{\baselinestretch}{2}
+
+
 
 \begin{document}
 
-\title{Supporting information}
+\title{Supporting information for }
 \author{Adrienne Etard}
 
 \maketitle
 
-\section{Trait data compilation and imputation of missing values}
+% CONTENTS
+\clearpage
+\tableofcontents
 
-\subsection{Traits}
+%\cleardoublepage
+%\addcontentsline{toc}{section}{List of Tables}
+
+\clearpage
+\listoftables
+%\addcontentsline{toc}{section}{List of Figures}
+
+\clearpage
+\listoffigures
+
+% \clearpage
+% List of abbreviations
+
+\clearpage
+
+\section{Trait data compilation}
+
+\subsection{Definition of diet categories}
+% Diet trait and primary diet and trophic levels
+
+\subsection{Habitat affinities and broad specialisation}
+% Habitat trait. Sensitivity to weighting system.
+
 \subsection{Tackling taxonomic synonymy}
+% Delta in species number before and after taxonomic corrections + typos.s
+
+% Synonym table extract and number of manual additions.
+
+% Replication in phylogenetic tips: case studies
+
 
 \end{document}

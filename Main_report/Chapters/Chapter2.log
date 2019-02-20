@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.10)  19 FEB 2019 23:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.11.10)  20 FEB 2019 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5389,7 +5389,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.38 \caption
-             [Species representation in phylogenetic trees.]{\textbf{Species...
+             [Species representation in phylogenetic trees]{\textbf{Species ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5456,8 +5456,8 @@ Overfull \hbox (19.53111pt too wide) in paragraph at lines 38--48
  []
 
 
-Overfull \hbox (58.02663pt too wide) in paragraph at lines 38--48
- \OT1/cmr/m/n/9 trees.]\OT1/cmr/bx/n/9 Species 
+Overfull \hbox (55.4572pt too wide) in paragraph at lines 38--48
+ \OT1/cmr/m/n/9 trees]\OT1/cmr/bx/n/9 Species 
  []
 
 
@@ -6990,6 +6990,19 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.66 \caption
+             [Trait coverage across all species before and after taxonomic c...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -7030,8 +7043,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 63--68
  []
 
 
-Overfull \hbox (107.73965pt too wide) in paragraph at lines 63--68
-[]\OML/cmm/m/it/10 raits[]ll[]pecies[]overage$ 
+Overfull \hbox (1498.10141pt too wide) in paragraph at lines 63--68
+[]\OML/cmm/m/it/10 raits[]ll[]pecies[]overage\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 
+Traitcoverageacrossallspeciesbeforeandaftertaxonomiccorrection\OT1/cmr/m/n/10 ]
+[]$ 
  []
 
 
@@ -7113,6 +7128,19 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.72 \caption
+             [Trait coverage across PREDICTS species before and after taxono...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 ! LaTeX Error: \begin{document} ended by \end{figure}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -7153,8 +7181,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 69--74
  []
 
 
-Overfull \hbox (132.45088pt too wide) in paragraph at lines 69--74
-[]\OML/cmm/m/it/10 raits[]redicts[]pecies[]overage$ 
+Overfull \hbox (1570.14404pt too wide) in paragraph at lines 69--74
+[]\OML/cmm/m/it/10 raits[]redicts[]pecies[]overage\OT1/cmr/m/n/10 [\OML/cmm/m/i
+t/10 TraitcoverageacrossPREDICTSspeciesbeforeandaftertaxonomiccorrection\OT1/cm
+r/m/n/10 ][]$ 
  []
 
 ! Undefined control sequence.
@@ -7292,7 +7322,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.80 \caption
-              {\textbf{Percentage of species present in the phylogenies for ...
+             [Percentage of species represented in the phylogenies for both ...
 
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -7338,8 +7368,10 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 76--82
  []
 
 
-Overfull \hbox (3183.88696pt too wide) in paragraph at lines 76--82
-[]\OML/cmm/m/it/10 epresentation[]hylo[]$ 
+Overfull \hbox (3662.04904pt too wide) in paragraph at lines 76--82
+[]\OML/cmm/m/it/10 epresentation[]hylo\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 Percent
+ageofspeciesrepresentedinthephylogeniesforbothcorrectedanduncorrectedtraitdatas
+ets\OT1/cmr/m/n/10 ][]$ 
  []
 
 ! Undefined control sequence.
@@ -8301,7 +8333,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 98--100
 Here is how much of TeX's memory you used:
  31 strings out of 492982
  391 string characters out of 6134895
- 60926 words of memory out of 5000000
+ 61926 words of memory out of 5000000
  3689 multiletter control sequences out of 15000+600000
  6079 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191

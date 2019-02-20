@@ -3,6 +3,10 @@
 \usepackage[margin = 2.5cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{setspace}
+\usepackage{tikz}
+
+% checkmarks
+\def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
 
 % fancy chapter headers
 \usepackage{titlesec, blindtext, color}
@@ -11,9 +15,8 @@
 \titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
 
 % captions
-\usepackage[labelfont=bf]{caption} %font=small,
-\captionsetup{skip=7pt} 
-\captionsetup{font=footnotesize,font={stretch=1.2}}
+\usepackage[labelfont=bf]{caption}
+\captionsetup{skip=7pt, font=footnotesize} %,font={stretch=1}
 
 % tables
 \usepackage{multirow}
@@ -41,7 +44,7 @@
 
 %\maketitle
 
-% Declarations and acknoledgements here
+% Declarations and acknowledgements here
 
 % Then, abstract
 
@@ -72,6 +75,8 @@
 
 \chapter{Introduction}
 %\input{Chapter1}
+
+
 
 \chapter{Trait data collection and imputation of missing values}
 \input{Chapters/Chapter2}
