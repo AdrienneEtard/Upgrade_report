@@ -1,5 +1,5 @@
 \section{Introduction}
-We compile trait data for terrestrial vertebrates. We impute missing values and test the robustness of imputatutions.
+We compile trait data for terrestrial vertebrates. We impute missing values and test the robustness of imputations.
 
 
 \section{Methods}
@@ -129,7 +129,7 @@ Overall, correcting for taxonomy improved species representation in the phylogen
 \begin{tabular}{|l|l|l|c|l}
 \cline{1-4}
 \multicolumn{1}{|c|}{\textbf{Class}} & \multicolumn{1}{c|}{\textbf{Initially not in tree}} & \multicolumn{1}{c|}{\textbf{Randomly attached}} & \textbf{No final representation in tree} &  \\ \cline{1-4}
-Amphibians                  & 59\% (4062 of 6927)                           & 0.4\% (17 of 4062)                     & \textbf{58\%}             &  \\ \cline{1-4}
+Amphibians                  & 58\% (4027 of 6888)                           & 13\% (510 of 4027)                     & \textbf{51\%}             &  \\ \cline{1-4}
 Birds                       & 18\% (2084 of 11637)                          & 4.8\% (100 of 2084)                    & \textbf{17\%}             &  \\ \cline{1-4}
 Mammals                     & 7.4\% (407 of 5502)                           & 23\% (94 of 407)                       & \textbf{5.7\%}            &  \\ \cline{1-4}
 Reptiles                    & 62\% (6391 of 10334)                          & 9.6\% (611 of 6391)                    & \textbf{56\%}             &  \\ \cline{1-4}
@@ -140,7 +140,7 @@ Reptiles                    & 62\% (6391 of 10334)                          & 9.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{figures/chapter2/Species_representation_phylo}
-\caption[Percentage of species represented in the phylogenies for both corrected and uncorrected trait datasets]{\textbf{Percentage of species represented in the phylogenies for both corrected and uncorrected trait datasets.} Overall, taxonomic correction increased species representation in phylogenetic trees. Representation for mammals and birds was high (after taxonomic correction: 83\% of avian and 94\% of mammalian species had a phylogenetic position). On the other hand, reptiles and amphibians were poorly represented (after taxonomic correction: only 39\% of reptilian and 42\% of amphibian species were placed in phylogenetic trees). The inset barplot shows representation for species figuring in PREDICTS. For these, species presence in phylogenetic trees after correction was high across all classes, with a minimum representation of 73\% for amphibians.}
+\caption[Percentage of species represented in the phylogenies for both corrected and uncorrected trait datasets]{\textbf{Percentage of species represented in the phylogenies for both corrected and uncorrected trait datasets.} Overall, taxonomic correction increased species representation in phylogenetic trees. Representation for mammals and birds was high (after taxonomic correction: 83\% of avian and 94\% of mammalian species had a phylogenetic position). On the other hand, reptiles and amphibians were poorly represented (after taxonomic correction: only 44\% of reptilian and 49\% of amphibian species were placed in phylogenetic trees). The inset barplot shows representation for species figuring in PREDICTS. For these, species presence in phylogenetic trees after correction was high across all classes, with a minimum representation of 76\% for amphibians.}
 \label{species_rep_phylo}
 \end{figure}
 
@@ -164,12 +164,19 @@ Species for which all trait values were missing were filtered out. All continuou
 \subsubsection{Randomness in missing trait values}
 
 \subsubsection{Phylogenetic signal}
+The phylogenetic signal in all continuous trait was assessed using Pagel's $\lambda$ (phytools package). 
+For categorical traits, model of evolution fitted (different models), selection of the model that best fits the data.
+Some traits showed a strong phylogenetic signal (Table). As such, phylogenies could explain trait values and necessity to incorporate phylogenetic information in further imputations. Are traits evolutionary conserved?
+
+
 
 \subsubsection{Imputations of missing trait values}
+Penone et al (2014) assessed the performance of four different imputation approaches (K-nearest neighbour (kNN), multivariate imputation by chained equations (mice), random forest algorithms implemented with missForest and phylogenetic imputations implemented with phylopars). They summarised the advantages and disadvantages of each method. Their study showed that the kNN approach resulted in significantly higher imputation errors than the three other approaches. Both missForest and phylopars were the best methods when phylogenetic information was included. Nevertheless, phylopars was much slower than missForest, and could only impute on continuous traits. missForest was faster and could deal with both continuous and categorical data.
+% When phylogenetic information was not included, mice was the best method, with fast imputations of both categorical and continuous variables.
+Based on these results, I imputed missing trait values using random forest algorithms, as implemented by missForest. Phylogenetic relationships were including by extracting the first 10 phylogenetic eigenvectors for the phylogenies (PVR package Santos 2018) and adding them as predictor variables. Penone et al showed that 10 phylogenetic eigenvectors minimised the imputation error. 
 
-I imputed missing values using random forest algorithms (missForest R package). For some traits, the phylogenetic signal (assessed using Pagel’s lambda) was strong, showing that they were highly evolutionary conserved. To account for phylogenetic relationships among species, phylogenetic eigenvectors were included in the random forest imputations as a supplementary predictor. Eigenvectors were extracted from the phylogenies using the PVR package (Santos, 2018). Penone et al showed that including 10 eigenvectors minimised the imputation errors – hence I included 10 eigenvectors. Plus best method with phylogenies.
+% A certain amount of species did not figure in the phylogenies. Keeping order, family and genus information for these?
 
-Otherwise, traits for these sets of species were imputed without additional phylogenetic information, in a second round of imputations, with family, order, and genus as additional predictors.
 
 Robustness of imputations
 
