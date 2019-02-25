@@ -21,6 +21,13 @@
 \contentsline {subsubsection}{Phylogenetic signal}{9}{subsubsection*.22}% 
 \contentsline {subsubsection}{Imputations of missing trait values}{10}{subsubsection*.23}% 
 \contentsline {section}{\numberline {2.3}Results}{11}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Comparing data collation outputs for mammals and birds}{11}{subsection.2.3.1}% 
+\contentsline {subsubsection}{Collected traits}{11}{subsubsection*.24}% 
+\contentsline {paragraph}{Comparison of initial coverage}{11}{paragraph*.25}% 
+\contentsline {paragraph}{Comparison of collected trait values}{11}{paragraph*.27}% 
+\contentsline {subsubsection}{Imputed traits}{11}{subsubsection*.29}% 
+\contentsline {subsubsection}{Imputed VS collected}{11}{subsubsection*.31}% 
+\contentsline {subsection}{\numberline {2.3.2}Imputation robustness}{11}{subsection.2.3.2}% 
 \contentsline {section}{\numberline {2.4}Discussion}{11}{section.2.4}% 
-\contentsline {chapter}{\numberline {3}Land-use change impacts on the functional diversity of vertebrate communities}{12}{chapter.3}% 
-\contentsline {chapter}{\numberline {4}Outline and research questions for the next years}{13}{chapter.4}% 
+\contentsline {chapter}{\numberline {3}Land-use change impacts on the functional diversity of vertebrate communities}{14}{chapter.3}% 
+\contentsline {chapter}{\numberline {4}Outline and research questions for the next years}{15}{chapter.4}% 
