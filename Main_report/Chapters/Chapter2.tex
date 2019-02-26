@@ -1,15 +1,24 @@
 \section{Introduction}
-We compile trait data for terrestrial vertebrates. We impute missing values and test the robustness of imputations.
+
+In this chapter, I collected and imputed ecological trait data for terrestrial vertebrates. Although terrestrial vertebrates have been extensively studied, the amount of trait information available in the literature is highly variable across classes and traits (Newbold, manuscript). Moreover, to my knowledge, there exist no comprehensive database of vertebrate traits encompassing all classes at the same time. Nevertheless, past and recent efforts to release data, either on freely accessible platforms or alongside publications, allowed us to compile an extensive list of sources from which to collate trait information.
+
+Here, I collated trait information for as many terrestrial vertebrate species as possible.  Targeted traits related to species life history (body mass, longevity, litter or clutch size, trophic level, diet) and to their habitat preferences (habitat breadth, habitat specialisation). Traits were selected for three main reasons: (1) estimates were available for many species; (2) estimates were available across all four terrestrial vertebrate classes, allowing cross-classes comparative analyses (true for all traits except diet); (3) selected traits have been shown to be response or effect traits in other studies or are related to response or effect traits (Table in Chapter 1). After assessing the initial trait coverage for each class, I imputed missing trait values using random forests algorithms.
+
+The present chapter details the methodology employed to collate and impute trait information. I elaborate on some of the challenges met when compiling information across a large number of species, such as inconsistency of taxonomy across sources. I examine the robustness of trait imputations and, for mammals and birds, compare  results with another collated dataset (Cooke et al). Indeed, in October 2018, Cooke et al released extensive information for six mammalian and avian traits, presenting us with a good opportunity for comparison. 
+% Finally, I discuss the weaknesses of the methodology
+% Challenges: taxonomy, missing values. Differences in information across datasets.
+% Impossibility to get intra-specific variation.
+
+% Elaborate on ecological relevance of chosen traits.
+
 
 
 \section{Methods}
 
 \subsection{Ecological trait data collection}
 
-\subsubsection{Trait choice}
-I collated ecological trait data for terrestrial vertebrates from published databases and unpublished sources (Table \ref{datasources}). Targeted traits related to species life history (body mass, longevity, litter or clutch size, trophic level, diet) and to their habitat preferences (habitat breadth, habitat specialisation). Traits were selected for three main reasons: (1) estimates were available for many species; (2) estimates were available across all four terrestrial vertebrate classes, allowing cross-classes comparative analyses (true for all traits except diet); (3) selected traits have been shown to be response or effect traits in other studies or are related to response or effect traits (Table in Chapter 1). 
-
-% Elaborate on relevance of these traits.
+\subsubsection{Sources and compilation methods.}
+I collated ecological trait data for terrestrial vertebrates from published databases and unpublished sources (Table \ref{datasources}). 
 
 % Table of sources.
 \begin{table}[h!]
