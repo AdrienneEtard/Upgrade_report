@@ -1,34 +1,40 @@
 \contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}% 
-\contentsline {chapter}{\numberline {2}Trait data collection and imputation of missing values}{5}{chapter.2}% 
+\contentsline {chapter}{\numberline {2}Collection and imputation of ecological trait data across terrestrial vertebrates}{5}{chapter.2}% 
 \contentsline {section}{\numberline {2.1}Introduction}{5}{section.2.1}% 
-\contentsline {section}{\numberline {2.2}Methods}{5}{section.2.2}% 
-\contentsline {subsection}{\numberline {2.2.1}Ecological trait data collection}{5}{subsection.2.2.1}% 
-\contentsline {subsubsection}{Sources and compilation methods.}{5}{subsubsection*.5}% 
-\contentsline {subsubsection}{Compilation methods}{6}{subsubsection*.7}% 
-\contentsline {paragraph}{Continuous traits.}{6}{paragraph*.8}% 
-\contentsline {paragraph}{Categorical traits.}{6}{paragraph*.9}% 
-\contentsline {subsection}{\numberline {2.2.2}Phylogenies}{7}{subsection.2.2.2}% 
-\contentsline {subsection}{\numberline {2.2.3}Taxonomic synonymy}{7}{subsection.2.2.3}% 
-\contentsline {subsubsection}{Extracting synonyms and harmonising taxonomy in trait datasets.}{7}{subsubsection*.10}% 
-\contentsline {paragraph}{Procedure}{7}{paragraph*.11}% 
-\contentsline {paragraph}{Increase in trait coverage due to taxonomic correction}{8}{paragraph*.12}% 
-\contentsline {subsubsection}{Harmonising taxonomy in phylogenetic trees and increasing species representation.}{8}{subsubsection*.15}% 
-\contentsline {paragraph}{Taxonomic correction across tip labels.}{8}{paragraph*.16}% 
-\contentsline {paragraph}{Random species attachments.}{9}{paragraph*.18}% 
-\contentsline {subsection}{\numberline {2.2.4}Trait transformations}{10}{subsection.2.2.4}% 
-\contentsline {subsection}{\numberline {2.2.5}Imputation of missing trait values}{11}{subsection.2.2.5}% 
-\contentsline {subsubsection}{Randomness in missing trait values}{11}{subsubsection*.21}% 
-\contentsline {subsubsection}{Phylogenetic signal}{11}{subsubsection*.22}% 
-\contentsline {subsubsection}{Imputations of missing trait values}{11}{subsubsection*.23}% 
-\contentsline {section}{\numberline {2.3}Results}{11}{section.2.3}% 
-\contentsline {subsection}{\numberline {2.3.1}Comparing data collation outputs for mammals and birds}{11}{subsection.2.3.1}% 
-\contentsline {subsubsection}{Collected traits}{11}{subsubsection*.24}% 
-\contentsline {paragraph}{Comparison of initial coverage}{11}{paragraph*.25}% 
-\contentsline {paragraph}{Comparison of collected trait values}{11}{paragraph*.27}% 
-\contentsline {subsubsection}{Imputed traits}{11}{subsubsection*.29}% 
-\contentsline {subsubsection}{Imputed VS collected}{11}{subsubsection*.31}% 
-\contentsline {subsection}{\numberline {2.3.2}Imputation robustness}{11}{subsection.2.3.2}% 
-\contentsline {subsection}{\numberline {2.3.3}Congruence of several imputations}{11}{subsection.2.3.3}% 
-\contentsline {section}{\numberline {2.4}Discussion}{11}{section.2.4}% 
-\contentsline {chapter}{\numberline {3}Land-use change impacts on the functional diversity of vertebrate communities}{15}{chapter.3}% 
-\contentsline {chapter}{\numberline {4}Outline and research questions for the next years}{16}{chapter.4}% 
+\contentsline {section}{\numberline {2.2}Methods}{7}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Ecological trait data collection}{7}{subsection.2.2.1}% 
+\contentsline {subsubsection}{Primary data sources.}{7}{subsubsection*.5}% 
+\contentsline {subsubsection}{Compilation methods.}{8}{subsubsection*.7}% 
+\contentsline {paragraph}{Continuous traits.}{8}{paragraph*.8}% 
+\contentsline {paragraph}{Categorical traits.}{8}{paragraph*.9}% 
+\contentsline {subparagraph}{Diet and diet breadth.}{8}{subparagraph*.10}% 
+\contentsline {subparagraph}{Trophic level.}{8}{subparagraph*.11}% 
+\contentsline {subparagraph}{Habitat preferences.}{8}{subparagraph*.12}% 
+\contentsline {subsection}{\numberline {2.2.2}Phylogenies}{8}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Tackling taxonomic synonymy}{8}{subsection.2.2.3}% 
+\contentsline {subsubsection}{Rationale.}{8}{subsubsection*.13}% 
+\contentsline {subsubsection}{Automated procedure and outputs.}{9}{subsubsection*.14}% 
+\contentsline {paragraph}{Extracting names from the RedList and the Integrated Taxonomic Information System (ITIS).}{9}{paragraph*.15}% 
+\contentsline {paragraph}{Outputs.}{9}{paragraph*.16}% 
+\contentsline {paragraph}{Harmonising taxonomy in trait datasets.}{9}{paragraph*.18}% 
+\contentsline {subsubsection}{Harmonising taxonomy in phylogenetic trees and increasing species representation.}{10}{subsubsection*.19}% 
+\contentsline {paragraph}{Taxonomic correction across tip labels.}{10}{paragraph*.20}% 
+\contentsline {paragraph}{Random species attachments.}{10}{paragraph*.22}% 
+\contentsline {paragraph}{Correcting for taxonomy in phylogenetic trees: conclusions.}{11}{paragraph*.24}% 
+\contentsline {paragraph}{Increase in trait coverage due to taxonomic correction.}{11}{paragraph*.26}% 
+\contentsline {subsection}{\numberline {2.2.4}Imputation of missing trait values}{11}{subsection.2.2.4}% 
+\contentsline {subsubsection}{Randomness in missing trait values}{11}{subsubsection*.29}% 
+\contentsline {subsubsection}{Phylogenetic signal}{11}{subsubsection*.30}% 
+\contentsline {subsubsection}{Imputations of missing trait values}{12}{subsubsection*.32}% 
+\contentsline {section}{\numberline {2.3}Results}{13}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Comparing data collation outputs for mammals and birds}{13}{subsection.2.3.1}% 
+\contentsline {subsubsection}{Collected traits}{13}{subsubsection*.33}% 
+\contentsline {paragraph}{Comparison of initial coverage}{13}{paragraph*.34}% 
+\contentsline {paragraph}{Comparison of collected trait values}{13}{paragraph*.36}% 
+\contentsline {subsubsection}{Imputed traits}{15}{subsubsection*.38}% 
+\contentsline {subsubsection}{Imputed VS collected}{15}{subsubsection*.40}% 
+\contentsline {subsection}{\numberline {2.3.2}Imputation robustness}{15}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Congruence of several imputations}{15}{subsection.2.3.3}% 
+\contentsline {section}{\numberline {2.4}Discussion}{15}{section.2.4}% 
+\contentsline {chapter}{\numberline {3}Land-use change impacts on the functional diversity of vertebrate communities}{17}{chapter.3}% 
+\contentsline {chapter}{\numberline {4}Outline and research questions for the next years}{18}{chapter.4}% 

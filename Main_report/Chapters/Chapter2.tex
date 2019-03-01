@@ -1,31 +1,38 @@
 \section{Introduction}
 
-In this chapter, I collected and imputed ecological trait data for terrestrial vertebrates. Although terrestrial vertebrates have been extensively studied, the amount of trait information available in the literature is highly variable across classes and traits (Newbold, manuscript). Moreover, to my knowledge, there exist no comprehensive database of vertebrate traits encompassing all classes at the same time. Nevertheless, past and recent efforts to release data, either on freely accessible platforms or alongside publications, allowed us to compile an extensive list of sources from which to collate trait information.
+A growing body of research literature uses trait-based approaches to understand how biodiversity links to ecosystem functioning, and how environmental changes are likely to affect species non-randomly with respect to their traits (Hevia et al). Strictly, traits are defined as characteristics measurable the level of an individual, with an effect on organismal fitness or performance. They can be physiological (e.g., metabolic rates), morphological (e.g., body mass), behavioural (e.g., learning) or phenological (e.g., anthesis), or can relate to species life-history (e.g. longevity). This definition can be broadened to include characteristics measurable at the species level, such as the number of habitats known to be used by a species (habitat breadth). I broaden the strict definition of traits to include such other ecological characteristics, and I refer to these as ecological traits.
 
-Here, I collated trait information for as many terrestrial vertebrate species as possible.  Targeted traits related to species life history (body mass, longevity, litter or clutch size, trophic level, diet) and to their habitat preferences (habitat breadth, habitat specialisation). Traits were selected for three main reasons: (1) estimates were available for many species; (2) estimates were available across all four terrestrial vertebrate classes, allowing cross-classes comparative analyses (true for all traits except diet); (3) selected traits have been shown to be response or effect traits in other studies or are related to response or effect traits (Table in Chapter 1). After assessing the initial trait coverage for each class, I imputed missing trait values using random forests algorithms.
+Many studies have shown that traits influence species responses to environmental pressures (). Moreover, it is now accepted that ecosystem functioning is positively correlated with species functional diversity. Species traits can provide a mechanistic understanding of both species roles in ecosystem functioning and of species responses to changes. Traits shape species fundamental and realised niches; for instance, physiological traits influence species thermal tolerances, participating in defining their geographical distributions. Traits such as trophic level or body mass structure food webs and affect inter- and intra-specific competition. As such, traits determine and reflect species use of their environment. Specifically, effect traits define organismal contributions to ecosystem functions. Effect traits are underpinned by species resource use, and this applies at diverse scales, from single-celled nutrient cycling bacteria to large mammals. Response traits are those involved in determining species responses to environmental changes and can overlap with effect traits. 
 
-The present chapter details the methodology employed to collate and impute trait information. I elaborate on some of the challenges met when compiling information across a large number of species, such as inconsistency of taxonomy across sources. I examine the robustness of trait imputations and, for mammals and birds, compare  results with another collated dataset (Cooke et al). Indeed, in October 2018, Cooke et al released extensive information for six mammalian and avian traits, presenting us with a good opportunity for comparison. 
+Although terrestrial vertebrates have been extensively studied in the past (Titley et al), the vast majority of research investigating the impact of environmental changes on ecosystem functions has focused on plants and invertebrates (Hevia et al). Vertebrates nevertheless play diverse ecosystem roles, and some are important keystone species.  Vertebrate species particularly contribute in food web structures and population dynamics through predatory and herbivory activity. They are pollinators and seed dispersers, and overall participate in nutrient cycling at higher levels. Understanding how environmental changes may affect their ecological roles is important to predict future ecosystem functioning, and to put into place appropriate mitigation measures. The end-goals of my PhD thesis are to elucidate how species traits influence their responses to land-use and climate change, and how this links to changes in ecosystem functioning. Addressing these questions requires to use extensive trait data.  Despite vertebrates having been the focus of much research, and despite the growing interest for trait-based approaches, there exist no comprehensive database of vertebrate ecological traits encompassing all classes. Consequently, collating trait data is a prerequisite for any further work, and this operation is constrained by the amount of information available in the literature. Thanks to past and recent effort to release data in the public domain, at least four comprehensive ecological trait databases have been published (mammals: Pantheria, amphibians: Amphibio, amniotes: Myhrvold, mammals and birds: Cooke et al). Other traits have been made available through online platforms alongside published articles (e.g. GARD), or can be downloaded from online databases (IUCN Redlist, Birdzone). Trait data for mammals and birds is likely to be more abundant and more resolved than for reptiles and amphibians, due to systematic biases in sampling with regards to taxonomic groups (Newbold, manuscript).
+ 
+I collected ecological trait information for terrestrial vertebrates from diverse primary sources. Trait selection was motivated by two main reasons: (1) traits should be of ecological interest and be related to response of effect processes; (2) trait values should be available for many species, across the four terrestrial vertebrate classes, allowing for cross-classes comparative analyses. Selected targeted traits related to species life-history and morphology (body mass; longevity; litter/clutch size; diel activity; trophic level; diet) and to their habitat preferences (habitat breadth and specialisation). Reptilian diet was not readily available in primary data sources, and one exception was made as I extracted the data for the other classes.
+
+% detail ecological relevance of traits
+
+The present chapter details the methodology employed to collate trait information. I elaborate on some of the challenges met when compiling data across many species, such as inconsistency of taxonomy across sources. Not unexpectedly, the amount of missing values was highly variable across classes and traits. To achieve full coverage, I imputed missing trait values using random-forest algorithms. Here, I briefly examine imputation robustness by looking at whether results from several imputations were congruent. 
+
+In October 2018, Cooke et al released a database of six mammalian and avian traits, using similar primary sources. They collated and imputed missing trait values for body mass, litter/clutch size, volancy, diel activity, primary diet and habitat breadth. I did not use their collected data for two reasons: first, similar primary sources were used in both our compilations; second, they used different missing data imputations methods. I used this freely accessible data as an opportunity to compare the results of both our data collection and imputation process. This chapter also presents the results of this comparison.
+
 % Finally, I discuss the weaknesses of the methodology
-% Challenges: taxonomy, missing values. Differences in information across datasets.
 % Impossibility to get intra-specific variation.
 
-% Elaborate on ecological relevance of chosen traits.
 
-
-
+\pagebreak
 \section{Methods}
 
 \subsection{Ecological trait data collection}
 
-\subsubsection{Sources and compilation methods.}
-I collated ecological trait data for terrestrial vertebrates from published databases and unpublished sources (Table \ref{datasources}). 
+\subsubsection{Primary data sources.}
+I collated ecological trait data for terrestrial vertebrates from the sources figuring in Table \ref{datasources}. Information was compiled for the following target traits: body mass, longevity, litter or clutch size, trophic level, diel activity, diet, and habitat preferences. I also compiled traits that were potentially correlated to either body mass or longevity, to be used as potential predictors in imputations of missing values. As such, body length information was compiled when available, as well as generation length or age at sexual maturity. Most notably, longevity was chosen over generation length or age at sexual maturity as it was the only common currency across classes reflecting generation turnover. In addition, species geographical range sizes were calculated from distribution data, extracted from the IUCN Red List.
 
+% TO REVIIIIIISE
 % Table of sources.
 \begin{table}[h!]
 \renewcommand{\baselinestretch}{1}
 \renewcommand{\arraystretch}{1.5}
 \begin{center}\fontsize{9}{11}\selectfont
-\caption[Data sources for trait compilation]{\textbf{Data sources for trait compilation.} BM: body mass; BL: body length; L: longevity or maximum longevity; GL: generation length; LCS: litter or clutch size; TL: trophic level; Di: diet; DA: diel activity; RS: range size; H: habitat data. In bold, the traits of interest. Other traits were added for potential correlations in further imputations.} 
+\caption[Data sources for trait compilation]{\textbf{Data sources for trait compilation.} I here show were I extracted trait data from for each class. These individual sources may more traits than shown here. BM: body mass; BL: body length; L: longevity or maximum longevity; GL: generation length; LCS: litter or clutch size; TL: trophic level; Di: diet; DA: diel activity; RS: range size; H: habitat data. Target traits are bolded; other traits were added for potential correlations in further imputations.} 
 \label{datasources}
 \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
@@ -56,64 +63,55 @@ IUCN & Vertebrates &  &  &  &  &  &  &  &  &  & \checkmark & \checkmark \\ \hlin
 \end{center}
 \end{table}
 
-\subsubsection{Compilation methods}
+\subsubsection{Compilation methods.}
 
 \paragraph{Continuous traits.}
-All continuous traits (body mass, litter or clutch size, longevity) were averaged within species when different sources provided estimates. Longevity and maximum longevity were assumed to provide the same information and were also averaged within species.
-% Here what did I do when body mass or longevity was given by sex?
-In addition, I compiled traits that were potentially correlated to either body mass or longevity, to be used as potential predictors in imputations of missing values. As such, body length information was compiled when available, as well as generation length or age at sexual maturity. Finally, species geographical range sizes were calculated from distribution data, extracted from the IUCN Red List.
+All continuous traits were averaged within species when different sources provided estimates. Longevity and maximum longevity were assumed to provide the same information and were averaged within species. No measure of intra-specific variability was compiled and estimates were provided as a single measure for each species.
 
 \paragraph{Categorical traits.}
-Diet was available for all classes except reptiles. Species diet was described as a binary variable recording whether food items were known to be consumed by a species or not. % Food items?
-For amphibians and birds, trophic levels were partly inferred from the diet. 
-Species habitat preferences were compiled from IUCN habitat data files and were described as a binary variable recording whether a species was known to occur in a particular habitat. 
-
-I used these compiled traits to design three other ecological variables. Diet breadth was calculated as the number of food items a species was recorded to ingest. Similarly, habitat breadth was calculated as the number of habitats a species was known to use. Weights were assigned to each habitat in this calculation depending on whether the habitat was recorded to be suitable or marginal for each species; outcomes were not sensitive to different weight choices (see SI). Finally, a broad degree of habitat specialisation was produced. If any artificial habitat was recorded to be suitable, species were reported to be generalists; else, they were natural habitat specialists.
-
-More details on how diet and habitat variables were compiled are provided in the SI.
-%Due to the lack of comprehensive diet information readily available for reptiles, and despite compilation efforts for other classes, diet was excluded from further analyses in all four classes.
+\subparagraph{Diet and diet breadth.} Even though diet was not available from any primary source for reptiles, I compiled diet information for all other classes. Species diet was described in primary sources as a binary variable recording whether food items were known to be consumed by a species or not. I calculated diet breadth as the number of food items a species was recorded to ingest. In addition,  species were pooled into 5 categories in one of the source (Elton birds) according to their primary diet (food items that constituted more than 50\% of the species diet). I adopted the same system and  pooled species into the 5 following primary diet categories: (1) seed or plant consumers; (2) fruit or nectar consumers; (3) invertebrate consumers; (4) vertebrate consumers (including scavengers); (5) omnivores. More details on diet compilation are provided in the SI. 
+\subparagraph{Trophic level.} For amphibians and birds, trophic levels were partly inferred from the primary diet. 
+\subparagraph{Habitat preferences.}
+Species habitat preferences were compiled from IUCN habitat data files and were described as a binary variable recording whether a species was known to occur in a particular habitat. I calculated habitat breadth as the number of habitats a species was known to use. Weights were assigned to each habitat in this calculation depending on the recorded habitat suitability and importance; outcomes were not sensitive to different weight choices (SI). Finally, a broad degree of habitat specialisation was produced. If any artificial habitat was recorded to be suitable, species were reported to be generalists; else, they were natural habitat specialists. More details on habitat preferences compilation are provided in the SI. 
 
 \subsection{Phylogenies}
 I obtained phylogenetic trees for birds, amphibians, mammals and squamates from Hedges et al (2015)
 (available at http://www.biodiversitycenter.org/ttol, downloaded 06/07/2018).
 
-\subsection{Taxonomic synonymy}
+\subsection{Tackling taxonomic synonymy}
 
-\subsubsection{Extracting synonyms and harmonising taxonomy in trait datasets.}
+\subsubsection{Rationale.}
+Across the different primary sources, similar species could appear under different binomial names. This was a problem when matching datasets by species names. It was also problem when matching species to the PREDICTS database. Moreover, it is possible than within a primary source, a given species is appearing under two or more different names. As such, taxonomic synonymy created `pseudoreplicates' of the same species, overall falsely increasing the total number of species and artificially inflating the amount of missing trait values. Taxonomic synonymy was hence a major issue; due to the large number of species across datasets, extensive manual checks could not be applied. The presence of typos in species names had the same effect as synonymy, erroneously duplicating species. I attempted to correct for taxonomy first by correcting for typos, and second by identifying species which were entered under a synonymic name and replacing these with the accepted name. To this end, I developed an automated procedure complemented with a few manual entries. Obvious cases where vernacular names had been entered in the place of binomial names were also treated manually; that was the case for PREDICTS species (when possible, I best assigned binomial names to species common names; unidentifiable species were left empty and assigned to a genus).
 
-\paragraph{Procedure}
-Across the different sources, similar species could appear under different binomial names. Taxonomic synonymy created `pseudoreplicates' of the same species, overall falsely increasing the total number of species and artificially inflating the amount of missing trait values. As such, taxonomic synonymy was a major issue; due to the large number of species across datasets, extensive manual checks could not be applied. The presence of typos in species names had the same effect as synonymy. I attempted to correct for taxonomy by developping an automated procedure, complemented with a few manual entries. Obvious cases where vernacular names had been entered in the place of binomial names were also treated manually; when possible, I best assigned binomial names to species common names. 
+\subsubsection{Automated procedure and outputs.}
+\paragraph{Extracting names from the RedList and the Integrated Taxonomic Information System (ITIS).}
+The automated procedure consisted in extracting species accepted and synonymic binomial names from the IUCN Red List or from the ITIS, using the rredlist and taxize R packages. I started by generating a list of all names figuring across datasets (primary sources, phylogenies and PREDICTS). These `original' names were corrected for typos using gnr\textunderscore resolve. For each of these corrected names, the IUCN RedList was queried and synonyms and accepted names were stored when possible. When species were not found in the IUCN Red List, information was extracted from ITIS. When species were not found in ITIS either, corrected names were assumed to be accepted. Family and order information was extracted using the same procedure and some entries were completed using the Global Biodiversity Information Facility taxonomic backbone (https://www.gbif.org/tools/species-lookup).
 
-The automated procedure consisted in extracting species accepted and synonymic binomial names from the IUCN Red List or from the Integrated Taxonomic Information System database (ITIS), using the rredlist and taxize R packages. For each class, I started by generating a list of all binomial names figuring across datasets. These `original' binomial names were corrected for typos using gnr\textunderscore resolve (taxize R package). For each of these corrected names, the IUCN RedList was queried and synonyms and accepted names were stored. When species were not found in the IUCN Red List, information was extracted from ITIS. When species were not found in ITIS either, corrected names were assumed to be accepted. Family and order information was extracted using the same procedure and some entries were completed using the Global Biodiversity Information Facility taxonomic backbone (https://www.gbif.org/tools/species-lookup). Taxonomy across datasets was finally homogenised by replacing recorded synonyms with their accepted scientific names. Overall, this procedure reduced the total number of species figuring in trait datasets (Table XXX).
+\paragraph{Outputs.} I generated a dataset of vertebrate species names recording whether names were accepted or synonymic. For each name, the accepted name and the synonyms are stored, as well as additional taxonomic information (order, family, genus).
 
-Nevertheless, additional manual checks were required to make sure that all vertebrate species appearing in PREDICTS were represented in the trait datasets. Taxonomic synonymy was resolved manually for PREDICTS species that did not match any species in the trait datasets. Information was extracted from other diverse sources (such as The Reptile Database; Avibase; AmphibiaWeb). The need to apply additional manual inputs underlined the fact that the automated procedure to correct for taxonomic synonymy was not optimal. The Red List and ITIS were not comprehensive taxonomic sources for accepted names and synonyms. Species `pseudoreplication' is likely to have persisted to a degree. 
+\begin{table}[]
+\begin{tabular}{llll}
+\multicolumn{1}{c}{\textbf{Class}} & \multicolumn{1}{c}{\textbf{\# original names}} & \multicolumn{1}{c}{\textbf{\# corrected names}} & \multicolumn{1}{c}{\textbf{\# accepted names}} \\
+\textbf{Mammals}                   & 6090                                           & 6087                                            & 5579                                           \\
+\textbf{Birds}                     & 14124                                          & 13966                                           & 11800                                          \\
+\textbf{Reptiles}                  & 11183                                          & 11161                                           & 10530                                          \\
+\textbf{Amphibians}                & 8743                                           & 8688                                            & 7051                                          
+\end{tabular}
+\end{table}
 
+\paragraph{Harmonising taxonomy in trait datasets.}
+Taxonomy across datasets was finally homogenised by replacing recorded synonyms with their accepted scientific names. Overall, this procedure  reduced the total number of species figuring in trait datasets (Figure ). The species presenting the highest degree of pseudoreplication was the East African mole rat (\textit{Tachyoryctes splendens}), which was figuring under 11 different names across primary sources.
+
+Despite the automation efforts, taxonomic redundancy persisted in the trait datasets. Indeed, at this stage, not all species of PREDICTS interest matched a species in the trait datasets. Additional manual inputs were required to resolve taxonomic synonymy for these sets of species. Verifying the presence of PREDICTS species in trait datasets was important for further analyses. Taxonomic synonymy was resolved manually for PREDICTS species that did not match any species in the trait datasets; in that case, information was extracted from other diverse sources (such as The Reptile Database; Avibase; AmphibiaWeb). After adding manual inputs to the synonym datasets, all PREDICTS species were represented in trait datasets. The need to apply additional manual inputs underlines the fact that the automated procedure was not optimal. The Red List and ITIS were not comprehensive taxonomic sources, and for clades with high degrees of pseudoreplication in names, such as reptiles or amphibians, neither the Red List or ITIS contained enough information. As I only applied manual checks for PREDICTS relevant species, `pseudoreplication' is likely to have persisted to a degree across datasets. 
+% dsicuss taxonomy problems
 % Result table: delta number of species 
 % Extract of synonym dataset
-
-\paragraph{Increase in trait coverage due to taxonomic correction}
-Across all classes, correcting for taxonomy overall increased trait coverage, measured as the percentage of species for which information was not missing. For mammals and birds, intial trait coverage was high. On the other hand, the variability in coverage was much higher for reptiles and amphibians.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.85]{figures/chapter2/Target_traits_All_species_coverage}
-\caption[Trait coverage across all species before and after taxonomic correction]{\textbf{Trait coverage across all species before and after taxonomic correction.} Trait coverage is defined here as the percentage of species for which trait information is available. Correcting for taxonomic synonymy improved trait coverage in most cases.}
-\end{figure}
-
-For species figuring in PREDICTS, trait coverage disproportionally increased for reptiles and amphibians.
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.85]{figures/chapter2/Target_traits_Predicts_species_coverage}
-\caption[Trait coverage across PREDICTS species before and after taxonomic correction]{\textbf{Trait coverage across all species before and after taxonomic correction.} Trait coverage is defined here as the percentage of species for which trait information is available. Correcting for taxonomic synonymy improved trait coverage in most cases.}
-\end{figure}
-
 
 
 \subsubsection{Harmonising taxonomy in phylogenetic trees and increasing species representation.}
 
 \paragraph{Taxonomic correction across tip labels.} 
-To correct for taxonomy across phylogenies, I applied the same method as above, replacing synonyms by their identified accepted names in trees' tip labels. In some cases, this procedure assigned the same accepted name to different phylogenetic tips. This was the case for 2.6\% of mammalian, 1.5\% of avian, 1\% of amphibian and  1.5\% of reptilian species, which then had multiple phylogenetic positions. In other words, replicated tips appeared. Most of these replicated species had two different positions (see table). For each replicated tip, I selected one tip to conserve and dropped other tips from the phylogenies (Figure \ref{chart_phylorep}). If replicated tips were sister clades, the tip to conserve was chosen randomly among the replicates. Else, I chose to conserve the tree tip whose position was closest to the position of the same tip in the uncorrected tree, when present. In all other few cases, tips to drop were chosen randomly. Further details on how replicated tips were dropped are available in the SI.
+Efforts to correct datasets for taxonomy created problems for a marginal proportion of species when dealing with phylogenies. The idea of the procedure described above was to replace two or more identified synonyms by a single accepted name in trait datasets, and then collapsing the rows together. I applied the same method on phylogenies, replacing synonyms by their identified accepted names in trees' tip labels. Not unexpectedly, in some cases, the procedure ended up assigning the same accepted names to different phylogenetic tips. This was the case for 2.6\% of mammalian, 1.5\% of avian, 1\% of amphibian and  1.5\% of reptilian species, which then had multiple phylogenetic positions (most having two different positions,Table \ref()). Because a single species cannot have multiple phylogenetic positions, I selected one tip to conserve and dropped other tips from the phylogenies (Figure \ref{chart_phylorep}). To briefly describe the procedure, if replicated tips were sister clades, the tip to conserve was chosen randomly among the replicates. Else, I chose to conserve the tree tip whose position was closest to the position of the same tip in the uncorrected tree, when present. In all other few cases, tips to drop were chosen randomly. Further details on how replicated tips were dropped are available in the SI.
 \vspace{0.5cm}
 \begin{figure}[h!]
 \centering
@@ -126,8 +124,7 @@ To correct for taxonomy across phylogenies, I applied the same method as above, 
 % Number of repliated tips, number that are sister clades, number that are truly pbmatic
 % occurences of number of replicates.
 
-\paragraph{Random species attachments.} Some species in the trait datasets were not represented in the phylogenies. When applicable, and to increase representation, these species were attached to their genera in the trees at a random position (phytools). Only a small fraction of species that had no initial phylogenetic representation were randomly attached to their genera (Table \ref{random_attachments_phy}).
-Overall, correcting for taxonomy improved species representation in the phylogenies (Figure \ref{species_rep_phylo}). For amphibian and reptilian PREDICTS species, representation disporprotionally increased (minimum representation: 73\%,for PREDICTS amphibians). 
+\paragraph{Random species attachments.} Some species in the trait datasets were not represented in the phylogenies. When applicable, and to increase representation, these species were attached to their genera in the trees at a random position. Only a small fraction of species that had no initial phylogenetic representation were randomly attached to their genera (Table \ref{random_attachments_phy}).
 
 \begin{table}[h!]
 \renewcommand{\baselinestretch}{1}
@@ -146,6 +143,10 @@ Reptiles                    & 62\% (6391 of 10334)                          & 9.
 \end{center}
 \end{table}
 
+\paragraph{Correcting for taxonomy in phylogenetic trees: conclusions.}
+Overall, correcting for taxonomy improved species representation in the phylogenies (Figure \ref{species_rep_phylo}). For amphibian and reptilian PREDICTS species, phylogenetic representation disporprotionally increased (minimum representation: 76\% for PREDICTS amphibians). Nevertheless, correcting phylogenetic tip labels generated replicates
+ for a marginal number of tips, which then had to be dropped from the phylogeny. 
+
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{figures/chapter2/Species_representation_phylo}
@@ -153,13 +154,28 @@ Reptiles                    & 62\% (6391 of 10334)                          & 9.
 \label{species_rep_phylo}
 \end{figure}
 
+\paragraph{Increase in trait coverage due to taxonomic correction.}
+Across all classes, correcting for taxonomy overall increased trait coverage, measured as the percentage of species for which information was not missing. For mammals and birds, intial trait coverage was high. On the other hand, the variability in coverage was much higher for reptiles and amphibians.
 
-\subsection{Trait transformations}
-Species for which all trait values were missing were filtered out. All continuous traits were log10 (except habitat, square root) and standardised to zero-mean and unit variance.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.85]{figures/chapter2/Target_traits_All_species_coverage}
+\caption[Trait coverage across all species before and after taxonomic correction]{\textbf{Trait coverage across all species before and after taxonomic correction.} Trait coverage is defined here as the percentage of species for which trait information is available. Correcting for taxonomic synonymy improved trait coverage in most cases.}
+\end{figure}
 
-% Table with final number of species
+For species figuring in PREDICTS, trait coverage disproportionally increased for reptiles and amphibians.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.85]{figures/chapter2/Target_traits_Predicts_species_coverage}
+\caption[Trait coverage across PREDICTS species before and after taxonomic correction]{\textbf{Trait coverage across all species before and after taxonomic correction.} Trait coverage is defined here as the percentage of species for which trait information is available. Correcting for taxonomic synonymy improved trait coverage in most cases.}
+\end{figure}
+
+
 
 \subsection{Imputation of missing trait values}
+Given that coverage was highly variable 
+
 
 % TODO/
 % finir coverage
@@ -169,15 +185,32 @@ Species for which all trait values were missing were filtered out. All continuou
 % 3)trait phylo signal
 % 4) missForest imputations & imputation error / robustness. Compare with Rob's for mammals and birds.
 
-
 \subsubsection{Randomness in missing trait values}
+
+
 
 \subsubsection{Phylogenetic signal}
 The phylogenetic signal in all continuous trait was assessed using Pagel's $\lambda$ (phytools package). 
-For categorical traits, model of evolution fitted (different models), selection of the model that best fits the data.
-Some traits showed a strong phylogenetic signal (Table). As such, phylogenies could explain trait values and necessity to incorporate phylogenetic information in further imputations. Are traits evolutionary conserved?
 
-
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.5}
+\begin{center}\fontsize{9}{11}\selectfont
+\caption[Phylogenetic signal in continuous traits]{\textbf{Phylogenetic signal in continuous traits and in range size.}} 
+\label{physignalcont}
+\begin{tabular}{|l|l|l|l|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Pagel's lambda}}} & \multicolumn{6}{c|}{\textbf{Traits}}                                                                                                                                                                            \\ \cline{2-7} 
+\multicolumn{1}{|c|}{}                                         & \multicolumn{1}{c|}{\textbf{BM}} & \multicolumn{1}{c|}{\textbf{L}} & \multicolumn{1}{c|}{\textbf{LCS}} & \multicolumn{1}{c|}{\textbf{DB}} & \multicolumn{1}{c|}{\textbf{HB}} & \multicolumn{1}{c|}{\textbf{RS}} \\ \hline
+Mammals                                                        & 0.98                             & 0.99                            & 0.99                              & 1.0                              & 0.90                             & 0.99                             \\ \hline
+Birds                                                          & x                                & x                               & x                                 & x                                & x                                & x                                \\ \hline
+Reptiles                                                       & x                                & x                               & x                                 & x                                & x                                & x                                \\ \hline
+Amphibians                                                     & x                                & x                               & x                                 & x                                & x                                & x                                \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 \subsubsection{Imputations of missing trait values}
 Penone et al (2014) assessed the performance of four different imputation approaches (K-nearest neighbour (kNN), multivariate imputation by chained equations (mice), random forest algorithms implemented with missForest and phylogenetic imputations implemented with phylopars). They summarised the advantages and disadvantages of each method. Their study showed that the kNN approach resulted in significantly higher imputation errors than the three other approaches. Both missForest and phylopars were the best methods when phylogenetic information was included. Nevertheless, phylopars was much slower than missForest, and could only impute on continuous traits. missForest was faster and could deal with both continuous and categorical data.
