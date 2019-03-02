@@ -74,45 +74,43 @@ All continuous traits were averaged within species when different sources provid
 \subparagraph{Habitat preferences.}
 Species habitat preferences were compiled from IUCN habitat data files and were described as a binary variable recording whether a species was known to occur in a particular habitat. I calculated habitat breadth as the number of habitats a species was known to use. Weights were assigned to each habitat in this calculation depending on the recorded habitat suitability and importance; outcomes were not sensitive to different weight choices (SI). Finally, a broad degree of habitat specialisation was produced. If any artificial habitat was recorded to be suitable, species were reported to be generalists; else, they were natural habitat specialists. More details on habitat preferences compilation are provided in the SI. 
 
-\subsection{Phylogenies}
-I obtained phylogenetic trees for birds, amphibians, mammals and squamates from Hedges et al (2015)
-(available at http://www.biodiversitycenter.org/ttol, downloaded 06/07/2018).
+\subsection{Phylogenetic information}
+I obtained phylogenetic trees for birds, amphibians, mammals and squamates from Hedges et al (2015), (available at http://www.biodiversitycenter.org/ttol, downloaded 06/07/2018).
 
 \subsection{Tackling taxonomic synonymy}
 
-\subsubsection{Rationale.}
-Across the different primary sources, similar species could appear under different binomial names. This was a problem when matching datasets by species names. It was also problem when matching species to the PREDICTS database. Moreover, it is possible than within a primary source, a given species is appearing under two or more different names. As such, taxonomic synonymy created `pseudoreplicates' of the same species, overall falsely increasing the total number of species and artificially inflating the amount of missing trait values. Taxonomic synonymy was hence a major issue; due to the large number of species across datasets, extensive manual checks could not be applied. The presence of typos in species names had the same effect as synonymy, erroneously duplicating species. I attempted to correct for taxonomy first by correcting for typos, and second by identifying species which were entered under a synonymic name and replacing these with the accepted name. To this end, I developed an automated procedure complemented with a few manual entries. Obvious cases where vernacular names had been entered in the place of binomial names were also treated manually; that was the case for PREDICTS species (when possible, I best assigned binomial names to species common names; unidentifiable species were left empty and assigned to a genus).
+Across the different primary sources, similar species could appear under different binomial names. This was a problem when matching datasets by species. It was also problem when matching species to the PREDICTS database. Moreover, it is possible than within a primary source, a given species was appearing under two or more different names. As such, taxonomic synonymy created `pseudoreplicates' of the same species, overall falsely increasing the total number of species and artificially inflating the amount of missing trait values. Taxonomic synonymy was hence a major issue; due to the large number of species across datasets, extensive manual checks could not be applied. The presence of typos in species names had the same effect as synonymy, erroneously duplicating species. I attempted to correct for taxonomy first by correcting for typos, and second by identifying species which were entered under a synonymic name and replacing these with the accepted name. To this end, I developed an automated procedure, complemented with a few manual entries. Obvious cases where vernacular names had been entered in the place of binomial names were also treated manually; that was the case for 44 PREDICTS species (when possible, I best assigned binomial names to species common names; unidentifiable species were left empty and assigned to a genus (5 species)).
 
 \subsubsection{Automated procedure and outputs.}
 \paragraph{Extracting names from the RedList and the Integrated Taxonomic Information System (ITIS).}
-The automated procedure consisted in extracting species accepted and synonymic binomial names from the IUCN Red List or from the ITIS, using the rredlist and taxize R packages. I started by generating a list of all names figuring across datasets (primary sources, phylogenies and PREDICTS). These `original' names were corrected for typos using gnr\textunderscore resolve. For each of these corrected names, the IUCN RedList was queried and synonyms and accepted names were stored when possible. When species were not found in the IUCN Red List, information was extracted from ITIS. When species were not found in ITIS either, corrected names were assumed to be accepted. Family and order information was extracted using the same procedure and some entries were completed using the Global Biodiversity Information Facility taxonomic backbone (https://www.gbif.org/tools/species-lookup).
+The automated procedure consisted in extracting species accepted and synonymic binomial names from the IUCN Red List or from the ITIS, using the rredlist and taxize R packages. I started by generating a list of all names figuring across datasets (primary sources, phylogenies and PREDICTS). These `original' names were corrected for typos; then, the IUCN RedList was queried and synonyms and accepted names were stored when possible. When species were not found in the IUCN Red List, information was extracted from ITIS. When species were not found in ITIS either, corrected names were assumed to be accepted. Family and order information was extracted using the same procedure and some entries were completed using the Global Biodiversity Information Facility taxonomic backbone (https://www.gbif.org/tools/species-lookup).\\
+\textbf{NB:} for species entered with the forms \textit{Genus cf.}, \textit{Genus aff.} or \textit{Genus spp.}, the accepted name was left empty.An extra column indicates whether the species is known only at the genus level.
 
-\paragraph{Outputs.} I generated a dataset of vertebrate species names recording whether names were accepted or synonymic. For each name, the accepted name and the synonyms are stored, as well as additional taxonomic information (order, family, genus).
-
-\begin{table}[]
-\begin{tabular}{llll}
-\multicolumn{1}{c}{\textbf{Class}} & \multicolumn{1}{c}{\textbf{\# original names}} & \multicolumn{1}{c}{\textbf{\# corrected names}} & \multicolumn{1}{c}{\textbf{\# accepted names}} \\
-\textbf{Mammals}                   & 6090                                           & 6087                                            & 5579                                           \\
-\textbf{Birds}                     & 14124                                          & 13966                                           & 11800                                          \\
-\textbf{Reptiles}                  & 11183                                          & 11161                                           & 10530                                          \\
-\textbf{Amphibians}                & 8743                                           & 8688                                            & 7051                                          
-\end{tabular}
-\end{table}
+\paragraph{Outputs.} I generated a dataset of vertebrate species names found across datasets, recording whether names were accepted or synonymic. For each name, the accepted name and the synonyms were stored, as well as additional taxonomic information (order, family, genus).
 
 \paragraph{Harmonising taxonomy in trait datasets.}
-Taxonomy across datasets was finally homogenised by replacing recorded synonyms with their accepted scientific names. Overall, this procedure  reduced the total number of species figuring in trait datasets (Figure ). The species presenting the highest degree of pseudoreplication was the East African mole rat (\textit{Tachyoryctes splendens}), which was figuring under 11 different names across primary sources.
+Taxonomy across datasets was finally homogenised by replacing recorded synonyms with their accepted scientific names. Overall, this procedure  reduced the total number of species figuring in trait datasets (Figure \ref{taxcor}). The species presenting the highest degree of pseudoreplication was the East African mole rat (\textit{Tachyoryctes splendens}), which was figuring under 12 different names across primary sources (Figure \ref{taxcor}B).
 
-Despite the automation efforts, taxonomic redundancy persisted in the trait datasets. Indeed, at this stage, not all species of PREDICTS interest matched a species in the trait datasets. Additional manual inputs were required to resolve taxonomic synonymy for these sets of species. Verifying the presence of PREDICTS species in trait datasets was important for further analyses. Taxonomic synonymy was resolved manually for PREDICTS species that did not match any species in the trait datasets; in that case, information was extracted from other diverse sources (such as The Reptile Database; Avibase; AmphibiaWeb). After adding manual inputs to the synonym datasets, all PREDICTS species were represented in trait datasets. The need to apply additional manual inputs underlines the fact that the automated procedure was not optimal. The Red List and ITIS were not comprehensive taxonomic sources, and for clades with high degrees of pseudoreplication in names, such as reptiles or amphibians, neither the Red List or ITIS contained enough information. As I only applied manual checks for PREDICTS relevant species, `pseudoreplication' is likely to have persisted to a degree across datasets. 
-% dsicuss taxonomy problems
-% Result table: delta number of species 
-% Extract of synonym dataset
+% figure: distribution of names and differences in species number
+\vspace{0.5cm}
+\begin{figure}[h!]
+\includegraphics[scale=0.45]{figures/chapter2/Taxonomic_corrections/tax_corrections}
+\caption[Difference in species number due to taxonomic correction (A) and distribution of number of synonyms across datasets (B)]{\textbf{Difference in species number due to taxonomic correction (A) and distribution of number of synonyms across datasets (B).} \textbf{(A)} shows the number of species across all primary sources (trait datasets, PREDICTS, phylogenies), before and after correcting for taxonomy. Replacing identified synonyms by the extracted accepted name reduced the number of species in all classes, with the most drastic reduction for birds (decrease by 2,323 unique binomial names). The diminution was of 632 unique identified species for reptiles, of 1,666 for amphibians and of 488 for mammals. \textbf{(B)} shows the distribution of the number of synonymic names. In all four classes, more than 5,000 species (or binomial names) had no identified synonyms. Nevertheless, a large amount of species had two identified synonyms (range: 400 species for mammals - 2086 for birds). The most replicated species was the East African mole rat \textit{Tachyoryctes splendens}, for which 11 synonyms were identified.}
+\label{taxcor}
+\end{figure}
+
+Despite the automation efforts, taxonomic redundancy persisted in the trait datasets. Indeed, at this stage, not all species in PREDICTS matched a species in the trait datasets. Additional manual inputs were required to resolve taxonomic synonymy for these species. Verifying the presence of PREDICTS species in trait datasets was important for further analyses. Taxonomic synonymy was resolved manually for 91 PREDICTS species that did not match any species in the trait datasets; in that case, information was extracted from other diverse sources (such as The Reptile Database; Avibase; AmphibiaWeb). After adding manual inputs to the synonym datasets, all PREDICTS species were represented in trait datasets. 
+
+The need to apply additional manual inputs underlines the fact that the automated procedure was not optimal. The Red List and ITIS were not comprehensive taxonomic sources, and for clades with high degrees of pseudoreplication in names, such as reptiles or amphibians, neither the Red List or ITIS contained enough information. As I only applied manual checks for PREDICTS relevant species, `pseudoreplication' and taxonomic errors are likely to have persisted to a degree across datasets. Moreover, certain species were entered using the format \textit{Genus subspecies} rather than \textit{Genus species}; for these, automated queries may have failed.
+
+% Extract of synonym dataset? in the SI
 
 
-\subsubsection{Harmonising taxonomy in phylogenetic trees and increasing species representation.}
+\subsubsection{Harmonising taxonomy in phylogenetic trees and increasing species phylogenetic representation.}
 
 \paragraph{Taxonomic correction across tip labels.} 
-Efforts to correct datasets for taxonomy created problems for a marginal proportion of species when dealing with phylogenies. The idea of the procedure described above was to replace two or more identified synonyms by a single accepted name in trait datasets, and then collapsing the rows together. I applied the same method on phylogenies, replacing synonyms by their identified accepted names in trees' tip labels. Not unexpectedly, in some cases, the procedure ended up assigning the same accepted names to different phylogenetic tips. This was the case for 2.6\% of mammalian, 1.5\% of avian, 1\% of amphibian and  1.5\% of reptilian species, which then had multiple phylogenetic positions (most having two different positions,Table \ref()). Because a single species cannot have multiple phylogenetic positions, I selected one tip to conserve and dropped other tips from the phylogenies (Figure \ref{chart_phylorep}). To briefly describe the procedure, if replicated tips were sister clades, the tip to conserve was chosen randomly among the replicates. Else, I chose to conserve the tree tip whose position was closest to the position of the same tip in the uncorrected tree, when present. In all other few cases, tips to drop were chosen randomly. Further details on how replicated tips were dropped are available in the SI.
-\vspace{0.5cm}
+Efforts to correct datasets for taxonomy created problems for a marginal proportion of species when dealing with phylogenies. The idea of the procedure described above was to replace two or more identified synonyms by a single accepted name, and then collapsing dataset rows together by names. I applied the same method on phylogenies, replacing synonyms by their identified accepted names in trees' tip labels. Not unexpectedly, in some cases, the procedure ended up assigning the same accepted name to different phylogenetic tips. This was the case for 2.6\% of mammalian, 1.5\% of avian, 1\% of amphibian and  1.5\% of reptilian species, which then had multiple phylogenetic positions (most having two different positions, Table \ref()). Because keeping several putative phylogenetic positions for a species was problematic in further analyses, I selected one tip to conserve and dropped other tips from the phylogenies (Figure \ref{chart_phylorep}). To briefly describe the procedure, if replicated tips were sister clades, the tip to conserve was chosen randomly among the replicates. Else, I chose to conserve the tree tip whose position was closest to the position of the same tip in the uncorrected tree, when present. In all other few cases, tips to drop were chosen randomly. Further details on how replicated tips were dropped are available in the SI.
+
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{figures/chapter2/chart_phylorep}
@@ -130,7 +128,7 @@ Efforts to correct datasets for taxonomy created problems for a marginal proport
 \renewcommand{\baselinestretch}{1}
 \renewcommand{\arraystretch}{1.5}
 \begin{center}\fontsize{9}{11}\selectfont
-\caption[Species representation in phylogenetic trees (corrected taxonomy)]{\textbf{Species representation in phylogenetic trees (corrected taxonomy).} The number of species randomly attached to their genera anged from 17 (amphibians) to 611 (reptiles). Finally, most avian and mammalian species were placed in the phylogenies, whereas more than half reptilian and amphibian species were not.} 
+\caption[Species representation in phylogenetic trees (corrected taxonomy)]{\textbf{Species representation in phylogenetic trees (corrected taxonomy).} The number of species randomly attached to their genera ranged from 94 (mammals) to 611 (reptiles). Finally, most avian and mammalian species were represented in the phylogenies, whereas more than half reptilian and amphibian species had no known phylogenetic position.} 
 \label{random_attachments_phy}
 \begin{tabular}{|l|l|l|c|l}
 \cline{1-4}
@@ -143,9 +141,8 @@ Reptiles                    & 62\% (6391 of 10334)                          & 9.
 \end{center}
 \end{table}
 
-\paragraph{Correcting for taxonomy in phylogenetic trees: conclusions.}
-Overall, correcting for taxonomy improved species representation in the phylogenies (Figure \ref{species_rep_phylo}). For amphibian and reptilian PREDICTS species, phylogenetic representation disporprotionally increased (minimum representation: 76\% for PREDICTS amphibians). Nevertheless, correcting phylogenetic tip labels generated replicates
- for a marginal number of tips, which then had to be dropped from the phylogeny. 
+\paragraph{Correcting for taxonomy: conclusions.}
+Overall, correcting for taxonomy in phylogenies improved species representation in the trees (Figure \ref{species_rep_phylo}). Maximising the number of species represented in the phylogenies was important for further trait imputations and for estimating the amount of trait phylogenetic signal. For amphibian and reptilian species figuring in PREDICTS only, phylogenetic representation disproportionally increased ( with a minimum representation of 76\% for PREDICTS amphibians). Nevertheless, correcting phylogenetic tip labels generated replicates for a marginal number of tips, which then had to be dropped from the phylogeny. 
 
 \begin{figure}[h!]
 \centering
@@ -154,8 +151,7 @@ Overall, correcting for taxonomy improved species representation in the phylogen
 \label{species_rep_phylo}
 \end{figure}
 
-\paragraph{Increase in trait coverage due to taxonomic correction.}
-Across all classes, correcting for taxonomy overall increased trait coverage, measured as the percentage of species for which information was not missing. For mammals and birds, intial trait coverage was high. On the other hand, the variability in coverage was much higher for reptiles and amphibians.
+Across all classes, correcting for taxonomy increased trait coverage, measured as the percentage of species for which trait information was available (Figure \ref{}).% For mammals and birds, initial trait coverage was high. On the other hand, the variability in coverage was much higher for reptiles and amphibians.
 
 \begin{figure}[h!]
 \centering
@@ -173,7 +169,7 @@ For species figuring in PREDICTS, trait coverage disproportionally increased for
 
 
 
-\subsection{Imputation of missing trait values}
+\subsection{Imputing missing trait values}
 Given that coverage was highly variable 
 
 
@@ -222,6 +218,7 @@ Based on these results, I imputed missing trait values using random forest algor
 
 Robustness of imputations
 
+\pagebreak
 \section{Results}
 
 \subsection{Comparing data collation outputs for mammals and birds}

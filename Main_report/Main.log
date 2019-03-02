@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.22)  1 MAR 2019 23:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.22)  2 MAR 2019 23:18
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -853,6 +853,11 @@ Chapter 1.
 
 ]
 Chapter 2.
+
+Overfull \hbox (30.30255pt too wide) in paragraph at lines 85--85
+|[]\T1/cmr/bx/n/24.88 Collecting and im-put-ing eco-log-i-cal trait
+ []
+
 (Chapters/Chapter2.tex [5
 
 ] [6]
@@ -861,48 +866,69 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 37.
  [7] [8]
+<figures/chapter2/Taxonomic_corrections/tax_corrections.pdf, id=194, 1011.78pt 
+x 433.62pt>
+File: figures/chapter2/Taxonomic_corrections/tax_corrections.pdf Graphic file (
+type pdf)
+<use figures/chapter2/Taxonomic_corrections/tax_corrections.pdf>
+Package pdftex.def Info: figures/chapter2/Taxonomic_corrections/tax_corrections
+.pdf  used on input line 97.
+(pdftex.def)             Requested size: 455.2968pt x 195.1272pt.
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 92.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `(' on page 9 undefined on input line 112.
 
 [9]
-
-LaTeX Warning: Reference `(' on page 10 undefined on input line 114.
-
-<figures/chapter2/chart_phylorep.pdf, id=200, 519.67912pt x 97.94067pt>
+<figures/chapter2/chart_phylorep.pdf, id=205, 519.67912pt x 97.94067pt>
 File: figures/chapter2/chart_phylorep.pdf Graphic file (type pdf)
 <use figures/chapter2/chart_phylorep.pdf>
 Package pdftex.def Info: figures/chapter2/chart_phylorep.pdf  used on input lin
-e 118.
+e 116.
 (pdftex.def)             Requested size: 363.77289pt x 68.55798pt.
-[10 <./figures/chapter2/chart_phylorep.pdf>]
-<figures/chapter2/Species_representation_phylo.pdf, id=218, 578.16pt x 303.1325
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[10 <./figures/chapter2/Taxonomic_corrections/tax_corrections.pdf>]
+<figures/chapter2/Species_representation_phylo.pdf, id=226, 578.16pt x 303.1325
 pt>
 File: figures/chapter2/Species_representation_phylo.pdf Graphic file (type pdf)
 
 <use figures/chapter2/Species_representation_phylo.pdf>
 Package pdftex.def Info: figures/chapter2/Species_representation_phylo.pdf  use
-d on input line 152.
+d on input line 149.
 (pdftex.def)             Requested size: 404.70924pt x 212.1913pt.
-<figures/chapter2/Target_traits_All_species_coverage.pdf, id=219, 505.89pt x 39
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `' on page 11 undefined on input line 154.
+
+<figures/chapter2/Target_traits_All_species_coverage.pdf, id=227, 505.89pt x 39
 7.485pt>
 File: figures/chapter2/Target_traits_All_species_coverage.pdf Graphic file (typ
 e pdf)
 <use figures/chapter2/Target_traits_All_species_coverage.pdf>
 Package pdftex.def Info: figures/chapter2/Target_traits_All_species_coverage.pd
-f  used on input line 162.
+f  used on input line 158.
 (pdftex.def)             Requested size: 430.00851pt x 337.86385pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/chapter2/Target_traits_Predicts_species_coverage.pdf, id=220, 505.89pt
+<figures/chapter2/Target_traits_Predicts_species_coverage.pdf, id=228, 505.89pt
  x 397.485pt>
 File: figures/chapter2/Target_traits_Predicts_species_coverage.pdf Graphic file
  (type pdf)
 <use figures/chapter2/Target_traits_Predicts_species_coverage.pdf>
 Package pdftex.def Info: figures/chapter2/Target_traits_Predicts_species_covera
-ge.pdf  used on input line 170.
+ge.pdf  used on input line 166.
 (pdftex.def)             Requested size: 430.00851pt x 337.86385pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -910,59 +936,60 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[11 <./figures/chapter2/Species_representation_phylo.pdf>] [12 <./figures/chapt
-er2/Target_traits_All_species_coverage.pdf>]
-<figures/chapter2/Comparison_with_RCooke/Coverage.pdf, id=247, 505.89pt x 325.2
+[11 <./figures/chapter2/chart_phylorep.pdf>] [12 <./figures/chapter2/Species_re
+presentation_phylo.pdf>]
+<figures/chapter2/Comparison_with_RCooke/Coverage.pdf, id=256, 505.89pt x 325.2
 15pt>
 File: figures/chapter2/Comparison_with_RCooke/Coverage.pdf Graphic file (type p
 df)
 <use figures/chapter2/Comparison_with_RCooke/Coverage.pdf>
 Package pdftex.def Info: figures/chapter2/Comparison_with_RCooke/Coverage.pdf  
-used on input line 234.
+used on input line 231.
 (pdftex.def)             Requested size: 354.12057pt x 227.64894pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/chapter2/Comparison_with_RCooke/Comparison_collected.pdf, id=248, 578.
+<figures/chapter2/Comparison_with_RCooke/Comparison_collected.pdf, id=257, 578.
 16pt x 433.62pt>
 File: figures/chapter2/Comparison_with_RCooke/Comparison_collected.pdf Graphic 
 file (type pdf)
 <use figures/chapter2/Comparison_with_RCooke/Comparison_collected.pdf>
 Package pdftex.def Info: figures/chapter2/Comparison_with_RCooke/Comparison_col
-lected.pdf  used on input line 242.
+lected.pdf  used on input line 239.
 (pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/chapter2/Comparison_with_RCooke/Comparison_imputed.pdf, id=249, 578.16
+<figures/chapter2/Comparison_with_RCooke/Comparison_imputed.pdf, id=258, 578.16
 pt x 433.62pt>
 File: figures/chapter2/Comparison_with_RCooke/Comparison_imputed.pdf Graphic fi
 le (type pdf)
 <use figures/chapter2/Comparison_with_RCooke/Comparison_imputed.pdf>
 Package pdftex.def Info: figures/chapter2/Comparison_with_RCooke/Comparison_imp
-uted.pdf  used on input line 250.
+uted.pdf  used on input line 247.
 (pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
-[13 <./figures/chapter2/Target_traits_Predicts_species_coverage.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <figures/chapter2/Comparison_with_RCooke/Comparison_imputed_VS_collected.pdf, i
-d=263, 939.51pt x 794.97pt>
+d=259, 939.51pt x 794.97pt>
 File: figures/chapter2/Comparison_with_RCooke/Comparison_imputed_VS_collected.p
 df Graphic file (type pdf)
 <use figures/chapter2/Comparison_with_RCooke/Comparison_imputed_VS_collected.pd
 f>
 Package pdftex.def Info: figures/chapter2/Comparison_with_RCooke/Comparison_imp
-uted_VS_collected.pdf  used on input line 259.
+uted_VS_collected.pdf  used on input line 256.
 (pdftex.def)             Requested size: 469.75385pt x 397.48402pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [14 <./figures/chapter2/Comparison_with_RCooke/Coverage.pdf> <./figures/chapt
-er2/Comparison_with_RCooke/Comparison_collected.pdf>] [15 <./figures/chapter2/C
-omparison_with_RCooke/Comparison_imputed.pdf>] [16 <./figures/chapter2/Comparis
-on_with_RCooke/Comparison_imputed_VS_collected.pdf>]
+) [13 <./figures/chapter2/Target_traits_All_species_coverage.pdf>] [14 <./figur
+es/chapter2/Target_traits_Predicts_species_coverage.pdf> <./figures/chapter2/Co
+mparison_with_RCooke/Coverage.pdf>] [15 <./figures/chapter2/Comparison_with_RCo
+oke/Comparison_collected.pdf> <./figures/chapter2/Comparison_with_RCooke/Compar
+ison_imputed.pdf>] [16 <./figures/chapter2/Comparison_with_RCooke/Comparison_im
+puted_VS_collected.pdf>]
 Chapter 3.
 
 Overfull \hbox (7.02943pt too wide) in paragraph at lines 88--88
@@ -981,39 +1008,46 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (Main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: E1A188C6D6530985A53D3E6A7B3ECA53;1183.
 
+
+Package rerunfilecheck Warning: File `Main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Main.out':
+(rerunfilecheck)             Before: AE8B689A3E7D314D420AF24C95C34089;1196
+(rerunfilecheck)             After:  6AF5BCA9EF2729717425D7FDF5203665;1186.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18550 strings out of 492946
- 355315 string characters out of 3124934
- 446013 words of memory out of 3000000
- 22047 multiletter control sequences out of 15000+200000
- 17252 words of font info for 39 fonts, out of 3000000 for 9000
+ 18558 strings out of 492946
+ 355830 string characters out of 3124934
+ 446166 words of memory out of 3000000
+ 22054 multiletter control sequences out of 15000+200000
+ 17938 words of font info for 40 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,10n,48p,2059b,675s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
-00\ecti1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
-appen/ec/dpi600\ecrm0900.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/
-pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Adrienne\AppData\Local\MiKT
-eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Adrienne\AppDa
-ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\A
-drienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk
+00\ecti0900.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecti1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Adrienne\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx0900.pk> <C:\Users\Adrienne\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\A
+drienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk
 > <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecbx1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
-ppen/ec/dpi600\ecbx2488.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/p
-k/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Adrienne\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Adrienne\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk><C:/Users/Adr
-ienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb>
-Output written on Main.pdf (19 pages, 1997259 bytes).
+0\ecrm1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecbx1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Adrienne\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Adrienne\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Ad
+rienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk>
+<C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb>
+Output written on Main.pdf (19 pages, 2014369 bytes).
 PDF statistics:
- 803 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 178 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 843 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 183 words of extra memory for PDF output out of 10000 (max. 10000000)
 
