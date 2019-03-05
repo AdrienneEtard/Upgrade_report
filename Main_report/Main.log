@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.22)  2 MAR 2019 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.22)  5 MAR 2019 18:47
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -423,18 +423,82 @@ File: pgfmodulematrix.code.tex 2019/01/05 v3.1 (3.1)
 ayer/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2019/01/05 v3.1 (3.1)
 )))
+("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath
+.sty"
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+
+("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext
+.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.
+sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen159
+))
+("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.
+sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen160
+)
+("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.
+sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count112
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count113
+\leftroot@=\count114
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count115
+\DOTSCASE@=\count116
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box38
+\strutbox@=\box39
+\big@size=\dimen161
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count117
+\c@MaxMatrixCols=\count118
+\dotsspace@=\muskip10
+\c@parentequation=\count119
+\dspbrk@lvl=\count120
+\tag@help=\toks29
+\row@=\count121
+\column@=\count122
+\maxfields@=\count123
+\andhelp@=\toks30
+\eqnshift@=\dimen162
+\alignsep@=\dimen163
+\tagshift@=\dimen164
+\tagwidth@=\dimen165
+\totwidth@=\dimen166
+\lineht@=\dimen167
+\@envbody=\toks31
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/titlesec\titles
 ec.sty"
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box38
-\beforetitleunit=\skip43
-\aftertitleunit=\skip44
-\ttl@plus=\dimen159
-\ttl@minus=\dimen160
-\ttl@toksa=\toks28
-\titlewidth=\dimen161
-\titlewidthlast=\dimen162
-\titlewidthfirst=\dimen163
+\ttl@box=\box40
+\beforetitleunit=\skip46
+\aftertitleunit=\skip47
+\ttl@plus=\dimen168
+\ttl@minus=\dimen169
+\ttl@toksa=\toks33
+\titlewidth=\dimen170
+\titlewidthlast=\dimen171
+\titlewidthfirst=\dimen172
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/blindtext\blind
 text.sty"
@@ -444,24 +508,24 @@ Package: blindtext 2012/01/06 V2.0 blindtext-Package
 y"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count112
-\c@Blindtext=\count113
-\c@blind@countparstart=\count114
-\blind@countxx=\count115
-\blindtext@numBlindtext=\count116
-\blind@countyy=\count117
-\c@blindlist=\count118
-\c@blindlistlevel=\count119
-\c@blindlist@level=\count120
-\blind@listitem=\count121
-\c@blind@listcount=\count122
-\c@blind@levelcount=\count123
-\blind@mathformula=\count124
-\blind@Mathformula=\count125
-\c@blind@randomcount=\count126
-\c@blind@randommax=\count127
-\c@blind@pangramcount=\count128
-\c@blind@pangrammax=\count129
+\c@blindtext=\count124
+\c@Blindtext=\count125
+\c@blind@countparstart=\count126
+\blind@countxx=\count127
+\blindtext@numBlindtext=\count128
+\blind@countyy=\count129
+\c@blindlist=\count130
+\c@blindlistlevel=\count131
+\c@blindlist@level=\count132
+\blind@listitem=\count133
+\c@blind@listcount=\count134
+\c@blind@levelcount=\count135
+\blind@mathformula=\count136
+\blind@Mathformula=\count137
+\c@blind@randomcount=\count138
+\c@blind@randommax=\count139
+\c@blind@pangramcount=\count140
+\c@blind@pangrammax=\count141
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption
 .sty"
@@ -471,35 +535,35 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 3.sty"
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen164
-\captionmargin@=\dimen165
-\captionwidth=\dimen166
-\caption@tempdima=\dimen167
-\caption@indent=\dimen168
-\caption@parindent=\dimen169
-\caption@hangindent=\dimen170
+\captionmargin=\dimen173
+\captionmargin@=\dimen174
+\captionwidth=\dimen175
+\caption@tempdima=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
 )
-\c@caption@flags=\count130
-\c@ContinuedFloat=\count131
+\c@caption@flags=\count142
+\c@ContinuedFloat=\count143
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multir
 ow.sty"
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip45
-\multirow@cntb=\count132
-\multirow@dima=\skip46
-\bigstrutjot=\dimen171
+\multirow@colwidth=\skip48
+\multirow@cntb=\count144
+\multirow@dima=\skip49
+\bigstrutjot=\dimen180
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty
 "
 Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
-\col@sep=\dimen172
-\ar@mcellbox=\box39
-\extrarowheight=\dimen173
-\NC@list=\toks29
-\extratabsurround=\skip47
-\backup@length=\skip48
-\ar@cellbox=\box40
+\col@sep=\dimen181
+\ar@mcellbox=\box41
+\extrarowheight=\dimen182
+\NC@list=\toks34
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box42
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csvsimple\csvsi
 mple.sty"
@@ -512,7 +576,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolb
 ox.sty"
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count133
+\etb@tempcnta=\count145
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\shellesc.
 sty"
@@ -520,28 +584,28 @@ Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 )
 \csv@file=\read2
-\c@csvinputline=\count134
-\c@csvrow=\count135
-\c@csvcol=\count136
+\c@csvinputline=\count146
+\c@csvrow=\count147
+\c@csvcol=\count148
 \csv@out=\write4
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lineno\lineno.s
 ty"
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count137
-\output=\toks30
-\linenoprevgraf=\count138
-\linenumbersep=\dimen174
-\linenumberwidth=\dimen175
-\c@linenumber=\count139
-\c@pagewiselinenumber=\count140
-\c@LN@truepage=\count141
-\c@internallinenumber=\count142
-\c@internallinenumbers=\count143
-\quotelinenumbersep=\dimen176
-\bframerule=\dimen177
-\bframesep=\dimen178
-\bframebox=\box41
+\linenopenalty=\count149
+\output=\toks35
+\linenoprevgraf=\count150
+\linenumbersep=\dimen183
+\linenumberwidth=\dimen184
+\c@linenumber=\count151
+\c@pagewiselinenumber=\count152
+\c@LN@truepage=\count153
+\c@internallinenumber=\count154
+\c@internallinenumbers=\count155
+\quotelinenumbersep=\dimen185
+\bframerule=\dimen186
+\bframesep=\dimen187
+\bframebox=\box43
 LaTeX Info: Redefining \\ on input line 3056.
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperr
@@ -596,9 +660,9 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ons.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen179
-\Hy@linkcounter=\count144
-\Hy@pagecounter=\count145
+\@linkdim=\dimen188
+\Hy@linkcounter=\count156
+\Hy@pagecounter=\count157
 
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc
 .def"
@@ -606,7 +670,7 @@ File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count146
+\Hy@SavedSpaceFactor=\count158
 
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/00miktex\hyperr
 ef.cfg"
@@ -619,17 +683,17 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count147
+\c@Hy@tempcnt=\count159
 
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
-\Urlmuskip=\muskip10
+\Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen180
-\Fld@menulength=\count148
-\Field@Width=\dimen181
-\Fld@charsize=\dimen182
+\XeTeXLinkMargin=\dimen189
+\Fld@menulength=\count160
+\Field@Width=\dimen190
+\Fld@charsize=\dimen191
 Package hyperref Info: Hyper figures OFF on input line 6380.
 Package hyperref Info: Link nesting OFF on input line 6385.
 Package hyperref Info: Hyper index ON on input line 6388.
@@ -639,17 +703,17 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count149
-\c@Item=\count150
-\c@Hfootnote=\count151
+\Hy@abspage=\count161
+\c@Item=\count162
+\c@Hfootnote=\count163
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdfte
 x.def"
 File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count152
-\c@bookmark@seq@number=\count153
+\Fld@listcount=\count164
+\c@bookmark@seq@number=\count165
 
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\rerunf
 ilecheck.sty"
@@ -657,41 +721,41 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip49
+\Hy@SectionHShift=\skip52
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 37.
+Package hyperref Info: Option `colorlinks' set `false' on input line 38.
  (Main.aux)
 \openout1 = `Main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/context/base\supp-pdf
 .mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count154
-\scratchdimen=\dimen183
-\scratchbox=\box42
-\nofMPsegments=\count155
-\nofMParguments=\count156
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count157
-\MPscratchDim=\dimen184
-\MPnumerator=\count158
-\makeMPintoPDFobject=\count159
-\everyMPtoPDFconversion=\toks32
+\scratchcounter=\count166
+\scratchdimen=\dimen192
+\scratchbox=\box44
+\nofMPsegments=\count167
+\nofMParguments=\count168
+\everyMPshowfont=\toks36
+\MPscratchCnt=\count169
+\MPscratchDim=\dimen193
+\MPnumerator=\count170
+\makeMPintoPDFobject=\count171
+\everyMPtoPDFconversion=\toks37
 )
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
 df-base.sty"
@@ -746,8 +810,8 @@ ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box43
-Package hyperref Info: Link coloring OFF on input line 42.
+\AtBeginShipoutBox=\box45
+Package hyperref Info: Link coloring OFF on input line 43.
 
 ("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namere
 f.sty"
@@ -757,11 +821,11 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count160
+\c@section@level=\count172
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
  (Main.out) (Main.out)
 \@outlinefile=\write5
 \openout5 = `Main.out'.
@@ -799,7 +863,7 @@ LaTeX Info: Redefining \nameref on input line 42.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<figures/UCL_logo.pdf, id=66, 827.95277pt x 151.18985pt>
+<figures/UCL_logo.pdf, id=70, 827.95277pt x 151.18985pt>
 File: figures/UCL_logo.pdf Graphic file (type pdf)
 <use figures/UCL_logo.pdf>
 Package pdftex.def Info: figures/UCL_logo.pdf  used on input line 7.
@@ -813,14 +877,7 @@ Overfull \hbox (48.06812pt too wide) in paragraph at lines 7--8
 
 
 {C:/Users/Adrienne/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./figure
-s/UCL_logo.pdf>]) (Main.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 3.
-)
+s/UCL_logo.pdf>]) (Main.toc)
 \tf@toc=\write6
 \openout6 = `Main.toc'.
 
@@ -828,7 +885,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 \clearpage
+l.64 \clearpage
                 [1
 
 
@@ -854,39 +911,31 @@ Chapter 1.
 ]
 Chapter 2.
 
-Overfull \hbox (30.30255pt too wide) in paragraph at lines 85--85
+Overfull \hbox (30.30255pt too wide) in paragraph at lines 86--86
 |[]\T1/cmr/bx/n/24.88 Collecting and im-put-ing eco-log-i-cal trait
  []
 
 (Chapters/Chapter2.tex [5
 
-] [6]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 37.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
- [7] [8]
-<figures/chapter2/Taxonomic_corrections/tax_corrections.pdf, id=194, 1011.78pt 
+] [6] [7] [8]
+<figures/chapter2/Taxonomic_corrections/tax_corrections.pdf, id=200, 1011.78pt 
 x 433.62pt>
 File: figures/chapter2/Taxonomic_corrections/tax_corrections.pdf Graphic file (
 type pdf)
 <use figures/chapter2/Taxonomic_corrections/tax_corrections.pdf>
 Package pdftex.def Info: figures/chapter2/Taxonomic_corrections/tax_corrections
-.pdf  used on input line 97.
+.pdf  used on input line 95.
 (pdftex.def)             Requested size: 455.2968pt x 195.1272pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `(' on page 9 undefined on input line 112.
-
 [9]
-<figures/chapter2/chart_phylorep.pdf, id=205, 519.67912pt x 97.94067pt>
+<figures/chapter2/chart_phylorep.pdf, id=212, 519.67912pt x 97.94067pt>
 File: figures/chapter2/chart_phylorep.pdf Graphic file (type pdf)
 <use figures/chapter2/chart_phylorep.pdf>
 Package pdftex.def Info: figures/chapter2/chart_phylorep.pdf  used on input lin
-e 116.
+e 114.
 (pdftex.def)             Requested size: 363.77289pt x 68.55798pt.
 
 
@@ -896,139 +945,79 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10 <./figures/chapter2/Taxonomic_corrections/tax_corrections.pdf>]
-<figures/chapter2/Species_representation_phylo.pdf, id=226, 578.16pt x 303.1325
+<figures/chapter2/Species_representation_phylo.pdf, id=233, 578.16pt x 303.1325
 pt>
 File: figures/chapter2/Species_representation_phylo.pdf Graphic file (type pdf)
 
 <use figures/chapter2/Species_representation_phylo.pdf>
 Package pdftex.def Info: figures/chapter2/Species_representation_phylo.pdf  use
-d on input line 149.
+d on input line 147.
 (pdftex.def)             Requested size: 404.70924pt x 212.1913pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `' on page 11 undefined on input line 154.
-
-<figures/chapter2/Target_traits_All_species_coverage.pdf, id=227, 505.89pt x 39
-7.485pt>
-File: figures/chapter2/Target_traits_All_species_coverage.pdf Graphic file (typ
-e pdf)
-<use figures/chapter2/Target_traits_All_species_coverage.pdf>
-Package pdftex.def Info: figures/chapter2/Target_traits_All_species_coverage.pd
-f  used on input line 158.
-(pdftex.def)             Requested size: 430.00851pt x 337.86385pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/chapter2/Target_traits_Predicts_species_coverage.pdf, id=228, 505.89pt
- x 397.485pt>
-File: figures/chapter2/Target_traits_Predicts_species_coverage.pdf Graphic file
- (type pdf)
-<use figures/chapter2/Target_traits_Predicts_species_coverage.pdf>
-Package pdftex.def Info: figures/chapter2/Target_traits_Predicts_species_covera
-ge.pdf  used on input line 166.
-(pdftex.def)             Requested size: 430.00851pt x 337.86385pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <./figures/chapter2/chart_phylorep.pdf>] [12 <./figures/chapter2/Species_re
-presentation_phylo.pdf>]
-<figures/chapter2/Comparison_with_RCooke/Coverage.pdf, id=256, 505.89pt x 325.2
-15pt>
-File: figures/chapter2/Comparison_with_RCooke/Coverage.pdf Graphic file (type p
-df)
-<use figures/chapter2/Comparison_with_RCooke/Coverage.pdf>
-Package pdftex.def Info: figures/chapter2/Comparison_with_RCooke/Coverage.pdf  
-used on input line 231.
-(pdftex.def)             Requested size: 354.12057pt x 227.64894pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figures/chapter2/Comparison_with_RCooke/Comparison_collected.pdf, id=257, 578.
-16pt x 433.62pt>
-File: figures/chapter2/Comparison_with_RCooke/Comparison_collected.pdf Graphic 
+<figures/chapter2/Trait_coverage/Predictor_traits/All_species.pdf, id=237, 505.
+89pt x 433.62pt>
+File: figures/chapter2/Trait_coverage/Predictor_traits/All_species.pdf Graphic 
 file (type pdf)
-<use figures/chapter2/Comparison_with_RCooke/Comparison_collected.pdf>
-Package pdftex.def Info: figures/chapter2/Comparison_with_RCooke/Comparison_col
-lected.pdf  used on input line 239.
-(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+<use figures/chapter2/Trait_coverage/Predictor_traits/All_species.pdf>
+Package pdftex.def Info: figures/chapter2/Trait_coverage/Predictor_traits/All_s
+pecies.pdf  used on input line 159.
+(pdftex.def)             Requested size: 430.00851pt x 368.57874pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/chapter2/Comparison_with_RCooke/Comparison_imputed.pdf, id=258, 578.16
-pt x 433.62pt>
-File: figures/chapter2/Comparison_with_RCooke/Comparison_imputed.pdf Graphic fi
-le (type pdf)
-<use figures/chapter2/Comparison_with_RCooke/Comparison_imputed.pdf>
-Package pdftex.def Info: figures/chapter2/Comparison_with_RCooke/Comparison_imp
-uted.pdf  used on input line 247.
-(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
+[11 <./figures/chapter2/chart_phylorep.pdf>]
+<figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf, id=253, 
+469.755pt x 361.35pt>
+File: figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf Grap
+hic file (type pdf)
+<use figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf>
+Package pdftex.def Info: figures/chapter2/Trait_coverage/Missing_values/Traitco
+mpleteness.pdf  used on input line 173.
+(pdftex.def)             Requested size: 328.82626pt x 252.94327pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/chapter2/Comparison_with_RCooke/Comparison_imputed_VS_collected.pdf, i
-d=259, 939.51pt x 794.97pt>
-File: figures/chapter2/Comparison_with_RCooke/Comparison_imputed_VS_collected.p
-df Graphic file (type pdf)
-<use figures/chapter2/Comparison_with_RCooke/Comparison_imputed_VS_collected.pd
-f>
-Package pdftex.def Info: figures/chapter2/Comparison_with_RCooke/Comparison_imp
-uted_VS_collected.pdf  used on input line 256.
-(pdftex.def)             Requested size: 469.75385pt x 397.48402pt.
+[12 <./figures/chapter2/Species_representation_phylo.pdf>] [13 <./figures/chapt
+er2/Trait_coverage/Predictor_traits/All_species.pdf>]
+Overfull \hbox (46.87793pt too wide) in paragraph at lines 194--203
+ [] 
+ []
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [13 <./figures/chapter2/Target_traits_All_species_coverage.pdf>] [14 <./figur
-es/chapter2/Target_traits_Predicts_species_coverage.pdf> <./figures/chapter2/Co
-mparison_with_RCooke/Coverage.pdf>] [15 <./figures/chapter2/Comparison_with_RCo
-oke/Comparison_collected.pdf> <./figures/chapter2/Comparison_with_RCooke/Compar
-ison_imputed.pdf>] [16 <./figures/chapter2/Comparison_with_RCooke/Comparison_im
-puted_VS_collected.pdf>]
+[14 <./figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf>]
+[15] [16]) [17]
 Chapter 3.
 
-Overfull \hbox (7.02943pt too wide) in paragraph at lines 88--88
+Overfull \hbox (7.02943pt too wide) in paragraph at lines 89--89
 |[]\T1/cmr/bx/n/24.88 Land-use change im-pacts on the func-
  []
 
-[17
-
-]
-Chapter 4.
 [18
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
+Chapter 4.
+[19
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
  (Main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
-
-
-Package rerunfilecheck Warning: File `Main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Main.out':
-(rerunfilecheck)             Before: AE8B689A3E7D314D420AF24C95C34089;1196
-(rerunfilecheck)             After:  6AF5BCA9EF2729717425D7FDF5203665;1186.
-
-LaTeX Warning: There were undefined references.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
+Package rerunfilecheck Info: File `Main.out' has not changed.
+(rerunfilecheck)             Checksum: 60D4A6F90FB802F7C0829F0B306D9D60;1240.
  ) 
 Here is how much of TeX's memory you used:
- 18558 strings out of 492946
- 355830 string characters out of 3124934
- 446166 words of memory out of 3000000
- 22054 multiletter control sequences out of 15000+200000
- 17938 words of font info for 40 fonts, out of 3000000 for 9000
+ 19123 strings out of 492946
+ 361484 string characters out of 3124934
+ 456806 words of memory out of 3000000
+ 22606 multiletter control sequences out of 15000+200000
+ 19064 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,10n,48p,2059b,675s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,48p,2136b,679s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
 00\ecti0900.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
 appen/ec/dpi600\ecti1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/
@@ -1044,10 +1033,18 @@ X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Adrienne\AppDat
 a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Ad
 rienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk>
 <C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi10.pfb>
-Output written on Main.pdf (19 pages, 2014369 bytes).
+s/cm/cmex10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Adrienne/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Adrienn
+e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr8.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Main.pdf (20 pages, 560348 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 73 named destinations out of 1000 (max. 500000)
- 183 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 852 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 171 words of extra memory for PDF output out of 10000 (max. 10000000)
 

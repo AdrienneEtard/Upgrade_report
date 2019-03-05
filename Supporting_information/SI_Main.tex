@@ -1,15 +1,18 @@
 % Supporting information for upgrade report
-
 \documentclass[11pt]{article}
 \usepackage{graphicx}
 \usepackage[margin = 2.5cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{setspace}
+\usepackage{xcolor}
 
 % captions
 \usepackage[labelfont=bf]{caption} %font=small,
 \captionsetup{skip=7pt} 
 \captionsetup{font=footnotesize,font={stretch=1.2}}
+
+% subfigures and subcaptions
+\usepackage{subcaption}  
 
 % tables
 \usepackage{multirow}
@@ -27,6 +30,9 @@
     linktoc=all     %set to all if you want both sections and subsections linked
     %linkcolor=blue,  %choose some color if you want links to stand out
 }
+
+% useful to comment out large sections:
+\usepackage{verbatim} 
 
 % line spacing
 %\renewcommand{\baselinestretch}{2}
@@ -73,11 +79,13 @@ IUCN habitat data records habitat types in which species occur. Habitats are cla
 Forest, Savanna, Grassland, Shrubland, Wetland, Rocky areas, Caves and subterranean, Desert, Marine, Marine intertidal or coastal/supratidal, Artificial, Introduced vegetation and Other/Unknown. Species habitat preferences were described using these variables as binary (taking 1 if a species was known to occur in the habitat and 0 otherwise).
 \paragraph{Habitat breadth.}
 Habitat breadth was calculated as the number of habitats recorded to be used by a species in the IUCN database. Given that information regarding habitat suitability and habitat importance was also available in the IUCN data files, I used a weighted sum to calculate habitat breadth. Suitability was declined in three categories in the IUCN files: `suitable', `marginal' or  `unknown'. Habitats were recorded to be either of major importance, not of major importance or of unknown importance. I used the weights provided in Table \ref{weights} to produce weighted sums of the number of habitats used by each species. A comparison of the distribution of habitat breadths calculated with and without weights shows that weighting did not have a strong impact on the results (Figure \ref{distHB}).
+
+% table of weigths used for habitat breadth calculations
 \begin{table}[h!]
 \renewcommand{\baselinestretch}{1}
 \renewcommand{\arraystretch}{1.5}
 \begin{center}\fontsize{9}{11}\selectfont
-\caption[Weights used in the calculation of habitat breadth]{\textbf{Weights used in the calculation of habitat breadth.} Habitat breadth was calculated as the weighted sum of the number of habitats used by a species. Weights were assigned to each habitat given its importance and its suitability. All weights would equal 1 if habitat breadth was calculated as a non-weighted sum of habitat numbers.} 
+\caption[Weights used in the calculation of habitat breadth]{\textbf{Weights used in the calculation of habitat breadth.} Habitat breadth was calculated as the weighted sum of the number of habitats used by a species. Weights were assigned to each habitat given its importance and its suitability.} 
 \label{weights}
 \begin{tabular}{|l|c|c|c|}
 \hline
@@ -90,26 +98,88 @@ Habitat breadth was calculated as the number of habitats recorded to be used by 
 \end{center}
 \end{table}
 
+% figure distribution of habitat breadths
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{figures/Weighted_HB/distributions}
-\caption[Distribution of habitat breadths across species for terrestrial vertebrates]{\textbf{Distribution of habitat breadths across species for terrestrial vertebrates.}}
+\caption[Distribution of habitat breadths across species for terrestrial vertebrates]{\textbf{Distribution of habitat breadths across species for terrestrial vertebrates.} The distribution is shown for calculations assigning weights to habitats according to their suitability and their importance (red surface area) or without weights (blue surface area). The distribution of habitat breadths slightly shifts to the left when a weighted sum is used (in \textbf{A}, \textbf{B} and \textbf{C}), as less importance is accorded to some habitats in the calculation (Table \ref{weights}).}
 \label{distHB}
 \end{figure}
 
-
 \paragraph{Degree of specialisation.}
-A broad classification was adopted for species degree of specialisation. Using IUCN habitat files, I determined whether species were strictly natural habitat specialists or generalists. Generalists were species for which any habitat, suitable or of unknown suitability, was recorded to be artificial. Else, species were considered to be natural habitat specialists. When a habitat of an unknown type was considered suitable or was of unknown suitability, missing data was introduced for the degree of specialisation. 
+A broad classification was adopted for species degree of specialisation. Using IUCN habitat files, I determined whether species were strictly natural habitat specialists or generalists. Generalists were species for which any habitat, suitable or of unknown suitability, was recorded to be artificial. Else, species were considered to be natural habitat specialists. When a habitat of an unknown type was considered suitable or was of unknown suitability, missing data was introduced. 
 
 
 
 \subsection{Tackling taxonomic synonymy}
-% Delta in species number before and after taxonomic corrections + typos.s
 
-% Synonym table extract and number of manual additions.
+% Excerpt of the sysnonym table?
+
+\subsubsection{Dropping replicated phylogenetic tips}
+2.6\% of mammalian, 1.5\% of avian, 1\% of amphibian and  1.5\% of reptilian species had multiple multiple phylogenetic positions after taxonomic corrections. Most of these species had only two replicates (as most species with synonyms were found to have two identified synonym, Figure 2.1 in main text). Table \ref{Phyrep} provides the number of replicates across replicated species. Replicated tips corresponding to species described in the format \textit{Genus cf.}, \textit{Genus sp.}, \textit{Genus spp.} or \textit{Genus aff.} were all conserved in the phylogenies.
+
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.5}
+\begin{center}\fontsize{9}{11}\selectfont
+\caption[Number of replicated tip labels in phylogenies, number of which are sister clades, and identified species for which dropping tips at random was problematic]{\textbf{Number of replicated tip labels in phylogenies, number of which are sister clades and identified species for which dropping tips at random was problematic.} Most redundant tips appeared twice. When replicated tips were sister clades, tips to drop were chosen randomly; this did not affect the species phylogenetic position. When replicated tips were not sister clades, I verified whether the corrected tip name appeared in the original, uncorrected tree. If so, I kept the tip in the corrected tree whose position was closest to the position of the tip in the original tree. Note that I used tip order in that case, which is sensitive to branch permutation. Finally, for replicated tip labels that were neither sister clades nor figuring in the original tree, tips to drop were chosen randomly. I identified these as problematic cases, although occurrences were rare. See Figure for a visual representation of each case.} 
+\label{Phyrep}
+\begin{tabular}{|l|c|c|c|c|c|l|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Class}}} & \multicolumn{3}{c|}{\textbf{Replicates}} & \multirow{2}{*}{\textbf{Sister clades}} & \multirow{2}{*}{\textbf{In uncorrected tree}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{`Problematic'}}}                                                                                                                                                            \\ \cline{2-4}
+\multicolumn{1}{|c|}{}                                & \textbf{2}   & \textbf{\textcolor{white}{1}3 }  & \textbf{$>$3 }  &                                         &                                               & \multicolumn{1}{c|}{}                                                                                                                                                                                                   \\ \hline
+\textbf{Mammals}                                      & 129          & 7           & 2           & 28                                      & 131                                           & \textit{\begin{tabular}[c]{@{}l@{}}Heterogeomys cherriei\\ Heterogeomys dariensis\\ Hylopetes sagitta\\ Marmosa paraguayana\\ Neoromicia malagasyensis\\ Plecturocebus discolor\\ Proechimys trinitatis\end{tabular}}   \\ \hline
+\textbf{Birds}                                        & 158          & 7           & 0           & 22                                      & 156                                           & \textit{\begin{tabular}[c]{@{}l@{}}Aerodramus vanikorensis\\ Antrostomus arizonae\\ Calendulauda erythrochlamys\\ Eolophus roseicapilla\\ Myiothlypis rivularis\\ Poecile hudsonicus\\ Spermestes bicolor\end{tabular}} \\ \hline
+\textbf{Reptiles}                                     & 68           & 2           & 0           & 17                                      & 68                                            & \textit{\begin{tabular}[c]{@{}l@{}}Liolaemus curicensis\\ Salvator merianae\end{tabular}}                                                                                                                               \\ \hline
+\textbf{Amphibians}                                   & 41           & 4           & 2           & 8                                       & 43                                            & \textit{\begin{tabular}[c]{@{}l@{}}Lithobates berlandieri\\ Uperodon taprobanicus\end{tabular}}                                                                                                                         \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips were sister clades, the tip to conserve was chosen randomly among the replicates. Else, I chose to conserve the tree tip whose position was closest to the position of the same tip in the uncorrected tree, when present. In all other few cases, tips to drop were chosen randomly. See Figures \ref{case1}, \ref{case2} and \ref{case3} for an example of each case.
+
+% here the chart to explain how I dealt with replicated phylogenetic tips
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/chart_phylorep}
+\caption[Procedure followed to drop replicated tips from phylogenies]{\textbf{Procedure followed to drop replicated tips from phylogenies.} Most redundant tip labels were replicated twice. \textbf{(1)} When replicated tips were sister clades, the tips to drop were chosen randomly, as it did not affect the `true' phylogenetic position of the species; see case study 1 in Figure \ref{case1}. \textbf{(2)} When replicated were not sister clades, I kept the tip whose position was closest to the position of the same tip in the uncorrected tree (Figure \ref{case2}). \textbf{(3)} In a few cases, the corrected name did not appear in the original tree. Those were problematic cases, and the tips to drop were chosen randomly (Figure \ref{case3}). Nevertheless, occurences of that third case were rare.}
+\label{chart_phylorep}
+\end{figure}
 
 % Replication in phylogenetic tips: case studies
 
+\paragraph{Case studies}
+
+%%%% Case study 1
+\subparagraph{Case study 1 (Figure \ref{case1}): replicated tips are sister clades.} In this example, Przewalski's toadhead agama (\textit{Phrynocephalus przewalskii})figures in the original, uncorrected tree under two names identified as being sysnonyms (P. przewalskii and P. frontalis). As such, two replicated tips with the same name appear in the tree after the taxonomic correction. As they are sister clades, one tip is randomly dropped in the final corrected tree. In that case, the `true' phylogenetic position of the species is not affected.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/Case_studies/Case1}
+\caption[Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the reptilian genus \textit{Phrynocephalus}]{\textbf{Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the reptilian genus \textit{Phrynocephalus}.} The identified accepted name \textit{P. przewalskii}, in blue (A), is identified as being a synonym for \textit{P. frontalis,} which also figures in the uncorrected tree. As these clades are sister in the tree, one tip is dropped at random, and the final phylogenetic position of the species is not affected.}
+\label{case1}
+\end{figure}
+
+
+%%%% Case study 2
+\subparagraph{Case study 2: replicated tips are not sister clades, but the accepted name (tip label) figures in the original, uncorrected tree.}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/Case_studies/Case2}
+\caption[]{\textbf{}}
+\label{case2}
+\end{figure}
+
+\subparagraph{Case study 3: replicated tips are not sister clades, and the accepted name (tip label) does not figure in the original, uncorrected tree.} These were the problematic species listed in Table \ref{Phyrep}.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/Case_studies/Case3}
+\caption[]{\textbf{}}
+\label{case3}
+\end{figure}
+
+\subsection{Initial trait coverage for PREDICTS species}
 
 \subsection{Imputation robustness}
 
