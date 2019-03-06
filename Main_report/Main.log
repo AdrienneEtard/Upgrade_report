@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.22)  5 MAR 2019 18:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.22)  6 MAR 2019 17:20
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -983,23 +983,33 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12 <./figures/chapter2/Species_representation_phylo.pdf>] [13 <./figures/chapt
 er2/Trait_coverage/Predictor_traits/All_species.pdf>]
-Overfull \hbox (46.87793pt too wide) in paragraph at lines 194--203
+Overfull \hbox (9.55626pt too wide) in paragraph at lines 199--208
  [] 
  []
 
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 [14 <./figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf>]
-[15] [16]) [17]
+[15] [16]
+<figures/chapter2/Imputation_errors/PFC.pdf, id=315, 289.08pt x 180.675pt>
+File: figures/chapter2/Imputation_errors/PFC.pdf Graphic file (type pdf)
+<use figures/chapter2/Imputation_errors/PFC.pdf>
+Package pdftex.def Info: figures/chapter2/Imputation_errors/PFC.pdf  used on in
+put line 247.
+(pdftex.def)             Requested size: 216.80946pt x 135.5059pt.
+ [17 <./figures/chapter2/Imputation_errors/PFC.pdf>]) [18]
 Chapter 3.
 
 Overfull \hbox (7.02943pt too wide) in paragraph at lines 89--89
 |[]\T1/cmr/bx/n/24.88 Land-use change im-pacts on the func-
  []
 
-[18
+[19
 
 ]
 Chapter 4.
-[19
+[20
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 93.
@@ -1011,13 +1021,13 @@ Package rerunfilecheck Info: File `Main.out' has not changed.
 (rerunfilecheck)             Checksum: 60D4A6F90FB802F7C0829F0B306D9D60;1240.
  ) 
 Here is how much of TeX's memory you used:
- 19123 strings out of 492946
- 361484 string characters out of 3124934
- 456806 words of memory out of 3000000
- 22606 multiletter control sequences out of 15000+200000
+ 19133 strings out of 492946
+ 361787 string characters out of 3124934
+ 456840 words of memory out of 3000000
+ 22611 multiletter control sequences out of 15000+200000
  19064 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,11n,48p,2136b,679s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,15n,48p,2136b,679s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
 00\ecti0900.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
 appen/ec/dpi600\ecti1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/
@@ -1037,14 +1047,15 @@ s/cm/cmex10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Adrienne/AppData/Local
 /Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Adrienn
-e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C
+e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C
 :/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Main.pdf (20 pages, 560348 bytes).
+cm/cmr10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Adrienne/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Main.pdf (21 pages, 582154 bytes).
 PDF statistics:
- 852 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 877 PDF objects out of 1000 (max. 8388607)
+ 73 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
