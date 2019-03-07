@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.22)  6 MAR 2019 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.22)  7 MAR 2019 12:04
 entering extended mode
 **./Main.tex
 (Main.tex
@@ -918,7 +918,7 @@ Overfull \hbox (30.30255pt too wide) in paragraph at lines 86--86
 (Chapters/Chapter2.tex [5
 
 ] [6] [7] [8]
-<figures/chapter2/Taxonomic_corrections/tax_corrections.pdf, id=200, 1011.78pt 
+<figures/chapter2/Taxonomic_corrections/tax_corrections.pdf, id=199, 1011.78pt 
 x 433.62pt>
 File: figures/chapter2/Taxonomic_corrections/tax_corrections.pdf Graphic file (
 type pdf)
@@ -931,7 +931,7 @@ Package pdftex.def Info: figures/chapter2/Taxonomic_corrections/tax_corrections
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [9]
-<figures/chapter2/chart_phylorep.pdf, id=212, 519.67912pt x 97.94067pt>
+<figures/chapter2/chart_phylorep.pdf, id=211, 519.67912pt x 97.94067pt>
 File: figures/chapter2/chart_phylorep.pdf Graphic file (type pdf)
 <use figures/chapter2/chart_phylorep.pdf>
 Package pdftex.def Info: figures/chapter2/chart_phylorep.pdf  used on input lin
@@ -945,7 +945,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10 <./figures/chapter2/Taxonomic_corrections/tax_corrections.pdf>]
-<figures/chapter2/Species_representation_phylo.pdf, id=233, 578.16pt x 303.1325
+<figures/chapter2/Species_representation_phylo.pdf, id=232, 578.16pt x 303.1325
 pt>
 File: figures/chapter2/Species_representation_phylo.pdf Graphic file (type pdf)
 
@@ -957,7 +957,7 @@ d on input line 147.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/chapter2/Trait_coverage/Predictor_traits/All_species.pdf, id=237, 505.
+<figures/chapter2/Trait_coverage/Predictor_traits/All_species.pdf, id=236, 505.
 89pt x 433.62pt>
 File: figures/chapter2/Trait_coverage/Predictor_traits/All_species.pdf Graphic 
 file (type pdf)
@@ -969,7 +969,7 @@ pecies.pdf  used on input line 159.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11 <./figures/chapter2/chart_phylorep.pdf>]
-<figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf, id=253, 
+<figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf, id=252, 
 469.755pt x 361.35pt>
 File: figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf Grap
 hic file (type pdf)
@@ -983,7 +983,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [12 <./figures/chapter2/Species_representation_phylo.pdf>] [13 <./figures/chapt
 er2/Trait_coverage/Predictor_traits/All_species.pdf>]
-Overfull \hbox (9.55626pt too wide) in paragraph at lines 199--208
+Overfull \hbox (12.15567pt too wide) in paragraph at lines 199--208
  [] 
  []
 
@@ -992,13 +992,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [14 <./figures/chapter2/Trait_coverage/Missing_values/Traitcompleteness.pdf>]
 [15] [16]
-<figures/chapter2/Imputation_errors/PFC.pdf, id=315, 289.08pt x 180.675pt>
-File: figures/chapter2/Imputation_errors/PFC.pdf Graphic file (type pdf)
-<use figures/chapter2/Imputation_errors/PFC.pdf>
-Package pdftex.def Info: figures/chapter2/Imputation_errors/PFC.pdf  used on in
-put line 247.
-(pdftex.def)             Requested size: 216.80946pt x 135.5059pt.
- [17 <./figures/chapter2/Imputation_errors/PFC.pdf>]) [18]
+<figures/chapter2/Imputation_errors/MSE_PFC.pdf, id=314, 505.89pt x 216.81pt>
+File: figures/chapter2/Imputation_errors/MSE_PFC.pdf Graphic file (type pdf)
+<use figures/chapter2/Imputation_errors/MSE_PFC.pdf>
+Package pdftex.def Info: figures/chapter2/Imputation_errors/MSE_PFC.pdf  used o
+n input line 246.
+(pdftex.def)             Requested size: 379.41655pt x 162.60709pt.
+ [17 <./figures/chapter2/Imputation_errors/MSE_PFC.pdf>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 261.
+
+
+("C:\Users\Adrienne\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 261.
+) [18]
 Chapter 3.
 
 Overfull \hbox (7.02943pt too wide) in paragraph at lines 89--89
@@ -1018,13 +1027,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 93.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 93.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 93.
 Package rerunfilecheck Info: File `Main.out' has not changed.
-(rerunfilecheck)             Checksum: 60D4A6F90FB802F7C0829F0B306D9D60;1240.
+(rerunfilecheck)             Checksum: A66DDAA9881D4AA57B11563A391CB6B4;1245.
  ) 
 Here is how much of TeX's memory you used:
- 19133 strings out of 492946
- 361787 string characters out of 3124934
+ 19150 strings out of 492946
+ 362145 string characters out of 3124934
  456840 words of memory out of 3000000
- 22611 multiletter control sequences out of 15000+200000
+ 22625 multiletter control sequences out of 15000+200000
  19064 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,15n,48p,2136b,679s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1039,23 +1048,22 @@ drienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk
 0\ecrm1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
 ppen/ec/dpi600\ecbx1095.pk> <C:\Users\Adrienne\AppData\Local\MiKTeX\2.9\fonts/p
 k/ljfour/jknappen/ec/dpi600\ecbx2488.pk> <C:\Users\Adrienne\AppData\Local\MiKTe
-X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Adrienne\AppDat
-a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Ad
-rienne\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk>
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx2074.pk> <C:\Users\Adrienne\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk><C:/Users/Adr
+ienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmmi10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Adrienne/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Adrie
+nne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
 <C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmex10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Adrienne/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Adrienn
-e/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C
-:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr8.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Adrienne/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Main.pdf (21 pages, 582154 bytes).
+s/cm/cmr8.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Users/Adrienne/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Main.pdf (21 pages, 574308 bytes).
 PDF statistics:
- 877 PDF objects out of 1000 (max. 8388607)
+ 856 PDF objects out of 1000 (max. 8388607)
  73 named destinations out of 1000 (max. 500000)
  176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

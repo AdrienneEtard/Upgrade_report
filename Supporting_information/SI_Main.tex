@@ -7,9 +7,11 @@
 \usepackage{xcolor}
 
 % captions
-\usepackage[labelfont=bf]{caption} %font=small,
+\usepackage[labelfont=bf]{caption} 
 \captionsetup{skip=7pt} 
-\captionsetup{font=footnotesize,font={stretch=1.2}}
+\captionsetup[figure]{font=footnotesize}
+\captionsetup[table]{font=footnotesize}
+\captionsetup{font=footnotesize,font={stretch=1}}
 
 % subfigures and subcaptions
 \usepackage{subcaption}  
@@ -136,6 +138,7 @@ A broad classification was adopted for species degree of specialisation. Using I
 \end{center}
 \end{table}
 
+\pagebreak
 Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips were sister clades, the tip to conserve was chosen randomly among the replicates. Else, I chose to conserve the tree tip whose position was closest to the position of the same tip in the uncorrected tree, when present. In all other few cases, tips to drop were chosen randomly. See Figures \ref{case1}, \ref{case2} and \ref{case3} for an example of each case.
 
 % here the chart to explain how I dealt with replicated phylogenetic tips
@@ -148,10 +151,11 @@ Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips w
 
 % Replication in phylogenetic tips: case studies
 
+\newpage
 \paragraph{Case studies}
 
 %%%% Case study 1
-\subparagraph{Case study 1 (Figure \ref{case1}): replicated tips are sister clades.} In this example, Przewalski's toadhead agama (\textit{Phrynocephalus przewalskii})figures in the original, uncorrected tree under two names identified as being sysnonyms (P. przewalskii and P. frontalis). As such, two replicated tips with the same name appear in the tree after the taxonomic correction. As they are sister clades, one tip is randomly dropped in the final corrected tree. In that case, the `true' phylogenetic position of the species is not affected.
+\subparagraph{Case study 1 (Figure \ref{case1}): replicated tips are sister clades.} In this example, Przewalski's toadhead agama (\textit{Phrynocephalus przewalskii}) figures in the original, uncorrected tree under two names identified as being synonyms (\textit{P. przewalskii} and \textit{P. frontalis}). As such, two replicated tips with the same name appear in the tree after the taxonomic correction. As they are sister clades, one tip is randomly dropped in the final corrected tree. In that case, the `true' phylogenetic position of the species is not affected.
 
 \begin{figure}[h!]
 \centering
@@ -162,25 +166,40 @@ Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips w
 
 
 %%%% Case study 2
-\subparagraph{Case study 2: replicated tips are not sister clades, but the accepted name (tip label) figures in the original, uncorrected tree.}
+\subparagraph{Case study 2 (Figure \ref{case2}): replicated tips are not sister clades, but the accepted name (tip label) figures in the original, uncorrected tree.} In that example, the amphibian species \textit{Ambystoma californiense} (California tiger salamander) was also found under its identified synonym \textit{A. tigrinum} in the original tree. In the final tree, the tip closest to the position of the same tip in the uncorrected tree was kept.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{figures/Case_studies/Case2}
-\caption[]{\textbf{}}
+\caption[Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the amphibian genus \textit{Ambystoma}]{\textbf{Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the amphibian genus \textit{Ambystoma}.} The identified accepted name \textit{A. californiense}, in blue (A), is identified as being a synonym for \textit{A. tigrinum,} which also figures in the uncorrected tree. There are not sister clades; in the final tree, the tip closest to the position of the same tip in the uncorrected tree was kept.}
 \label{case2}
 \end{figure}
 
-\subparagraph{Case study 3: replicated tips are not sister clades, and the accepted name (tip label) does not figure in the original, uncorrected tree.} These were the problematic species listed in Table \ref{Phyrep}.
+%%%% Case study 3
+\subparagraph{Case study 3 (Figure \ref{case3}): replicated tips are not sister clades, and the accepted name (tip label) does not figure in the original, uncorrected tree.} These were the problematic species listed in Table \ref{Phyrep}. In this example, the mammalian species \textit{Petinomys sagitta} (arrow flying squirrel) and  \textit{Hylopetes lepidus} (gray-cheeked flying squirrel)  have been identified to be synonymic, but the accepted name does not figure in the original tree. They are not sister clades; hence, one tip is randomly chosen to be dropped.
+
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{figures/Case_studies/Case3}
-\caption[]{\textbf{}}
+\caption[Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the mammalian genera \textit{Hylopetes} and \textit{Petinomys}]{\textbf{Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the mammalian genera \textit{Hylopetes} and \textit{Petinomys}.} The identified accepted name \textit{H. sagitta}, in blue (B), does not figure in the uncorrected tree. It was identified to be the corresponding accepted name for \textit{P. sagitta} and \textit{H. lepidus}, which are not sister clades. One tip is randomly chosen to be dropped. Such cases were problematic but occurences were rare (Table \ref{Phyrep}).}
 \label{case3}
 \end{figure}
 
+\pagebreak
 \subsection{Initial trait coverage for PREDICTS species}
 
+\pagebreak
+\subsection{Phylogenetic signal in categorical traits}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.75]{figures/Physignal/Allclasses}
+\caption[Observed and simulated phylogenetic signals in categorical traits]{\textbf{Observed and simulated phylogenetic signals in categorical traits.} \textbf{(A)} Mammals; \textbf{(B)} birds; \textbf{(C)} reptiles. Black dots represent the observed phylogenetic signals in each categorical trait measured with $\delta$, a metric developed by Borges et al (2018). The observed measured is compared to the null distribution of $\delta$(phylogenetic signal calculated when trait values are randomised). Blue points represent the median value of null $\delta$ expectations, and the blue error bars are 95\% confidence intervals. The null distribution of $\delta$ for each trait was generated by simulating 100 randomised trait vectors and calculating $\delta$ for each. As such, the median of null values represent the expected signal under a Brownian motion of trait evolution. Across all classes, all categorical traits presented significant phylogenetic signal. DA: diel activity; Sp: specialisation; TL: trophic level.}
+\label{case3}
+\end{figure}
+
+\pagebreak
 \subsection{Imputation robustness}
 
 \subsection{Trait distributions}

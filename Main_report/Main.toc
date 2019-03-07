@@ -26,8 +26,8 @@
 \contentsline {subsubsection}{Imputation error and robustness}{15}{subsubsection*.29}% 
 \contentsline {section}{\numberline {2.3}Results}{17}{section.2.3}% 
 \contentsline {subsection}{\numberline {2.3.1}Outputs}{17}{subsection.2.3.1}% 
-\contentsline {subsection}{\numberline {2.3.2}Imputation errors}{17}{subsection.2.3.2}% 
-\contentsline {subsubsection}{Categorical traits: estimated proportions of falsely classified values}{17}{subsubsection*.30}% 
+\contentsline {subsection}{\numberline {2.3.2}Imputation performance}{17}{subsection.2.3.2}% 
+\contentsline {subsubsection}{Built-in errors}{17}{subsubsection*.30}% 
 \contentsline {subsection}{\numberline {2.3.3}Imputation robustness}{17}{subsection.2.3.3}% 
 \contentsline {subsubsection}{Congruence of several imputations}{17}{subsubsection*.32}% 
 \contentsline {subsubsection}{Comparison with another collected and imputed datasets for mammals and birds}{17}{subsubsection*.33}% 

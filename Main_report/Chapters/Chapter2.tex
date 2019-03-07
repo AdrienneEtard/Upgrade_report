@@ -194,15 +194,15 @@ As in most cases trait values were more similar among closer relatives than expe
 \renewcommand{\baselinestretch}{1}
 \renewcommand{\arraystretch}{1.5}
 \begin{center}\fontsize{9}{11}\selectfont
-\caption[Phylogenetic signal in continuous traits]{\textbf{Phylogenetic signal in  traits and in range size.} BM: body mass; L: longevity; LCS: litter/clutch size; HB: habitat breadth; DB: diet breadth; GL: generation length; BL: body length; SM: sexual maturity; RS: range size; TL: trophic level; PD: primary diet; DA: diel activity; Sp: specialisation. Phylogenetic signal in continuous traits was calculated using Pagel's $\lambda$. For categorical traits, the $\delta$ metric developed by Borges et al (2018) was used. A star indicates a significant signal (significant p-values scores for the log-likelihood ratio test in the case of $\lambda$; and significant difference from the simulated null distribution of $\delta$ for categorical traits). All continuous traits had significant phylogenetic signal, except body mass in amphibians. This may have been the effect of the small sample size for this class, as body length showed a strong signal in that taxon.} 
+\caption[Phylogenetic signal in continuous traits]{\textbf{Phylogenetic signal in  traits and in range size.} BM: body mass; L: longevity; LCS: litter/clutch size; HB: habitat breadth; DB: diet breadth; GL: generation length; BL: body length; SM: sexual maturity; RS: range size; TL: trophic level; PD: primary diet; DA: diel activity; Sp: specialisation. Phylogenetic signal in continuous traits was calculated using Pagel's $\lambda$. For categorical traits, the $\delta$ metric developed by Borges et al (2018) was used. A star indicates a significant signal (significant p-values scores for the log-likelihood ratio test in the case of $\lambda$; and significant difference from the simulated null distribution of $\delta$ for categorical traits, see SI). All continuous traits had significant phylogenetic signal, except body mass in amphibians. This may have been the effect of the small sample size for this class, as body length showed a strong signal in that taxon. All categorical traits had significant phylogenetic signal. `na' are traits that were not considered in a class but may have been used in another as a predictor in missing values imputations.} 
 \label{physignalcont}
 \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Class}}} & \multicolumn{9}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Continuous target traits,\\ additional predictors and range size: $\lambda$\end{tabular}}} & \multicolumn{4}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Categorical traits:\\ $\delta$\end{tabular}}} \\ \cline{2-14} 
 \multicolumn{1}{|c|}{}                                & \textbf{BM}       & \textbf{L}   & \textbf{LCS}   & \textbf{HB}   & \textbf{DB}   & \textbf{GL}   & \textbf{BL}  & \textbf{SM}  & \textbf{RS}  & \textbf{TL}            & \textbf{PD}            & \textbf{DA}            & \textbf{Sp}            \\ \hline
 \textbf{Mammals}                                      & 0.98*             & 0.99*        & 0.99*          & 0.90*         & 1.0*          & 1.0*          & 1.0*         & na           & 0.99*        & 8.5*                   & NA                     & 11*                    & 1.2*                   \\ \hline
-\textbf{Birds}                                        & 1.0*              & 0.99*        & 0.99*          & 0.92*         & 0.87*         & 1.0*          & na           & na           & 0.97*        & x                      & x                      & x                      & x                      \\ \hline
-\textbf{Reptiles}                                     & 0.39*             & 0.92*        & 0.99*          & 0.83*         & na            & na            & 0.99*        & 0.85*        & 0.65*        & x                      & na                     & x                      & x                      \\ \hline
+\textbf{Birds}                                        & 1.0*              & 0.99*        & 0.99*          & 0.92*         & 0.87*         & 1.0*          & na           & na           & 0.97*        & 11*                    & 11*                    & 460*                   & 0.7*                   \\ \hline
+\textbf{Reptiles}                                     & 0.39*             & 0.92*        & 0.99*          & 0.83*         & na            & na            & 0.99*        & 0.85*        & 0.65*        & 2.2*                   & na                     & 2.9*                   & 1.2*                   \\ \hline
 \textbf{Amphibians}                                   & \textless{}0.01   & 0.26*        & 0.86*          & 0.94*         & 0.49*         & na            & 0.99*        & na           & 0.78*        & x                      & x                      & x                      & x                      \\ \hline
 \end{tabular}
 \end{center}
@@ -237,14 +237,13 @@ I imputed 8 trait datasets for each class and plotted the MSE and PFC across all
 
 \subsection{Outputs}
 I collected and imputed data for 10 traits across 11637 avian species, 5502 mammalian species, 10334 reptilian species and 7007 amphibian species. Produced synonym datasets are available alongside the trait data. 
-Hereafter I detail imputation performance. 
 
-\subsection{Imputation errors}
-\subsubsection{Categorical traits: estimated proportions of falsely classified values}
+\subsection{Imputation performance}
+\subsubsection{Built-in errors}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.75]{figures/chapter2/Imputation_errors/PFC}
+\includegraphics[scale=0.75]{figures/chapter2/Imputation_errors/MSE_PFC}
 \caption[]{}
 \label{plotPFC}
 \end{figure}
@@ -258,8 +257,10 @@ Hereafter I detail imputation performance.
 
 \pagebreak
 \section{Discussion}
-% Taxonomic corrections
-% Availability of trait information, biases across classes
-% Trait imputation robustness
+\begin{itemize}
+\item Taxonomic challenges
+\item Biases in availability of trait information across classes
+\item Imputation robustness 
+\end{itemize}
 
 
