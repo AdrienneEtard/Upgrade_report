@@ -1,0 +1,43 @@
+\contentsline {chapter}{\numberline {1}Literature review}{6}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Land-use and climate change, species traits and the functional composition of vertebrate communities}{6}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Land-use and climate change, functional diversity and the disruption of ecosystem services}{7}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}Impact of land-use on the functional richness \IeC {\textendash } species richness relationships}{8}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Links between functional diversity and ecosystem functioning}{8}{subsection.1.2.2}% 
+\contentsline {section}{\numberline {1.3}Research questions and hypotheses}{10}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}How does land-use affect the functional diversity of vertebrate communities?}{10}{subsection.1.3.1}% 
+\contentsline {subsection}{\numberline {1.3.2}Which vertebrate traits confer sensitivity to land-use change?}{11}{subsection.1.3.2}% 
+\contentsline {chapter}{\numberline {2}Collecting and imputing ecological trait data across terrestrial vertebrates}{12}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Introduction}{12}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Methods}{14}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Ecological trait data collection}{14}{subsection.2.2.1}% 
+\contentsline {subsubsection}{Primary data sources.}{14}{subsubsection*.6}% 
+\contentsline {subsubsection}{Compilation methods.}{15}{subsubsection*.8}% 
+\contentsline {paragraph}{Continuous traits.}{15}{paragraph*.9}% 
+\contentsline {paragraph}{Categorical traits.}{15}{paragraph*.10}% 
+\contentsline {subparagraph}{Diet and diet breadth.}{15}{subparagraph*.11}% 
+\contentsline {subparagraph}{Trophic level.}{15}{subparagraph*.12}% 
+\contentsline {subparagraph}{Habitat preferences.}{15}{subparagraph*.13}% 
+\contentsline {subsection}{\numberline {2.2.2}Phylogenetic information}{15}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Tackling taxonomic synonymy}{15}{subsection.2.2.3}% 
+\contentsline {subsubsection}{Automated procedure and outputs.}{16}{subsubsection*.14}% 
+\contentsline {paragraph}{Extracting names from the RedList and the Integrated Taxonomic Information System (ITIS).}{16}{paragraph*.15}% 
+\contentsline {paragraph}{Outputs.}{16}{paragraph*.16}% 
+\contentsline {paragraph}{Harmonising taxonomy in trait datasets.}{16}{paragraph*.17}% 
+\contentsline {subsubsection}{Harmonising taxonomy in phylogenetic trees and increasing species phylogenetic representation.}{17}{subsubsection*.19}% 
+\contentsline {paragraph}{Taxonomic correction across tip labels.}{17}{paragraph*.20}% 
+\contentsline {paragraph}{Random species attachments.}{17}{paragraph*.22}% 
+\contentsline {paragraph}{Correcting for taxonomy in phylogenetic trees: conclusions.}{18}{paragraph*.24}% 
+\contentsline {subsubsection}{Correcting for taxonomy increased trait coverage}{18}{subsubsection*.26}% 
+\contentsline {subsection}{\numberline {2.2.4}Biases in the completeness of trait information across classes}{18}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.5}Imputing missing trait values}{19}{subsection.2.2.5}% 
+\contentsline {subsubsection}{Imputation error and robustness}{22}{subsubsection*.30}% 
+\contentsline {section}{\numberline {2.3}Results}{24}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Outputs}{24}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Imputation performance}{24}{subsection.2.3.2}% 
+\contentsline {subsubsection}{Built-in errors}{24}{subsubsection*.31}% 
+\contentsline {subsection}{\numberline {2.3.3}Imputation robustness}{24}{subsection.2.3.3}% 
+\contentsline {subsubsection}{Congruence of several imputations}{24}{subsubsection*.33}% 
+\contentsline {subsubsection}{Comparison with another collected and imputed datasets for mammals and birds}{24}{subsubsection*.34}% 
+\contentsline {section}{\numberline {2.4}Discussion}{25}{section.2.4}% 
+\contentsline {chapter}{\numberline {3}Land-use change impacts on the functional diversity of vertebrate communities}{26}{chapter.3}% 
+\contentsline {chapter}{\numberline {4}Outline and research questions for the next years}{27}{chapter.4}% 
