@@ -45,7 +45,7 @@
 
 \title{\textbf{Supporting information for\\
 \vspace{1cm}
-The influence of vertebrate species traits on their responses to land-use and climate-change
+The influence of vertebrate species traits on their responses to land-use and climate change
 \vspace{2cm}}}
 
 \author{Adrienne Etard}
@@ -72,12 +72,6 @@ The influence of vertebrate species traits on their responses to land-use and cl
 \clearpage
 
 \section{Trait data compilation}
-
-\subsection{Definition of diet categories}
-% Diet trait and primary diet and trophic levels
-For mammals and birds, diet was compiled from the Elton Traits database (ref). Primary diet was available in the avian dataset and declined in 5 categories: (1) plant or seed consumers; (2) fruit or nectar consumers; (3) vertebrate consumers, including fish and carrion; (4) invertebrate consumers; and (5) omnivores. Primary diet was not available for mammals. Mammal diet was only described as the percent use of different food items. I pooled these items together into the same five primary diet categories as for the avian dataset. Any food items for which percent use was equal to or above 50\% were considered to be primary food items. Species for which no food item had percent use above 50\% were considered to be omnivores.
-
-For amphibians, diet information was extracted from AmphiBIO. Diet information was available as binary variables for diverse food items. Percent use were not recorded, so these items were considered to form the primary diet. I pooled amphibian species into the 5 diet categories described above.
 
 \subsection{Habitat affinities and broad specialisation}
 \paragraph{Habitat preferences.}
@@ -135,10 +129,10 @@ A broad classification was adopted for species degree of specialisation. Using I
 \hline
 \multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Class}}} & \multicolumn{3}{c|}{\textbf{Replicates}} & \multirow{2}{*}{\textbf{Sister clades}} & \multirow{2}{*}{\textbf{In uncorrected tree}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{`Problematic'}}}                                                                                                                                                            \\ \cline{2-4}
 \multicolumn{1}{|c|}{}                                & \textbf{2}   & \textbf{\textcolor{white}{1}3 }  & \textbf{$>$3 }  &                                         &                                               & \multicolumn{1}{c|}{}                                                                                                                                                                                                   \\ \hline
-\textbf{Mammals}                                      & 129          & 7           & 2           & 28                                      & 131                                           & \textit{\begin{tabular}[c]{@{}l@{}}Heterogeomys cherriei\\ Heterogeomys dariensis\\ Hylopetes sagitta\\ Marmosa paraguayana\\ Neoromicia malagasyensis\\ Plecturocebus discolor\\ Proechimys trinitatis\end{tabular}}   \\ \hline
-\textbf{Birds}                                        & 158          & 7           & 0           & 22                                      & 156                                           & \textit{\begin{tabular}[c]{@{}l@{}}Aerodramus vanikorensis\\ Antrostomus arizonae\\ Calendulauda erythrochlamys\\ Eolophus roseicapilla\\ Myiothlypis rivularis\\ Poecile hudsonicus\\ Spermestes bicolor\end{tabular}} \\ \hline
-\textbf{Reptiles}                                     & 68           & 2           & 0           & 17                                      & 68                                            & \textit{\begin{tabular}[c]{@{}l@{}}Liolaemus curicensis\\ Salvator merianae\end{tabular}}                                                                                                                               \\ \hline
-\textbf{Amphibians}                                   & 41           & 4           & 2           & 8                                       & 43                                            & \textit{\begin{tabular}[c]{@{}l@{}}Lithobates berlandieri\\ Uperodon taprobanicus\end{tabular}}                                                                                                                         \\ \hline
+\textbf{Mammals}                                      & 141          & 8           & 2           & 29                                      & 143                                           & \textit{\begin{tabular}[c]{@{}l@{}}Heterogeomys cherriei\\ Heterogeomys dariensis\\ Hylopetes sagitta\\ Marmosa paraguayana\\Neoromicia brunnea\\ Neoromicia malagasyensis\\ Plecturocebus discolor\\ Proechimys trinitatis\end{tabular}}   \\ \hline
+\textbf{Birds}                                        & 158          & 7           & 0           & 21                                      & 160                                           & \textit{\begin{tabular}[c]{@{}l@{}} Antrostomus arizonae\\ Calendulauda erythrochlamys\\ Myiothlypis rivularis\\Spermestes bicolor\end{tabular}} \\ \hline
+\textbf{Reptiles}                                     & 68           & 2           & 0           & 17                                      & 69                                            & \textit{\begin{tabular}[c]{@{}l@{}} Salvator merianae\end{tabular}}                                                                                                                               \\ \hline
+\textbf{Amphibians}                                   & 41           & 4           & 2           & 8                                       & 44                                            & \textit{\begin{tabular}[c]{@{}l@{}}Lithobates berlandieri\\ Uperodon taprobanicus\end{tabular}}                                                                                                                         \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -191,12 +185,63 @@ Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips w
 \end{figure}
 
 \pagebreak
-\subsection{Initial trait coverage for PREDICTS species}
+\section{Trait coverage and completeness for PREDICTS species}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/Predicts}
+\caption[Trait coverage for species figuring in the PREDICTS database only]{\textbf{Trait coverage for species figuring in the PREDICTS database only.}}
+\label{covPREDICTS}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/Traitcompleteness_PREDICTS}
+\caption[Distribution of completeness values across species figuring in the PREDICTS database only]{\textbf{Distribution of completeness values across species figuring in the PREDICTS database only.} Completeness for reptilian and amphibian species figuring in the trait dataset particularly improved compared to the completeness for the whole dataset.}
+\label{compPREDICTS}
+\end{figure}
+
+\section{Patterns in missing values with regards to phylogenetic trees}
+
+\subsection{Within-family median completeness: plots with tip labels}
+
+\subsubsection{Mammals}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{figures/NA_phylo_patterns/Mammals_completeness}
+\caption[Within-family median completeness for mammals]{\textbf{Within-family median completeness for mammals.}}
+\label{compPREDICTS}
+\end{figure}
+
+\subsubsection{Birds}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45]{figures/NA_phylo_patterns/Birds_completeness}
+\caption[Within-family median completeness for birds]{\textbf{Within-family median completeness for birds.}}
+\label{compPREDICTS}
+\end{figure}
+
+\subsubsection{Reptiles}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.2]{figures/NA_phylo_patterns/Reptiles_completeness}
+\caption[Within-family median completeness for reptiles]{\textbf{Within-family median completeness for reptiles.}}
+\label{compPREDICTS}
+\end{figure}
+
+\subsubsection{Amphibians}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.2]{figures/NA_phylo_patterns/Amphibians_completeness}
+\caption[Within-family median completeness for amphibians]{\textbf{Within-family median completeness for amphibians.}}
+\label{compPREDICTS}
+\end{figure}
 
 \pagebreak
-\subsection{Phylogenetic signal in categorical traits}
-The phylogenetic signal in categorical traits was calculated using the $\delta$ metric developed by Borges et al (2018), who also released the R code to implement a function calculating $\delta$. All signals were significantly different from the expected null-value (Figure \ref{Catphysig}, Table).
+\section{Missing values imputations}
 
+\subsection{Phylogenetic signal}
+
+\subsubsection{Significance}
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.75]{figures/Physignal/Allclasses}
@@ -204,15 +249,14 @@ The phylogenetic signal in categorical traits was calculated using the $\delta$ 
 \label{Catphysig}
 \end{figure}
 
-%% table with p-values for log-likelihood ratio tests and wilcoxon signed rank tests
+\subsubsection{Phylogenetic signal computed with the original phylogenies}
 
+
+%% table with p-values for log-likelihood ratio tests and wilcoxon signed rank tests
 
 
 \pagebreak
 \subsection{Imputation robustness}
-
-\subsection{Trait distributions}
-
 
 
 \end{document}
