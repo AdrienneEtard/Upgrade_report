@@ -122,9 +122,6 @@ Efforts to correct datasets for taxonomy created problems for a marginal proport
 \label{chart_phylorep}
 \end{figure}
 
-% Table with number of replicates, number of which were sister clades:
-% Number of repliated tips, number that are sister clades, number that are truly pbmatic
-% occurences of number of replicates.
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{figures/chapter2/Species_representation_phylo}
@@ -179,9 +176,9 @@ Very few methods have been developed to measure and test phylogenetic signal in 
 
 
 \paragraph{Significant phylogenetic signal in all traits}
-All traits showed significant phylogenetic signal (Table \ref(physignal)), although the strength of the signal was 
+All traits showed significant phylogenetic signal (Table \ref{physignal}), although the strength of the signal was 
 
-Despite much variation in sample sizes across classes, results indicated strong phylogenetic signal across both categorical and continuous traits (Table \ref{physignalcont}). The signals were all significant (expect for amphibian body mass, but the signal in body length was strong and significant in this class). Signal strength was overall higher for mammals and birds, which may be a consequence of missing value biases. p-values outputs of the likehood-ratio tests and the Wilcoxon rank sum tests are provided in the SI.
+Despite much variation in sample sizes across classes, results indicated strong phylogenetic signal across both categorical and continuous traits (Table \ref{physignal}). The signals were all significant (expect for amphibian body mass, but the signal in body length was strong and significant in this class). Signal strength was overall higher for mammals and birds, which may be a consequence of missing value biases. p-values outputs of the likehood-ratio tests and the Wilcoxon rank sum tests are provided in the SI.
 
 \begin{table}[h!]
 \renewcommand{\baselinestretch}{1}
@@ -192,14 +189,28 @@ Despite much variation in sample sizes across classes, results indicated strong 
 \begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline
 \multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Class}}} & \multicolumn{9}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Continuous target traits,\\ additional predictors and range size: $\lambda$\end{tabular}}} & \multicolumn{4}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Categorical traits:\\ $\delta$\end{tabular}}} \\ \cline{2-14} 
-\multicolumn{1}{|c|}{}                                & \textbf{BM}    & \textbf{L}   & \textbf{LCS}   & \textbf{HB}   & \textbf{DB}   & \textbf{GL}   & \textbf{BL}   & \textbf{SM}   & \textbf{RS}   & \textbf{TL}            & \textbf{PD}            & \textbf{DA}            & \textbf{Sp}            \\ \hline
-\textbf{Mammals}                                      & 1.0*           & 0.97*        & 0.96*          & 0.70*         & 0.99*         & 0.99*         & 1.0*          & na            & 0.99*         & 17*                    & 49*                    & 19*                    & 1.4*                   \\ \hline
-\textbf{Birds}                                        & 1.0*           & 0.87*        & 0.92*          & 0.50*         & 0.49*         & 0.99*         & na            & na            & 0.67*         & 10*                    & 16*                    & $29\cdot10^3$*             & 1.6*                   \\ \hline
-\textbf{Reptiles}                                     & 0.36*          & 0.81*        & 0.72*          & 0.39*         & na            & na            & 0.97*         & 0.88*         & 0.41*         & 3.6*                   & na                     & 3.7*                   & 1.5*                   \\ \hline
-\textbf{Amphibians}                                   & 0.80*          & 0.34*        & 0.63*          & 0.78*         & 0.72*         & na            & 0.96*         & na            & 0.55*         & 18*                    & 3.5*                   & 2.8*                   & 3.5*                   \\ \hline
+\multicolumn{1}{|c|}{}                                & \textbf{BM}    & \textbf{L}   & \textbf{LCS}   & \textbf{HB}   & \textbf{DB}   & \textbf{GL}   & \textbf{BL}   & \textbf{SM}   & \textbf{RS}   & \textbf{TL}           & \textbf{PD}           & \textbf{DA}                & \textbf{Sp}          \\ \hline
+\textbf{Mammals}                                      & 1.0*           & 0.97*        & 0.96*          & 0.70*         & 0.99*         & 0.99*         & 1.0*          & na            & 0.99*         & 17*                   & 50*                   & 19*                        & 1.4*                 \\ \hline
+\textbf{Birds}                                        & 1.0*           & 0.87*        & 0.92*          & 0.50*         & 0.49*         & 0.99*         & na            & na            & 0.67*         & 10*                   & 18*                   & 28$\cdot$10$^3$*           & 1.6*                 \\ \hline
+\textbf{Reptiles}                                     & 0.36*          & 0.81*        & 0.72*          & 0.39*         & na            & na            & 0.98*         & 0.87*         & 0.41*         & 4.3*                  & na                    & 7.1*                       & 1.5*                 \\ \hline
+\textbf{Amphibians}                                   & 0.80*          & 0.33*        & 0.63*          & 0.77*         & 0.71*         & na            & 0.96*         & na            & 0.54*         & 18*                   & 3.7*                  & 2.9*                       & 3.6*                 \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/chapter2/Phylosignal/Continuous}
+\caption[Phylogenetic signal in continuous traits(Pagel's $\lambda$) estimated with both original phylogenies and modified phylogenies]{\textbf{Phylogenetic signal in continuous traits(Pagel's $\lambda$) estimated with both original phylogenies and modified phylogenies.}}
+\label{signalcontinuous}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/chapter2/Phylosignal/Categorical}
+\caption[Phylogenetic signal in categorical traits ($\delta$) estimated with both original phylogenies and modified phylogenies]{\textbf{Phylogenetic signal in categorical traits ($\delta$) estimated with both original phylogenies and modified phylogenies.}}
+\label{signalcontinuous}
+\end{figure}
 
 I hence imputed missing trait values using random forest algorithms, implemented by missForest. As stated above, missForest was shown by Penone et al (2014) to be the best method when including phylogenetic information for mixed-type variable imputations. Phylogenetic relationships were included as additional predictors in the form of phylogenetic eigenvectors, extracted from the phylogenies using the PVR package (Santos 2018). Penone et al (2014) also showed that including the first 10 eigenvectors minimised the imputation error. As not all species were represented in the phylogenies (Figure \ref{species_rep_phylo}), phylogenetic eigenvectors presented some missing values. I added taxonomic orders as a predictor variable. All traits in Figure \ref{traitcov} were included in the imputations, except for primary diet and diet breadth in reptiles.
 

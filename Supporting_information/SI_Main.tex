@@ -237,7 +237,7 @@ Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips w
 \end{figure}
 
 \pagebreak
-\section{Missing values imputations}
+\section{Missing values imputation}
 
 \subsection{Phylogenetic signal}
 
@@ -250,7 +250,23 @@ Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips w
 \end{figure}
 
 \subsubsection{Phylogenetic signal computed with the original phylogenies}
-
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.5}
+\begin{center}\fontsize{9}{11}\selectfont
+\caption[Phylogenetic signal in continuous and categorical traits and in range size, calculated with original phylogenies]{\textbf{Phylogenetic signal in continuous and categorical traits and in range size, calculated with original phylogenies.} \textbf{BM}: body mass; \textbf{L}: longevity; \textbf{LCS}: litter/clutch size; \textbf{HB}: habitat breadth; \textbf{DB}: diet breadth; \textbf{GL}: generation length; \textbf{BL}: body length; \textbf{SM}: sexual maturity; \textbf{RS}: range size; \textbf{TL}: trophic level; \textbf{PD}: primary diet; \textbf{DA}: diel activity; \textbf{Sp}: specialisation. The phylogenetic signal in continuous traits was calculated with Pagel's $\lambda$. For categorical traits, the $\delta$ metric developed by Borges et al (2018) was used. A star indicates a significant signal (significant p-values scores for the log-likelihood ratio test in the case of $\lambda$; and significant difference from the simulated null distribution of $\delta$ for categorical traits, see SI for test results). `na' are introduced for traits that were not considered in a class but may have been used in another as a predictor in missing values imputations. All traits showed significant phylogenetic signal, with signals for BM, L, LCS, and GL being particularly strong in mammals and birds (above 0.9). Here all calculations were conducted with the original phylogenies.} 
+\label{physignal}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline
+\multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Class}}} & \multicolumn{9}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Continuous target traits,\\ additional predictors and range size: $\lambda$\end{tabular}}} & \multicolumn{4}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Categorical traits:\\ $\delta$\end{tabular}}} \\ \cline{2-14} 
+\multicolumn{1}{|c|}{}                                & \textbf{BM}    & \textbf{L}   & \textbf{LCS}   & \textbf{HB}   & \textbf{DB}   & \textbf{GL}   & \textbf{BL}   & \textbf{SM}   & \textbf{RS}   & \textbf{TL}           & \textbf{PD}           & \textbf{DA}                & \textbf{Sp}          \\ \hline
+\textbf{Mammals}                                      & 1.0*           & 0.97*        & 0.96*          & 0.71*         & 0.99*         & 0.99*         & 1.0*          & na            & 0.98*         & 16*                   & 46*                   & 17*                        & 1.4*                 \\ \hline
+\textbf{Birds}                                        & 1.0*           & 0.89*        & 0.92*          & 0.48*         & 0.49*         & 0.99*         & na            & na            & 0.66*         & 10*                   & 18*                   & 33$\cdot$10$^3$*           & 1.3*                 \\ \hline
+\textbf{Reptiles}                                     & 0.69*          & 0.79*        & 0.76*          & 0.40*         & na            & na            & 1.0*          & 0.86*         & 0.56*         & 4.4*                  & na                    & 6.3*                       & 1.8*                 \\ \hline
+\textbf{Amphibians}                                   & 0.72*          & 0.49*        & 0.58*          & 0.80*         & 0.52*         & na            & 0.96*         & na            & 0.62*         & 2.6*                  & 3.1*                  & 1.7*                       & 2.3*                 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 %% table with p-values for log-likelihood ratio tests and wilcoxon signed rank tests
 
