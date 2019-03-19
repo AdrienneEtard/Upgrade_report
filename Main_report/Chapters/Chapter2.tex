@@ -2,25 +2,18 @@
 
 A growing body of research uses trait-based approaches to understand how biodiversity links to ecosystem functioning, and how environmental changes are likely to affect species non-randomly with respect to their traits (Hevia et al). Strictly, traits are defined as characteristics measurable the level of an individual, with an effect on organismal fitness or performance. They can be physiological (e.g., metabolic rates), morphological (e.g., body mass), behavioural (e.g., learning) or phenological (e.g., anthesis), or can relate to species life-history (e.g. longevity). This definition can be broadened to include characteristics measurable at the species level, such as the number of habitats known to be used by a species (habitat breadth). Here, I use this broader definition of traits and refer to these as ecological traits.
 
-Many studies have shown that traits influence species responses to environmental pressures (). Moreover, it is now accepted that ecosystem functioning is positively correlated with species functional diversity (Tilman). Species traits can provide a mechanistic understanding of both species roles in ecosystem functioning and of species responses to changes. Traits shape species fundamental and realised niches; for instance, physiological traits influence species thermal tolerances, participating in defining their geographical distributions. Traits such as trophic level or body mass structure food webs and affect inter- and intra-specific competition. As such, traits determine and reflect species use of their environment. Specifically, effect traits define organismal contributions to ecosystem functions. Effect traits are underpinned by species resource use, and this applies at diverse scales, from single-celled nutrient cycling bacteria to large mammals. Response traits are those involved in determining species responses to environmental changes and can overlap with effect traits. 
+Many studies have shown that traits influence species responses to environmental pressures (ref). Moreover, it is now accepted that ecosystem functioning is positively correlated with species diversity (Tilman 2014). Species traits can provide a mechanistic understanding of both species roles in ecosystem functioning and of species responses to changes. Traits shape species fundamental and realised niches; for instance, physiological traits influence species thermal tolerances, participating in defining their geographical distributions. Traits such as trophic level or body mass structure food webs and affect inter- and intra-specific competition (ref). As such, traits determine and reflect species use of their environment. Specifically, effect traits define organismal contributions to ecosystem functions. Effect traits are underpinned by species resource use, and this applies at diverse scales, from single-celled nutrient cycling bacteria to large mammals. Response traits are those involved in determining species responses to environmental changes and can overlap with effect traits. 
 
 Although terrestrial vertebrates have been extensively studied in the past (Titley et al), the vast majority of research investigating the impact of environmental changes on ecosystem functions has focused on plants and invertebrates (Hevia et al). Vertebrates nevertheless play diverse ecosystem roles, and some are important keystone species.  Vertebrate species particularly contribute in food web structures and population dynamics through predatory and herbivory activity. They are pollinators and seed dispersers, and overall participate in nutrient cycling at higher levels. Understanding how environmental changes may affect their ecological roles is important to predict future ecosystem functioning, and to put into place appropriate mitigation measures. The end-goals of my PhD thesis are to elucidate how species traits influence their responses to land-use and climate change, and how this links to changes in ecosystem functioning. Addressing these questions requires to use extensive trait data. Despite vertebrates having been the focus of much research, and despite the growing interest for trait-based approaches, there exist no comprehensive database of vertebrate ecological traits encompassing all classes. Consequently, collating trait data was a prerequisite for any further work, and this operation was constrained by the amount of information available in the literature. The present chapter focuses on data collection methods and missing trait values imputations. Thanks to past and recent efforts to release data in the public domain, at least four comprehensive ecological trait databases are now freely accessible (mammals: Pantheria, amphibians: Amphibio, amniotes: Myhrvold, mammals and birds: Cooke et al). Other trait datasets have been released on online platforms alongside published articles (e.g. Global Assessment of Reptile Distribution initiative, \url{http://www.gardinitiative.org/}), or can be downloaded from online databases (IUCN Red List (\url{https://www.iucnredlist.org/}), BirdLife data zone (\url(http://datazone.birdlife.org/home)). Trait data available from primary sources for mammals and birds is likely to be more abundant and more resolved than for reptiles and amphibians, due to systematic biases in sampling with regards to taxonomic groups (Newbold, \textit{manuscript}).
 
 The present chapter details the methodology I employed to collate trait information across terrestrial vertebrates. Primary sources offered a variety of traits, of which only a few were selected. Trait selection was motivated by two main reasons: (1) traits should be of ecological interest and be related to response or effect processes; (2) trait values should be available for many species, across the four terrestrial vertebrate classes, allowing for cross-classes comparative analyses. The selected target traits related to species life-history and morphology (body mass; longevity; litter/clutch size; diel activity; trophic level; diet) and to their habitat preferences (habitat breadth and specialisation). Reptilian diet was not readily available in primary data sources, and one exception was made as I extracted diet data for the other classes. Species mobility was hardly available across sources, and no similar variable could describe species mobility across classes; although species' abilities to move in their environment is likely to strongly impact their responses to threats, this trait was not considered for the above reasons. 
 
-The present chapter details the methodology I employed to collate selected traits. I elaborate on some of the challenges met when compiling data across many species, such as inconsistency of taxonomy across sources. Not unexpectedly, the amount of missing values was highly variable across classes and traits. To achieve full trait coverage across species, I imputed missing trait values using random-forest algorithms.
-In this chapter, I briefly examine imputation performance, notably by assessing whether increasing species representation in phylogenetic trees affects imputation error. 
+The present chapter details the methodology I employed to collate selected traits. I elaborate on some of the challenges met when compiling data across many species, such as inconsistency of taxonomy across sources. Not unexpectedly, the amount of missing values was highly variable across classes and traits. I examined whether missing trait values presented patterns, both across and within classes. To achieve full trait coverage across species, I imputed missing trait values using random-forest algorithms. 
+%In this chapter, I briefly examine imputation performance, notably by assessing whether increasing species representation in phylogenetic trees affects imputation error. 
 
-In October 2018, Cooke et al released a comprehensive database of six mammalian and avian traits. They collated and imputed missing trait values for body mass, litter/clutch size, volancy, diel activity, primary diet and habitat breadth. As similar primary sources were used in both our data collection, I did not use their database to complement my sources. Moreover, the imputation methods they used to fill gaps in trait coverage differed from mine. I used this freely accessible compiled data as an opportunity to compare the results of both our data collection and imputation processes. This chapter also presents results from this comparison (more extensively so in the SI).
-
-Finally, the trait data collected and imputed in this chapter can be subject to future changes, and may not final at this stage.
-
-%Finally, I briefly examine patterns in missing values with regards to species phylogenetic position.
+In October 2018, Cooke et al released a comprehensive database of six mammalian and avian traits. They collated and imputed missing trait values for body mass, litter/clutch size, volancy, diel activity, primary diet and habitat breadth. As similar primary sources were used in both our data collection, I did not use their database to complement my sources. Moreover, the imputation methods they used to fill gaps in trait coverage differed from mine. I used this freely accessible compiled data as an opportunity to compare the results of both our data collection and imputation processes. Results of this comparison are available in the SI.
 
 
-
-
-\pagebreak
 \section{Methods}
 
 \subsection{Ecological trait data collection}
@@ -133,9 +126,9 @@ Efforts to correct datasets for taxonomy created problems for a marginal proport
 Overall, correcting for taxonomy in phylogenies improved species representation in the trees (Figure \ref{species_rep_phylo}. For amphibian and reptilian species figuring in PREDICTS only, phylogenetic representation disproportionally increased (with a minimum representation of 76\% for PREDICTS amphibians after correcting the trees for taxonomy, inset plot in Figure \ref{species_rep_phylo}). Nevertheless, correcting phylogenetic tip labels generated replicates for a marginal number of tips, which then had to be dropped. 
 
 
-\paragraph{Species attachments to phylogenetic trees.} Some species in the trait datasets were not represented in the phylogenies. Maximising the number of species represented in the phylogenies was important for further trait imputations. Indeed, if traits were evolutionary conserved, species phylogenetic position could be an important predictor of trait values. To maximise species representation, I added some species to the root of their genus, when possible (phytools package). Attaching species at the root of their genus created polytomies, which were resolved randomly (using multi2di, ape package). Resulting trees contained branches of length zero. To facilitate further analyses, a small number ($10^{-10}$) was added to these branch lengths; consequently, the trees were not ultrametric.  were Such a process could have altered the significance and the strength of trait phylogenetic signal. I further verify whether these alterations of the trees had impacted phylogenetic signal, by qualitatively comparing the strength and the significance of phylogenetic signal for each trait estimated using both original trees and augmented trees (see `Assessing phylogenetic signal in traits').
+\paragraph{Species attachments to phylogenetic trees.} Some species in the trait datasets were not represented in the phylogenies. Maximising the number of species represented in the phylogenies was important for further trait imputations. Indeed, if traits were evolutionary conserved, species phylogenetic position could be an important predictor of trait values. To maximise species representation, I added some species to the root of their genus, when possible (phytools package). Attaching species at the root of their genus created polytomies, which were resolved randomly (using multi2di and bifurcatr, ape and PDcalc packages). Resulting trees contained additional branches of length zero. Such modifications of the phylogenetic trees could have altered the significance and the strength of trait phylogenetic signal. I further verify whether these alterations of the trees had impacted phylogenetic signal, by qualitatively comparing the strength and the significance of phylogenetic signal for each trait, estimated using both original trees and augmented trees (see `Assessing phylogenetic signal in traits').
 
-A large number of species were attached to their genera in the trees (Table \ref{random_attachments_phy}); for instance, only 38\% of the species figuring in the reptilian trait dataset were initially found in the squamate phylogeny. After attaching non-represented species, 91\% of the species were placed in the squamate phylogeny. 
+Finally, a large number of species were attached to their genus in the trees (Table \ref{random_attachments_phy}). For instance, only 38\% of the species figuring in the reptilian trait dataset were initially found in the squamate phylogeny. After attaching non-represented species, 91\% of the species were placed in the squamate phylogeny. 
 
 \begin{table}[h!]
 \renewcommand{\baselinestretch}{1}
@@ -156,29 +149,38 @@ Reptiles                    & 62\% (6391 of 10334)                          & 85
 
 
 \subsection{Exploring biases in the coverage and completeness of trait information across classes}
-Having normalised taxonomy and compiled trait data, I assessed trait coverage, defined as the percentage of species for which trait information was available for a given trait. To estimate the amount of trait information available for a species, I calculated trait completeness. For a species, trait completeness was defined as the proportion of traits for which information was available (number of non-missing trait values divided by total number of traits). In corrected datasets, species with 0\% completeness in predictor traits were filtered out.
+Having normalised taxonomy and compiled trait data, I assessed trait coverage, defined as the percentage of species for which trait information was available for a given trait. I also estimated the amount of trait information available for a species by calculating trait completeness. For a species, trait completeness was defined as the proportion of traits for which information was available (number of non-missing trait values divided by total number of traits). In corrected datasets, species with 0\% completeness in predictor traits were filtered out.
 
 Further, I examined whether patterns in the distribution of missing values emerged within classes, as particular clades or parts of the phylogenies could be under-sampled compared to other clades.
-Whether values are missing at random is likely to impact imputation errors, notably if some taxa are under-sampled compared to others. To assess whether missing values presented patterns, I plotted within-family median completeness and coverage values in each branches of phylogenetic trees built at the family level. Tree branches were colour-coded to reflect the median value in each family. Specifically, within family trait completeness was calculated by aggregating species into their families and calculating the median trait completeness within each group. 
-Patterns of missing values in trait coverage were explored for each trait separately. Trait coverage was assessed within families as the number of species for which values were missing over total number of species in each family. As families represented by very few species might present higher percentages of missing values, reflecting family size rather than randomness in sampling, I contrasted trait coverage plots against a plot showing how much each family contributed to the total number of species (number of species in each family over total number of species in the tree).
+Whether values are missing at random is likely to impact imputation errors, notably if some taxa appear to be under-sampled. To assess whether missing values presented patterns, I represented within-family median completeness and coverage values in each branch of phylogenetic trees built at the family level. Tree branches were colour-coded to reflect median values in each family. Specifically, within-family trait completeness was calculated by aggregating species into their families and calculating the median trait completeness within each group. 
 
+Patterns of missing values in trait coverage were explored for each trait separately. Trait coverage was assessed within families as the number of species for which values were missing over the total number of species in each family. As families represented by very few species might present higher percentages of missing values, reflecting family size rather than randomness in sampling, I contrasted trait coverage plots against a plot showing how much each family contributed to the total number of species (number of species in each family over total number of species in the tree).
+
+Trait coverage was highly variable across classes and traits (see Results). Trait coverage for species figuring in the PREDICTS database only overall improved compared to trait coverage for the whole set of species, particularly for reptiles and amphibians (see SI). Nevertheless, no trait reached 100\% coverage in any class. Obtaining trait estimates for all of PREDICTS species was important, as otherwise, each species for which trait values were missing would have to be dropped in further analyses. Moreover, within-class biases in availability of trait information appeared (see Results). Consequently, dropping missing-value species could skew trait distributions and generate biases in further analyses. As such, rather than dropping missing-value species, I aimed to fill coverage gaps by imputing missing trait values. 
 
 \subsection{Imputing missing trait values}
-In order to achieve full trait coverage across classes, I imputed missing trait values. Diverse imputation methods have been developed and used in published articles. Penone et al (2014) assessed the performance of four different imputation approaches (K-nearest neighbour (kNN, Troyanskaya 2001), multivariate imputation by chained equations (mice, van Buuren 2009, 2011), random forest algorithms implemented with missForest (Stekhoven, 2011) and phylogenetic imputations implemented with phylopars (Goolsby, 2016)). Their study showed that the kNN approach resulted in significantly higher imputation errors than the three other approaches. Both missForest and phylopars were the best methods when phylogenetic information was included. Nevertheless, phylopars was much slower than missForest, and could only handle continuous traits. missForest was faster and could deal with mixed type data. Without phylogenetic information, mice was found to be the best method, with fast imputations of mixed-type data. Of all these methods, missForest was the only one that did not make assumptions about data distribution (being a non-parametric approach), or that did not require a prior knowledge of some tuning parameters. As such, missForest appeared to be an interesting option for missing data imputation. To further assess whether to use random forests rather than multivariate chained equations, I estimated the phylogenetic signal in traits. Strong phylogenetic signal in traits would indicate than missForest could perform better than mice.
+In order to achieve full coverage across classes, I imputed missing trait values. Diverse imputation methods have been developed and used in published articles. Penone et al (2014) assessed the performance of four different imputation approaches (K-nearest neighbour (kNN, Troyanskaya 2001), multivariate imputation by chained equations (mice, van Buuren 2009, 2011), random forest algorithms as implemented in R by missForest (Stekhoven, 2011) and phylogenetic imputations implemented with phylopars (Goolsby, 2016)). Their study showed that the kNN approach resulted in significantly higher imputation error rates than the three other approaches. Both missForest and phylopars were the best methods when phylogenetic information was included. Nevertheless, phylopars was much slower than missForest, and could only handle continuous traits. missForest was faster and could deal with mixed type data. Without phylogenetic information, mice was found to be the best method, with fast imputations of mixed-type data. Of all these methods, missForest was the only one that did not make assumptions about data distribution (being a non-parametric approach), or that did not require a prior knowledge of some tuning parameters. As such, missForest appeared to be a robust option for missing data imputation. To further assess whether to use random forests rather than multivariate chained equations, I estimated the amount of phylogenetic signal in traits. Strong phylogenetic signal in traits would indicate than missForest could perform better than mice.
 
 \subsubsection{Assessing phylogenetic signal in traits}
 
 \paragraph{Measuring phylogenetic signal in continuous traits with Pagel's $\lambda$.}
-Phylogenetic signal is a measure of the tendency of closely related species to resemble each other more than less related species. Diverse statistics have been developed to estimate phylogenetic signal, most of them applying to continuous traits (Munkemuller 2012). I used Pagel's $\lambda$ (function phylosig, phytools package). Pagel's $\lambda$ is a scaling component that measures the coefficient by which the trait covariance matrix should be weighted to fit a Brownian motion model of evolution. Indeed, under a Brownian motion model of evolution, the trait covariance matrix is expected to be influenced only by the phylogenetic history: changes in trait values happen at random and trait variance is proportional to evolutionary time. When other factors are at play, the observed covariance matrix is the expected covariance matrix transformed with the estimated $\lambda$. A value close to 0 indicates that the covariance matrix need not be transformed by much to fit a Brownian motion. On the other hand, a value close to 1 indicates that trait values are more similar in closely related species than expected under a Brownian motion model of evolution. Using Pagel's $\lambda$, I assessed the strength of the phylogenetic signal. The phylosig function (phytools) also allows to test for signal significance (comparing the estimated $\lambda$ to the null expectation of $\lambda$ with a log-likelihood ratio test). Note that the function developed by Borges et al does not work if phylogenetic trees contain branches of length 0. As both original and corrected phylogenies contained 0-length branches, I added a very small number to these ($10^{-10}$) to remedy to this issue. As such, the trees with which $\delta$ was computed were not ultrametric. 
+Phylogenetic signal is a measure of the tendency of closely related species to resemble each other more than less related species. Diverse statistics have been developed to estimate phylogenetic signal, most of them applying to continuous traits (Munkemuller 2012). Here, I used Pagel's $\lambda$, estimated with the R function phylosig (phytools package), to assess the amount of phylogenetic signal in continuous traits. Pagel's $\lambda$ is a scaling component that measures the transformation that should be applied to the phylogenetic tree for a trait to have evolved under a pure Brownian motion model of evolution. Under a Brownian motion model of evolution, changes in trait values happen at random along the branches and trait variance is proportional to evolutionary time.  $\lambda$ is then close to zero: the trait covariance matrix is scaled down and the tree loses its internal structure. When $\lambda$ equals one, both the phylogeny and the trait covariance matrix remain unchanged and the structure of the tree explains trait evolution. As such, $\lambda$ values close to one indicate that trait values are more similar in closer related species.  
+
+Using Pagel's $\lambda$, I assessed the strength of the phylogenetic signal. The phylosig function (phytools) also allows to test for signal significance (comparing the estimated $\lambda$ to the null expectation of $\lambda$ with a log-likelihood ratio test). 
 
 \paragraph{Measuring phylogenetic signal in categorical traits with $\delta$ (Borges et al, 2018).}
-Very few methods have been developed to measure and test phylogenetic signal in categorical traits. Fritz and Purvis (2010) introduced the $D$-statistic, which only applies to binary traits. Furthermore, $D$ is based on a discretisation of the trait, which behaves as a continuous trait evolving under Brownian motion. Borges et al (2018) introduced a new statistic, $\delta$, to measure phylogenetic signal in categorical traits. $\delta$ is based on Shannon entropy principles and uses Bayesian inferences for estimation. $\delta$ can take any positive number, with higher values indicating stronger signal. To test for the significance of the signal, the authors propose to compare the estimated value with a null distribution of values. I generated null distributions of $\delta$  for each trait by simulating 100 random trait vectors (simulating Brownian motion of trait evolution) and calculating $\delta$ for each. I then calculated the median of simulated $\delta$ values as well as 95\% confidence intervals. I tested whether the null-medians were significantly lower than the observed value of $\delta$ using one-sided Wilcoxon rank sum tests. 
+Very few methods have been developed to measure and test phylogenetic signal in categorical traits. Fritz and Purvis (2010) introduced the $D$-statistic; nevertheless, $D$ is based on a discretisation of categorical traits, which reduces them to binary variables. Borges et al (2018) introduced a new statistic, called $\delta$, to measure phylogenetic signal in categorical traits of all types. Their approach uses Bayesian inferences to reconstruct trait evolution, that is, to infer trait values in ancestral nodes of the phylogeny. The underlying idea is that the  better the phylogeny explains trait evolution, the lower the uncertainty is in ancestral state inferences. As such, $\delta$ relies on the quantification of the uncertainty associated with the reconstruction of ancestral states. $\delta$ can take any positive number, with higher values indicating stronger signal. To test for the significance of the signal, the authors propose to compare the estimated value of $\delta$ with the null expectation  of $\delta$. 
 
+I estimated phylogenetic signal in categorical traits with the $\delta$ statistic; implementation used the R code provided by Borges et al. To test for the significance of the signal, I generated null distributions of $\delta$  for each trait by randomising trait vectors 50 times (simulating Brownian motion model of trait evolution), and calculating $\delta$ for each randomised vector. I then calculated the median of simulated $\delta$ values as well as 95\% confidence intervals. I tested whether the null-medians were significantly lower than the observed value of $\delta$ using one-sided Wilcoxon rank sum tests. Note that the function developed by Borges et al cannot be implemented if phylogenetic trees contain branches of length 0. As both original and corrected phylogenies contained 0-length branches, I added a very small number to these ($10^{-10}$) to remedy to this issue and to test for phylogenetic signal. 
 
 \paragraph{Significant phylogenetic signal in all traits}
-All traits showed significant phylogenetic signal (Table \ref{physignal}), although the strength of the signal was 
+All traits showed significant phylogenetic signal (Table \ref{physignal} and SI for p-values of statistical tests), although the strength of the signal was variable across classes and traits. Overall, modifying the original phylogenies by correcting for taxonomy and by attaching species to the root of their genus did not, qualitatively, have a strong impact on the signal (Figures \ref{signalcontinuous} and \ref{signalcategorical}), although differences were bigger in reptiles and amphibians, where more than 80\% of missing species were added to phylogenetic trees. In mammals and birds, phylogenetic signals remained similar. On the other hand,the stronger effects were observed for reptilian body mass, where adding species to the tree lowered the strength of the signal, and for amphibian trophic level, were the opposite was observed.
 
-Despite much variation in sample sizes across classes, results indicated strong phylogenetic signal across both categorical and continuous traits (Table \ref{physignal}). The signals were all significant (expect for amphibian body mass, but the signal in body length was strong and significant in this class). Signal strength was overall higher for mammals and birds, which may be a consequence of missing value biases. p-values outputs of the likehood-ratio tests and the Wilcoxon rank sum tests are provided in the SI.
+Phylogenetic signals in categorical traits were all highly significant (Figure \ref{signalcategorical}; p-values for Wilcoxon signed rank test: see SI). The strength of the signal differed across classes and traits, with diel activity, trophic level and primary diet showing particularly strong signal in mammals and birds. Reptiles also showed strong signals for diel activity and trophic level. For amphibians, the results were more even across traits, and still highly significant. Overall, the signal for habitat specialisation was less strong.
+
+Most mammalian continuous traits had very strong phylogenetic signal ($\lambda \geq 0.9$), except habitat breadth ($\lambda \approx 0.7$). In birds, both habitat and diet breadth showed weaker signal, but other continuous traits were highly conserved across closely related species . For amphibians and reptiles, signal strength was much more variable, which may be due to poorer initial trait coverage across phylogenetic tips (see Results). Nevertheless, body length showed high signal in both these classes ($\lambda \geq 0.9$). 
+
+\pagebreak
 
 \begin{table}[h!]
 \renewcommand{\baselinestretch}{1}
@@ -201,43 +203,73 @@ Despite much variation in sample sizes across classes, results indicated strong 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{figures/chapter2/Phylosignal/Continuous}
-\caption[Phylogenetic signal in continuous traits(Pagel's $\lambda$) estimated with both original phylogenies and modified phylogenies]{\textbf{Phylogenetic signal in continuous traits(Pagel's $\lambda$) estimated with both original phylogenies and modified phylogenies.}}
+\caption[Phylogenetic signal in continuous traits (Pagel's $\lambda$) estimated with both original phylogenies and modified phylogenies]{\textbf{Phylogenetic signal in continuous traits (Pagel's $\lambda$) estimated with both original phylogenies and modified phylogenies.} \textbf{(A)} Mammals; \textbf{(B)} birds; \textbf{(C)} reptiles and \textbf{(D)} amphibians. Overall, altering the phylogenies by correcting for taxonomy and by increasing species representation did not have an important effect on $\lambda$.}
 \label{signalcontinuous}
 \end{figure}
+
+\pagebreak
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.7]{figures/chapter2/Phylosignal/Categorical}
-\caption[Phylogenetic signal in categorical traits ($\delta$) estimated with both original phylogenies and modified phylogenies]{\textbf{Phylogenetic signal in categorical traits ($\delta$) estimated with both original phylogenies and modified phylogenies.}}
-\label{signalcontinuous}
+\caption[Phylogenetic signal in categorical traits ($\delta$) estimated with both original phylogenies and modified phylogenies]{\textbf{Phylogenetic signal in categorical traits ($\delta$) estimated with both original phylogenies and modified phylogenies.} \textbf{(A)} Mammals; \textbf{(B)} birds; \textbf{(C)} reptiles and \textbf{(D)} amphibians. Triangle-shaped points represent the estimated phylogenetic signal in each trait; round-shaped points represent the median null expectation of the phylogenetic signal ($\pm95\%CI$). Alterations of the phylogenies did not strongly impact $\delta$.}
+\label{signalcategorical}
 \end{figure}
 
-I hence imputed missing trait values using random forest algorithms, implemented by missForest. As stated above, missForest was shown by Penone et al (2014) to be the best method when including phylogenetic information for mixed-type variable imputations. Phylogenetic relationships were included as additional predictors in the form of phylogenetic eigenvectors, extracted from the phylogenies using the PVR package (Santos 2018). Penone et al (2014) also showed that including the first 10 eigenvectors minimised the imputation error. As not all species were represented in the phylogenies (Figure \ref{species_rep_phylo}), phylogenetic eigenvectors presented some missing values. I added taxonomic orders as a predictor variable. All traits in Figure \ref{traitcov} were included in the imputations, except for primary diet and diet breadth in reptiles.
+\subsubsection{Missing trait values: imputation implementation}
+Despite much variation in trait coverage across classes (see Results), results indicated strong phylogenetic signal in many categorical and continuous traits (Table \ref{physignal}).
+I hence imputed missing trait values using random forest algorithms, implemented by missForest. As stated above, missForest was shown by Penone et al (2014) to be the best method when including phylogenetic information for mixed-type variable imputations. Phylogenetic relationships were included as additional predictors in the form of phylogenetic eigenvectors (Diniz-Filho 2012), extracted from the phylogenies using the PVR package (Santos 2018). Phylogenetic eigenvectors are computed from a phylogenetic distance matrix, and calculated using principal coordinate analysis methods. They summarise the relationships among species, and the first set of eigenvectors reflect larger distances, capturing divergences closer to the root (Diniz-Filho 2012). Penone et al (2014) showed that including the first 10 eigenvectors minimised the imputation error when imputing missing trait values with missForest. As such, I included the first 10 eigenvectors as additional predictors of missing trait values.   
 
+As not all species were represented in the phylogenies (Figure \ref{species_rep_phylo}), I also added taxonomic orders as an extra predictor variable in the random forest algorithm. All traits in Table \ref{datasources} were included in the imputations (except for primary diet and diet breadth in reptiles). Tuning parameters of missForest were set to 10 maximum iterations (if the stopping criterion was not met beforehand, see below) and to 100 trees grown in each forests. To further examine imputation robustness and error, I imputed eight datasets in parallel (eight imputed trait datasets for each class).
 
 \subsubsection{Imputation error and robustness}
-To assess imputation accuracy, I used the `out-of-bag' error (OOB error) calculated by the missForest function. The missForest algorithm proceeds iteratively, training a random forest on observed values first, then predicting missing values over several iterations. When the difference between the last imputed dataset and the previous imputed dataset increases, the stopping criterion is met. The penultimate imputed dataset is then returned. For continuous variables, this difference, $\Delta_{cont}$,  is defined as:
+
+\paragraph{Out-of-bag imputation error.}
+To assess imputation accuracy, I used the `out-of-bag' error (OOB error) returned by the missForest function. The missForest algorithm proceeds iteratively, training random forests on observed values first, then predicting missing values over several iterations. When the difference between the last imputed dataset and the previous imputed dataset increases, the stopping criterion is met. The penultimate imputed dataset is then returned. For continuous variables, this difference, $\Delta_{cont}$,  is defined as:
 \begin{align}
 \Delta_{cont}=\frac{\sum_{j \in N}\left(X^{i,l}-X^{i,p}\right)^2}{\sum_{j \in N}\left(X^{i,l}\right)^2}, 
 \end{align}
-where $j$ is a continuous trait among $N$ traits, $X^{i,l}$ is the last imputed dataset and $X^{i,p}$ is the penultimate imputed dataset.  $\Delta_{cont}$ is a measure of the aggregated distance between two successive imputations on all continuous traits.  For categorical variables, the difference $\Delta_{cat}$ is:
+where $j$ is a continuous trait among $N$ traits, $X^{i,l}$ is the last imputed dataset and $X^{i,p}$ is the penultimate imputed dataset.  $\Delta_{cont}$ is a measure of the aggregated distance between two successive imputations across all continuous traits.  For categorical variables, the difference $\Delta_{cat}$ is:
 \begin{align}
 \Delta_{cat}=\frac{\sum_{k \in F}\sum_{j} J_{X^{i,l}\neq X^{i,p}}}{n(NA)}, 
 \label{eqPFC}
 \end{align}
-where $k$ is a categorical trait among $F$ categorical traits, $n(NA)$ is a the number of missing values for $k$ and $J$ is the $j^{th}$ imputed values for which the consecutive imputations predicted contradicting results. In other words, $\Delta_{cat}$ measures the proportion of values that were found to be different between two successive imputations.
-See Stekhoven (2011) for more details.
+where $k$ is a categorical trait among $F$ categorical traits, $n(NA)$ is a the number of missing values for $k$ and $J$ is the $j^{th}$ imputed values for which the consecutive imputations predicted contradicting results. In other words, $\Delta_{cat}$ measures the proportion of values that were found to be different between two successive imputations
+(see Stekhoven (2011) for more details).
 
-When the stopping criterion has been met, imputation error rates can be estimated. A mean square error (MSE) for each continuous trait and a proportion of falsely classified values (PFC) for each categorical trait are returned (the function can also return an overall normalised MSE for all continuous and overall PFC values for all categorical traits). The MSE for a trait is defined as:
+When the stopping criterion has been met, out-of-bag imputation errors can be estimated.
+Out-of-bag errors refer to errors estimated from sub-samples of the data (bootstrap datasets, on which models are trained). Out-of-bag errors are estimated from these bootstrap datasets and as such differ from `true' imputation errors, which require previous knowledge of the full dataset. The true root-mean square error (root-MSE) for continuous traits is defined as: 
 \begin{align}
 \sqrt{\frac{mean\left(\left(X_t-X_i\right)^2\right)}{var\left(X_t\right)}}, 
 \end{align}
-where $X_t$ is a vector of the complete trait values and $X_i$ a vector of the imputed trait values (Stekhoven 2011). For categorical traits, the  is calculated as the PFC ($\Delta_{cat}$, Equation \ref{eqPFC}). Imputation performance improves with decreasing error values.
+where $X_t$ is a vector of the complete trait values and $X_i$ a vector of the imputed trait values (Stekhoven 2011). In case of an out-of-bag error, when the complete trait data is not provided, the MSE is calculated from the bootstrap datasets. For categorical traits, the out-of-bag PFC is calculated as the PFC ($\Delta_{cat}$, Equation \ref{eqPFC}), using the bootstrap sub-samples. Breiman (1996) showed that OOB estimates provide accurate estimations of the true imputation error. 
 
-I imputed 8 trait datasets for each class and plotted the MSE and PFC across all imputations. I then investigated whether imputations were robust examining whether values across imputations were congruent, or, on the other hand, showed a high variability.
+I retrieved OOB imputation errors (root-MSE and PFC) across eight imputed trait datasets in each class. I plotted the mean root-MSE and the mean PFC across the imputed datasets, as well as the range in errors (maximum error values and minimum errors values across all imputed datasets).
+
+\paragraph{Imputation congruence.} To further assess whether imputations were robust, I investigated whether similar values were imputed across the eight datasets in each class, or in other words, whether results were congruent across the imputed datasets.  My expectation was that, for a trait, values imputed independently in different rounds should be nearly identical if imputations were robust. As such, for a continuous trait, pairwise correlations coefficients should be high across the eight datasets (correlation coefficients for the same trait imputed in pairwise independent rounds, see Table \ref{pairwisecorr}). For categorical traits, the random forest should predict the same values across the eight datasets. 
+
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.5}
+\begin{center}\fontsize{9}{11}\selectfont
+\caption[Conceptual design for examining imputation congruence for continuous traits]{\textbf{Conceptual design for examining imputation congruence for continuous traits.} For one trait, pairwise correlation coefficients across eight independent imputation rounds are expected to be high if imputation are robust. To assess imputation congruence across eight imputed datasets, pairwise correlation coefficients were averaged (and the spread assessed using the range).} 
+\label{pairwisecorr}
+ \begin{tabular}{c|c|c|c|}
+\cline{2-4}
+\multicolumn{1}{l|}{}                    & \textbf{Imputed 1} & \textbf{Imputed 2} & \textbf{Imputed n} \\ \hline
+\multicolumn{1}{|c|}{\textbf{Imputed 1}} & 1                  & -                  & -                  \\ \hline
+\multicolumn{1}{|c|}{\textbf{Imputed 2}} & corr(1,2)          & 1                  & -                  \\ \hline
+\multicolumn{1}{|c|}{\textbf{Imputed n}} & corr(n,1)          & corr(n,2)          & 1                  \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
 
 
-\pagebreak
+For continuous traits, I assessed imputation congruence across the eight imputed datasets by averaging pairwise Pearson's correlation coefficients and plotting the mean (and range) for each trait. For categorical traits, I assessed congruence by assessing the percentage of species for which all eight imputed values were similar.
+
+
+
+
 \section{Results}
 
 \subsection{Outputs}
@@ -272,9 +304,23 @@ Trait coverage revealed taxonomic biases, with higher resolution of trait inform
 \end{figure}
 
 \subsubsection{Non-randomness in trait information availability within classes: patterns of missing trait values with regards to phylogenies}
-Beyond cross-class biases in the availability of trait information, within-class patterns of missing values showed that certain families were less sampled than others.
+Beyond cross-class biases in the availability of trait information, within-class patterns of missing values were revealed when plotting within-family median completeness and coverage against phylogenetic trees built at the family level.
 
-\paragraph{Within-class patterns of trait coverage}
+\paragraph{Within-class patterns of trait completeness.}
+Figure \ref{classcomp} shows within-family trait completeness for each class, colour-coded in the tree branches. For better visualisation, the trees are represented without tip labels. Figures providing tip labels are available in the SI (for each class, tip label information includes taxonomic order and family). As expected from the distribution of completeness values for mammals and birds, within-family completeness was high across most branches of the trees. In mammals, Chiropteras appeared to have lower median trait completeness than other orders (light blue cluster appearing in the middle of the tree, Figure \ref{classcomp}A). In birds, no particular structure seemed to emerge in within-family median completeness (although the upper part of the phylogeny, corresponding to Procellariiformes, Charadriiformes, and Anseriformes appeared to be particularly well sampled, Figure \ref{classcomp}B). In herptiles, nevertheless, clusters of similar completeness appeared at family levels. For reptiles, the lower part of the tree appeared to be particularly less well sampled than the above part of the tree (encompassing families such as Tropidophiidae, Lamprophiida or Typhlopidae: mostly, snakes; \ref{classcomp}C). In amphibians, families in the Anura order showed both the best and worst median completeness (Figure \ref{classcomp}D). 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.75]{figures/chapter2/NA_phylo_patterns/Completeness_all}
+\caption[Median completeness across families]{\textbf{Median completeness across families.} Tips labels are not shown here for better visualisation of the results; the same figures with tip labels are provided in the SI (zooming into the figure is necessary for mammals and birds); tip label information includes order and family. \textbf{(A)} Mammalian family tree; \textbf{(B)} avian family tree; \textbf{(C)} reptilian family tree and \textbf{(D)} amphibian family tree. Median trait completeness was calculated within families and colour-coded  against tree branches. Family clusters of similar median trait completeness appear, particularly in reptile and amphibians.}
+\label{classcomp}
+\end{figure}
+
+Overall, these results showed that trait completeness was not random with regards to the phylogenetic relatedness of families. Closely related families seemed to share more similar median trait completeness than less closely related families. As such, the availability of trait information for a species may be dependent on its phylogenetic history; many other factors may interplay with species evolutionary history to explain these patterns. 
+
+\paragraph{Within-class patterns of trait coverage.} Figures \ref{familycov_mammals}, \ref{familycov_birds}, \ref{familycov_reptiles} and \ref{familycov_amphibians} show within-family median trait coverage. In each figure, the subplots are ordered from the trait showing highest overall coverage to the trait showing lowest overall coverage (as in Figure \ref{traitcov}. In each figure, the last subplot represents the contribution of each family to the total number of species in the phylogeny. 
+
+Overall, these plots showed that for each trait, phylogenies seemed to be sampled non-randomly, with apparent clusters more visible as trait coverage decreased. Moreover, which families were better sampled was not 
 
 \pagebreak
 
@@ -282,7 +328,7 @@ Beyond cross-class biases in the availability of trait information, within-class
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{figures/chapter2/NA_phylo_patterns/Mammals_coverage}
-\caption[]{{}}
+\caption[Within-family trait coverage in mammals]{\textbf{Within-family trait coverage in mammals.}}
 \label{familycov_mammals}
 \end{figure}
 
@@ -290,7 +336,7 @@ Beyond cross-class biases in the availability of trait information, within-class
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=1]{figures/chapter2/NA_phylo_patterns/Birds_coverage}
-\caption[]{{}}
+\caption[Within-family trait coverage in birds]{\textbf{Within-family trait coverage in birds.}}
 \label{familycov_birds}
 \end{figure}
 
@@ -299,64 +345,89 @@ Beyond cross-class biases in the availability of trait information, within-class
 % Reptiles
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.9]{figures/chapter2/NA_phylo_patterns/Reptiles_coverage}
-\caption[]{{}}
+\includegraphics[scale=1]{figures/chapter2/NA_phylo_patterns/Reptiles_coverage}
+\caption[Within-family trait coverage in reptiles (squamates)]{\textbf{Within-family trait coverage in reptiles (squamates).}}
 \label{familycov_reptiles}
 \end{figure}
 
 % Amphibians
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.9]{figures/chapter2/NA_phylo_patterns/Amphibians_coverage}
-\caption[]{{}}
+\includegraphics[scale=1]{figures/chapter2/NA_phylo_patterns/Amphibians_coverage}
+\caption[Within-family trait coverage in amphibians]{\textbf{Within-family trait coverage in amphibians.}}
 \label{familycov_amphibians}
 \end{figure}
 
 
+
 \pagebreak
-
-\paragraph{Within-class patterns of trait completeness}
-
-
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.75]{figures/chapter2/NA_phylo_patterns/Completeness_all}
-\caption[Median completeness across families]{\textbf{Median completeness across families.} Tips labels are not shown here for better visualisation of the results; the same figures with tip labels are provided in the SI (zooming into the figure is necessary for mammals and birds); tip label information includes order and family. \textbf{(A)} Mammalian family tree; \textbf{(B)} avian family tree; \textbf{(C)} reptilian family tree and \textbf{(D)} amphibian family tree. Median trait completeness was calculated within families and colour-coded  against tree branches.}
-\label{classcomp}
-\end{figure}
-
 \subsection{Imputation performance and robustness}
 
 \subsubsection{Out-of-bag imputation errors}
-
+Figure \ref{OOBerrors}A shows out-of-bag root-mean-squared errors for each continuous traits (shown here for one randomly selected imputed dataset). Figure \ref{OOBerrors}B is the out-of-bag proportion of falsely classified values for categorical for the same imputed dataset.
+Estimated prediction errors for categorical traits were low to moderate (all below XX \%). For continuous traits, estimated errors could be large (e.g., mammalian body mass, amphibian clutch size  or range sizes). Nevertheless, such large errors were driven by high trait values in the dataset. Figure \ref{traitdist} shows the distribution of trait values after imputations; large prediction errors are estimated where traits can attain high values. 
+ 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.75]{figures/chapter2/Imputation_errors/MSE_PFC}
-\caption[missForest mean-square errors and proportion of falsely classified values]{\textbf{missForest mean-square errors and proportion of falsely classified values.} \textbf{(A)} Mean-square errors for continuous traits. \textbf{(B)} Proportion of falsely classified values.}
-\label{plotPFC}
+\caption[missForest out-of-bag root-mean-square errors and proportion of falsely classified values]{\textbf{missForest out-of-bag root-mean-squared errors and proportion of falsely classified values.} \textbf{(A)} Out-of-bag root-mean-square errors for continuous traits. \textbf{(B)} Out-of-bag proportion of falsely classified values.}
+\label{OOBerrors}
 \end{figure}
 
-\subsubsection{Congruence of imputed values among 8 imputed datasets}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.7]{figures/chapter2/Imputation_errors/Distributions}
+\caption[Distribution of trait values after imputation for body mass, longevity, litter/clutch size and distribution of range sizes]{\textbf{Distribution of trait values after imputation for body mass, longevity, litter/clutch size and distribution of range sizes.}}
+\label{traitdist}
+\end{figure}
+
+
+
+\subsubsection{Congruence of imputed values among eight imputed datasets}
+
+Figure \ref{congruence}A shows the range and mean of pairwise correlation coefficients obtained for each trait, across eight imputed datasets. Pairwise correlation coefficients were calculated for each trait, predicted in eight independent imputation rounds, so that high correlation  values indicated more similar predictions for one trait across the eight datasets. Overall, imputation congruence was high for all continuous traits except habitat breadth. Imputation congruence was high across all classes for longevity (minimum mean correlation coefficient of 0.87 for reptiles), but more variable in other traits depending on the class.
+Figure \ref{congruence}B shows the proportion of species for which imputed values were similar across the eight imputed datasets. At least 50\% of all species had similar predicted values across all imputed traits. Imputation congruence was high for trophic level (above 86\% in all classes), and more variable in other traits depending on the class. 
+
+Mammals had the best imputation congruence scores in both continuous and categorical traits (minimum mean correlation coefficient of 0.85 for continuous traits and minimum percentage of agreement of 85\% for categorical traits). Imputation congruence for birds was also very good, though scores were slightly lower for diet related variables (diet breadth and primary diet). For amphibians and reptiles, mean correlation coefficients were all above 0.60, except for habitat breadth. For amphibians in particular, imputation congruence on habitat breadth was poor. Overall, imputed results for amphibians were less congruent than for reptiles, birds and mammals.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.75]{figures/chapter2/Congruence_imputations/Summary}
-\caption[]{{}}
-\label{plotPFC}
+\caption[Imputation congruence across eight imputed datasets]{\textbf{Imputation congruence across eight imputed datasets.}}
+\label{congruence}
 \end{figure}
 
-\subsubsection{Comparison with another collected and imputed datasets for mammals and birds}
 
 \pagebreak
 \section{Discussion}
-\begin{itemize}
-\item Taxonomic challenges
-\item Manipulation of the phylogenies
-Adding species randomly => justified if traits have a strong phylogenetic signal even with the uncorrected phylogeny. Then adding species makes sense (because strong phylogenetic signal, "trade-off" between the quality of the imputations versus the quality of the phylogenies)
-\item Biases in availability of trait information across classes, Raunkier shortfall
-\item Imputation robustness 
-\end{itemize}
-% Finally, I discuss the weaknesses of the methodology
-% Impossibility to get intra-specific variation.
+
+% biases
+% imputation robustness and error
+
+In this work, I compiled and imputed data on 10 traits across x mammalian, x reptilian, x avian and x amphibian species. Traits related to species morphological characteristics (body mass), to their life-history (litter/clutch size, longevity, diel activity, ), to their habitat preferences (habitat breadth, specialisation), and to their diet (trophic level; for mammals, birds and amphibians only, primary diet and diet breadth were also collated). To my knowledge, there is yet no published or freely available trait database encompassing all terrestrial vertebrates. As such, this work could constitute one of the first attempts to collate extensive trait information across all terrestrial vertebrates, enabled by all past and recent efforts to release trait information in the public domain.
+
+Further developments could include enhancing the existing data to improve initial trait coverage. Alternatively, if novel primary sources were released, new variables could be added; even though the traits included in this work already encompass most of the ecological traits available in the literature across vertebrate classes, one notable omission was species mobility. Species abilites to both move within their habitats (home range) and to disperse and colonise new areas is likely to have a major impact on their aptitudes to cope with anthropogenic changes. Nevertheless, traits relating to mobility in amphibians or reptiles were unavailable. Relating to species movement, the only readily available variable that could have been added was volancy, assuming that most amphibians and reptiles were non-volant. Other  information that could further enhance the dataset include reptilian diet, foraging strata and terrestriality (species habitat preferences along a vertical gradient: e.g. above versus below ground prefences). Note that the current compiled and imputed dataset contains fossil species, as some of the primary sources provided estimates for these. Such species could be filtered out in the future.
+
+This works highlighted several frequent issues met when working with a large number of species or when working with dasasets from different origins. For categorical variables, the levels of the least resolved dataset had to be adopted across all classes, even though more detailed information was avaible in another class. Indeed, common denominators had to be found, at the expanse of highly resolved data. One example was diel activity time, that I had to constrain to two categories (nocturnal or non-nocturnal). The main reason for this was that most primary sources focused on one class only, while only a few encompassed more than two classes. Similarly, I did not compile any metric reflecting intra-specific variability in continuous traits. Intra-specific variability has been shown to have important effects on ecological systems, and a growing body of literature encourages trait-based research to include intraspecific variability in research studies. Here, metrics reflecting intraspecific variability were excluded due to both the scale of the data compilation and the lack of estimates across classes.
+
+One major issue in this work was the taxonomic `pseudoreplication' of species due to the presence of similar species under diverse names, and other taxonomic errors. To a lesser extent, where older taxonomic classification systems were used, inaccurate order or family information was provided in the primary sources. Taxonomic errors and replication of names are a major issue in ecology. This issue, which has been termed `taxonomic inflation', is difficult to tackle at large scales (Isaac et al 2004). The lack of a comprehensive and universal database for species names complicates species identification, as well as unresolved taxonomy and taxonomic revisions (for example, one species being split into two subspecies, or the opposite).
+Taxonomic synonymy and taxonomic errors in general have been found to be a severe issue in diversity studies; for example, they can impediment accurate estimations of species number (Cardoso 2017). In this work, I showed that taxonomic synonymy artificially increased the amount of missing trait values by creating pseudoreplicates of the same species, also inflating the overall number of species and significantly lowering median trait completeness. The procedure that I developed to tackle taxonomic redundancy was itself highly dependent on the quality of the taxonomic information in the Red List and the ITIS. Overall, the procedure was not optimal, and a number of issues could be addressed to try and improved it. Nevertheless, it participated in reducing taxonomic mismatches and in increasing the number of matches across datasets. Some initiative, such as the Taxonomic Name Resolution Service for plants (http://tnrs.iplantcollaborative.org/) attempt to tackle taxonomic inflation by providing a free tool to standardise plant names and retrieve current accepted names. Up to five thousand species names can be submitted at once. The Global Information System provides a similar tool, which nevertheless does not systematically return species accepted names (but their status and a confidence level), and is as such less practical. Nonetheless, such databases are an invaluable source of information and should encourage researchers to try and standardise taxonomy.
+
+% biases in trait information
+
+In October 2018, Cooke et al released a dataset of six mammalian and avian trait. The methods they used to compile and impute trait data were very similar to the methods used in this work. The most notable divergences were the use of different imputation methods (multivariate chained equations) and the pre-selection of traits with more than 50\% coverage in Cooke et al. Because very similar primary sources were used, I did not directly use their data in my work. Nevertheless, I compared the results of both data collection and imputation (see SI). 
+Using non parametric random forest algorithms, as implemented in R by the missForest function, presented several advantages over other imputation methods. First, random forests could deal with mixed type variables, and estimate out-of-bag errors for each variable. Second, no underlying data distribution was assumed in the process, as it builds upon non-parametric processes. Third, missForest was computationally faster than other functions, which was an important criterion. Morever, missForest was found to be the best available method to use when imputing trait data with phylogenetic information. Nevertheless, even though missForest was found to be robust to missing values, no study has investigated imputations robustness with an amount of missing values as big as it was here. Moreover clustering of missing trait values in the phylogeny.
+
+Despite these advantages, the robustness to imputations needs to be investigated further, for reasons that I detail below.
+
+
+\paragraph{Conclusion}
+
+I presented in this Chapter  
+
+The methods for compiling trait data may be revisited in the future, and the trait data is likely to be enhanced or to slightly change if imputed again.
+
+Future work will build upon the trait data collated as described in this chapter. I illustrate the first use of this data with the next chapter, which investigates how land-use change impacts the functional diversity of vertebrate communities. In the last chapter, I detail some research questions that this data will allow to investigate in the future months on my PhD.
+
 
 Completeness is likely to have an important effect on trait imputations, as it is a reflection of how many predictors have an estimate for a species.
