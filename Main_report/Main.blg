@@ -1,0 +1,13 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
+The style file: biblatex.bst
+Database file #1: Main-blx.bib
+Database file #2: library.bib
+Repeated entry---line 13970 of file library.bib
+ : @article{Luck2012
+ :                  ,
+I'm skipping whatever remains of this entry
+Database file #3: tilman2014.bib
+Warning--I didn't find a database entry for "Tilman2014"
+Warning--I didn't find a database entry for ")"
+Biblatex version: 3.11
+(There was 1 error message)

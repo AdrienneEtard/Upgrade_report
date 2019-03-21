@@ -1,0 +1,3612 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{Calosi2010}{article}{}
+    \name{author}{5}{}{%
+      {{hash=CP}{%
+         family={Calosi},
+         familyi={C\bibinitperiod},
+         given={Piero},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BDT}{%
+         family={Bilton},
+         familyi={B\bibinitperiod},
+         given={David\bibnamedelima T.},
+         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=SJI}{%
+         family={Spicer},
+         familyi={S\bibinitperiod},
+         given={John\bibnamedelima I.},
+         giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=VSC}{%
+         family={Votier},
+         familyi={V\bibinitperiod},
+         given={Stephen\bibnamedelima C.},
+         giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Atfield},
+         familyi={A\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Biogeography,Macroecology/macrophysiology,Niche-breadth
+  hypothesis,Rarity,Thermal tolerance}
+    \strng{namehash}{CP+1}
+    \strng{fullhash}{CPBDTSJIVSCAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    1. The geographical range sizes of individual species vary considerably in
+  extent, although the factors underlying this variation remain poorly
+  understood, and could include a number of ecological and evolutionary
+  processes. A favoured explanation for range size variation is that this
+  result from differences in fundamental niche breadths, suggesting a key role
+  for physiology in determining range size, although to date empirical tests of
+  these ideas remain limited. 2. Here we explore relationships between thermal
+  physiology and biogeography, whilst controlling for possible differences in
+  dispersal ability and phylogenetic relatedness, across 14 ecologically
+  similar congeners which differ in geographical range extent; European diving
+  beetles of the genus Deronectes Sharp (Coleoptera, Dytiscidae). Absolute
+  upper and lower temperature tolerance and acclimatory abilities are
+  determined for populations of each species, following acclimation in the
+  laboratory. 3. Absolute thermal tolerance range is the best predictor of both
+  species' latitudinal range extent and position, differences in dispersal
+  ability (based on wing size) apparently being less important in this group.
+  In addition, species' northern and southern range limits are related to their
+  tolerance of low and high temperatures respectively. In all cases, absolute
+  temperature tolerances, rather than acclimatory abilities are the best
+  predictors of range parameters, whilst the use of independent contrasts
+  suggested that species' thermal acclimation abilities may also relate to
+  biogeography, although increased acclimatory ability does not appear to be
+  associated with increased range size. 4. Our study is the first to provide
+  empirical support for a relationship between thermal physiology and range
+  size variation in widespread and restricted species, conducted using the same
+  experimental design, within a phylogenetically and ecologically controlled
+  framework.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1365-2656.2009.01611.x
+    \endverb
+    \field{isbn}{0021-8790}
+    \field{issn}{00218790}
+    \field{title}{{What determines a species' geographical range? Thermal
+  biology and latitudinal range size relationships in European diving beetles
+  (Coleoptera: Dytiscidae)}}
+    \field{journaltitle}{Journal of Animal Ecology}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Cooke2019}{article}{}
+    \name{author}{3}{}{%
+      {{hash=CRS}{%
+         family={Cooke},
+         familyi={C\bibinitperiod},
+         given={Robert\bibnamedelima S.C.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=BAE}{%
+         family={Bates},
+         familyi={B\bibinitperiod},
+         given={Amanda\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=EF}{%
+         family={Eigenbrod},
+         familyi={E\bibinitperiod},
+         given={Felix},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{birds,ecoregion,function,insurance,mammals,response diversity,traits}
+    \strng{namehash}{CRS+1}
+    \strng{fullhash}{CRSBAEEF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \verb{doi}
+    \verb 10.1111/geb.12869
+    \endverb
+    \field{issn}{14668238}
+    \field{number}{October 2018}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{{Global trade-offs of functional redundancy and functional
+  dispersion for birds and mammals}}
+    \verb{file}
+    \verb :C\:/Users/Adrienne/Downloads/Global_trade-offs_of_functional_redunda
+    \verb ncy_and_fun.pdf:pdf
+    \endverb
+    \field{journaltitle}{Global Ecology and Biogeography}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Cunningham2018}{article}{}
+    \name{author}{6}{}{%
+      {{hash=CCX}{%
+         family={Cunningham},
+         familyi={C\bibinitperiod},
+         given={Calum\bibnamedelima X.},
+         giveni={C\bibinitperiod\bibinitdelim X\bibinitperiod},
+      }}%
+      {{hash=JCN}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Christopher\bibnamedelima N.},
+         giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=BLA}{%
+         family={Barmuta},
+         familyi={B\bibinitperiod},
+         given={Leon\bibnamedelima A.},
+         giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hollings},
+         familyi={H\bibinitperiod},
+         given={Tracey},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=WEJ}{%
+         family={Woehler},
+         familyi={W\bibinitperiod},
+         given={Eric\bibnamedelima J.},
+         giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=JME}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Menna\bibnamedelima E.},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \keyw{Apex predators,Carcass use,Ecosystem
+  function,Mesopredators,Scavenging,Trophic cascade}
+    \strng{namehash}{CCX+1}
+    \strng{fullhash}{CCXJCNBLAHTWEJJME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Top carnivores have suffered widespread global declines, with
+  well-documented effects on mesopredators and herbivores. We know less about
+  how carnivores affect ecosystems through scavenging. Tasmania's top
+  carnivore, the Tasmanian devil (Sarcophilus harrisii), has suffered severe
+  disease-induced population declines, providing a natural experiment on the
+  role of scavenging in structuring communities. Using remote cameras and
+  experimentally placed carcasses, we show that mesopredators consume more
+  carrion in areas where devils have declined. Carcass consumption by the two
+  native mesopredators was best predicted by competition for carrion, whereas
+  consumption by the invasive mesopredator, the feral cat (Felis catus), was
+  better predicted by the landscape-level abundance of devils, suggesting a
+  relaxed landscape of fear where devils are suppressed. Reduced discovery of
+  carcasses by devils was balanced by the increased discovery by mesopredators.
+  Nonetheless, carcasses persisted approximately 2.6-fold longer where devils
+  have declined, highlighting their importance for rapid carrion removal. The
+  major beneficiary of increased carrion availability was the forest raven
+  (Corvus tasmanicus). Population trends of ravens increased 2.2-fold from 1998
+  to 2017, the period of devil decline, but this increase occurred
+  Tasmania-wide, making the cause unclear. This case study provides a
+  little-studied potential mechanism for mesopredator release, with broad
+  relevance to the vast areas of the world that have suffered carnivore
+  declines.%
+    }
+    \verb{doi}
+    \verb 10.1098/rspb.2018.1582
+    \endverb
+    \field{issn}{14712954}
+    \field{title}{{Top carnivore decline has cascading effects on scavengers
+  and carrion persistence}}
+    \field{journaltitle}{Proceedings of the Royal Society B: Biological
+  Sciences}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Gainsbury2018}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=GAM}{%
+         family={Gainsbury},
+         familyi={G\bibinitperiod},
+         given={Alison\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TOJ}{%
+         family={Tallowin},
+         familyi={T\bibinitperiod},
+         given={Oliver\bibnamedelima J.S.},
+         giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{dietary data set,dietary guilds,extrapolation
+  validity,mammalia,trophic level}
+    \strng{namehash}{GAM+1}
+    \strng{fullhash}{GAMTOJMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Diet is a key trait of an organism's life history that influences a broad
+  spectrum of ecological and evolutionary processes. Kissling et al. (2014;
+  Ecology and Evolution 4: 2913–2930) compiled a species-specific data set of
+  diet preferences of mammals for 38% of a total of 5364 terrestrial mammalian
+  species assessed for the International Union for Conservation of Nature's Red
+  List, to facilitate future studies. The authors imputed dietary data for the
+  remaining 62% by using extrapolation from phylogenetic relatives. We
+  collected dietary information for 1261 mammalian species for which data were
+  extrapolated by Kissling et al. (2014), in order to evaluate the success with
+  which such extrapolation can predict true diets. The extrapolation method
+  devised by Kissling et al. (2014) performed well for broad dietary categories
+  (consumers of plants and animals). However, the method performed
+  inconsistently, and sometimes poorly, for finer dietary categories, varying
+  in accuracy in both dietary categories and mammalian orders. The results of
+  the extrapolation performance serve as a cautionary tale. Given the large
+  variation in extrapolation performance, we recommend a more conservative
+  approach for inferring mammalian diets, whereby dietary extrapolation is
+  implemented only when there is a high degree of phylogenetic conservatism for
+  dietary traits. Phylogenetic comparative methods can be used to detect and
+  measure phylogenetic signal in diet. If data for species are needed, then
+  only the broadest feeding categories should be used. This would ensure a
+  greater level of accuracy and provide a more robust data set for further
+  ecological and evolutionary analysis.%
+    }
+    \field{booktitle}{Mammal Review}
+    \verb{doi}
+    \verb 10.1111/mam.12119
+    \endverb
+    \field{issn}{13652907}
+    \field{title}{{An updated global data set for diet preferences in
+  terrestrial mammals: testing the validity of extrapolation}}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Gravel2016}{misc}{}
+    \name{author}{3}{}{%
+      {{hash=GD}{%
+         family={Gravel},
+         familyi={G\bibinitperiod},
+         given={Dominique},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=AC}{%
+         family={Albouy},
+         familyi={A\bibinitperiod},
+         given={Camille},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Thuiller},
+         familyi={T\bibinitperiod},
+         given={Wilfried},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{Biodiversity,Ecological networks,Ecosystem functioning,Trait
+  matching}
+    \strng{namehash}{GD+1}
+    \strng{fullhash}{GDACTW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    There is a growing interest in using trait-based approaches to characterize
+  the functional structure of animal communities. Quantitative methods have
+  been derived mostly for plant ecology, but it is now common to characterize
+  the functional composition of various systems such as soils, coral reefs,
+  pelagic food webs or terrestrial vertebrate communities. With the
+  ever-increasing availability of distribution and trait data, a quantitative
+  method to represent the different roles of animals in a community promise to
+  find generalities that will facilitate cross-system comparisons. There is,
+  however, currently no theory relating the functional composition of food webs
+  to their dynamics and properties. The intuitive interpretation that more
+  functional diversity leads to higher resource exploitation and better
+  ecosystem functioning was brought from plant ecology and does not apply
+  readily to food webs. Here we appraise whether there are interpretable
+  metrics to describe the functional composition of food webs that could foster
+  a better understanding of their structure and functioning. We first
+  distinguish the various roles that traits have on food web topology, resource
+  extraction (bottom-up effects), trophic regulation (top-down effects), and
+  the ability to keep energy and materials within the community. We then
+  discuss positive effects of functional trait diversity on food webs, such as
+  niche construction and bottom-up effects. We follow with a discussion on the
+  negative effects of functional diversity, such as enhanced competition (both
+  exploitation and apparent) and top-down control. Our review reveals that most
+  of our current understanding of the impact of functional trait diversity on
+  food web properties and functioning comes from an over-simplistic
+  representation of network structure with well-defined levels. We, therefore,
+  conclude with propositions for new research avenues for both theoreticians
+  and empiricists.%
+    }
+    \field{booktitle}{Philosophical Transactions of the Royal Society B:
+  Biological Sciences}
+    \verb{doi}
+    \verb 10.1098/rstb.2015.0268
+    \endverb
+    \verb{eprint}
+    \verb /dx.doi.org/10.1098/rstb.2015.0268
+    \endverb
+    \field{isbn}{0962-8436}
+    \field{issn}{14712970}
+    \field{title}{{The meaning of functional trait composition of food webs for
+  ecosystem functioning}}
+    \field{eprinttype}{arXiv}
+    \field{eprintclass}{http:}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Hevia2017}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=HV}{%
+         family={Hevia},
+         familyi={H\bibinitperiod},
+         given={Violeta},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MLB}{%
+         family={Mart{\'{i}}n-L{\'{o}}pez},
+         familyi={M\bibinithyphendelim L\bibinitperiod},
+         given={Berta},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Palomo},
+         familyi={P\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GLM}{%
+         family={Garc{\'{i}}a-Llorente},
+         familyi={G\bibinithyphendelim L\bibinitperiod},
+         given={Marina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=dBF}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Bello},
+         familyi={B\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=GJA}{%
+         family={Gonz{\'{a}}lez},
+         familyi={G\bibinitperiod},
+         given={Jos{\'{e}}\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{biodiversity,ecosystem function,effect traits,global environmental
+  change,response traits,systematic review}
+    \strng{namehash}{HV+1}
+    \strng{fullhash}{HVMLBPSGLMBFdGJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Understanding the responses of biodiversity to drivers of change and the
+  effects of biodiversity on ecosystem properties and ecosystem services is a
+  key challenge in the context of global environmental change. We performed a
+  systematic review and meta- analysis of the scientific literature linking
+  direct drivers of change and ecosystem services via functional traits of
+  three taxonomic groups (vegetation, invertebrates, and vertebrates) to: (1)
+  uncover trends and research biases in this field; and (2) synthesize existing
+  empirical evidence. Our results show the existence of important biases in
+  published studies related to ecosystem types, taxonomic groups, direct
+  drivers of change, ecosystem services, geographical range, and the spatial
+  scale of analysis. We found multiple evidence of links between drivers and
+  services mediated by functional traits, particularly between land- use
+  changes and regulating services in vegetation and invertebrates. Seventy-
+  five functional traits were recorded in our sample. However, few of these
+  functional traits were repeatedly found to be associated with both the
+  species responses to direct drivers of change (response traits) and the
+  species effects on the provision of ecosystem services (effect traits). Our
+  results highlight the existence of potential “key functional traits,”
+  understood as those that have the capacity to influence the provision of
+  multiple ecosystem services, while responding to specific drivers of change,
+  across a variety of systems and organisms. Identifying “key functional
+  traits” would help to develop robust indicator systems to monitor changes
+  in biodiversity and their effects on ecosystem functioning and ecosystem
+  services supply.%
+    }
+    \field{booktitle}{Ecology and Evolution}
+    \verb{doi}
+    \verb 10.1002/ece3.2692
+    \endverb
+    \field{issn}{20457758}
+    \field{title}{{Trait-based approaches to analyze links between the drivers
+  of change and ecosystem services: Synthesizing existing evidence and future
+  challenges}}
+    \verb{file}
+    \verb :C\:/Users/Adrienne/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Hevia et al. - 2017 - Trait-based approaches to analyze links
+    \verb between the drivers of change and ecosystem services Synthesizing exi
+    \verb sting.pdf:pdf
+    \endverb
+    \field{annotation}{%
+    Aim: Using metanalysis: synthetize empirical evidence on the effect of
+  drivers of change on ecosystem services mediated by functional traits Linking
+  drivers of change to traits and ecosysyem services/functions and analysing
+  the biaises in published studies - Recent research field, with exponential
+  increases in number of papers - ecosystem types most studied =
+  agroecosystems, forests, drylands - scale: mostly local and national -
+  geographic bias towards Europe, North America and Oceania - most studied
+  taxonomic groups: vegetation and insects - most studied driver: land-use -
+  most studied services: regulating services and provisioning services - most
+  frequent traits: size, diet, habitat dependency, dispersal activity and
+  growth form for vegetation - for vertebrates, few studies have linked
+  functional traits to ecosystem properties%
+    }
+    \field{year}{2017}
+  \endentry
+
+  \entry{Hooper2005}{article}{}
+    \name{author}{15}{}{%
+      {{hash=HDU}{%
+         family={Hooper},
+         familyi={H\bibinitperiod},
+         given={D.\bibnamedelima U.},
+         giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=CFS}{%
+         family={Chapin},
+         familyi={C\bibinitperiod},
+         given={F.\bibnamedelima S.},
+         giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=EJJ}{%
+         family={Ewel},
+         familyi={E\bibinitperiod},
+         given={J.\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hector},
+         familyi={H\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=IP}{%
+         family={Inchausti},
+         familyi={I\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lavorel},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LJH}{%
+         family={Lawton},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=LDM}{%
+         family={Lodge},
+         familyi={L\bibinitperiod},
+         given={D.\bibnamedelima M.},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Loreau},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NS}{%
+         family={Naeem},
+         familyi={N\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Schmid},
+         familyi={S\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SH}{%
+         family={Set{\"{a}}l{\"{a}}},
+         familyi={S\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SAJ}{%
+         family={Symstad},
+         familyi={S\bibinitperiod},
+         given={A.\bibnamedelima J.},
+         giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=VJ}{%
+         family={Vandermeer},
+         familyi={V\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WDA}{%
+         family={Wardle},
+         familyi={W\bibinitperiod},
+         given={D.\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Biodiversity,Complementary resource use,Ecosystem goods and
+  services,Ecosystem processes,Ecosystem properties,Functional
+  characteristics,Functional diversity,Net primary production,Sampling
+  effect,Species extinction,Species invasions,Species richness}
+    \strng{namehash}{HDU+1}
+    \strng{fullhash}{HDUCFSEJJHAIPLSLJHLDMLMNSSBSHSAJVJWDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Humans are altering the composition of biological communities through a
+  variety of activities that increase rates of species invasions and species
+  extinctions, at all scales, from local to global. These changes in components
+  of the Earth's biodiversity cause concern for ethical and aesthetic reasons,
+  but they also have a strong potential to alter ecosystem properties and the
+  goods and services they provide to humanity. Ecological experiments,
+  observations, and theoretical developments show that ecosystem properties
+  depend greatly on biodiversity in terms of the functional characteristics of
+  organisms present in the ecosystem and the distribution and abundance of
+  those organisms over space and time. Species effects act in concert with the
+  effects of climate, resource availability, and disturbance regimes in
+  influencing ecosystem properties. Human activities can modify all of the
+  above factors; here we focus on modification of these biotic controls. The
+  scientific community has come to a broad consensus on many aspects of the
+  relationship between biodiversity and ecosystem functioning, including many
+  points relevant to management of ecosystems. Further progress will require
+  integration of knowledge about biotic and abiotic controls on ecosystem
+  properties, how ecological communities are structured, and the forces driving
+  species extinctions and invasions. To strengthen links to policy and
+  management, we also need to integrate our ecological knowledge with
+  understanding of the social and economic constraints of potential management
+  practices. Understanding this complexity, while taking strong steps to
+  minimize current losses of species, is necessary for responsible management
+  of Earth's ecosystems and the diverse biota they contain. Based on our review
+  of the scientific literature, we are certain of the following conclusions:
+  1)Species' functional characteristics strongly influence ecosystem
+  properties. Functional characteristics operate in a variety of contexts,
+  including effects of dominant species, keystone species', ecological
+  engineers, and interactions among species (e.g., competition, facilitation,
+  mutualism, disease, and predation). Relative abundance alone is not always a
+  good predictor of the ecosystem-level importance of a species, as even
+  relatively rare species (e.g., a keystone predator) can strongly influence
+  pathways of energy and material flows. 2) Alteration of biota in ecosystems
+  via species invasions and extinctions caused by human activities has altered
+  ecosystem goods and services in many well-documented cases. Many of these
+  changes are difficult, expensive, or impossible to reverse or fix with
+  technological solutions. 3) The effects of species loss or changes in
+  composition, and the mechanisms by which the effects manifest themselves, can
+  differ among ecosystem properties, ecosystem types, and pathways of potential
+  community change. 4) Some ecosystem properties are initially insensitive to
+  species loss because (a) ecosystems may have multiple species that carry out
+  similar functional roles, (b) some species may contribute relatively little
+  to ecosystem properties, or (c) properties may be primarily controlled by
+  abiotic environmental conditions. 5) More species are needed to insure a
+  stable supply of ecosystem goods and services as spatial and temporal
+  variability increases, which typically occurs as longer time periods and
+  larger areas are considered. We have high confidence in the following
+  conclusions: 1) Certain combinations of species are complementary in their
+  patterns of resource use and can increase average rates of productivity and
+  nutrient retention. At the same time, environmental conditions can influence
+  the importance of complementarity in structuring communities. Identification
+  of which and how many species act in a complementary way in complex
+  communities is just beginning. 2) Susceptibility to invasion by exotic
+  species is strongly influenced by species composition and, under similar
+  environmental conditions, generally decreases with increasing species
+  richness. However, several other factors, such as propagule pressure,
+  disturbance regime, and resource availability also strongly influence
+  invasion success and often override effects of species richness in
+  comparisons across different sites or ecosystems. 3) Having a range of
+  species that respond differently to different environmental perturbations can
+  stabilize ecosystem process rates in response to disturbances and variation
+  in abiotic conditions. Using practices that maintain a diversity of organisms
+  of different functional effect and functional response types will help
+  preserve a range of management options. Uncertainties remain and further
+  research is necessary in the following areas: 1) Further resolution of the
+  relationships among taxonomic diversity, functional diversity, and community
+  structure is important for identifying mechanisms of biodiversity effects. 2)
+  Multiple trophic levels are common to ecosystems but have been understudied
+  in biodiversity/ecosystem functioning research. The response of ecosystem
+  properties to varying composition and diversity of consumer organisms is much
+  more complex than responses seen in experiments that vary only the diversity
+  of primary producers. 3) Theoretical work on stability has outpaced
+  experimental, work, especially field research. We need long-term experiments
+  to be able to assess temporal stability, as well as experimental
+  perturbations to assess response to and recovery from a variety of
+  disturbances. Design and analysis of such experiments must account for
+  several factors that covary with species diversity. 4) Because biodiversity
+  both responds to and influences ecosystem properties, understanding the
+  feedbacks involved is necessary to integrate results from experimental
+  communities with patterns seen at broader scales. Likely patterns of
+  extinction and invasion need to be linked to different drivers of global
+  change, the forces that structure communities, and controls on ecosystem
+  properties for the development of effective management and conservation
+  strategies. 5) This paper focuses primarily on terrestrial systems, with some
+  coverage of freshwater systems, because that is where most empirical and
+  theoretical study has focused. While the fundamental principles described
+  here should apply to marine systems, further study of that realm is
+  necessary. Despite some uncertainties about the mechanisms and circumstances
+  under which diversity influences ecosystem properties, incorporating
+  diversity effects into policy and management is essential, especially in
+  making decisions involving large temporal and spatial scales. Sacrificing
+  those aspects of ecosystems that are difficult or impossible to reconstruct,
+  such as diversity, simply because we are not yet certain about the extent and
+  mechanisms by which they affect ecosystem properties, will restrict future
+  management options even further. It is incumbent upon ecologists to
+  communicate this need, and the values that can derive from such a
+  perspective, to those charged with economic and policy decision-making.%
+    }
+    \verb{doi}
+    \verb 10.1890/04-0922
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{0012-9615}
+    \field{issn}{00129615}
+    \field{title}{{Effects of biodiversity on ecosystem functioning: A
+  consensus of current knowledge}}
+    \field{journaltitle}{Ecological Monographs}
+    \field{eprinttype}{arXiv}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Hooper2012}{article}{}
+    \name{author}{10}{}{%
+      {{hash=HDU}{%
+         family={Hooper},
+         familyi={H\bibinitperiod},
+         given={David\bibnamedelima U.},
+         giveni={D\bibinitperiod\bibinitdelim U\bibinitperiod},
+      }}%
+      {{hash=AEC}{%
+         family={Adair},
+         familyi={A\bibinitperiod},
+         given={E.\bibnamedelima Carol},
+         giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CBJ}{%
+         family={Cardinale},
+         familyi={C\bibinitperiod},
+         given={Bradley\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BJE}{%
+         family={Byrnes},
+         familyi={B\bibinitperiod},
+         given={Jarrett\bibnamedelima E.K.},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=HBA}{%
+         family={Hungate},
+         familyi={H\bibinitperiod},
+         given={Bruce\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MKL}{%
+         family={Matulich},
+         familyi={M\bibinitperiod},
+         given={Kristin\bibnamedelima L.},
+         giveni={K\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gonzalez},
+         familyi={G\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DJE}{%
+         family={Duffy},
+         familyi={D\bibinitperiod},
+         given={J.\bibnamedelima Emmett},
+         giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Gamfeldt},
+         familyi={G\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=CMI}{%
+         family={Connor},
+         familyi={C\bibinitperiod},
+         given={Mary\bibnamedelima I.},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HDU+2}
+    \strng{fullhash}{HDUAECCBJBJEHBAMKLGADJEGLCMI1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Evidence is mounting that extinctions are altering key processes important
+  to the productivity and sustainability of Earth's ecosystems. Further species
+  loss will accelerate change in ecosystem processes, but it is unclear how
+  these effects compare to the direct effects of other forms of environmental
+  change that are both driving diversity loss and altering ecosystem function.
+  Here we use a suite of meta-analyses of published data to show that the
+  effects of species loss on productivity and decomposition--two processes
+  important in all ecosystems--are of comparable magnitude to the effects of
+  many other global environmental changes. In experiments, intermediate levels
+  of species loss (21-40%) reduced plant production by 5-10%, comparable to
+  previously documented effects of ultraviolet radiation and climate warming.
+  Higher levels of extinction (41-60%) had effects rivalling those of ozone,
+  acidification, elevated CO(2) and nutrient pollution. At intermediate levels,
+  species loss generally had equal or greater effects on decomposition than did
+  elevated CO(2) and nitrogen addition. The identity of species lost also had a
+  large effect on changes in productivity and decomposition, generating a wide
+  range of plausible outcomes for extinction. Despite the need for more studies
+  on interactive effects of diversity loss and environmental changes, our
+  analyses clearly show that the ecosystem consequences of local species loss
+  are as quantitatively significant as the direct effects of several global
+  change stressors that have mobilized major international concern and
+  remediation efforts.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature11118
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{1476-4687}
+    \field{issn}{00280836}
+    \field{title}{{A global synthesis reveals biodiversity loss as a major
+  driver of ecosystem change}}
+    \field{journaltitle}{Nature}
+    \field{eprinttype}{arXiv}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Hortal2014}{article}{}
+    \name{author}{6}{}{%
+      {{hash=HJ}{%
+         family={Hortal},
+         familyi={H\bibinitperiod},
+         given={Joaqu{\'{i}}n},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=dBF}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Bello},
+         familyi={B\bibinitperiod},
+         given={Francesco},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DFJAF}{%
+         family={Diniz-Filho},
+         familyi={D\bibinithyphendelim F\bibinitperiod},
+         given={Jos{\'{e}} Alexandre\bibnamedelima Felizola},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=LTM}{%
+         family={Lewinsohn},
+         familyi={L\bibinitperiod},
+         given={Thomas\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LJM}{%
+         family={Lobo},
+         familyi={L\bibinitperiod},
+         given={Jorge\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=LRJ}{%
+         family={Ladle},
+         familyi={L\bibinitperiod},
+         given={Richard\bibnamedelima J.},
+         giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HJ+1}
+    \strng{fullhash}{HJBFdDFJAFLTMLJMLRJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Ecologists and evolutionary biologists are increasingly using big-data
+  approaches to tackle questions at large spatial, taxonomic, and temporal
+  scales. However, despite recent efforts to gather two centuries of
+  biodiversity inventories into comprehensive databases, many crucial research
+  questions remain unanswered. Here, we update the concept of knowledge
+  shortfalls and review the tradeoffs between generality and uncertainty. We
+  present seven key shortfalls of current biodiversity data. Four previously
+  proposed shortfalls pinpoint knowledge gaps for species taxonomy (Linnean),
+  distribution (Wallacean), abundance (Prestonian), and evolutionary patterns
+  (Darwinian). We also redefine the Hutchinsonian shortfall to apply to the
+  abiotic tolerances of species and propose new shortfalls relating to limited
+  knowledge of species traits (Raunkiaeran) and biotic interactions (Eltonian).
+  We conclude with a general framework for the combined impacts and
+  consequences of shortfalls of large-scale biodiversity knowledge ...%
+    }
+    \verb{doi}
+    \verb 10.1146/annurev-ecolsys-112414-054400
+    \endverb
+    \field{isbn}{1543-592X}
+    \field{issn}{1543-592X}
+    \field{title}{{Seven Shortfalls that Beset Large-Scale Knowledge of
+  Biodiversity}}
+    \field{journaltitle}{Annual Review of Ecology, Evolution, and Systematics}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Inger2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=IR}{%
+         family={Inger},
+         familyi={I\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=CDT}{%
+         family={Cox},
+         familyi={C\bibinitperiod},
+         given={Daniel\bibnamedelima T.C.},
+         giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=PE}{%
+         family={Per},
+         familyi={P\bibinitperiod},
+         given={Esra},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=NBA}{%
+         family={Norton},
+         familyi={N\bibinitperiod},
+         given={Briony\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GKJ}{%
+         family={Gaston},
+         familyi={G\bibinitperiod},
+         given={Kevin\bibnamedelima J.},
+         giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \keyw{Eurasian magpie,European red fox,carcass,carcass
+  removal,carrion,carrion crow,ecosystem services,scavenger,scavenging,urban}
+    \strng{namehash}{IR+1}
+    \strng{fullhash}{IRCDTPENBAGKJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Recent research has demonstrated how scavenging, the act of consuming dead
+  animals, plays a key role in ecosystem structure, functioning, and stability.
+  A growing number of studies suggest that vertebrate scavengers also provide
+  key ecosystem services, the benefits humans gain from the natural world,
+  particularly in the removal of carcasses from the environment. An increasing
+  proportion of the human population is now residing in cities and towns, many
+  of which, despite being highly altered environments, contain significant
+  wildlife populations, and so animal carcasses. Indeed, non-predation
+  fatalities may be higher within urban than natural environments. Despite
+  this, the fate of carcasses in urban environments and the role vertebrate
+  scavengers play in their removal have not been determined. In this study, we
+  quantify the role of vertebrate scavengers in urban environments in three
+  towns in the UK. Using experimentally deployed rat carcasses and rapid fire
+  motion-triggered cameras, we determined which species were scavenging and how
+  removal of carcass biomass was partitioned between them. Of the 63
+  experimental carcasses deployed, vertebrate scavenger activity was detected
+  at 67%. There was a significantly greater depletion in carcass biomass in the
+  presence (mean loss of 194 g) than absence (mean loss of 14 g) of
+  scavengers. Scavenger activity was restricted to three species, Carrion crows
+  Corvus corone, Eurasian magpies Pica pica, and European red foxes Vulpes
+  vulpes. From behavioral analysis, we estimated that a maximum of 73% of the
+  carcass biomass was removed by vertebrate scavengers. Despite having low
+  species richness, the urban scavenger community in our urban study system
+  removed a similar proportion of carcasses to those reported in more pristine
+  environments. Vertebrate scavengers are providing a key urban ecosystem
+  service in terms of carcass removal. This service is, however, often
+  overlooked, and the species that provide it are among some of the most
+  disliked and persecuted.%
+    }
+    \verb{doi}
+    \verb 10.1002/ece3.2414
+    \endverb
+    \field{issn}{20457758}
+    \field{title}{{Ecological role of vertebrate scavengers in urban ecosystems
+  in the UK}}
+    \field{journaltitle}{Ecology and Evolution}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Jones2009}{article}{}
+    \name{author}{24}{}{%
+      {{hash=JKE}{%
+         family={Jones},
+         familyi={J\bibinitperiod},
+         given={Kate\bibnamedelima E.},
+         giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Bielby},
+         familyi={B\bibinitperiod},
+         given={Jon},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cardillo},
+         familyi={C\bibinitperiod},
+         given={Marcel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FSA}{%
+         family={Fritz},
+         familyi={F\bibinitperiod},
+         given={Susanne\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=OJ}{%
+         family={O'Dell},
+         familyi={O\bibinitperiod},
+         given={Justin},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=OCDL}{%
+         family={Orme},
+         familyi={O\bibinitperiod},
+         given={C.\bibnamedelima David\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Safi},
+         familyi={S\bibinitperiod},
+         given={Kamran},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SW}{%
+         family={Sechrest},
+         familyi={S\bibinitperiod},
+         given={Wes},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=BEH}{%
+         family={Boakes},
+         familyi={B\bibinitperiod},
+         given={Elizabeth\bibnamedelima H.},
+         giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Carbone},
+         familyi={C\bibinitperiod},
+         given={Chris},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Connolly},
+         familyi={C\bibinitperiod},
+         given={Christina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CMJ}{%
+         family={Cutts},
+         familyi={C\bibinitperiod},
+         given={Michael\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FJK}{%
+         family={Foster},
+         familyi={F\bibinitperiod},
+         given={Janine\bibnamedelima K.},
+         giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Grenyer},
+         familyi={G\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HM}{%
+         family={Habib},
+         familyi={H\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PCA}{%
+         family={Plaster},
+         familyi={P\bibinitperiod},
+         given={Christopher\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=PSA}{%
+         family={Price},
+         familyi={P\bibinitperiod},
+         given={Samantha\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=REA}{%
+         family={Rigby},
+         familyi={R\bibinitperiod},
+         given={Elizabeth\bibnamedelima A.},
+         giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RJ}{%
+         family={Rist},
+         familyi={R\bibinitperiod},
+         given={Janna},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Teacher},
+         familyi={T\bibinitperiod},
+         given={Amber},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BEORP}{%
+         family={Bininda-Emonds},
+         familyi={B\bibinithyphendelim E\bibinitperiod},
+         given={Olaf R.\bibnamedelima P.},
+         giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=GJL}{%
+         family={Gittleman},
+         familyi={G\bibinitperiod},
+         given={John\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=MGM}{%
+         family={Mace},
+         familyi={M\bibinitperiod},
+         given={Georgina\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Purvis},
+         familyi={P\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{JKE+1}
+  \strng{fullhash}{JKEBJCMFSAOJOCDLSKSWBEHCCCCCMJFJKGRHMPCAPSAREARJTABEORPGJLMGMPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{abstract}{%
+    Analyses of life-history, ecological, and geographic trait differences
+  among species, their causes, correlates, and likely consequences are
+  increasingly important for understanding and conserving biodiversity in the
+  face of rapid global change. Assembling multispecies trait data from diverse
+  literature sources into a single comprehensive data set requires detailed
+  consideration of methods to reliably compile data for particular species, and
+  to derive single estimates from multiple sources based on different
+  techniques and definitions. Here we describe PanTHERIA, a species-level data
+  set compiled for analysis of life history, ecology, and geography of all
+  known extant and recently extinct mammals. PanTHERIA is derived from a
+  database capable of holding multiple geo-referenced values for variables
+  within a species containing 100 740 lines of biological data for extant and
+  recently extinct mammalian species, collected over a period of three years by
+  20 individuals. PanTHERIA also includes spatial databases o...%
+    }
+    \verb{doi}
+    \verb 10.1890/08-1494.1
+    \endverb
+    \field{isbn}{0012-9658}
+    \field{issn}{0012-9658}
+    \field{title}{{PanTHERIA: a species-level database of life history,
+  ecology, and geography of extant and recently extinct mammals}}
+    \field{journaltitle}{Ecology}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Khaliq2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=KI}{%
+         family={Khaliq},
+         familyi={K\bibinitperiod},
+         given={Imran},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BGK}{%
+         family={B{\"{o}}hning-Gaese},
+         familyi={B\bibinithyphendelim G\bibinitperiod},
+         given={Katrin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PR}{%
+         family={Prinzinger},
+         familyi={P\bibinitperiod},
+         given={Roland},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pfenninger},
+         familyi={P\bibinitperiod},
+         given={Markus},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HC}{%
+         family={Hof},
+         familyi={H\bibinitperiod},
+         given={Christian},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \keyw{birds,climate change,climatic extreme hypothesis,climatic variability
+  hypothesis,macrophysiology,mammals,species distributions}
+    \strng{namehash}{KI+1}
+    \strng{fullhash}{KIBGKPRPMHC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Aim: To understand how climatic conditions influence the geographical
+  distributions of species and their potential responses to climate change, we
+  investigated the relationships between the thermal tolerances of species and
+  the size and limits of their distributions. We tested two hypotheses for
+  endotherms: the climatic variability hypothesis, which predicts increases in
+  range size with increasing breadth of thermal tolerance, and the climatic
+  extreme hypothesis, which predicts that range limits are related to thermal
+  tolerance limits. Furthermore, we tested whether these relationships differ
+  between temperate and tropical areas. Location: Global. Time period: Present.
+  Major taxa studied: Birds and mammals. Methods: We compiled data on thermal
+  tolerances that had been measured in physiological experiments for 453
+  endothermic species, along with information on geographical ranges and
+  climatic conditions. We applied phylogenetic generalized least square
+  regressions to test for relationships between thermal tolerance and (a) range
+  size or limits and (b) breadth and extremes of the climatic conditions that
+  each species experiences across its distribution. Results: We found that
+  range size was not related to the breadth thermal tolerance for endotherms.
+  However, the range limits at high latitudes as well as the minimum
+  temperatures experienced by species were closely related to the physiological
+  cold tolerances of species. These relationships were particularly strong in
+  temperate regions, but these patterns were not found in the tropics. Main
+  conclusions: Our results are inconsistent with the predictions of the
+  climatic variability hypothesis, but are in line with the predictions of the
+  climatic extreme hypothesis. Furthermore, the factors determining species
+  distributions do not appear to be the same in tropical and temperate regions.
+  Our study emphasizes the need to combine spatially explicit distribution
+  models with information from physiological experiments in order to capture
+  regional differences and improve predictions of the responses of species to
+  climate change.%
+    }
+    \verb{doi}
+    \verb 10.1111/geb.12575
+    \endverb
+    \field{issn}{14668238}
+    \field{title}{{The influence of thermal tolerances on geographical ranges
+  of endotherms}}
+    \field{journaltitle}{Global Ecology and Biogeography}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Kissling2014}{article}{}
+    \name{author}{8}{}{%
+      {{hash=KWD}{%
+         family={Kissling},
+         familyi={K\bibinitperiod},
+         given={Wilm\bibnamedelima Daniel},
+         giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Dalby},
+         familyi={D\bibinitperiod},
+         given={Lars},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Fl{\o}jgaard},
+         familyi={F\bibinitperiod},
+         given={Camilla},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Lenoir},
+         familyi={L\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Sandel},
+         familyi={S\bibinitperiod},
+         given={Brody},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SC}{%
+         family={Sandom},
+         familyi={S\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tr{\o}jelsgaard},
+         familyi={T\bibinitperiod},
+         given={Kristian},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SJC}{%
+         family={Svenning},
+         familyi={S\bibinitperiod},
+         given={Jens\bibnamedelima Christian},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Diet ecology,Ecological trait data,Feeding
+  guild,Mammalia,Phylogenetic conservatism,Trophic structure}
+    \strng{namehash}{KWD+1}
+    \strng{fullhash}{KWDDLFCLJSBSCTKSJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{abstract}{%
+    Ecological trait data are essential for understanding the broad-scale
+  distribution of biodiversity and its response to global change. For animals,
+  diet represents a fundamental aspect of species' evolutionary adaptations,
+  ecological and functional roles, and trophic interactions. However, the
+  importance of diet for macroevolutionary and macroecological dynamics remains
+  little explored, partly because of the lack of comprehensive trait datasets.
+  We compiled and evaluated a comprehensive global dataset of diet preferences
+  of mammals ("MammalDIET"). Diet information was digitized from two global and
+  cladewide data sources and errors of data entry by multiple data recorders
+  were assessed. We then developed a hierarchical extrapolation procedure to
+  fill-in diet information for species with missing information. Missing data
+  were extrapolated with information from other taxonomic levels (genus, other
+  species within the same genus, or family) and this extrapolation was
+  subsequently validated both internally (with a jack-knife approach applied to
+  the compiled species-level diet data) and externally (using independent
+  species-level diet information from a comprehensive continentwide data
+  source). Finally, we grouped mammal species into trophic levels and dietary
+  guilds, and their species richness as well as their proportion of total
+  richness were mapped at a global scale for those diet categories with good
+  validation results. The success rate of correctly digitizing data was 94%,
+  indicating that the consistency in data entry among multiple recorders was
+  high. Data sources provided species-level diet information for a total of
+  2033 species (38% of all 5364 terrestrial mammal species, based on the IUCN
+  taxonomy). For the remaining 3331 species, diet information was mostly
+  extrapolated from genus-level diet information (48% of all terrestrial mammal
+  species), and only rarely from other species within the same genus (6%) or
+  from family level (8%). Internal and external validation showed that: (1)
+  extrapolations were most reliable for primary food items; (2) several diet
+  categories ("Animal", "Mammal", "Invertebrate", "Plant", "Seed", "Fruit", and
+  "Leaf") had high proportions of correctly predicted diet ranks; and (3) the
+  potential of correctly extrapolating specific diet categories varied both
+  within and among clades. Global maps of species richness and proportion
+  showed congruence among trophic levels, but also substantial discrepancies
+  between dietary guilds. MammalDIET provides a comprehensive, unique and
+  freely available dataset on diet preferences for all terrestrial mammals
+  worldwide. It enables broad-scale analyses for specific trophic levels and
+  dietary guilds, and a first assessment of trait conservatism in mammalian
+  diet preferences at a global scale. The digitalization, extrapolation and
+  validation procedures could be transferable to other trait data and taxa.%
+    }
+    \verb{doi}
+    \verb 10.1002/ece3.1136
+    \endverb
+    \field{isbn}{2045-7758}
+    \field{issn}{20457758}
+    \field{title}{{Establishing macroecological trait datasets: Digitalization,
+  extrapolation, and validation of diet preferences in terrestrial mammals
+  worldwide}}
+    \field{journaltitle}{Ecology and Evolution}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Laigle2018}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LI}{%
+         family={Laigle},
+         familyi={L\bibinitperiod},
+         given={Idaline},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=AI}{%
+         family={Aubin},
+         familyi={A\bibinitperiod},
+         given={Isabelle},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=DC}{%
+         family={Digel},
+         familyi={D\bibinitperiod},
+         given={Christoph},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BU}{%
+         family={Brose},
+         familyi={B\bibinitperiod},
+         given={Ulrich},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=BI}{%
+         family={Boulangeat},
+         familyi={B\bibinitperiod},
+         given={Isabelle},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=GD}{%
+         family={Gravel},
+         familyi={G\bibinitperiod},
+         given={Dominique},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LI+1}
+    \strng{fullhash}{LIAIDCBUBIGD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    The use of functional traits to describe community structure is a promising
+  approach to reveal generalities across organisms and ecosystems. Plant
+  ecologists have demonstrated the importance of traits in explaining community
+  structure, competitive interactions as well as ecosystem functioning. The
+  application of trait-based methods to more complex communities such as food
+  webs is however more challenging owing to the diversity of animal
+  characteristics and of interactions. The objective of this study was to
+  determine how functional structure is related to food web structure. We
+  consider that food web structure is the result of 1) the match between
+  consumer and resource traits, which determine the occurence of a trophic
+  interaction between them, and 2) the distribution of functional traits in the
+  community. We implemented a statistical approach to assess whether or not 35
+  466 pairwise interactions between soil organisms are constrained by
+  trait-matching and then used a Procrustes analysis to investigate
+  correlations between functional indices and network properties across 48
+  sites. We found that the occurrence of trophic interactions is well predicted
+  by matching the traits of the resource with those of the consumer. Taxonomy
+  and body mass of both species were the most important traits for the
+  determination of an interaction. As a consequence, functional evenness and
+  the variance of certain traits in the community were correlated to trophic
+  complementarity between species, while trait identity, more than diversity,
+  was related to network topology. The analysis was however limited by trait
+  data availability, and a coarse resolution of certain taxonomic groups in our
+  dataset. These limitations explain the importance of taxonomy, as well as the
+  complexity of the statistical model needed. Our results outline the important
+  implications of trait composition on ecological networks, opening promising
+  avenues of research into the relationship between functional diversity and
+  ecosystem functioning in multi-trophic systems. This article is protected by
+  copyright. All rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1111/oik.04712
+    \endverb
+    \field{isbn}{0000000191}
+    \field{issn}{16000706}
+    \field{title}{{Species traits as drivers of food web structure}}
+    \field{journaltitle}{Oikos}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Lavorel2002}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=LS}{%
+         family={Lavorel},
+         familyi={L\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Garnier},
+         familyi={G\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Biogeochemical cycles,Disturbance,Effect traits,Fire,Resource
+  gradient,Response traits,Scaling-up,Trade-offs}
+    \strng{namehash}{LSGE1}
+    \strng{fullhash}{LSGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2002}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    1. The concept of plant functional type proposes that species can be
+  grouped accord- ing to common responses to the environment and/or common
+  effects on ecosystem processes. However, the knowledge of relationships
+  between traits associated with the response of plants to environmental
+  factors such as resources and disturbances (response traits), and traits that
+  determine effects of plants on ecosystem functions (effect traits), such as
+  biogeochemical cycling or propensity to disturbance, remains rudimentary. 2.
+  We present a framework using concepts and results from community ecology,
+  ecosystem ecology and evolutionary biology to provide this linkage. Ecosystem
+  func- tioning is the end result of the operation of multiple environmental
+  filters in a hierarchy of scales which, by selecting individuals with
+  appropriate responses, result in assem- blages with varying trait
+  composition. Functional linkages and trade-offs among traits, each of which
+  relates to one or several processes, determine whether or not filtering by
+  different factors gives a match, and whether ecosystem effects can be easily
+  deduced from the knowledge of the filters. 3. To illustrate this framework we
+  analyse a set of key environmental factors and ecosystem processes. While
+  traits associated with response to nutrient gradients strongly overlapped
+  with those determining net primary production, little direct overlap was
+  found between response to fire and flammability. 4. We hypothesize that these
+  patterns reflect general trends. Responses to resource availability would be
+  determined by traits that are also involved in biogeochemical cycling,
+  because both these responses and effects are driven by the trade-off between
+  acquisition and conservation. On the other hand, regeneration and demographic
+  traits associated with response to disturbance, which are known to have
+  little connection with adult traits involved in plant ecophysiology, would be
+  of little relevance to ecosystem processes. 5. This framework is likely to be
+  broadly applicable, although caution must be exer- cised to use trait
+  linkages and trade-offs appropriate to the scale, environmental con- ditions
+  and evolutionary context. It may direct the selection of plant functional
+  types for vegetation models at a range of scales, and help with the design of
+  experimental studies of relationships between plant diversity and ecosystem
+  properties.%
+    }
+    \field{booktitle}{Functional Ecology}
+    \verb{doi}
+    \verb 10.1046/j.1365-2435.2002.00664.x
+    \endverb
+    \field{isbn}{0269-8463}
+    \field{issn}{02698463}
+    \field{title}{{Predicting changes in community composition and ecosystem
+  functioning from plant traits: Revisiting the Holy Grail}}
+    \field{year}{2002}
+  \endentry
+
+  \entry{Luck2012}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LGW}{%
+         family={Luck},
+         familyi={L\bibinitperiod},
+         given={Gary\bibnamedelima W.},
+         giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lavorel},
+         familyi={L\bibinitperiod},
+         given={Sandra},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mcintyre},
+         familyi={M\bibinitperiod},
+         given={Sue},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Lumb},
+         familyi={L\bibinitperiod},
+         given={Katrina},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \keyw{Avian function,Birds,Ecosystem function,Effect traits,Environmental
+  change,Functional traits,Response traits,Trait approaches}
+    \strng{namehash}{LGW+1}
+    \strng{fullhash}{LGWLSMSLK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    1. Examining the consequences of environmental change for the provision of
+  ecosystem services can be facilitated through trait-based frameworks that
+  consider linkages between traits that influence a species' response to change
+  and traits that determine its effect on ecosystem services. 2. Developing
+  these frameworks requires a systematic approach to trait selection and
+  addressing the interrelationships among the scale of the environmental
+  change, area of ecosystem service provision and the most appropriate traits
+  for analysis. 3. We examine key issues in the application of trait approaches
+  to vertebrates, drawing specifically on the substantial progress made in this
+  area for plants. We argue that vertebrate ecologists need to develop more
+  coherent and systematic trait-based approaches that are broadly applicable.
+  4. We present a new framework for selecting response and effect traits to
+  link environmental change with ecosystem services. An empirical example of
+  each step in the framework is provided using birds as a case study, linking
+  the environmental change of loss of tree cover with the ecosystem service of
+  invertebrate pest regulation in apple orchards. We found that as tree cover
+  around orchards increased so did the abundance and foraging rate of bird
+  species that pursue invertebrates in flight, and this may help reduce the
+  abundance of certain pests of apples (e.g. adult stages of Cydia pomonella
+  and Helicoverpa armigera). 5. Implementing a systematic and transparent
+  approach to trait selection should further refine the development of
+  trait-based approaches for vertebrates.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1365-2656.2012.01974.x
+    \endverb
+    \field{isbn}{0021-8790}
+    \field{issn}{00218790}
+    \field{title}{{Improving the application of vertebrate trait-based
+  frameworks to the study of ecosystem services}}
+    \field{journaltitle}{Journal of Animal Ecology}
+    \field{year}{2012}
+  \endentry
+
+  \entry{McConkey2012}{misc}{}
+    \name{author}{7}{}{%
+      {{hash=MKR}{%
+         family={McConkey},
+         familyi={M\bibinitperiod},
+         given={Kim\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Prasad},
+         familyi={P\bibinitperiod},
+         given={Soumya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CRT}{%
+         family={Corlett},
+         familyi={C\bibinitperiod},
+         given={Richard\bibnamedelima T.},
+         giveni={R\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=CAA}{%
+         family={Campos-Arceiz},
+         familyi={C\bibinithyphendelim A\bibinitperiod},
+         given={Ahimsa},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJF}{%
+         family={Brodie},
+         familyi={B\bibinitperiod},
+         given={Jedediah\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=RH}{%
+         family={Rogers},
+         familyi={R\bibinitperiod},
+         given={Haldre},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Santamaria},
+         familyi={S\bibinitperiod},
+         given={Luis},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \keyw{Biological invasions,Climate
+  change,Fragmentation,Hunting,Overharvesting,Seed dispersal}
+    \strng{namehash}{MKR+1}
+    \strng{fullhash}{MKRPSCRTCAABJFRHSL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    A growing understanding of the ecology of seed dispersal has so far had
+  little influence on conservation practice, while the needs of conservation
+  practice have had little influence on seed dispersal research. Yet seed
+  dispersal interacts decisively with the major drivers of biodiversity change
+  in the 21st century: habitat fragmentation, overharvesting, biological
+  invasions, and climate change. We synthesize current knowledge of the effects
+  these drivers have on seed dispersal to identify research gaps and to show
+  how this information can be used to improve conservation management. The
+  drivers, either individually, or in combination, have changed the quantity,
+  species composition, and spatial pattern of dispersed seeds in the majority
+  of ecosystems worldwide, with inevitable consequences for species survival in
+  a rapidly changing world. The natural history of seed dispersal is now
+  well-understood in a range of landscapes worldwide. Only a few
+  generalizations that have emerged are directly applicable to conservation
+  management, however, because they are frequently confounded by site-specific
+  and species-specific variation. Potentially synergistic interactions between
+  disturbances are likely to exacerbate the negative impacts, but these are
+  rarely investigated. We recommend that the conservation status of
+  functionally unique dispersers be revised and that the conservation target
+  for key seed dispersers should be a population size that maintains their
+  ecological function, rather than merely the minimum viable population. Based
+  on our analysis of conservation needs, seed dispersal research should be
+  carried out at larger spatial scales in heterogenous landscapes, examining
+  the simultaneous impacts of multiple drivers on community-wide seed dispersal
+  networks. {\textcopyright} 2011 Elsevier Ltd.%
+    }
+    \field{booktitle}{Biological Conservation}
+    \verb{doi}
+    \verb 10.1016/j.biocon.2011.09.018
+    \endverb
+    \field{isbn}{0006-3207}
+    \field{issn}{00063207}
+    \field{title}{{Seed dispersal in changing landscapes}}
+    \field{year}{2012}
+  \endentry
+
+  \entry{McGill2006}{article}{}
+    \name{author}{4}{}{%
+      {{hash=MBJ}{%
+         family={McGill},
+         familyi={M\bibinitperiod},
+         given={Brian\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=EBJ}{%
+         family={Enquist},
+         familyi={E\bibinitperiod},
+         given={Brian\bibnamedelima J.},
+         giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Weiher},
+         familyi={W\bibinitperiod},
+         given={Evan},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Westoby},
+         familyi={W\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MBJ+1}
+    \strng{fullhash}{MBJEBJWEWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    There is considerable debate about whether community ecology will ever
+  produce general principles. We suggest here that this can be achieved but
+  that community ecology has lost its way by focusing on pairwise species
+  interactions independent of the environment. We assert that community ecology
+  should return to an emphasis on four themes that are tied together by a
+  two-step process: how the fundamental niche is governed by functional traits
+  within the context of abiotic environmental gradients; and how the
+  interaction between traits and fundamental niches maps onto the realized
+  niche in the context of a biotic interaction milieu. We suggest this approach
+  can create a more quantitative and predictive science that can more readily
+  address issues of global change. {\textcopyright} 2006 Elsevier Ltd. All
+  rights reserved.%
+    }
+    \verb{doi}
+    \verb 10.1016/j.tree.2006.02.002
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{0169-5347}
+    \field{issn}{01695347}
+    \field{title}{{Rebuilding community ecology from functional traits}}
+    \field{journaltitle}{Trends in Ecology and Evolution}
+    \field{eprinttype}{arXiv}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Mokany2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=MK}{%
+         family={Mokany},
+         familyi={M\bibinitperiod},
+         given={Karel},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=PS}{%
+         family={Prasad},
+         familyi={P\bibinitperiod},
+         given={Soumya},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WDA}{%
+         family={Westcott},
+         familyi={W\bibinitperiod},
+         given={David\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MK+1}
+    \strng{fullhash}{MKPSWDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    The capacity of species to track shifting climates into the future will
+  strongly influence outcomes for biodiversity under a rapidly changing
+  climate. However, we know remarkably little about the dispersal abilities of
+  most species and how these may be influenced by climate change. Here we show
+  that climate change is projected to substantially reduce the seed dispersal
+  services provided by frugivorous vertebrates in rainforests across the
+  Australian Wet Tropics. Our model projections show reductions in both median
+  and long-distance seed dispersal, which may markedly reduce the capacity of
+  many rainforest plant species to track shifts in suitable habitat under
+  climate change. However, our analyses suggest that active management to
+  maintain the abundances of a small set of important frugivores under climate
+  change could markedly reduce the projected loss of seed dispersal services
+  and facilitate shifting distributions of rainforest plant species.%
+    }
+    \verb{doi}
+    \verb 10.1038/ncomms4971
+    \endverb
+    \field{issn}{20411723}
+    \field{title}{{Loss of frugivore seed dispersal services under climate
+  change}}
+    \field{journaltitle}{Nature Communications}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Myhrvold2015}{article}{}
+    \name{author}{6}{}{%
+      {{hash=MNP}{%
+         family={Myhrvold},
+         familyi={M\bibinitperiod},
+         given={Nathan\bibnamedelima P.},
+         giveni={N\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Baldridge},
+         familyi={B\bibinitperiod},
+         given={Elita},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Chan},
+         familyi={C\bibinitperiod},
+         given={Benjamin},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=SD}{%
+         family={Sivam},
+         familyi={S\bibinitperiod},
+         given={Dhileep},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FDL}{%
+         family={Freeman},
+         familyi={F\bibinitperiod},
+         given={Daniel\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=ESKM}{%
+         family={Ernest},
+         familyi={E\bibinitperiod},
+         given={S.\bibnamedelima K.\bibnamedelima Morgan},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MNP+1}
+    \strng{fullhash}{MNPBECBSDFDLESKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Studying life-history traits within and across taxonomic classifications
+  has revealed many interesting and important patterns, but this approach to
+  life history requires access to large compilations of data containing many
+  different life-history parameters. Currently, life-history data for amniotes
+  (birds, mammals, and reptiles) are split among a variety of publicly
+  available databases, data tables embedded in individual papers and books, and
+  species-specific studies by experts. Using data from this wide range of
+  sources is a challenge for conducting macroecological studies because of a
+  lack of standardization in taxonomic classifications, parameter values, and
+  even in which parameters are reported. In order to facilitate comparative
+  analyses between amniote life-history data, we created a database compiled
+  from peer-reviewed studies on individual species, macroecological studies of
+  multiple species, existing life-history databases, and other aggregated
+  sources as well as published books and other compila...%
+    }
+    \verb{doi}
+    \verb 10.1890/15-0846R.1
+    \endverb
+    \field{isbn}{0012-9658}
+    \field{issn}{0012-9658}
+    \field{title}{{An amniote life-history database to perform comparative
+  analyses with birds, mammals, and reptiles}}
+    \field{journaltitle}{Ecology}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Naeem1994}{article}{}
+    \name{author}{5}{}{%
+      {{hash=NS}{%
+         family={Naeem},
+         familyi={N\bibinitperiod},
+         given={Shahid},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=TLJ}{%
+         family={Thompson},
+         familyi={T\bibinitperiod},
+         given={Lindsey\bibnamedelima J.},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=LSP}{%
+         family={Lawler},
+         familyi={L\bibinitperiod},
+         given={Sharon\bibnamedelima P.},
+         giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=LJH}{%
+         family={Lawton},
+         familyi={L\bibinitperiod},
+         given={John\bibnamedelima H.},
+         giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WRM}{%
+         family={Woodfin},
+         familyi={W\bibinitperiod},
+         given={Richard\bibnamedelima M.},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NS+1}
+    \strng{fullhash}{NSTLJLSPLJHWRM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{year}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    COMMUNITIES of species and their associated biological, chemical and
+  physical processes, collectively known as ecosystems, drive the Earth's
+  biogeochemical processes(1,2). Currently most ecosystems are experiencing
+  loss of biodiversity associated with the activities of human expansion(3-5),
+  raising the issue of whether the biogeochemical functioning of ecosystems
+  will be impaired by this loss of species(6-8). Current ecological knowledge
+  supports a wide range of views on the subject(9-13), but empirical tests are
+  few(9,14-16). Here we provide evidence from direct experimental manipulation
+  of diversity by over an order of magnitude, using multi-trophic level
+  communities and simultaneous measures of several ecosystem processes, that
+  reduced biodiversity may indeed alter the performance of ecosystems.%
+    }
+    \verb{doi}
+    \verb 10.1038/368734a0
+    \endverb
+    \verb{eprint}
+    \verb nature.vol.342.30nov1989
+    \endverb
+    \field{isbn}{0028-0836}
+    \field{issn}{00280836}
+    \field{title}{{Declining biodiversity can alter the performance of
+  ecosystems}}
+    \field{journaltitle}{Nature}
+    \field{eprinttype}{arXiv}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Newbold2015}{article}{}
+    \name{author}{41}{}{%
+      {{hash=NT}{%
+         family={Newbold},
+         familyi={N\bibinitperiod},
+         given={Tim},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=HLN}{%
+         family={Hudson},
+         familyi={H\bibinitperiod},
+         given={Laurence\bibnamedelima N},
+         giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+      }}%
+      {{hash=HSL}{%
+         family={Hill},
+         familyi={H\bibinitperiod},
+         given={Samantha\bibnamedelima Ll},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CS}{%
+         family={Contu},
+         familyi={C\bibinitperiod},
+         given={Sar},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LI}{%
+         family={Lysenko},
+         familyi={L\bibinitperiod},
+         given={Igor},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SRa}{%
+         family={Senior},
+         familyi={S\bibinitperiod},
+         given={Rebecca\bibnamedelima a},
+         giveni={R\bibinitperiod\bibinitdelim a\bibinitperiod},
+      }}%
+      {{hash=BL}{%
+         family={B{\"{o}}rger},
+         familyi={B\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=BDJ}{%
+         family={Bennett},
+         familyi={B\bibinitperiod},
+         given={Dominic\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Choimes},
+         familyi={C\bibinitperiod},
+         given={Argyrios},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=CB}{%
+         family={Collen},
+         familyi={C\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Day},
+         familyi={D\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DA}{%
+         family={{De Palma}},
+         familyi={D\bibinitperiod},
+         given={Adriana},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dı{\'{a}}z},
+         familyi={D\bibinitperiod},
+         given={Sandra},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=ELS}{%
+         family={Echeverria-Londo{\~{n}}o},
+         familyi={E\bibinithyphendelim L\bibinitperiod},
+         given={Susy},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=EMJ}{%
+         family={Edgar},
+         familyi={E\bibinitperiod},
+         given={Melanie\bibnamedelima J},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Feldman},
+         familyi={F\bibinitperiod},
+         given={Anat},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Garon},
+         familyi={G\bibinitperiod},
+         given={Morgan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=HMLK}{%
+         family={Harrison},
+         familyi={H\bibinitperiod},
+         given={Michelle L\bibnamedelima K},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  K\bibinitperiod},
+      }}%
+      {{hash=AT}{%
+         family={Alhusseini},
+         familyi={A\bibinitperiod},
+         given={Tamera},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=IDJ}{%
+         family={Ingram},
+         familyi={I\bibinitperiod},
+         given={Daniel\bibnamedelima J},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=IY}{%
+         family={Itescu},
+         familyi={I\bibinitperiod},
+         given={Yuval},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Kattge},
+         familyi={K\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KV}{%
+         family={Kemp},
+         familyi={K\bibinitperiod},
+         given={Victoria},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=KL}{%
+         family={Kirkpatrick},
+         familyi={K\bibinitperiod},
+         given={Lucinda},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kleyer},
+         familyi={K\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={{Laginha Pinto Correia}},
+         familyi={L\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MCD}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Callum\bibnamedelima D},
+         giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Novosolov},
+         familyi={N\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PY}{%
+         family={Pan},
+         familyi={P\bibinitperiod},
+         given={Yuan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=PHRP}{%
+         family={Phillips},
+         familyi={P\bibinitperiod},
+         given={Helen R\bibnamedelima P},
+         giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=PDW}{%
+         family={Purves},
+         familyi={P\bibinitperiod},
+         given={Drew\bibnamedelima W},
+         giveni={D\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Robinson},
+         familyi={R\bibinitperiod},
+         given={Alexandra},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Simpson},
+         familyi={S\bibinitperiod},
+         given={Jake},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TSL}{%
+         family={Tuck},
+         familyi={T\bibinitperiod},
+         given={Sean\bibnamedelima L},
+         giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=WE}{%
+         family={Weiher},
+         familyi={W\bibinitperiod},
+         given={Evan},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=WHJ}{%
+         family={White},
+         familyi={W\bibinitperiod},
+         given={Hannah\bibnamedelima J},
+         giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=ERM}{%
+         family={Ewers},
+         familyi={E\bibinitperiod},
+         given={Robert\bibnamedelima M},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MGM}{%
+         family={Mace},
+         familyi={M\bibinitperiod},
+         given={Georgina\bibnamedelima M},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=SJP}{%
+         family={Scharlemann},
+         familyi={S\bibinitperiod},
+         given={J{\"{o}}rn\bibnamedelima Pw},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Purvis},
+         familyi={P\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NT+1}
+  \strng{fullhash}{NTHLNHSLCSLISRaBLBDJCACBDJDADSELSEMJFAGMHMLKATIDJIYKJKVKLKMLDMCDMSNMPYPHRPPDWRASJTSLWEWHJERMMGMSJPPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    Human activities, especially conversion and degradation of habitats, are
+  causing global biodiversity declines. How local ecological assemblages are
+  responding is less clear—a concern given their importance for many
+  ecosystem functions and services.We analysed a terrestrial assemblage
+  database of unprecedented geographic and taxonomic coverage to quantify local
+  biodiversity responses to land use and related changes. Here we show that in
+  the worst-affected habitats, these pressures reducewithin-sample species
+  richness by anaverage of 76.5%,total abundance by 39.5%andrarefaction-based
+  richness by 40.3%. We estimate that, globally, these pressures have already
+  slightly reduced average within-sample richness (by 13.6%), total abundance
+  (10.7%) and rarefaction-based richness (8.1%), with changes showing marked
+  spatial variation. Rapid further losses are predicted under a
+  business-as-usual land-use scenario; within-sample richness is projected to
+  fall by a further 3.4% globally by 2100, with losses concentrated in
+  biodiverse but economically poor countries. Strongmitigationcan
+  delivermuchmore positive biodiversity changes (up to a 1.9%average increase)
+  that are less strongly related to countries' socioeconomic status.%
+    }
+    \verb{doi}
+    \verb 10.1038/nature14324
+    \endverb
+    \field{isbn}{0028-0836}
+    \field{issn}{0028-0836}
+    \field{title}{{Global effects of land use on local terrestrial
+  biodiversity}}
+    \field{journaltitle}{Nature}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Novosolov2013}{article}{}
+    \name{author}{3}{}{%
+      {{hash=NM}{%
+         family={Novosolov},
+         familyi={N\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Raia},
+         familyi={R\bibinitperiod},
+         given={Pasquale},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Clutch size,Island biogeography,Island syndrome,Life
+  history,Lizards,Population density,Reproduction,Reversed island syndrome}
+    \strng{namehash}{NM+1}
+    \strng{fullhash}{NMRPMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{year}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    Aim Islands are thought to promote correlated ecological and life-history
+  shifts in species, including increased population density, and an infrequent
+  production of few, large, offspring. These patterns are collectively termed
+  ‘the island syndrome'. We present here the first, phylogenetically
+  informed, global test of the ‘island syndrome' hypothesis, using lizards as
+  our model organisms. Location World-wide. Methods We assembled a database
+  containing 641 lizard species, their phylogenetic relationships, geographic
+  ranges and the following life-history traits: female mass, clutch size, brood
+  frequency, hatchling body mass and population density. We tested for
+  life-history differences between insular and mainland forms in light of the
+  island syndrome, controlling for mass and latitude, and for phylogenetic
+  non-independence. We also examined the effects of population density and, in
+  insular endemics, of island area, on lizard reproductive traits. Results We
+  found that insular endemic lizards lay smaller clutches of larger hatchlings
+  than closely related mainland lizards of similar size, as was expected by the
+  island syndrome. In general, however, insular endemics lay more frequently
+  than mainland ones. Species endemic to small islands lay as frequently as
+  mainland species. Continental and insular lizards have similar productivity
+  rates overall. Island area had little effect on lizard reproductive traits.
+  No trait showed association with population density. Main conclusions Island
+  endemic lizards mainly follow the island syndrome. We hypothesize that large
+  offspring are favoured on islands because of increased intra-specific
+  aggression and cannibalism by adults. Stable populations on islands lacking
+  predators may likewise lead to increased intra-specific competition, and
+  hence select for larger hatchlings that will quickly grow to adult size. This
+  view is supported by the fact that lizard populations are denser on islands
+  – although population density per se was uncorrelated with any of the
+  traits we examined%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1466-8238.2012.00791.x
+    \endverb
+    \field{isbn}{1466-8238}
+    \field{issn}{1466822X}
+    \field{title}{{The island syndrome in lizards}}
+    \field{journaltitle}{Global Ecology and Biogeography}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Novosolov2017}{article}{}
+    \name{author}{7}{}{%
+      {{hash=NM}{%
+         family={Novosolov},
+         familyi={N\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RGH}{%
+         family={Rodda},
+         familyi={R\bibinitperiod},
+         given={Gordon\bibnamedelima H.},
+         giveni={G\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=NAC}{%
+         family={North},
+         familyi={N\bibinitperiod},
+         given={Alexandra\bibnamedelima C.},
+         giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=BSH}{%
+         family={Butchart},
+         familyi={B\bibinitperiod},
+         given={Stuart\bibnamedelima H.M.},
+         giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=TOJ}{%
+         family={Tallowin},
+         familyi={T\bibinitperiod},
+         given={Oliver\bibnamedelima J.S.},
+         giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=GAM}{%
+         family={Gainsbury},
+         familyi={G\bibinitperiod},
+         given={Alison\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{birds,ecological rule,lizards,mammals,population density,range size}
+    \strng{namehash}{NM+1}
+    \strng{fullhash}{NMRGHNACBSHTOJGAMMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    Aim The species population density–range size relationship posits that
+  locally abundant species are widely distributed. However, this proposed
+  pattern has been insufficiently tested. The few tests conducted were usually
+  limited in scale and gave conflicting results. We tested the generality of
+  the positive population density–range size relationship. We then studied
+  whether similar environmental niche requirements are correlated with range
+  size and with population density to search for mechanisms driving the
+  hypothesized link between population density and range size. Location
+  Worldwide. Methods We collected data on population density, range size and
+  environmental niche for a global dataset of 192 lizard, 893 bird and 350
+  mammal species. Assessing the relationship between population density and
+  range size and environmental niche parameters, we corrected for phylogenetic
+  relationships, body mass, diet and study area. Results Our findings reveal
+  that density had a weak negative correlation with bird range size and was
+  unrelated to lizard and mammal range size. These trends were consistent at
+  the global scale and across the biogeographical realms. Range size was
+  related to relatively similar environmental niche parameters in all groups.
+  Population density, however, was explained by taxon-specific factors and was
+  therefore unrelated to range size by common causation. Main conclusions We
+  suggest that the positive relationship between population density and range
+  size identified in previous studies might be an artefact arising through
+  incomplete sampling of range sizes. Our results indicate that the mechanisms
+  shaping population density and range size may be independent.%
+    }
+    \verb{doi}
+    \verb 10.1111/geb.12617
+    \endverb
+    \field{isbn}{1466822X}
+    \field{issn}{14668238}
+    \field{title}{{Population density–range size relationship revisited}}
+    \field{journaltitle}{Global Ecology and Biogeography}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Oliveira2017}{article}{}
+    \name{author}{5}{}{%
+      {{hash=OBF}{%
+         family={Oliveira},
+         familyi={O\bibinitperiod},
+         given={Brunno\bibnamedelima Freire},
+         giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=SPVA}{%
+         family={S{\~{a}}o-Pedro},
+         familyi={S\bibinithyphendelim P\bibinitperiod},
+         given={Vin{\'{i}}cius\bibnamedelima Avelar},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SBG}{%
+         family={Santos-Barrera},
+         familyi={S\bibinithyphendelim B\bibinitperiod},
+         given={Georgina},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PC}{%
+         family={Penone},
+         familyi={P\bibinitperiod},
+         given={Caterina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=CGC}{%
+         family={Costa},
+         familyi={C\bibinitperiod},
+         given={Gabriel\bibnamedelima C.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OBF+1}
+    \strng{fullhash}{OBFSPVASBGPCCGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{abstract}{%
+    Current ecological and evolutionary research are increasingly moving from
+  species- to trait-based approaches because traits provide a stronger link to
+  organism's function and fitness. Trait databases covering a large number of
+  species are becoming available, but such data remains scarce for certain
+  groups. Amphibians are among the most diverse vertebrate groups on Earth, and
+  constitute an abundant component of major terrestrial and freshwater
+  ecosystems. They are also facing rapid population declines worldwide, which
+  is likely to affect trait composition in local communities, thereby impacting
+  ecosystem processes and services. In this context, we introduce AmphiBIO, a
+  comprehensive database of natural history traits for amphibians worldwide.
+  The database releases information on 17 traits related to ecology, morphology
+  and reproduction features of amphibians. We compiled data from more than
+  1,500 literature sources, and for more than 6,500 species of all orders
+  (Anura, Caudata and Gymnophiona), 61 families and 531 genera. This database
+  has the potential to allow unprecedented large-scale analyses in ecology,
+  evolution, and conservation of amphibians.%
+    }
+    \verb{doi}
+    \verb 10.1038/sdata.2017.123
+    \endverb
+    \field{isbn}{2052-4463 (Electronic) 2052-4463 (Linking)}
+    \field{issn}{20524463}
+    \field{title}{{AmphiBIO, a global database for amphibian ecological
+  traits}}
+    \field{journaltitle}{Scientific Data}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Pacifici2013}{article}{}
+    \name{author}{8}{}{%
+      {{hash=PM}{%
+         family={Pacifici},
+         familyi={P\bibinitperiod},
+         given={Michela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SL}{%
+         family={Santini},
+         familyi={S\bibinitperiod},
+         given={Luca},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={{Di Marco}},
+         familyi={D\bibinitperiod},
+         given={Moreno},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Baisero},
+         familyi={B\bibinitperiod},
+         given={Daniele},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=FL}{%
+         family={Francucci},
+         familyi={F\bibinitperiod},
+         given={Lucilla},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GG}{%
+         family={{Grottolo Marasini}},
+         familyi={G\bibinitperiod},
+         given={Gabriele},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=VP}{%
+         family={Visconti},
+         familyi={V\bibinitperiod},
+         given={Piero},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rondinini},
+         familyi={R\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PM+1}
+    \strng{fullhash}{PMSLDMBDFLGGVPRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Generation length (GL) is defined as the average age of parents of the
+  current cohort, reflecting the turnover rate of breeding individuals in a
+  population. GL is a fundamental piece of information for population ecology
+  as well as for measuring species threat status (e.g. in the IUCN Red List).
+  Here we present a dataset including GL records for all extant mammal species
+  (n=5427). We first reviewed all data on GL published in the IUCN Red List
+  database. We then calculated a value for species with available reproductive
+  parameters (reproductive life span and age at first reproduction). We
+  assigned to missing-data species a mean GL value from congeneric or
+  confamilial species (depending on data availability). Finally, for a few
+  remaining species, we assigned mean GL values from species with similar body
+  mass and belonging to the same order. Our work provides the first attempt to
+  complete a database of GL for mammals; it will be an essential reference
+  point for all conservation-related studies that need pragmatic information on
+  species GL, such as population dynamics and applications of the IUCN Red List
+  assessment.%
+    }
+    \verb{doi}
+    \verb 10.3897/natureconservation.5.5734
+    \endverb
+    \field{isbn}{1314-3301}
+    \field{issn}{1314-3301}
+    \field{title}{{Generation length for mammals}}
+    \field{journaltitle}{Nature Conservation}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Ratto2018}{misc}{}
+    \name{author}{10}{}{%
+      {{hash=RF}{%
+         family={Ratto},
+         familyi={R\bibinitperiod},
+         given={Fabrizia},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=SBI}{%
+         family={Simmons},
+         familyi={S\bibinitperiod},
+         given={Benno\bibnamedelima I.},
+         giveni={B\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Spake},
+         familyi={S\bibinitperiod},
+         given={Rebecca},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=ZGV}{%
+         family={Zamora-Gutierrez},
+         familyi={Z\bibinithyphendelim G\bibinitperiod},
+         given={Veronica},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=MMA}{%
+         family={MacDonald},
+         familyi={M\bibinitperiod},
+         given={Michael\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MJC}{%
+         family={Merriman},
+         familyi={M\bibinitperiod},
+         given={Jennifer\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=TCJ}{%
+         family={Tremlett},
+         familyi={T\bibinitperiod},
+         given={Constance\bibnamedelima J.},
+         giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PGM}{%
+         family={Poppy},
+         familyi={P\bibinitperiod},
+         given={Guy\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=PKS}{%
+         family={Peh},
+         familyi={P\bibinitperiod},
+         given={Kelvin\bibnamedelima S.H.},
+         giveni={K\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=DLV}{%
+         family={Dicks},
+         familyi={D\bibinitperiod},
+         given={Lynn\bibnamedelima V.},
+         giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RF+1}
+    \strng{fullhash}{RFSBISRZGVMMAMJCTCJPGMPKSDLV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Vertebrate pollinators are increasingly threatened worldwide, but little is
+  known about the potential consequences of declining pollinator populations on
+  plants and ecosystems. Here, we present the first global assessment of the
+  importance of vertebrate pollinators in the reproductive success of selected
+  flowering plants. Our meta-analysis of 126 experiments on animal-pollinated
+  plants revealed that excluding vertebrate pollinators – but not insect
+  pollinators – reduced fruit and/or seed production by 63% on average. We
+  found bat-pollinated plants to be more dependent on their respective
+  vertebrate pollinators than bird-pollinated plants (an average 83% reduction
+  in fruit/seed production when bats were excluded, as compared to a 46%
+  reduction when birds were excluded). Plant dependence on vertebrate
+  pollinators for fruit/seed production was greater in the tropics than at
+  higher latitudes. Given the potential for substantial negative impacts
+  associated with the loss of vertebrate pollinators, there is a clear need for
+  prompt, effective conservation action for threatened flower-visiting
+  vertebrate species. Additional research on how such changes might affect
+  wider ecosystems is also required.%
+    }
+    \field{booktitle}{Frontiers in Ecology and the Environment}
+    \verb{doi}
+    \verb 10.1002/fee.1763
+    \endverb
+    \field{isbn}{9789622099845 (pbk.)\r962209984X
+  (pbk.)\r9789622099838\r9622099831\rNLGGC 320458679\rAU@ 000046124107\rHEBIS
+  228638607\r080474792X (alk. paper)}
+    \field{issn}{15409309}
+    \field{title}{{Global importance of vertebrate pollinators for plant
+  reproductive success: a meta-analysis}}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Scharf2015}{article}{}
+    \name{author}{11}{}{%
+      {{hash=SI}{%
+         family={Scharf},
+         familyi={S\bibinitperiod},
+         given={Inon},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Feldman},
+         familyi={F\bibinitperiod},
+         given={Anat},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Novosolov},
+         familyi={N\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PDD}{%
+         family={Pincheira-Donoso},
+         familyi={P\bibinithyphendelim D\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DI}{%
+         family={Das},
+         familyi={D\bibinitperiod},
+         given={Indraneil},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={B{\"{o}}hm},
+         familyi={B\bibinitperiod},
+         given={Monika},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=UP}{%
+         family={Uetz},
+         familyi={U\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=TCO}{%
+         family={Torres-Carvajal},
+         familyi={T\bibinithyphendelim C\bibinitperiod},
+         given={Omar},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bauer},
+         familyi={B\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RU}{%
+         family={Roll},
+         familyi={R\bibinitperiod},
+         given={Uri},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Body size,Fast-slow continuum,Lifespan,NPP,Phylogenetic
+  comparisons,Reproduction,Reptiles,Temperature,Trade-off}
+    \strng{namehash}{SI+1}
+    \strng{fullhash}{SIFANMPDDDIBMUPTCOBARUMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Aim Longevity is an important life-history trait, directly linked to the
+  core attrib- utes of fitness (reproduction and survival), yet large-scale
+  comparative studies quantifying its implications for the ecology and life
+  history of ectotherms are scarce. We tested the allometry of longevity in
+  squamates and the tuatara, and determined how longevity is related to key
+  environmental characteristics and life- history traits. Predictions based on
+  life-history theory are expected to hold true for ectotherms, similarly to
+  mammals and birds. Location World-wide. Methods We assembled fromthe
+  literature a dataset of the maximum longevities of more than a thousand
+  squamate species, representing c. 10% of their known species diversity, their
+  phylogenetic relationships and multiple life-history and ecological
+  variables. Correcting for phylogeny, we modelled the link between squamate
+  longevity and both key life-history traits, such as body mass and age at
+  first reproduction, and important environmental factors, such as latitude and
+  primary productivity within species distributional ranges. Results
+  Large-bodied species live for longer than small ones, but body size explains
+  far less of the variance in longevity than it does in mammals and birds.
+  Accounting for body size, squamate brood frequency is negatively correlated
+  with longevity, while age at first reproduction is positively correlatedwith
+  longevity. This points to a continuum of slow-to-fast life-history
+  strategies. Squamates in high latitudes and cold regions live for longer,
+  probably because a shorter season of activity translates to slower
+  development, older age at first reproduction and hence to increased
+  longevity. Individuals live longer in captivity than in the wild. Her-
+  bivorous and omnivorous squamates live for longer than carnivorous ones. We
+  postulate that low-quality nutrition reduces growth rates, promotes a
+  relative decline in reproductive rates and thus prolongs life. Main
+  conclusions Our results support key predictions from life-history theory and
+  suggest that reproducing more slowly and at older ages, being herbivorous
+  and, plausibly, lowering metabolism, result in increased longevity.%
+    }
+    \verb{doi}
+    \verb 10.1111/geb.12244
+    \endverb
+    \field{issn}{14668238}
+    \field{title}{{Late bloomers and baby boomers: Ecological drivers of
+  longevity in squamates and the tuatara}}
+    \field{journaltitle}{Global Ecology and Biogeography}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Schwarz2017}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SR}{%
+         family={Schwarz},
+         familyi={S\bibinitperiod},
+         given={Rachel},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{anoles,egg volume,geckos,invariant clutch size,island
+  biogeography,island syndrome,life-history,lizards,reproduction,reversed
+  island syndrome}
+    \strng{namehash}{SRMS1}
+    \strng{fullhash}{SRMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Aim: Both theory and empirical data suggest that life histories of insular
+  species slow down (the " island syndrome "). Insular individuals are
+  hypothesized to lay smaller clutches of larger eggs compared with individuals
+  belonging to closely related main-land species. Most lizards have variable
+  clutch sizes and can lay any number between one egg and a species-specific
+  maximum which can be well over 50 eggs. Many lizards, such as geckos and
+  anoles, however, lay invariant small clutches of one or two eggs, and may
+  thus be unable to manifest some aspects of the island syndrome. We tested
+  whether insular species with either variable or invariant clutch sizes
+  respond to insu-larity differently. Location: Worldwide. Methods: We
+  assembled data on egg, clutch, hatchling and female sizes and brood
+  frequencies of 2,511 lizard species. We tested whether the predictions of the
+  island syndrome were met for lizards laying invariant versus variable
+  clutches, controlling for female size and phylogenetic non-independence. We
+  further examined whether geckos and anoles, the major clades with invariant
+  clutches, differ from other lizards in the way they respond to insularity.
+  Results: On islands, species with variable clutch sizes lay smaller clutches
+  of larger eggs, from which larger hatchlings emerge, compared with mainland
+  species. Lizards with invariant clutch sizes, however, decrease clutch size
+  and increase clutch frequency but not hatchling or egg size, compared with
+  mainland species. Main conclusions: Lizards with invariant clutch sizes may
+  be unable to increase egg and hatchling sizes because of limitations set by
+  the female body cavity and pelvic opening, or by arboreality. They
+  nonetheless lay smaller clutches on islands and increase clutch frequency. We
+  suggest that this may result from lower seasonality of tropical islands,
+  leading to a greater spread of reproductive effort. Alternatively, the higher
+  clutch frequency on tropical islands could result from fluctuations in
+  pop-ulation densities caused by tropical storms.%
+    }
+    \verb{doi}
+    \verb 10.1111/jbi.13067
+    \endverb
+    \field{issn}{13652699}
+    \field{title}{{The fast-slow life-history continuum in insular lizards: a
+  comparison between species with invariant and variable clutch sizes}}
+    \field{journaltitle}{Journal of Biogeography}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Slavenko2016}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SA}{%
+         family={Slavenko},
+         familyi={S\bibinitperiod},
+         given={Alex},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TOJ}{%
+         family={Tallowin},
+         familyi={T\bibinitperiod},
+         given={Oliver\bibnamedelima J.S.},
+         giveni={O\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=IY}{%
+         family={Itescu},
+         familyi={I\bibinitperiod},
+         given={Yuval},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=RP}{%
+         family={Raia},
+         familyi={R\bibinitperiod},
+         given={Pasquale},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{Body size,Holocene
+  extinction,Quaternary,conservation,global,megafaunal extinctions,reptiles}
+    \strng{namehash}{SA+1}
+    \strng{fullhash}{SATOJIYRPMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Aim A major Late Quaternary vertebrate extinction event affected mostly
+  large-bodied ‘megafauna'. This is well documented in both mammals and
+  birds, but evidence of a similar trend in reptiles is scant. We assess the
+  relationship between body size and Late Quaternary extinction in reptiles at
+  the global level. Location Global. Methods We compile a body size database
+  for all 82 reptile species that are known to have gone extinct during the
+  last 50,000 years and compare them with the sizes of 10,090 extant reptile
+  species (97% of known extant diversity). We assess the body size
+  distributions in the major reptile groups: crocodiles, lizards, snakes and
+  turtles, while testing and correcting for a size bias in the fossil record.
+  We examine geographical biases in extinction by contrasting mainland and
+  insular reptile assemblages, and testing for biases within regions and then
+  globally by using geographically weighted models. Results Extinct reptiles
+  were larger than extant ones, but there was considerable variation in
+  extinction size biases among groups. Extinct lizards and turtles were large,
+  extinct crocodiles were small and there was no trend in snakes. Lizard
+  lineages vary in the way their extinction is related to size. Extinctions
+  were particularly prevalent on islands, with 73 of the 82 extinct species
+  being island endemics. Four others occurred in Australia. The fossil record
+  is biased towards large-bodied reptiles, but extinct lizards were larger than
+  extant ones even after we account for this. Main conclusions Body size played
+  a complex role in the extinction of Late Quaternary reptiles. Larger lizard
+  and turtle species were clearly more affected by extinction mechanisms such
+  as over exploitation and invasive species, resulting in a prevalence of
+  large-bodied species among extinct taxa. Insularity was by far the strongest
+  correlate of recent reptile extinctions, suggesting that size-biased
+  extinction mechanisms are amplified in insular environments.%
+    }
+    \verb{doi}
+    \verb 10.1111/geb.12491
+    \endverb
+    \field{isbn}{1466-8238}
+    \field{issn}{14668238}
+    \field{title}{{Late Quaternary reptile extinctions: size matters,
+  insularity dominates}}
+    \field{journaltitle}{Global Ecology and Biogeography}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Stark2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=SG}{%
+         family={Stark},
+         familyi={S\bibinitperiod},
+         given={Gavin},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=TK}{%
+         family={Tamar},
+         familyi={T\bibinitperiod},
+         given={Karin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=IY}{%
+         family={Itescu},
+         familyi={I\bibinitperiod},
+         given={Yuval},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Feldman},
+         familyi={F\bibinitperiod},
+         given={Anat},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SG+1}
+    \strng{fullhash}{SGTKIYFAMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Animal lifespan is determined by extrinsic and intrinsic factors causing
+  mortality. According to the evolutionary theories of senescence, when
+  mortality pressures are low, animals delay reproduction. This enables species
+  to grow more slowly and, consequently, natural selection can act against
+  harmful mutations in adulthood, thereby increasing lifespans. To test
+  predictions of these theories we assembled a dataset on the maximum
+  longevities and relevant ecological variables of 1320 reptilian species.
+  Correcting for phylogeny, we modelled the link between reptile longevity and
+  factors such as body size, microhabitat, activity period, insularity, annual
+  temperature, temperature seasonality, elevation and clutch size that we
+  hypothesized will affect extrinsic mortality rates and hence lifespan. Body
+  mass explained a small proportion of the variance in reptile longevity.
+  Species living on islands, and in colder and more seasonal environments,
+  lived longer. Observed maximum longevity was positively associated with the
+  number of individuals used to estimate it. Our results suggest that species
+  exposed to reduced extrinsic and intrinsic mortality pressures (lower
+  predation, lower metabolic rates and shorter activity periods) live longer.
+  Sampling more individuals increases the chances of finding older specimens
+  and should be corrected for when studying maximum longevity. ADDITIONAL
+  KEYWORDS: body size-comparative analysis-evolutionary theories of
+  senescence-longevity-phylogeny-seasonal temperature.%
+    }
+    \verb{doi}
+    \verb 10.1093/biolinnean/bly153/5145102
+    \endverb
+    \field{isbn}{153/5145102}
+    \field{issn}{1461-6742}
+    \field{title}{{Cold and isolated ectotherms: drivers of reptilian
+  longevity}}
+    \field{journaltitle}{Biological Journal of the Linnean Society}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Thompson2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=TPL}{%
+         family={Thompson},
+         familyi={T\bibinitperiod},
+         given={Patrick\bibnamedelima L.},
+         giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=IF}{%
+         family={Isbell},
+         familyi={I\bibinitperiod},
+         given={Forest},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Loreau},
+         familyi={L\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=OMI}{%
+         family={O'connor},
+         familyi={O\bibinitperiod},
+         given={Mary\bibnamedelima I.},
+         giveni={M\bibinitperiod\bibinitdelim I\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gonzalez},
+         familyi={G\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{B-diversity,Ecosystem functioning,Jensen's inequality,Nonlinear
+  averaging,Spatial scale,Species richness}
+    \strng{namehash}{TPL+1}
+    \strng{fullhash}{TPLIFLMOMIGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Our understanding of the relationship between biodiversity and ecosystem
+  functioning (BEF) applies mainly to fine spatial scales. New research is
+  required if we are to extend this knowledge to broader spatial scales that
+  are relevant for conservation decisions. Here, we use simulations to examine
+  conditions that generate scale dependence of the BEF relationship. We study
+  scale by assessing how the BEF relationship (slope and R2) changes when
+  habitat patches are spatially aggregated. We find three ways for the BEF
+  relationship to be scale-dependent: (i) variation among local patches in
+  local ($\alpha$) diversity, (ii) spatial variation in the local BEF
+  relationship and (iii) incomplete compositional turnover in species
+  composition among patches. The first two cause the slope of the BEF
+  relationship to increase moderately with spatial scale, reflecting nonlinear
+  averaging of spatial variation in diversity or the BEF relationship. The
+  third mechanism results in much stronger scale dependence, with the BEF
+  relationship increasing in the rising portion of the species area
+  relationship, but then decreasing as it saturates. An analysis of data from
+  the Cedar Creek grassland BEF experiment revealed a positive but saturating
+  slope of the relationship with scale. Overall, our findings suggest that the
+  BEF relationship is likely to be scale dependent.%
+    }
+    \verb{doi}
+    \verb 10.1098/rspb.2018.0038
+    \endverb
+    \field{issn}{14712954}
+    \field{title}{{The strength of the biodiversity-ecosystem function
+  relationship depends on spatial scale}}
+    \field{journaltitle}{Proceedings of the Royal Society B: Biological
+  Sciences}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Tilman1994}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TD}{%
+         family={Tilman},
+         familyi={T\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=DJA}{%
+         family={Downing},
+         familyi={D\bibinitperiod},
+         given={John\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TDDJA1}
+    \strng{fullhash}{TDDJA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1994}
+    \field{labeldatesource}{year}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    ONE of the ecological tenets justifying conservation of biodiversity is
+  that diversity begets stability. Impacts of biodiversity on population
+  dynamics and ecosystem functioning have long been debated1-7, however, with
+  many theoretical explorations2-6,8-11 but few field studies12-15. Here we
+  describe a long-term study of grasslands16,17 which shows that primary
+  productivity in more diverse plant communities is more resistant to, and
+  recovers more fully from, a major drought. The curvilinear relationship we
+  observe suggests that each additional species lost from our grasslands had a
+  progressively greater impact on drought resistance. Our results support the
+  diversity-stability hypothesis5,6,18,19, but not the alternative hypothesis
+  that most species are functionally redundant19-21. This study implies that
+  the preservation of biodiversity is essential for the maintenance of stable
+  productivity in ecosystems.%
+    }
+    \verb{doi}
+    \verb 10.1038/367363a0
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{0387946675}
+    \field{issn}{00280836}
+    \field{title}{{Biodiversity and stability in grasslands}}
+    \field{journaltitle}{Nature}
+    \field{eprinttype}{arXiv}
+    \field{year}{1994}
+  \endentry
+
+  \entry{Titley2017}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TMA}{%
+         family={Titley},
+         familyi={T\bibinitperiod},
+         given={Mark\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SJL}{%
+         family={Snaddon},
+         familyi={S\bibinitperiod},
+         given={Jake\bibnamedelima L.},
+         giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=TEC}{%
+         family={Turner},
+         familyi={T\bibinitperiod},
+         given={Edgar\bibnamedelima C.},
+         giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TMA+1}
+    \strng{fullhash}{TMASJLTEC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Over the last 25 years, research on biodiversity has expanded dramatically,
+  fuelled by increasing threats to the natural world. However, the number of
+  published studies is heavily weighted towards certain taxa, perhaps
+  influencing conservation awareness of and funding for less-popular groups.
+  Few studies have systematically quantified these biases, although information
+  on this topic is important for informing future research and conservation
+  priorities. We investigated: i) which animal taxa are being studied; ii) if
+  any taxonomic biases are the same in temperate and tropical regions; iii)
+  whether the taxon studied is named in the title of papers on biodiversity,
+  perhaps reflecting a perception of what biodiversity is; iv) the geographical
+  distribution of biodiversity research, compared with the distribution of
+  biodiversity and threatened species; and v) the geographical distribution of
+  authors' countries of origin. To do this, we used the search engine Web of
+  Science to systematically sample a subset of the published literature with
+  ‘biodiversity' in the title. In total 526 research papers were
+  screened—5% of all papers in Web of Science with biodiversity in the title.
+  For each paper, details on taxonomic group, title phrasing, number of
+  citations, study location, and author locations were recorded. Compared to
+  the proportions of described species, we identified a considerable taxonomic
+  weighting towards vertebrates and an under-representation of invertebrates
+  (particularly arachnids and insects) in the published literature. This
+  discrepancy is more pronounced in highly cited papers, and in tropical
+  regions, with only 43% of biodiversity research in the tropics including
+  invertebrates. Furthermore, while papers on vertebrate taxa typically did not
+  specify the taxonomic group in the title, the converse was true for
+  invertebrate papers. Biodiversity research is also biased geographically:
+  studies are more frequently carried out in developed countries with larger
+  economies, and for a given level of species or threatened species, tropical
+  countries were understudied relative to temperate countries. Finally,
+  biodiversity research is disproportionately authored by researchers from
+  wealthier countries, with studies less likely to be carried out by scientists
+  in lower-GDP nations. Our results highlight the need for a more systematic
+  and directed evaluation of biodiversity studies, perhaps informing more
+  targeted research towards those areas and taxa most depauperate in research.
+  Only by doing so can we ensure that biodiversity research yields results that
+  are relevant and applicable to all regions and that the information necessary
+  for the conservation of threatened species is available to conservation
+  practitioners.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pone.0189577
+    \endverb
+    \field{isbn}{1111111111}
+    \field{issn}{19326203}
+    \field{title}{{Scientific research on animal biodiversity is systematically
+  biased towards vertebrates and temperate regions}}
+    \field{journaltitle}{PLoS ONE}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Vidan2017}{article}{}
+    \name{author}{11}{}{%
+      {{hash=VE}{%
+         family={Vidan},
+         familyi={V\bibinitperiod},
+         given={Enav},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=RU}{%
+         family={Roll},
+         familyi={R\bibinitperiod},
+         given={Uri},
+         giveni={U\bibinitperiod},
+      }}%
+      {{hash=BA}{%
+         family={Bauer},
+         familyi={B\bibinitperiod},
+         given={Aaron},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GL}{%
+         family={Grismer},
+         familyi={G\bibinitperiod},
+         given={Lee},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=GP}{%
+         family={Guo},
+         familyi={G\bibinitperiod},
+         given={Peng},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=ME}{%
+         family={Maza},
+         familyi={M\bibinitperiod},
+         given={Erez},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Novosolov},
+         familyi={N\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sindaco},
+         familyi={S\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Wagner},
+         familyi={W\bibinitperiod},
+         given={Philipp},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Belmaker},
+         familyi={B\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Meiri},
+         familyi={M\bibinitperiod},
+         given={Shai},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{ambient temperature hypothesis,night temperature,productivity
+  hypothesis,richness}
+    \strng{namehash}{VE+1}
+    \strng{fullhash}{VERUBAGLGPMENMSRWPBJMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    Aim: Lizards are ancestrally diurnal, and most of them remain so.
+  Nocturnality is common among lizards, but the environmental factors
+  associated with lizard nocturnal activity are still unknown. Here, we
+  contrasted the ambient temperature and productivity hypotheses, where we
+  predicted that cold temperatures will pose a stonger limit to nocturnal
+  species richness than diurnal lizards. Moreover, we contrasted the relative
+  importance of annual, day and night mean temperatures to pinpoint the drivers
+  of nocturnal lizard richness. Location:Mainland Eurasia. Methods: We
+  collected distribution range and activity time data for all 1,113 lizard
+  species found throughout mainland Eurasia. This represents the largest
+  geographical scope to date, for studies of lizard species richness. We
+  examined the spatial patterns of nocturnal species richness in relationship
+  to diurnal species richness across environmental gradients of ambient
+  temperature and productivity. Results: Nocturnal lizards are richest in the
+  tropics and in deserts, and their richness decreases with latitude. However,
+  nocturnal lizards are absent from the highest latitudes and coldest regions
+  inhabited by lizards. Diurnal and nocturnal lizards respond in a similar
+  manner to climatic factors. Ambient temperature has a strong influence on
+  both, whereas productivity is more tightly related to the proportion of
+  nocturnal species. Main conclusions: Nocturnality is widespread among
+  Eurasian lizards. However, nocturnal lizards are absent from invariably cold
+  regions, and low temperatures seem to be a limiting factor for lizard
+  activity period. We suggest that the year-round warm nights of the tropics
+  reduce the cost of being active at night and open the nocturnal niche for
+  many lizards. In hot deserts, the combination of hot days and aridity
+  increases the cost of diurnal activity, whereas nocturnal activity provides a
+  shelter from these extreme conditions.%
+    }
+    \verb{doi}
+    \verb 10.1111/geb.12643
+    \endverb
+    \field{issn}{14668238}
+    \field{title}{{The Eurasian hot nightlife: Environmental forces associated
+  with nocturnality in lizards}}
+    \field{journaltitle}{Global Ecology and Biogeography}
+    \field{year}{2017}
+  \endentry
+
+  \entry{Violle2007}{misc}{}
+    \name{author}{7}{}{%
+      {{hash=VC}{%
+         family={Violle},
+         familyi={V\bibinitperiod},
+         given={Cyrille},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=NML}{%
+         family={Navas},
+         familyi={N\bibinitperiod},
+         given={Marie\bibnamedelima Laure},
+         giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=VD}{%
+         family={Vile},
+         familyi={V\bibinitperiod},
+         given={Denis},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Kazakou},
+         familyi={K\bibinitperiod},
+         given={Elena},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FC}{%
+         family={Fortunel},
+         familyi={F\bibinitperiod},
+         given={Claire},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HI}{%
+         family={Hummel},
+         familyi={H\bibinitperiod},
+         given={Ir{\`{e}}ne},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=GE}{%
+         family={Garnier},
+         familyi={G\bibinitperiod},
+         given={Eric},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VC+1}
+    \strng{fullhash}{VCNMLVDKEFCHIGE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2007}
+    \field{labeldatesource}{year}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    In its simplest definition, a trait is a surrogate of organismal
+  performance, and this meaning of the term has been used by evolutionists for
+  a long time. Over the last three decades, developments in community and
+  ecosystem ecology have forced the concept of trait beyond these original
+  boundaries, and trait-based approaches are now widely used in studies ranging
+  from the level of organisms to that of ecosystems. Despite some attempts to
+  fix the terminology, especially in plant ecology, there is currently a high
+  degree of confusion in the use, not only of the term “trait” itself, but
+  also in the underlying concepts it refers to. We therefore give an
+  unambiguous definition of plant trait, with a particular emphasis on
+  functional trait. A hierarchical perspective is proposed, extending the
+  “performance paradigm” to plant ecology. “Functional traits” are
+  defined as morpho-physio-phenological traits which impact fitness indirectly
+  via their effects on growth, reproduction and survival, the three components
+  of individual performance. We finally present an integrative framework
+  explaining how changes in trait values due to environmental variations are
+  translated into organismal performance, and how these changes may influence
+  processes at higher organizational levels. We argue that this can be achieved
+  by developing “integration functions” which can be grouped into
+  functional response (community level) and effect (ecosystem level)
+  algorithms.%
+    }
+    \field{booktitle}{Oikos}
+    \verb{doi}
+    \verb 10.1111/j.0030-1299.2007.15559.x
+    \endverb
+    \field{isbn}{0030-1299}
+    \field{issn}{16000706}
+    \field{title}{{Let the concept of trait be functional!}}
+    \field{year}{2007}
+  \endentry
+
+  \entry{Wandrag2015}{article}{}
+    \name{author}{4}{}{%
+      {{hash=WEM}{%
+         family={Wandrag},
+         familyi={W\bibinitperiod},
+         given={E.\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DAE}{%
+         family={Dunham},
+         familyi={D\bibinitperiod},
+         given={A.\bibnamedelima E.},
+         giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=MRH}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={R.\bibnamedelima H.},
+         giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RHS}{%
+         family={Rogers},
+         familyi={R\bibinitperiod},
+         given={H.\bibnamedelima S.},
+         giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WEM+1}
+    \strng{fullhash}{WEMDAEMRHRHS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    The accumulation of seeds in the soil (the seedbank) can set the template
+  for the early regeneration of habitats following disturbance. Seed dispersal
+  is an important factor determining the pattern of seed rain, which affects
+  the interactions those seeds experience. For this reason, seed dispersal
+  should play an important role in structuring forest seedbanks, yet we know
+  little about how that happens. Using the functional extirpation of
+  frugivorous vertebrates from the island of Guam, together with two nearby
+  islands (Saipan and Rota) that each support relatively intact disperser
+  assemblages, we aimed to identify the role of vertebrate dispersers in
+  structuring forest seedbanks. We sampled the seedbank on Guam where
+  dispersers are absent, and compared this with the seedbank on Saipan and Rota
+  where they are present. Almost twice as many species found in the seedbank on
+  Guam, when compared with Saipan and Rota, had a conspecific adult within 2 m.
+  This indicates a strong role of vertebrate dispersal in determining the
+  identity of seeds in the seedbank. In addition, on Guam, a greater proportion
+  of samples contained no seeds and overall species richness was lower than on
+  Saipan. Differences in seed abundance and richness between Guam and Rota were
+  less clear, as seedbanks on Rota also contained fewer species than Saipan,
+  possibly due to increased post-dispersal seed predation. Our findings suggest
+  that vertebrate seed dispersers can have a strong influence on the species
+  composition of seedbanks. Regardless of post-dispersal processes, without
+  dispersal, seedbanks no longer serve to increase the species pool of recruits
+  during regeneration.%
+    }
+    \verb{doi}
+    \verb 10.1093/aobpla/plv130
+    \endverb
+    \field{title}{{Vertebrate seed dispersers maintain the composition of
+  tropical forest seedbanks}}
+    \field{journaltitle}{AoB PLANTS}
+    \field{year}{2015}
+  \endentry
+
+  \entry{Wilman2014}{article}{}
+    \name{author}{6}{}{%
+      {{hash=WH}{%
+         family={Wilman},
+         familyi={W\bibinitperiod},
+         given={Hamish},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Belmaker},
+         familyi={B\bibinitperiod},
+         given={Jonathan},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Simpson},
+         familyi={S\bibinitperiod},
+         given={Jennifer},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=dlRC}{%
+         prefix={de\bibnamedelima la},
+         prefixi={d\bibinitperiod\bibinitdelim l\bibinitperiod},
+         family={Rosa},
+         familyi={R\bibinitperiod},
+         given={Carolina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RMM}{%
+         family={Rivadeneira},
+         familyi={R\bibinitperiod},
+         given={Marcelo\bibnamedelima M.},
+         giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=JW}{%
+         family={Jetz},
+         familyi={J\bibinitperiod},
+         given={Walter},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WH+1}
+    \strng{fullhash}{WHBJSJRCdlRMMJW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Species are characterized by physiological, behavioral, and ecological
+  attributes that are all subject to varying evolutionary and ecological
+  constraints and jointly detemrine species' role and function in ecosystems.
+  Attributes such as diet, foraging strata, foraging time, and body size, in
+  particular, characterize a large portion of the "Eltonian" niches of species.
+  Here we present a global species-level compilation of these key attributes
+  for all 9993 and 5400 extant bird and mammal species derived from key
+  literature sources. Global handbooks and monographs allowed the consistent
+  sourcing of attributes for most species. For diet and foraging stratum we
+  followed a defined protocol to translate the verbal descriptions into
+  standardized, semiquantitative information about relative importance of
+  different categories. Together with body size (continuous) and activity time
+  (categorical) this enables a much finer distinction of species' foraging
+  ecology than typical categorical guild assignments allow. Attributes lacking
+  information for specific species are flagged, and interpolated values based
+  on taxonomy are provided instead.The presented data set is limited by, among
+  others, these select cases missing observed data, by errors and uncertainty
+  in the expert assessment as presented in the literature, and by the lack of
+  intraspecific information. However, the standardized and transparent nature
+  and complete global coverage of the data set should support an array of
+  potential studies in biogeography, community ecology, macroevolution, global
+  change biology, and conservation. Potential uses include comparative work
+  involving these traits as focal or secondary variables, ecological research
+  on the trait or trophic structure of communities, or conservation science
+  concerned with the loss of function among species or in ecosystems in a
+  changing world. We hope that this publication will spur the sharing,
+  collaborative curation, and extension of data to the benefit of a more
+  integrative, rigorous, and global biodiversity science.%
+    }
+    \verb{doi}
+    \verb 10.1890/13-1917.1
+    \endverb
+    \field{isbn}{0012-9658}
+    \field{issn}{0012-9658}
+    \field{title}{{EltonTraits 1.0: Species-level foraging attributes of the
+  world's birds and mammals}}
+    \field{journaltitle}{Ecology}
+    \field{year}{2014}
+  \endentry
+
+  \entry{Wilson2011}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=WEE}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Erin\bibnamedelima E.},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=WEM}{%
+         family={Wolkovich},
+         familyi={W\bibinitperiod},
+         given={Elizabeth\bibnamedelima M.},
+         giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WEEWEM1}
+    \strng{fullhash}{WEEWEM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{year}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    Recent advances in the ecology of food webs underscore the importance of
+  detritus and indirect predator-prey effects. However, most research considers
+  detritus as an invariable pool and predation as the only interaction between
+  carnivores and prey. Carrion consumption, scavenging, is a type of detrital
+  feeding that should have widespread consequences for the structure and
+  stability of food webs. Providing access to high-quality resources,
+  facultative scavenging is a ubiquitous and phylogenetically widespread
+  strategy. In this review, we argue that scavenging is underestimated by
+  16-fold in food-web research, producing inflated predation rates and
+  underestimated indirect effects. Furthermore, more energy is generally
+  transferred per link via scavenging than predation. Thus, future food-web
+  research should consider scavenging, especially in light of how major global
+  changes can affect scavengers. {\textcopyright} 2010 Elsevier Ltd.%
+    }
+    \field{booktitle}{Trends in Ecology and Evolution}
+    \verb{doi}
+    \verb 10.1016/j.tree.2010.12.011
+    \endverb
+    \field{issn}{01695347}
+    \field{title}{{Scavenging: How carnivores and carrion structure
+  communities}}
+    \field{year}{2011}
+  \endentry
+\enddatalist
+\endinput

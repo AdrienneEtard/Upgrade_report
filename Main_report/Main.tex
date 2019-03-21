@@ -37,6 +37,16 @@
     %linkcolor=blue,  %choose some color if you want links to stand out
 }
 
+% Bibliography
+\usepackage[backend=bibtex, url=false, doi=true, isbn=false, style=authoryear-comp, eprint=false, maxbibnames= 20, firstinits=true, maxcitenames=2]{biblatex}
+\addbibresource{library.bib}
+\addbibresource{tilman2014.bib}
+\input{biblatex_options.tex}
+
+\setlength\bibitemsep{1.5\itemsep}
+% Numbering biblio
+\usepackage[numbib,nottoc]{tocbibind}
+
 
 % line spacing
 %\renewcommand{\baselinestretch}{2}
@@ -91,5 +101,10 @@
 \chapter{Outline and research questions for the next years}
 
 \chapter{Conclusion}
+
+\clearpage
+\chapter*{Bibliography}
+\printbibliography[heading=none]
+
 
 \end{document}
