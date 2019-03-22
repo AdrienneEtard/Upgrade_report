@@ -17,6 +17,453 @@
 \endgroup
 
 \datalist[entry]{nyt/global//global/global}
+  \entry{Albert2018}{article}{}
+    \name{author}{3}{}{%
+      {{hash=AC}{%
+         family={Albert},
+         familyi={A\bibinitperiod},
+         given={C{\'{e}}line},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=LGM}{%
+         family={Luque},
+         familyi={L\bibinitperiod},
+         given={Gloria\bibnamedelima M.},
+         giveni={G\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=CF}{%
+         family={Courchamp},
+         familyi={C\bibinitperiod},
+         given={Franck},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AC+1}
+    \strng{fullhash}{ACLGMCF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    Charisma is a term commonly used in conservation biology to describe
+  species. However, as the term “charismatic species” has never been
+  properly defined, it needs to be better characterized to fully meet its
+  potential in conservation biology. To provide a more complete depiction, we
+  collected information from four different sources to define the species
+  currently considered to be the most charismatic and to understand what they
+  represent to the Western public. First, we asked respondents of two separate
+  surveys to identify the 10 animal species that they considered to be the most
+  charismatic and associate them with one to six traits: Rare, Endangered,
+  Beautiful, Cute, Impressive, and Dangerous. We then identified the wild
+  animals featured on the website homepages of the zoos situated in the world's
+  100 largest cities as well as on the film posters of all Disney and Pixar
+  films, assuming in both cases that the most charismatic species were
+  generally chosen to attract viewers. By combining the four approaches, we set
+  up a ranked list of the 20 most charismatic animals. The majority are large
+  exotic, terrestrial mammals. These species were deemed charismatic, mainly
+  because they were regarded as beautiful, impressive, or endangered, although
+  no particular trait was discriminated, and species were heterogeneously
+  associated with most of the traits. The main social characteristics of
+  respondents did not have a significant effect on their choices. These results
+  provide a concrete list of the most charismatic species and offer insights
+  into the Western public's perception of charismatic species, both of which
+  could be helpful to target new species for conservation campaigns.%
+    }
+    \verb{doi}
+    \verb 10.1371/journal.pone.0199149
+    \endverb
+    \field{isbn}{1111111111}
+    \field{issn}{19326203}
+    \field{title}{{The twenty most charismatic species}}
+    \field{journaltitle}{PLoS ONE}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Balvanera2006}{article}{}
+    \name{author}{7}{}{%
+      {{hash=BP}{%
+         family={Balvanera},
+         familyi={B\bibinitperiod},
+         given={Patricia},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=PAB}{%
+         family={Pfisterer},
+         familyi={P\bibinitperiod},
+         given={Andrea\bibnamedelima B.},
+         giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=BN}{%
+         family={Buchmann},
+         familyi={B\bibinitperiod},
+         given={Nina},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=HJS}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Jing\bibnamedelima Shen},
+         giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=NT}{%
+         family={Nakashizuka},
+         familyi={N\bibinitperiod},
+         given={Tohru},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=RD}{%
+         family={Raffaelli},
+         familyi={R\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Schmid},
+         familyi={S\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Biodiversity-ecosystem functioning,Diversity manipulations,Ecosystem
+  property,Ecosystem services,Ecosystem type,Experimental
+  design,Meta-analysis,Stability,Trophic level}
+    \strng{namehash}{BP+1}
+    \strng{fullhash}{BPPABBNHJSNTRDSB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Concern is growing about the consequences of biodiversity loss for
+  ecosystem functioning, for the provision of ecosystem services, and for human
+  well being. Experimental evidence for a relationship between biodiversity and
+  ecosystem process rates is compelling, but the issue remains contentious.
+  Here, we present the first rigorous quantitative assessment of this
+  relationship through meta-analysis of experimental work spanning 50 years to
+  June 2004. We analysed 446 measures of biodiversity effects (252 in
+  grasslands), 319 of which involved primary producer manipulations or
+  measurements. Our analyses show that: biodiversity effects are weaker if
+  biodiversity manipulations are less well controlled; effects of biodiversity
+  change on processes are weaker at the ecosystem compared with the community
+  level and are negative at the population level; productivity-related effects
+  decline with increasing number of trophic links between those elements
+  manipulated and those measured; biodiversity effects on stability measures
+  ('insurance' effects) are not stronger than biodiversity effects on
+  performance measures. For those ecosystem services which could be assessed
+  here, there is clear evidence that biodiversity has positive effects on most.
+  Whilst such patterns should be further confirmed, a precautionary approach to
+  biodiversity management would seem prudent in the meantime.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1461-0248.2006.00963.x
+    \endverb
+    \field{isbn}{1461-023X}
+    \field{issn}{1461023X}
+    \field{title}{{Quantifying the evidence for biodiversity effects on
+  ecosystem functioning and services}}
+    \field{journaltitle}{Ecology Letters}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Barber2010}{article}{}
+    \name{author}{6}{}{%
+      {{hash=BNA}{%
+         family={Barber},
+         familyi={B\bibinitperiod},
+         given={N.\bibnamedelima A.},
+         giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MKA}{%
+         family={Mooney},
+         familyi={M\bibinitperiod},
+         given={K.\bibnamedelima A.},
+         giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Greenberg},
+         familyi={G\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=PSM}{%
+         family={Philpott},
+         familyi={P\bibinitperiod},
+         given={S.\bibnamedelima M.},
+         giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=VSA}{%
+         family={{Van Bael}},
+         familyi={V\bibinitperiod},
+         given={S.\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GDS}{%
+         family={Gruner},
+         familyi={G\bibinitperiod},
+         given={D.\bibnamedelima S.},
+         giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BNA+1}
+    \strng{fullhash}{BNAMKAGRPSMVSAGDS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Theory on trophic interactions predicts that predators increase plant
+  biomass by feeding on herbivores, an indirect interaction called a trophic
+  cascade. Theory also predicts that predators feeding on predators, or
+  intraguild predation, will weaken trophic cascades. Although past syntheses
+  have confirmed cascading effects of terrestrial arthropod predators, we lack
+  a comprehensive analysis for vertebrate insectivores-which by virtue of their
+  body size and feeding habits are often top predators in these systems-and of
+  how intraguild predation mediates trophic cascade strength. We report here on
+  a meta-analysis of 113 experiments documenting the effects of insectivorous
+  birds, bats, or lizards on predaceous arthropods, herbivorous arthropods, and
+  plants. Although vertebrate insectivores fed as intraguild predators,
+  strongly reducing predaceous arthropods (38%), they nevertheless suppressed
+  herbivores (39%), indirectly reduced plant damage (40%), and increased plant
+  biomass (14%). Furthermore, effects of vertebrate insectivores on predatory
+  and herbivorous arthropods were positively correlated. Effects were strongest
+  on arthropods and plants in communities with abundant predaceous arthropods
+  and strong intraguild predation, but weak in communities depauperate in
+  arthropod predators and intraguild predation. The naturally occurring ratio
+  of arthropod predators relative to herbivores varied tremendously among the
+  studied communities, and the skew to predators increased with site primary
+  productivity and in trees relative to shrubs. Although intraguild predation
+  among arthropod predators has been shown to weaken herbivore suppression, we
+  find this paradigm does not extend to vertebrate insectivores in these
+  communities. Instead, vertebrate intraguild preda-tion is associated with
+  strengthened trophic cascades, and insectivores function as dominant
+  predators in terrestrial plant-arthropod communities.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1001934107
+    \endverb
+    \field{issn}{0027-8424}
+    \field{title}{{Interactions among predators and the cascading effects of
+  vertebrate insectivores on arthropod communities and plants}}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Barbet-Massin2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BMM}{%
+         family={Barbet-Massin},
+         familyi={B\bibinithyphendelim M\bibinitperiod},
+         given={Morgane},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Thuiller},
+         familyi={T\bibinitperiod},
+         given={Wilfried},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=JF}{%
+         family={Jiguet},
+         familyi={J\bibinitperiod},
+         given={Fr{\'{e}}d{\'{e}}ric},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \keyw{Climate change,European birds,Land-use scenario,Natal
+  dispersal,Shifts,Species distribution models,Species richness}
+    \strng{namehash}{BMM+1}
+    \strng{fullhash}{BMMTWJF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    Many species have already shifted their distributions in response to recent
+  climate change. Here, we aimed at predicting the future breeding
+  distributions of European birds under climate, land-use, and dispersal
+  scenarios. We predicted current and future distributions of 409 species
+  within an ensemble forecast framework using seven species distribution models
+  (SDMs), five climate scenarios and three emission and land-use scenarios. We
+  then compared results from SDMs using climate-only variables, habitat-only
+  variables or both climate and habitat variables. In order to account for a
+  species' dispersal abilities, we used natal dispersal estimates and developed
+  a probabilistic method that produced a dispersal scenario intermediate
+  between the null and full dispersal scenarios generally considered in such
+  studies. We then compared results from all scenarios in terms of future
+  predicted range changes, range shifts, and variations in species richness.
+  Modeling accuracy was better with climate-only variables than with
+  habitat-only variables, and better with both climate and habitat variables.
+  Habitat models predicted smaller range shifts and smaller variations in range
+  size and species richness than climate models. Using both climate and habitat
+  variables, it was predicted that the range of 71% of the species would
+  decrease by 2050, with a 335 km median shift. Predicted variations in species
+  richness showed large decreases in the southern regions of Europe, as well as
+  increases, mainly in Scandinavia and northern Russia. The partial dispersal
+  scenario was significantly different from the full dispersal scenario for 25%
+  of the species, resulting in the local reduction of the future predicted
+  species richness of up to 10%. We concluded that the breeding range of most
+  European birds will decrease in spite of dispersal abilities close to a full
+  dispersal hypothesis, and that given the contrasted predictions obtained when
+  modeling climate change only and land-use change only, both scenarios must be
+  taken into consideration. 2011 Blackwell Publishing Ltd.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1365-2486.2011.02552.x
+    \endverb
+    \field{isbn}{1365-2486}
+    \field{issn}{13541013}
+    \field{title}{{The fate of European breeding birds under climate, land-use
+  and dispersal scenarios}}
+    \field{journaltitle}{Global Change Biology}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Borges2018}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BR}{%
+         family={Borges},
+         familyi={B\bibinitperiod},
+         given={Rui},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MJP}{%
+         family={Machado},
+         familyi={M\bibinitperiod},
+         given={Jo{\~{a}}o\bibnamedelima Paulo},
+         giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=GC}{%
+         family={Gomes},
+         familyi={G\bibinitperiod},
+         given={Cid{\'{a}}lia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=RAP}{%
+         family={Rocha},
+         familyi={R\bibinitperiod},
+         given={Ana\bibnamedelima Paula},
+         giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=AA}{%
+         family={Antunes},
+         familyi={A\bibinitperiod},
+         given={Agostinho},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BR+1}
+    \strng{fullhash}{BRMJPGCRAPAA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    MotivationDetermining whether a trait and phylogeny share some degree of
+  phylogenetic signal is a flagship goal in evolutionary biology. Signatures of
+  phylogenetic signal can assist the resolution of a broad range of
+  evolutionary questions regarding the tempo and mode of phenotypic evolution.
+  However, despite the considerable number of strategies to measure it, few and
+  limited approaches exist for categorical traits. Here, we used the concept of
+  Shannon entropy and propose the $\delta$ statistic for evaluating the degree
+  of phylogenetic signal between a phylogeny and categorical traits.ResultsWe
+  validated $\delta$ as a measure of phylogenetic signal: the higher the
+  $\delta$-value the higher the degree of phylogenetic signal between a given
+  tree and a trait. Based on simulated data we proposed a threshold-based
+  classification test to pinpoint cases of phylogenetic signal. The assessment
+  of the test's specificity and sensitivity suggested that the $\delta$
+  approach should only be applied to 20 or more species. We have further tested
+  the performance of $\delta$ in scenarios of branch length and topology
+  uncertainty, unbiased and biased trait evolution and trait saturation. Our
+  results showed that $\delta$ may be applied in a wide range of phylogenetic
+  contexts. Finally, we investigated our method in 14 360 mammalian gene trees
+  and found that olfactory receptor genes are significantly associated with the
+  mammalian activity patterns, a result that is congruent with expectations and
+  experiments from the literature. Our application shows that $\delta$ can
+  successfully detect molecular signatures of phenotypic evolution. We conclude
+  that $\delta$ represents a useful measure of the strength of phylogenetic
+  signal since many phenotypes can only be measured in
+  categories.Availabilityhttps://github.com/mrborges23/delta_statisticSupplementary
+  informationSupplementary data are available at Bioinformatics online.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/bty800
+    \endverb
+    \field{issn}{1367-4803}
+    \field{title}{{Measuring phylogenetic signal between categorical traits and
+  phylogenies}}
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Bruggeman2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=BJ}{%
+         family={Bruggeman},
+         familyi={B\bibinitperiod},
+         given={Jorn},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HJ}{%
+         family={Heringa},
+         familyi={H\bibinitperiod},
+         given={Jaap},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=BBW}{%
+         family={Brandt},
+         familyi={B\bibinitperiod},
+         given={Bernd\bibnamedelima W.},
+         giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJHJBBW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{abstract}{%
+    A wealth of information on metabolic parameters of a species can be
+  inferred from observations on species that are phylogenetically related.
+  Phylogeny-based information can complement direct empirical evidence, and is
+  particularly valuable if experiments on the species of interest are not
+  feasible. The PhyloPars web server provides a statistically consistent method
+  that combines an incomplete set of empirical observations with the species
+  phylogeny to produce a complete set of parameter estimates for all species.
+  It builds upon a state-of-the-art evolutionary model, extended with the
+  ability to handle missing data. The resulting approach makes optimal use of
+  all available information to produce estimates that can be an order of
+  magnitude more accurate than ad-hoc alternatives. Uploading a phylogeny and
+  incomplete feature matrix suffices to obtain estimates of all missing values,
+  along with a measure of certainty. Real-time cross-validation provides
+  further insight in the accuracy and bias expected for estimated values. The
+  server allows for easy, efficient estimation of metabolic parameters, which
+  can benefit a wide range of fields including systems biology and ecology.
+  PhyloPars is available at: http://www.ibi.vu.nl/programs/phylopars/.%
+    }
+    \verb{doi}
+    \verb 10.1093/nar/gkp370
+    \endverb
+    \field{isbn}{03051048 (ISSN)}
+    \field{issn}{03051048}
+    \field{title}{{PhyloPars: Estimation of missing parameter values using
+  phylogeny}}
+    \field{journaltitle}{Nucleic Acids Research}
+    \field{year}{2009}
+  \endentry
+
   \entry{Calosi2010}{article}{}
     \name{author}{5}{}{%
       {{hash=CP}{%
@@ -99,6 +546,52 @@
   (Coleoptera: Dytiscidae)}}
     \field{journaltitle}{Journal of Animal Ecology}
     \field{year}{2010}
+  \endentry
+
+  \entry{Chamberlain2013}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CSA}{%
+         family={Chamberlain},
+         familyi={C\bibinitperiod},
+         given={Scott\bibnamedelima A},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sz{\"{o}}cs},
+         familyi={S\bibinitperiod},
+         given={Eduard},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CSASE1}
+    \strng{fullhash}{CSASE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    All species are hierarchically related to one another, and we use taxonomic
+  names to label the nodes in this hierarchy. Taxonomic data is becoming
+  increasingly available on the web, but scientists need a way to access it in
+  a programmatic fashion that's easy and reproducible. We have developed
+  taxize, an open-source software package (freely available from) for the R
+  language. http://cran.r-project.org/web/packages/taxize/index.html taxize
+  provides simple, programmatic access to taxonomic data for 13 data sources
+  around the web. We discuss the need for a taxonomic toolbelt in R, and
+  outline a suite of use cases for which taxize is ideally suited (including a
+  full workflow as an appendix). The taxize package facilitates open and
+  reproducible science by allowing taxonomic data collection to be done in the
+  open-source R platform.%
+    }
+    \verb{doi}
+    \verb 10.12688/f1000research.2-191.v2
+    \endverb
+    \field{title}{{taxize : taxonomic search and retrieval in R [version 2;
+  referees: 3 approved]}}
+    \field{journaltitle}{F1000Research}
+    \field{year}{2013}
   \endentry
 
   \entry{Cooke2019}{article}{}
@@ -229,6 +722,168 @@
     \field{journaltitle}{Proceedings of the Royal Society B: Biological
   Sciences}
     \field{year}{2018}
+  \endentry
+
+  \entry{Diniz-Filho2012}{article}{}
+    \name{author}{7}{}{%
+      {{hash=DFJAF}{%
+         family={Diniz-Filho},
+         familyi={D\bibinithyphendelim F\bibinitperiod},
+         given={Jose Alexandre\bibnamedelima F.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  F\bibinitperiod},
+      }}%
+      {{hash=BLM}{%
+         family={Bini},
+         familyi={B\bibinitperiod},
+         given={Luis\bibnamedelima Mauricio},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RTF}{%
+         family={Rangel},
+         familyi={R\bibinitperiod},
+         given={Thiago\bibnamedelima Fernando},
+         giveni={T\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+      {{hash=MCI}{%
+         family={Morales-Castilla},
+         familyi={M\bibinithyphendelim C\bibinitperiod},
+         given={Ignacio},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=OTMA}{%
+         family={Olalla-T{\'{a}}rraga},
+         familyi={O\bibinithyphendelim T\bibinitperiod},
+         given={Miguel\bibnamedelima {\'{A}}},
+         giveni={M\bibinitperiod\bibinitdelim {\'{A}}\bibinitperiod},
+      }}%
+      {{hash=RMA}{%
+         family={Rodr{\'{i}}guez},
+         familyi={R\bibinitperiod},
+         given={Miguel\bibnamedelima {\'{A}}},
+         giveni={M\bibinitperiod\bibinitdelim {\'{A}}\bibinitperiod},
+      }}%
+      {{hash=HBA}{%
+         family={Hawkins},
+         familyi={H\bibinitperiod},
+         given={Bradford\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DFJAF+1}
+    \strng{fullhash}{DFJAFBLMRTFMCIOTMARMAHBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{abstract}{%
+    Among the statistical methods available to control for phylogenetic
+  autocorrelation in ecological data, those based on eigenfunction analysis of
+  the phylogenetic distance matrix among the species are becoming increasingly
+  important tools. Here, we evaluate a range of criteria to select eigenvectors
+  extracted from a phylogenetic distance matrix (using phylogenetic eigenvector
+  regression, PVR) that can be used to measure the level of phylogenetic signal
+  in ecological data and to study correlated evolution. We used a principal
+  coordinate analysis to represent the phylogenetic relationships among 209
+  species of Carnivora by a series of eigenvectors, which were then used to
+  model log-transformed body size. We first conducted a series of PVRs in which
+  we increased the number of eigenvectors from 1 to 70, following the sequence
+  of their associated eigenvalues. Second, we also investigated three
+  non-sequential approaches based on the selection of 1) eigenvectors
+  significantly correlated with body size, 2) eigenvectors selected by a
+  standard stepwise algorithm, and 3) the combination of eigenvectors that
+  minimizes the residual phylogenetic autocorrelation. We mapped the mean
+  specific component of body size to evaluate how these selection criteria
+  affect the interpretation of non-phylogenetic signal in Bergmann's rule. For
+  comparison, the same patterns were analyzed using autoregressive model (ARM)
+  and phylogenetic generalized least-squares (PGLS). Despite the robustness of
+  PVR to the specific approaches used to select eigenvectors, using a
+  relatively small number of eigenvectors may be insufficient to control
+  phylogenetic autocorrelation, leading to flawed conclusions about patterns
+  and processes. The method that minimizes residual autocorrelation seems to be
+  the best choice according to different criteria. Thus, our analyses show
+  that, when the best criterion is used to control phylogenetic structure, PVR
+  can be a valuable tool for testing hypotheses related to heritability at the
+  species level, phylogenetic niche conservatism and correlated evolution
+  between ecological traits. -� 2011 The Authors. Ecography -� 2012 Nordic
+  Society Oikos%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1600-0587.2011.06949.x
+    \endverb
+    \field{isbn}{1600-0587}
+    \field{issn}{09067590}
+    \field{title}{{On the selection of phylogenetic eigenvectors for ecological
+  analyses}}
+    \verb{file}
+    \verb :C\:/Users/Adrienne/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Diniz-Filho et al. - 2012 - On the selection of phylogenetic e
+    \verb igenvectors for ecological analyses.pdf:pdf
+    \endverb
+    \field{journaltitle}{Ecography}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Fritz2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=FSA}{%
+         family={Fritz},
+         familyi={F\bibinitperiod},
+         given={Susanne\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=BEOR}{%
+         family={Bininda-Emonds},
+         familyi={B\bibinithyphendelim E\bibinitperiod},
+         given={Olaf\bibnamedelima R.P.},
+         giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PA}{%
+         family={Purvis},
+         familyi={P\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \keyw{Anthropogenic impact,Body mass,Conservation,Geographical range
+  size,Life history,Phylogenetic generalized linear model,Population
+  density,Spatial autoregressive model,Supertree}
+    \strng{namehash}{FSA+1}
+    \strng{fullhash}{FSABEORPA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2009}
+    \field{labeldatesource}{year}
+    \field{sortinit}{F}
+    \field{sortinithash}{F}
+    \field{abstract}{%
+    Whereas previous studies have investigated correlates of extinction risk
+  either at global or regional scales, our study explicitly models regional
+  effects of anthropogenic threats and biological traits across the globe.
+  Using phylogenetic comparative methods with a newly-updated supertree of 5020
+  extant mammals, we investigate the impact of species traits on extinction
+  risk within each WWF ecoregion. Our analyses reveal strong geographical
+  variation in the influence of traits on risk: notably, larger species are at
+  higher risk only in tropical regions. We then relate these patterns to
+  current and recent-historical human impacts across ecoregions usin g spatial
+  modelling. The body-mass results apparently reflect historical declines of
+  large species outside the tropics due to large-scale land conversion.
+  Narrow-ranged and rare species tend to be at high risk in areas of high
+  current human impacts. The interactions we describe between biological traits
+  and anthropogenic threats increase understanding of the processes determining
+  extinction risk.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1461-0248.2009.01307.x
+    \endverb
+    \field{isbn}{1461-0248}
+    \field{issn}{1461023X}
+    \field{title}{{Geographical variation in predictors of mammalian extinction
+  risk: Big is bad, but only in the tropics}}
+    \field{journaltitle}{Ecology Letters}
+    \field{year}{2009}
   \endentry
 
   \entry{Gainsbury2018}{misc}{}
@@ -372,6 +1027,83 @@
     \field{eprinttype}{arXiv}
     \field{eprintclass}{http:}
     \field{year}{2016}
+  \endentry
+
+  \entry{Hedges2015}{article}{}
+    \name{author}{5}{}{%
+      {{hash=HSB}{%
+         family={Hedges},
+         familyi={H\bibinitperiod},
+         given={S.\bibnamedelima Blair},
+         giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Marin},
+         familyi={M\bibinitperiod},
+         given={Julie},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Suleski},
+         familyi={S\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Paymer},
+         familyi={P\bibinitperiod},
+         given={Madeline},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Kumar},
+         familyi={K\bibinitperiod},
+         given={Sudhir},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \keyw{biodiversity,diversification,speciation,timetree,tree of life}
+    \strng{namehash}{HSB+1}
+    \strng{fullhash}{HSBMJSMPMKS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2015}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Genomic data are rapidly resolving the tree of living species calibrated to
+  time, the timetree of life, which will provide a framework for research in
+  diverse fields of science. Previous analyses of taxonomically restricted
+  timetrees have found a decline in the rate of diversification in many groups
+  of organisms, often attributed to ecological interactions among species.
+  Here, we have synthesized a global timetree of life from 2,274 studies
+  representing 50,632 species and examined the pattern and rate of
+  diversification as well as the timing of speciation. We found that species
+  diversity has been mostly expanding overall and in many smaller groups of
+  species, and that the rate of diversification in eukaryotes has been mostly
+  constant. We also identified, and avoided, potential biases that may have
+  influenced previous analyses of diversification including low levels of taxon
+  sampling, small clade size, and the inclusion of stem branches in clade
+  analyses. We found consistency in time-to-speciation among plants and
+  animals, ∼2 My, as measured by intervals of crown and stem species times.
+  Together, this clock-like change at different levels suggests that speciation
+  and diversification are processes dominated by random events and that
+  adaptive change is largely a separate process.%
+    }
+    \verb{doi}
+    \verb 10.1093/molbev/msv037
+    \endverb
+    \verb{eprint}
+    \verb 1412.4312v1
+    \endverb
+    \field{isbn}{1537-1719 (Electronic)\r0737-4038 (Linking)}
+    \field{issn}{15371719}
+    \field{title}{{Tree of life reveals clock-like speciation and
+  diversification}}
+    \field{journaltitle}{Molecular Biology and Evolution}
+    \field{eprinttype}{arXiv}
+    \field{year}{2015}
   \endentry
 
   \entry{Hevia2017}{misc}{}
@@ -971,6 +1703,100 @@
     \field{year}{2016}
   \endentry
 
+  \entry{Isbell2018}{article}{}
+    \name{author}{8}{}{%
+      {{hash=IF}{%
+         family={Isbell},
+         familyi={I\bibinitperiod},
+         given={Forest},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CJ}{%
+         family={Cowles},
+         familyi={C\bibinitperiod},
+         given={Jane},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DLE}{%
+         family={Dee},
+         familyi={D\bibinitperiod},
+         given={Laura\bibnamedelima E.},
+         giveni={L\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Loreau},
+         familyi={L\bibinitperiod},
+         given={Michel},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RPB}{%
+         family={Reich},
+         familyi={R\bibinitperiod},
+         given={Peter\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gonzalez},
+         familyi={G\bibinitperiod},
+         given={Andrew},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Hector},
+         familyi={H\bibinitperiod},
+         given={Andy},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Schmid},
+         familyi={S\bibinitperiod},
+         given={Bernhard},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \keyw{Biodiversity,complementarity effect,ecosystem functioning,insurance
+  effect,overyielding,selection effect}
+    \strng{namehash}{IF+1}
+    \strng{fullhash}{IFCJDLELMRPBGAHASB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{abstract}{%
+    Biodiversity loss decreases ecosystem functioning at the local scales at
+  which species interact, but it remains unclear how biodiversity loss affects
+  ecosystem functioning at the larger scales of space and time that are most
+  relevant to biodiversity conservation and policy. Theory predicts that
+  addi-tional insurance effects of biodiversity on ecosystem functioning could
+  emerge across time and space if species respond asynchronously to
+  environmental variation and if species become increas-ingly dominant when and
+  where they are most productive. Even if only a few dominant species maintain
+  ecosystem functioning within a particular time and place, ecosystem
+  functioning may be enhanced by many different species across many times and
+  places (b-diversity). Here, we develop and apply a new approach to estimate
+  these previously unquantified insurance effects of biodiver-sity on ecosystem
+  functioning that arise due to species turnover across times and places. In a
+  long-term (18-year) grassland plant diversity experiment, we find that total
+  insurance effects are positive in sign and substantial in magnitude,
+  amounting to 19% of the net biodiversity effect, mostly due to temporal
+  insurance effects. Species loss can therefore reduce ecosystem functioning
+  both locally and by eliminating species that would otherwise enhance
+  ecosystem functioning across temporally fluctuating and spatially
+  heterogeneous environments.%
+    }
+    \verb{doi}
+    \verb 10.1111/ele.12928
+    \endverb
+    \field{isbn}{1461-0248 (Electronic) 1461-023X (Linking)}
+    \field{issn}{14610248}
+    \field{title}{{Quantifying effects of biodiversity on ecosystem functioning
+  across times and places}}
+    \field{journaltitle}{Ecology Letters}
+    \field{year}{2018}
+  \endentry
+
   \entry{Jones2009}{article}{}
     \name{author}{24}{}{%
       {{hash=JKE}{%
@@ -1512,6 +2338,161 @@
     \field{year}{2002}
   \endentry
 
+  \entry{Letnic2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=LM}{%
+         family={Letnic},
+         familyi={L\bibinitperiod},
+         given={Mike},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=REG}{%
+         family={Ritchie},
+         familyi={R\bibinitperiod},
+         given={Euan\bibnamedelima G.},
+         giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=DCR}{%
+         family={Dickman},
+         familyi={D\bibinitperiod},
+         given={Christopher\bibnamedelima R.},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \keyw{Biodiversity,Canis lupus
+  dingo,Competition,Conservation,Dingo,Intra-guild predation,Mesopredator,Red
+  fox,Top predator,Trophic cascade,Vulpes vulpes}
+    \strng{namehash}{LM+1}
+    \strng{fullhash}{LMREGDCR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    Top-order predators often have positive effects on biological diversity
+  owing to their key functional roles in regulating trophic cascades and other
+  ecological processes. Their loss has been identified as a major factor
+  contributing to the decline of biodiversity in both aquatic and terrestrial
+  systems. Consequently, restoring and maintaining the ecological function of
+  top predators is a critical global imperative. Here we review studies of the
+  ecological effects of the dingo Canis lupus dingo, Australia's largest land
+  predator, using this as a case study to explore the influence of a top
+  predator on biodiversity at a continental scale. The dingo was introduced to
+  Australia by people at least 3500 years ago and has an ambiguous status owing
+  to its brief history on the continent, its adverse impacts on livestock
+  production and its role as an ecosystem architect. A large body of research
+  now indicates that dingoes regulate ecological cascades, particularly in arid
+  Australia, and that the removal of dingoes results in an increase in the
+  abundances and impacts of herbivores and invasive mesopredators, most notably
+  the red fox Vulpes vulpes. The loss of dingoes has been linked to widespread
+  losses of small and medium-sized native mammals, the depletion of plant
+  biomass due to the effects of irrupting herbivore populations and increased
+  predation rates by red foxes. We outline a suite of conceptual models to
+  describe the effects of dingoes on vertebrate populations across different
+  Australian environments. Finally, we discuss key issues that require
+  consideration or warrant research before the ecological effects of dingoes
+  can be incorporated formally into biodiversity conservation programs.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1469-185X.2011.00203.x
+    \endverb
+    \field{issn}{14647931}
+    \field{title}{{Top predators as biodiversity regulators: The dingo Canis
+  lupus dingo as a case study}}
+    \field{journaltitle}{Biological Reviews}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Lin2018}{article}{}
+    \name{author}{7}{}{%
+      {{hash=LF}{%
+         family={Lin},
+         familyi={L\bibinitperiod},
+         given={Fei},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=JS}{%
+         family={Jia},
+         familyi={J\bibinitperiod},
+         given={Shihong},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LMS}{%
+         family={Luskin},
+         familyi={L\bibinitperiod},
+         given={Matthew\bibnamedelima Scott},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=YJ}{%
+         family={Ye},
+         familyi={Y\bibinitperiod},
+         given={Ji},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HZ}{%
+         family={Hao},
+         familyi={H\bibinitperiod},
+         given={Zhanqing},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=WX}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Xugao},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YZ}{%
+         family={Yuan},
+         familyi={Y\bibinitperiod},
+         given={Zuoqiang},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LF+1}
+    \strng{fullhash}{LFJSLMSYJHZWXYZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    The theory of "top-down" ecological regulation predicts that herbivory
+  suppresses plant abundance, biomass, and survival but increases diversity
+  through the disproportionate consumption of dominant species, which inhibits
+  competitive exclusion. To date, these outcomes have been clear in aquatic
+  ecosystems but not on land. We explicate this discrepancy using a
+  meta-analysis of experimental results from 123 native animal exclusions in
+  natural terrestrial ecosystems (623 pairwise comparisons). Consistent with
+  top-down predictions, we found that herbivores significantly reduced plant
+  abundance, biomass, survival, and reproduction (all P < 0.01) and increased
+  species evenness but not richness (P = 0.06 and P = 0.59, respectively).
+  However, when examining patterns in the strength of top-down effects, with
+  few exceptions, we were unable to detect significantly different effect sizes
+  among biomes, based on local site characteristics (climate or productivity)
+  or study characteristics (study duration or exclosure size). The positive
+  effects on diversity were only significant in studies excluding large animals
+  or located in temperate grasslands. The results demonstrate that top-down
+  regulation by herbivores is a pervasive process shaping terrestrial plant
+  communities at the global scale, but its strength is highly site specific and
+  not predicted by basic site conditions. We suggest that including herbivore
+  densities as a covariate in future exclosure studies will facilitate the
+  discovery of unresolved macroecology trends in the strength of
+  herbivore-plant interactions.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1707984115
+    \endverb
+    \field{isbn}{1091-6490 (Electronic) 0027-8424 (Linking)}
+    \field{issn}{0027-8424}
+    \field{title}{{Global signal of top-down control of terrestrial plant
+  communities by herbivores}}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2018}
+  \endentry
+
   \entry{Luck2012}{article}{}
     \name{author}{4}{}{%
       {{hash=LGW}{%
@@ -1791,6 +2772,201 @@
   change}}
     \field{journaltitle}{Nature Communications}
     \field{year}{2014}
+  \endentry
+
+  \entry{Molina-Venegas2018a}{misc}{}
+    \name{author}{6}{}{%
+      {{hash=MVR}{%
+         family={Molina-Venegas},
+         familyi={M\bibinithyphendelim V\bibinitperiod},
+         given={Rafael},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MSJC}{%
+         family={Moreno-Saiz},
+         familyi={M\bibinithyphendelim S\bibinitperiod},
+         given={Juan\bibnamedelima Carlos},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=CI}{%
+         family={{Castro Parga}},
+         familyi={C\bibinitperiod},
+         given={Isabel},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=DTJ}{%
+         family={Davies},
+         familyi={D\bibinitperiod},
+         given={T.\bibnamedelima Jonathan},
+         giveni={T\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=PNPR}{%
+         family={Peres-Neto},
+         familyi={P\bibinithyphendelim N\bibinitperiod},
+         given={Pedro\bibnamedelima R.},
+         giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=RMA}{%
+         family={Rodr{\'{i}}guez},
+         familyi={R\bibinitperiod},
+         given={Miguel\bibnamedelima A.},
+         giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{Branch-lengths,Missing data,Phylogenetic signal}
+    \strng{namehash}{MVR+1}
+    \strng{fullhash}{MVRMSJCCIDTJPNPRRMA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    Phylogenetic imputation has recently emerged as a potentially powerful tool
+  for predicting missing data in functional traits datasets. As such,
+  understanding the limitations of phylogenetic modelling in predicting trait
+  values is critical if we are to use them in subsequent analyses. Previous
+  studies have focused on the relationship between phylogenetic signal and
+  clade-level prediction accuracy, yet variability in prediction accuracy among
+  individual tips of phylogenies remains largely unexplored. Here, we used
+  simulations of trait evolution along the branches of phylogenetic trees to
+  show how the accuracy of phylogenetic imputations is influenced by the
+  combined effects of (1) the amount of phylogenetic signal in the traits and
+  (2) the branch length of the tips to be imputed. Specifically, we conducted
+  cross-validation trials to estimate the variability in prediction accuracy
+  among individual tips on the phylogenies (hereafter “tip-level
+  accuracy”). We found that under a Brownian motion model of evolution (BM,
+  Pagel's $\lambda$ = 1), tip-level accuracy rapidly decreased with increasing
+  tip branch-lengths, and only tips of approximately 10% or less of the total
+  height of the trees showed consistently accurate predictions (i.e.
+  cross-validation R-squared > 0.75). When phylogenetic signal was weak, the
+  effect of tip branch-length was reduced, becoming negligible for traits
+  simulated with $\lambda$ < 0.7, where accuracy was in any case low. Our study
+  shows that variability in prediction accuracy among individual tips of the
+  phylogeny should be considered when evaluating the reliability of
+  phylogenetically imputed trait values. To address this challenge, we describe
+  a Monte Carlo-based method that allows one to estimate the expected tip-level
+  accuracy of phylogenetic predictions for continuous traits. Our approach
+  identifies gaps in functional trait datasets for which phylogenetic
+  imputation performs poorly, and will help ecologists to design more efficient
+  trait collection campaigns by focusing resources on lineages whose trait
+  values are more uncertain. This article is protected by copyright. All rights
+  reserved.%
+    }
+    \field{booktitle}{Ecography}
+    \verb{doi}
+    \verb 10.1111/ecog.03480
+    \endverb
+    \field{isbn}{09067590}
+    \field{issn}{16000587}
+    \field{title}{{Assessing among-lineage variability in phylogenetic
+  imputation of functional trait datasets}}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Munkemuller2012}{article}{}
+    \name{author}{7}{}{%
+      {{hash=MT}{%
+         family={M{\"{u}}nkem{\"{u}}ller},
+         familyi={M\bibinitperiod},
+         given={Tamara},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=LS}{%
+         family={Lavergne},
+         familyi={L\bibinitperiod},
+         given={S{\'{e}}bastien},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Bzeznik},
+         familyi={B\bibinitperiod},
+         given={Bruno},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=DS}{%
+         family={Dray},
+         familyi={D\bibinitperiod},
+         given={St{\'{e}}phane},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JT}{%
+         family={Jombart},
+         familyi={J\bibinitperiod},
+         given={Thibaut},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Schiffers},
+         familyi={S\bibinitperiod},
+         given={Katja},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=TW}{%
+         family={Thuiller},
+         familyi={T\bibinitperiod},
+         given={Wilfried},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \keyw{Assembly rules,Comparative analysis,Evolutionary community
+  ecology,Niche similarity,Phylogenetic niche conservatism,Trait evolution}
+    \strng{namehash}{MT+1}
+    \strng{fullhash}{MTLSBBDSJTSKTW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{abstract}{%
+    1.Phylogenetic signal is the tendency of related species to resemble each
+  other more than species drawn at random from the same tree. This pattern is
+  of considerable interest in a range of ecological and evolutionary research
+  areas, and various indices have been proposed for quantifying it.
+  Unfortunately, these indices often lead to contrasting results, and
+  guidelines for choosing the most appropriate index are lacking. 2.Here, we
+  compare the performance of four commonly used indices using simulated data.
+  Data were generated with numerical simulations of trait evolution along
+  phylogenetic trees under a variety of evolutionary models. We investigated
+  the sensitivity of the approaches to the size of phylogenies, the resolution
+  of tree structure and the availability of branch length information,
+  examining both the response of the selected indices and the power of the
+  associated statistical tests. 3.We found that under a Brownian motion (BM)
+  model of trait evolution, Abouheif's Cmean and Pagel's $\lambda$ performed
+  well and substantially better than Moran's I and Blomberg's K. Pagel's
+  $\lambda$ provided a reliable effect size measure and performed better for
+  discriminating between more complex models of trait evolution, but was
+  computationally more demanding than Abouheif's Cmean. Blomberg's K was most
+  suitable to capture the effects of changing evolutionary rates in simulation
+  experiments. 4.Interestingly, sample size influenced not only the uncertainty
+  but also the expected values of most indices, while polytomies and missing
+  branch length information had only negligible impacts. 5.We propose
+  guidelines for choosing among indices, depending on (a) their sensitivity to
+  true underlying patterns of phylogenetic signal, (b) whether a test or a
+  quantitative measure is required and (c) their sensitivities to different
+  topologies of phylogenies. 6.These guidelines aim to better assess
+  phylogenetic signal and distinguish it from random trait distributions. They
+  were developed under the assumption of BM, and additional simulations with
+  more complex trait evolution models show that they are to a certain degree
+  generalizable. They are particularly useful in comparative analyses, when
+  requiring a proxy for niche similarity, and in conservation studies that
+  explore phylogenetic loss associated with extinction risks of specific
+  clades.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.2041-210X.2012.00196.x
+    \endverb
+    \verb{eprint}
+    \verb arXiv:1011.1669v3
+    \endverb
+    \field{isbn}{2041-210X}
+    \field{issn}{2041210X}
+    \field{title}{{How to measure and test phylogenetic signal}}
+    \field{journaltitle}{Methods in Ecology and Evolution}
+    \field{eprinttype}{arXiv}
+    \field{year}{2012}
   \endentry
 
   \entry{Myhrvold2015}{article}{}
@@ -2543,6 +3719,249 @@
     \field{year}{2013}
   \endentry
 
+  \entry{Pagel1999}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PM}{%
+         family={Pagel},
+         familyi={P\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PM1}
+    \strng{fullhash}{PM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1999}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    Phylogenetic trees describe the pattern of descent amongst a group of
+  species. With the rapid accumulation of DNA sequence data, more and more
+  phylogenies are being constructed based upon sequence comparisons. The
+  combination of these phylogenies with powerful new statistical approaches for
+  the analysis of biological evolution is challenging widely held beliefs about
+  the history and evolution of life on Earth.%
+    }
+    \field{booktitle}{Nature}
+    \verb{doi}
+    \verb 10.1038/44766
+    \endverb
+    \field{isbn}{0028-0836}
+    \field{issn}{00280836}
+    \field{title}{{Inferring the historical patterns of biological evolution}}
+    \field{year}{1999}
+  \endentry
+
+  \entry{Paine2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=PCE}{%
+         family={Paine},
+         familyi={P\bibinitperiod},
+         given={C.\bibnamedelima E.Timothy},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=BH}{%
+         family={Beck},
+         familyi={B\bibinitperiod},
+         given={Harald},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=TJ}{%
+         family={Terborgh},
+         familyi={T\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \keyw{Agouti,Beta diversity,Defaunation,Negative density
+  dependence,Peccary,Peru,Seed predation,Seed size,Species composition}
+    \strng{namehash}{PCE+1}
+    \strng{fullhash}{PCEBHTJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    The recruitment of seedlings from seeds is the key demographic transition
+  for rain forest trees. Though tropical forest mammals are known to consume
+  many seeds, their effects on tree community structure remain little known. To
+  evaluate their effects, we monitored 8,000 seeds of 24 tree species using
+  exclosure cages that were selectively permeable to three size classes of
+  mammals for up to 4.4 years. Small and medium- bodied mammals removed many
+  more seeds than did large mammals, and they alone generated beta diversity
+  and negative density dependence, whereas all mammals reduced diversity and
+  shaped local species composition. Thus, small and medium- bodied mammals more
+  strongly contributed to community structure and promoted species coexistence
+  than did large mammals. Given that seedling recruitment is seed limited for
+  most species, alterations to the composition of the community of mammalian
+  seed predators is expected to have long- term consequences for tree community
+  structure in tropical forests.%
+    }
+    \verb{doi}
+    \verb 10.1002/ecy.1586
+    \endverb
+    \field{isbn}{1939-9170}
+    \field{issn}{00129658}
+    \field{title}{{How mammalian predation contributes to tropical tree
+  community structure}}
+    \field{journaltitle}{Ecology}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Pearson2006}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=PRG}{%
+         family={Pearson},
+         familyi={P\bibinitperiod},
+         given={Richard\bibnamedelima G.},
+         giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PRG1}
+    \strng{fullhash}{PRG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2006}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    In a recent paper, McLachlan et al. presented evidence that migration rates
+  of two tree species at the end of the last glacial (c. 10-20 thousand years
+  ago) were much slower than was previously thought. These results provide an
+  important insight for climate-change impacts studies and suggest that the
+  ability of species to track future climate change is limited. However, the
+  detection of late-glacial refugia close to modern range limits also implies
+  that some of our most catastrophic projections might be overstated.
+  {\textcopyright} 2005 Elsevier Ltd. All rights reserved.%
+    }
+    \field{booktitle}{Trends in Ecology and Evolution}
+    \verb{doi}
+    \verb 10.1016/j.tree.2005.11.022
+    \endverb
+    \field{isbn}{0169-5347}
+    \field{issn}{01695347}
+    \field{title}{{Climate change and the migration capacity of species}}
+    \field{year}{2006}
+  \endentry
+
+  \entry{Penone2014}{article}{}
+    \name{author}{9}{}{%
+      {{hash=PC}{%
+         family={Penone},
+         familyi={P\bibinitperiod},
+         given={Caterina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DAD}{%
+         family={Davidson},
+         familyi={D\bibinitperiod},
+         given={Ana\bibnamedelima D.},
+         giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=SKT}{%
+         family={Shoemaker},
+         familyi={S\bibinitperiod},
+         given={Kevin\bibnamedelima T.},
+         giveni={K\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={{Di Marco}},
+         familyi={D\bibinitperiod},
+         given={Moreno},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RC}{%
+         family={Rondinini},
+         familyi={R\bibinitperiod},
+         given={Carlo},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BTM}{%
+         family={Brooks},
+         familyi={B\bibinitperiod},
+         given={Thomas\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=YBE}{%
+         family={Young},
+         familyi={Y\bibinitperiod},
+         given={Bruce\bibnamedelima E.},
+         giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=GCH}{%
+         family={Graham},
+         familyi={G\bibinitperiod},
+         given={Catherine\bibnamedelima H.},
+         giveni={C\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=CGC}{%
+         family={Costa},
+         familyi={C\bibinitperiod},
+         given={Gabriel\bibnamedelima C.},
+         giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Body mass,Carnivores,KNN,Longevity,MissForest,Multivariate imputation
+  by chained equations,Phylogeny,Phylopars,Rootmean squared error}
+    \strng{namehash}{PC+1}
+    \strng{fullhash}{PCDADSKTDMRCBTMYBEGCHCGC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{abstract}{%
+    * Despite efforts in data collection, missing values are commonplace in
+  life-history trait databases. Because these values typically are not missing
+  randomly, the common practice of removing missing data not only reduces
+  sample size, but also introduces bias that can lead to incorrect conclusions.
+  Imputing missing values is a potential solution to this problem. Here, we
+  evaluate the performance of four approaches for estimating missing values in
+  trait databases (K-nearest neighbour (kNN), multivariate imputation by
+  chained equations (mice), missForest and Phylopars), and test whether imputed
+  datasets retain underlying allometric relationships among traits.\n\n*
+  Starting with a nearly complete trait dataset on the mammalian order
+  Carnivora (using four traits), we artificially removed values so that the
+  percent of missing values ranged from 10% to 80%. Using the original values
+  as a reference, we assessed imputation performance using normalized root mean
+  squared error. We also evaluated whether including phylogenetic information
+  improved imputation performance in kNN, mice, and missForest (it is a
+  required input in Phylopars). Finally, we evaluated the extent to which the
+  allometric relationship between two traits (body mass and longevity) was
+  conserved for imputed datasets by looking at the difference (bias) between
+  the slope of the original and the imputed datasets or datasets with missing
+  values removed.\n\n* Three of the tested approaches (mice, missForest and
+  Phylopars), resulted in qualitatively equivalent imputation performance, and
+  all had significantly lower errors than kNN. Adding phylogenetic information
+  into the imputation algorithms improved estimation of missing values for all
+  tested traits. The allometric relationship between body mass and longevity
+  was conserved when up to 60% of data were missing, either with or without
+  phylogenetic information, depending on the approach. This relationship was
+  less biased in imputed datasets compared to datasets with missing values
+  removed, especially when more than 30% of values were missing.\n\n*
+  Imputations provide valuable alternatives to removing missing observations in
+  trait databases as they produce low errors and retain relationships among
+  traits. Although we must continue to prioritize data collection on species
+  traits, imputations can provide a valuable solution for conducting
+  macroecological and evolutionary studies using life-history trait databases.%
+    }
+    \verb{doi}
+    \verb 10.1111/2041-210X.12232
+    \endverb
+    \field{isbn}{2041-210x}
+    \field{issn}{2041210X}
+    \field{title}{{Imputation of missing data in life-history trait datasets:
+  Which approach performs the best?}}
+    \field{journaltitle}{Methods in Ecology and Evolution}
+    \field{year}{2014}
+  \endentry
+
   \entry{Ratto2018}{misc}{}
     \name{author}{10}{}{%
       {{hash=RF}{%
@@ -2643,6 +4062,166 @@
     \field{issn}{15409309}
     \field{title}{{Global importance of vertebrate pollinators for plant
   reproductive success: a meta-analysis}}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Revell2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=RLJ}{%
+         family={Revell},
+         familyi={R\bibinitperiod},
+         given={Liam\bibnamedelima J},
+         giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RLJ1}
+    \strng{fullhash}{RLJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Package contains various functions for phylogenetic analysis. This
+  functionality is concentrated in the phylogenetic analysis of comparative
+  data from species. For example, the package includes functions for Bayesian
+  and ML ancestral state estimation; visual simulation of trait evolution;
+  fitting models of trait evolution with multiple Brownian rates and
+  correlations; visualizing discrete and continuous character evolution using
+  colors or projections into trait space; identifying the location of a change
+  in the rate of character evolution on the tree; fast Brownian motion
+  simulation and simulation under several other models of continuous trait
+  evolution; fitting a model of correlated binary trait evolution; locating the
+  position of a fossil or an recently extinct lineage on a tree using
+  continuous character data with ML; plotting lineage accumulation through
+  time, including across multiple trees (such as a Bayesian posterior sample);
+  conducting an analysis called stochastic character mapping, in which
+  character histories for a discrete trait are sampled from their posterior
+  probability distribution under a model; conducting a multiple (i.e., partial)
+  Mantel test; fitting a phylogenetic regression model with error in predictor
+  and response variables; conducting a phylogenetic principal components
+  analysis, a phylogenetic regression, a reduced major axis regression, a
+  phylogenetic canonical correlation analysis, and a phylogenetic ANOVA;
+  projecting a tree onto a geographic map; simulating discrete character
+  histories on the tree; and fitting a model in which a discrete character
+  evolves under the threshold model. In addition to this phylogenetic
+  comparative method functionality, the package also contains functions for a
+  wide range of other purposes in phylogenetic biology. For instance,
+  functionality in this package includes (but is not restricted to): adding
+  taxa to a tree (including randomly, everywhere, or automatically to genera);
+  generating all bi- and multi-furcating trees for a set of taxa; reducing a
+  phylogeny to its backbone tree; dropping tips or adding tips to special types
+  of phylogenetic trees; exporting a tree as an XML file; converting a tree
+  with a mapped character to a tree with singleton nodes and one character
+  state per edge; estimating a phylogeny using the least squares method;
+  simulating birth-death trees under a range of conditions; rerooting trees; a
+  wide range of visualizations of trees; and a variety of other manipulations
+  and analyses that phylogenetic biologists may find useful for their
+  research.%
+    }
+    \field{title}{{Package ‘phytools'}}
+    \field{journaltitle}{R topics documented}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Salo2010}{article}{}
+    \name{author}{4}{}{%
+      {{hash=SP}{%
+         family={Salo},
+         familyi={S\bibinitperiod},
+         given={P{\"{a}}lvi},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=BPB}{%
+         family={Banks},
+         familyi={B\bibinitperiod},
+         given={Peter\bibnamedelima B.},
+         giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+      {{hash=DCR}{%
+         family={Dickman},
+         familyi={D\bibinitperiod},
+         given={Chris\bibnamedelima R.},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=KE}{%
+         family={Korpim{\"{a}}ki},
+         familyi={K\bibinitperiod},
+         given={Erkki},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Meta-analysis,Population limitation,Predator removal,Predator-prey
+  dynamics,Species interactions,Wildlife management}
+    \strng{namehash}{SP+1}
+    \strng{fullhash}{SPBPBDCRKE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2010}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Quantifying the relative impacts of top-down vs. bottom-up control of
+  ecosystems remains a controversial issue, with debate often focusing on the
+  perennial question of how predators affect prey densities. To assess predator
+  impacts, we performed a worldwide meta-analysis of field experiments in which
+  the densities of terrestrial vertebrate predators were manipulated and the
+  responses of their terrestrial vertebrate prey were measured. Our results
+  show that predation indeed limits prey populations, as prey densities change
+  substantially after predator manipulations. The main determinant of the
+  result of an experiment was the efficiency of predator manipulation. Positive
+  impacts of predator manipulation appeared to increase with duration of the
+  experiment for non-cyclic prey, while the opposite was true for cyclic prey.
+  In addition, predator manipulation showed a large positive impact on cyclic
+  prey at low prey densities, but had no obvious impact at peak prey densities.
+  As prey population densities generally respond predictably to predator
+  manipula- tions, we suggest that control of introduced vertebrate predators
+  can be used to effectively conserve and manage native wildlife. However, care
+  should be taken when controlling native predators, especially apex species,
+  owing to their importance as strong interactors and the biodiversity value of
+  their habitats. We discuss gaps in our knowledge of predator–prey
+  relationships and methodological issues related to manipulation experiments.
+  An important guideline for future studies is that adequate monitoring of
+  predator numbers before and during the experiment is the only way to ensure
+  that observed responses in prey populations are actually caused by changes in
+  predation impacts.%
+    }
+    \verb{doi}
+    \verb 10.1890/09-1260.1
+    \endverb
+    \field{issn}{00129615}
+    \field{title}{{Predator manipulation experiments: Impacts on populations of
+  terrestrial vertebrate prey}}
+    \field{journaltitle}{Ecological Monographs}
+    \field{year}{2010}
+  \endentry
+
+  \entry{Santos2018}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=ST}{%
+         family={Santos},
+         familyi={S\bibinitperiod},
+         given={Thiago},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ST1}
+    \strng{fullhash}{ST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{{Package ‘ PVR '. Phylogenetic Eigenvectors Regression and
+  Phylogentic Signal-Representation Curve}}
+    \verb{file}
+    \verb :C\:/Users/Adrienne/AppData/Local/Mendeley Ltd./Mendeley Desktop/Down
+    \verb loaded/Santos - 2018 - Package ‘ PVR '. Phylogenetic Eigenvectors R
+    \verb egression and Phylogentic Signal-Representation Curve.pdf:pdf
+    \endverb
     \field{year}{2018}
   \endentry
 
@@ -2765,6 +4344,66 @@
   longevity in squamates and the tuatara}}
     \field{journaltitle}{Global Ecology and Biogeography}
     \field{year}{2015}
+  \endentry
+
+  \entry{Schloss2012b}{article}{}
+    \name{author}{3}{}{%
+      {{hash=SCA}{%
+         family={Schloss},
+         familyi={S\bibinitperiod},
+         given={C.\bibnamedelima A.},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NTA}{%
+         family={Nunez},
+         familyi={N\bibinitperiod},
+         given={T.\bibnamedelima A.},
+         giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=LJJ}{%
+         family={Lawler},
+         familyi={L\bibinitperiod},
+         given={J.\bibnamedelima J.},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SCA+1}
+    \strng{fullhash}{SCANTALJJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    As they have in response to past climatic changes, many species will shift
+  their distributions in response to modern climate change. However, due to the
+  unprecedented rapidity of projected climatic changes, some species may not be
+  able to move their ranges fast enough to track shifts in suitable climates
+  and associated habitats. Here, we investigate the ability of 493 mammals to
+  keep pace with projected climatic changes in the Western Hemisphere. We
+  modeled the velocities at which species will likely need to move to keep pace
+  with projected changes in suitable climates. We compared these velocities
+  with the velocities at which species are able to move as a function of
+  dispersal distances and dispersal frequencies. Across the Western Hemisphere,
+  on average, 9.2% of mammals at a given location will likely be unable to keep
+  pace with climate change. In some places, up to 39% of mammals may be unable
+  to track shifts in suitable climates. Eighty-seven percent of mammalian
+  species are expected to experience reductions in range size and 20% of these
+  range reductions will likely be due to limited dispersal abilities as opposed
+  to reductions in the area of suitable climate. Because climate change will
+  likely outpace the response capacity of many mammals, mammalian vulnerability
+  to climate change may be more extensive than previously anticipated.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1116791109
+    \endverb
+    \field{isbn}{0027-8424}
+    \field{issn}{0027-8424}
+    \field{title}{{Dispersal will limit ability of mammals to track climate
+  change in the Western Hemisphere}}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2012}
   \endentry
 
   \entry{Schwarz2017}{article}{}
@@ -2991,6 +4630,176 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Stekhoven2016}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SDJ}{%
+         family={Stekhoven},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SDJ1}
+    \strng{fullhash}{SDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    MOTIVATION: Modern data acquisition based on high-throughput technology is
+  often facing the problem of missing data. Algorithms commonly used in the
+  analysis of such large-scale data often depend on a complete set. Missing
+  value imputation offers a solution to this problem. However, the majority of
+  available imputation methods are restricted to one type of variable only:
+  continuous or categorical. For mixed-type data, the different types are
+  usually handled separately. Therefore, these methods ignore possible
+  relations between variable types. We propose a non-parametric method which
+  can cope with different types of variables simultaneously. RESULTS: We
+  compare several state of the art methods for the imputation of missing
+  values. We propose and evaluate an iterative imputation method (missForest)
+  based on a random forest. By averaging over many unpruned classification or
+  regression trees, random forest intrinsically constitutes a multiple
+  imputation scheme. Using the built-in out-of-bag error estimates of random
+  forest, we are able to estimate the imputation error without the need of a
+  test set. Evaluation is performed on multiple datasets coming from a diverse
+  selection of biological fields with artificially introduced missing values
+  ranging from 10% to 30%. We show that missForest can successfully handle
+  missing values, particularly in datasets including different types of
+  variables. In our comparative study, missForest outperforms other methods of
+  imputation especially in data settings where complex interactions and
+  non-linear relations are suspected. The out-of-bag imputation error estimates
+  of missForest prove to be adequate in all settings. Additionally, missForest
+  exhibits attractive computational efficiency and can cope with
+  high-dimensional data. AVAILABILITY: The package missForest is freely
+  available from http://stat.ethz.ch/CRAN/. CONTACT:
+  stekhoven@stat.math.ethz.ch; buhlmann@stat.math.ethz.ch%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btr597
+    \endverb
+    \verb{eprint}
+    \verb 1105.0828
+    \endverb
+    \field{isbn}{1367-4811 (Electronic)\n1367-4803 (Linking)}
+    \field{issn}{13674803}
+    \field{title}{{Nonparametric Missing Value Imputation using Random Forest}}
+    \field{journaltitle}{R Package version 1.4}
+    \field{eprinttype}{arXiv}
+    \field{year}{2016}
+  \endentry
+
+  \entry{Stekhoven2012}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SDJ}{%
+         family={Stekhoven},
+         familyi={S\bibinitperiod},
+         given={Daniel\bibnamedelima J.},
+         giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={B{\"{u}}hlmann},
+         familyi={B\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SDJBP1}
+    \strng{fullhash}{SDJBP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Modern data acquisition based on high-throughput technology is often facing
+  the problem of missing data. Algorithms commonly used in the analysis of such
+  large-scale data often depend on a complete set. Missing value imputation
+  offers a solution to this problem. However, the majority of available
+  imputation methods are restricted to one type of variable only: continuous or
+  categorical. For mixed-type data the different types are usually handled
+  separately. Therefore, these methods ignore possible relations between
+  variable types. We propose a nonparametric method which can cope with
+  different types of variables simultaneously. We compare several state of the
+  art methods for the imputation of missing values. We propose and evaluate an
+  iterative imputation method (missForest) based on a random forest. By
+  averaging over many unpruned classification or regression trees random forest
+  intrinsically constitutes a multiple imputation scheme. Using the built-in
+  out-of-bag error estimates of random forest we are able to estimate the
+  imputation error without the need of a test set. Evaluation is performed on
+  multiple data sets coming from a diverse selection of biological fields with
+  artificially introduced missing values ranging from 10% to 30%. We show that
+  missForest can successfully handle missing values, particularly in data sets
+  including different types of variables. In our comparative study missForest
+  outperforms other methods of imputation especially in data settings where
+  complex interactions and nonlinear relations are suspected. The out-of-bag
+  imputation error estimates of missForest prove to be adequate in all
+  settings. Additionally, missForest exhibits attractive computational
+  efficiency and can cope with high-dimensional data.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/btr597
+    \endverb
+    \verb{eprint}
+    \verb 1105.0828
+    \endverb
+    \field{isbn}{1367-4811 (Electronic)\n1367-4803 (Linking)}
+    \field{issn}{13674803}
+    \field{title}{{Missforest-Non-parametric missing value imputation for
+  mixed-type data}}
+    \field{journaltitle}{Bioinformatics}
+    \field{eprinttype}{arXiv}
+    \field{year}{2012}
+  \endentry
+
+  \entry{Swenson2014}{article}{}
+    \name{author}{1}{}{%
+      {{hash=SNG}{%
+         family={Swenson},
+         familyi={S\bibinitperiod},
+         given={Nathan\bibnamedelima G.},
+         giveni={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SNG1}
+    \strng{fullhash}{SNG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{abstract}{%
+    Continental-scale maps of plant functional diversity are a fundamental
+  piece of data of interest to ecosystem modelers and ecologists, yet such maps
+  have been exceedingly hard to generate. The large effort to compile global
+  plant functional trait databases largely for the purpose of mapping and
+  analyzing the spatial distribution of function has resulted in very sparse
+  data matrices thereby limiting progress. Identifying robust methodologies to
+  gap fill or impute trait values in these databases is an important objective.
+  Here I argue that existing statistical tools from phylogenetic comparative
+  methods can be used to rapidly impute values into global plant functional
+  trait databases due to the large amount of phylogenetic signal often in trait
+  data. In particular, statistical models of phylogenetic signal in traits can
+  be generated from existing data and used to predict missing values of closely
+  related species often with a high degree of accuracy thereby facilitating the
+  continental-scale mapping of plant function. Despite the promise of this
+  approach, I also discuss potential pitfalls and future challenges that will
+  need to be addressed.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1600-0587.2013.00528.x
+    \endverb
+    \field{isbn}{1600-0587}
+    \field{issn}{09067590}
+    \field{title}{{Phylogenetic imputation of plant functional trait
+  databases}}
+    \field{journaltitle}{Ecography}
+    \field{year}{2014}
+  \endentry
+
   \entry{Thompson2018}{article}{}
     \name{author}{5}{}{%
       {{hash=TPL}{%
@@ -3196,6 +5005,99 @@
   biased towards vertebrates and temperate regions}}
     \field{journaltitle}{PLoS ONE}
     \field{year}{2017}
+  \endentry
+
+  \entry{Troyanskaya2001}{article}{}
+    \name{author}{8}{}{%
+      {{hash=TO}{%
+         family={Troyanskaya},
+         familyi={T\bibinitperiod},
+         given={Olga},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Cantor},
+         familyi={C\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Sherlock},
+         familyi={S\bibinitperiod},
+         given={Gavin},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BP}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={Pat},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=HT}{%
+         family={Hastie},
+         familyi={H\bibinitperiod},
+         given={Trevor},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=TR}{%
+         family={Tibshirani},
+         familyi={T\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BD}{%
+         family={Botstein},
+         familyi={B\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ARB}{%
+         family={Altman},
+         familyi={A\bibinitperiod},
+         given={Russ\bibnamedelima B.},
+         giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TO+1}
+    \strng{fullhash}{TOCMSGBPHTTRBDARB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{year}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    MOTIVATION: Gene expression microarray experiments can generate data sets
+  with multiple missing expression values. Unfortunately, many algorithms for
+  gene expression analysis require a complete matrix of gene array values as
+  input. For example, methods such as hierarchical clustering and K-means
+  clustering are not robust to missing data, and may lose effectiveness even
+  with a few missing values. Methods for imputing missing data are needed,
+  therefore, to minimize the effect of incomplete data sets on analyses, and to
+  increase the range of data sets to which these algorithms can be applied. In
+  this report, we investigate automated methods for estimating missing data.
+  RESULTS: We present a comparative study of several methods for the estimation
+  of missing values in gene microarray data. We implemented and evaluated three
+  methods: a Singular Value Decomposition (SVD) based method (SVDimpute),
+  weighted K-nearest neighbors (KNNimpute), and row average. We evaluated the
+  methods using a variety of parameter settings and over different real data
+  sets, and assessed the robustness of the imputation methods to the amount of
+  missing data over the range of 1--20% missing values. We show that KNNimpute
+  appears to provide a more robust and sensitive method for missing value
+  estimation than SVDimpute, and both SVDimpute and KNNimpute surpass the
+  commonly used row average method (as well as filling missing values with
+  zeros). We report results of the comparative experiments and provide
+  recommendations and tools for accurate estimation of missing microarray data
+  under a variety of conditions.%
+    }
+    \verb{doi}
+    \verb 10.1093/bioinformatics/17.6.520
+    \endverb
+    \field{isbn}{1367-4803 (Print)\r1367-4803}
+    \field{issn}{13674803}
+    \field{title}{{Missing value estimation methods for DNA microarrays}}
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2001}
   \endentry
 
   \entry{Vidan2017}{article}{}
@@ -3607,6 +5509,94 @@
     \field{title}{{Scavenging: How carnivores and carrion structure
   communities}}
     \field{year}{2011}
+  \endentry
+
+  \entry{Zhang2018}{article}{}
+    \name{author}{6}{}{%
+      {{hash=ZJ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Jian},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=QH}{%
+         family={Qian},
+         familyi={Q\bibinitperiod},
+         given={Hong},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Girardello},
+         familyi={G\bibinitperiod},
+         given={Marco},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PV}{%
+         family={Pellissier},
+         familyi={P\bibinitperiod},
+         given={Vincent},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=NSE}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+         given={Scott\bibnamedelima E.},
+         giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=SJC}{%
+         family={Svenning},
+         familyi={S\bibinitperiod},
+         given={Jens\bibnamedelima Christian},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \keyw{Biotic interaction,Bottom-up control,Historical contingency,Species
+  coexistence,Structural equation model,Topdown control}
+    \strng{namehash}{ZJ+1}
+    \strng{fullhash}{ZJQHGMPVNSESJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{Z}
+    \field{sortinithash}{Z}
+    \field{abstract}{%
+    Trophic interactions play critical roles in structuring biotic communities.
+  Understanding variation in trophic interactions among systems provides
+  important insights into biodiversity maintenance and conservation. However,
+  the relative importance of bottom-up versus top-down trophic processes for
+  broad-scale patterns in biodiversity is poorly understood. Here, we used
+  global datasets on species richness of vascular plants, mammals and breeding
+  birds to evaluate the role of trophic interactions in shaping large-scale
+  diversity patterns. Specifically, we used non-recursive structural equation
+  models to test for top-down and bottom-up forcing of global species diversity
+  patterns among plants and trophic guilds of mammals and birds (carnivores,
+  invertivores and herbivores), while accounting for extrinsic environmental
+  drivers. The results show that trophic linkages emerged as being more
+  important to explaining species richness than extrinsic environmental
+  drivers. In particular, there were strong, positive top-down interactions
+  between mammal herbivores and plants, and moderate to strong bottom-up and/or
+  top-down interactions between herbivores/invertivores and carnivores.
+  Estimated trophic interactions for separate biogeographical regions were
+  consistent with global patterns. Our findings demonstrate that, after
+  accounting for environmental drivers, large-scale species richness patterns
+  in plant and vertebrate taxa consistently support trophic interactions
+  playing a major role in shaping global patterns in biodiversity. Furthermore,
+  these results suggest that top-down forces often play strong complementary
+  roles relative to bottom-up drivers in structuring biodiversity patterns
+  across trophic levels. These findings underscore the importance of
+  integrating trophic forcing mechanisms into studies of biodiversity
+  patterns.%
+    }
+    \verb{doi}
+    \verb 10.1098/rspb.2018.0949
+    \endverb
+    \field{issn}{14712954}
+    \field{title}{{Trophic interactions among vertebrate guilds and plants
+  shape global patterns in species diversity}}
+    \field{journaltitle}{Proceedings of the Royal Society B: Biological
+  Sciences}
+    \field{year}{2018}
   \endentry
 \enddatalist
 \endinput

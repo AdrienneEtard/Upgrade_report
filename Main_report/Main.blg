@@ -2,12 +2,20 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 The style file: biblatex.bst
 Database file #1: Main-blx.bib
 Database file #2: library.bib
-Repeated entry---line 13970 of file library.bib
+Repeated entry---line 4587 of file library.bib
+ : @article{Diniz-Filho2012
+ :                         ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 14631 of file library.bib
  : @article{Luck2012
  :                  ,
 I'm skipping whatever remains of this entry
-Database file #3: tilman2014.bib
 Warning--I didn't find a database entry for "Tilman2014"
-Warning--I didn't find a database entry for ")"
+Warning--I didn't find a database entry for "Hirons"
+Warning--I didn't find a database entry for "Alves2018"
+Warning--I didn't find a database entry for "rredlist"
+Warning--I didn't find a database entry for "ape"
+Warning--I didn't find a database entry for "PDcalc"
+Warning--I didn't find a database entry for "mice"
 Biblatex version: 3.11
-(There was 1 error message)
+(There were 2 error messages)

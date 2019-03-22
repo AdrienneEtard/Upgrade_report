@@ -85,7 +85,6 @@
     </requires>
     <requires type="editable">
       <file>library.bib</file>
-      <file>tilman2014.bib</file>
     </requires>
     <requires type="static">
       <file>biblatex.bst</file>
