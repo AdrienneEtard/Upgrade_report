@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -78,6 +78,102 @@
     \field{issn}{19326203}
     \field{title}{{The twenty most charismatic species}}
     \field{journaltitle}{PLoS ONE}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Alves2018}{incollection}{}
+    \name{author}{6}{}{%
+      {{hash=ARRN}{%
+         family={Alves},
+         familyi={A\bibinitperiod},
+         given={Rômulo Romeu\bibnamedelima Nóbrega},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
+      }}%
+      {{hash=SWMS}{%
+         family={Souto},
+         familyi={S\bibinitperiod},
+         given={Wedson Medeiros\bibnamedelima Silva},
+         giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+      {{hash=FFH}{%
+         family={Fernandes-Ferreira},
+         familyi={F\bibinitperiod-F\bibinitperiod},
+         given={Hugo},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BDMM}{%
+         family={Bezerra},
+         familyi={B\bibinitperiod},
+         given={Dandara Monalisa\bibnamedelima Mariz},
+         giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  M\bibinitperiod},
+      }}%
+      {{hash=BRRD}{%
+         family={Barboza},
+         familyi={B\bibinitperiod},
+         given={Raynner Rilke\bibnamedelima Duarte},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=VWLS}{%
+         family={Vieira},
+         familyi={V\bibinitperiod},
+         given={Washington Luiz\bibnamedelima Silva},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  S\bibinitperiod},
+      }}%
+    }
+    \name{editor}{2}{}{%
+      {{hash=ARRN}{%
+         family={Alves},
+         familyi={A\bibinitperiod},
+         given={Rômulo Romeu\bibnamedelima Nóbrega},
+         giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
+      }}%
+      {{hash=AUP}{%
+         family={Albuquerque},
+         familyi={A\bibinitperiod},
+         given={Ulysses\bibnamedelima Paulino},
+         giveni={U\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Academic Press}%
+    }
+    \keyw{Bushmeat, Conservation, Ethnozoology, Game animals, Hunting
+  strategies}
+    \strng{namehash}{ARRN+1}
+    \strng{fullhash}{ARRNSWMSFFHBDMMBRRDVWLS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{abstract}{%
+    Hunting constitutes one of the most ancient and important practices in the
+  history of mankind, impacting the various aspects of human life. In this
+  chapter we briefly discuss historical features of hunting, its importance to
+  civilization, the motivations that drives people to practice this activity
+  and their hunting strategies, the diverse ways of using game animals, and the
+  ecological implications of hunting. Identifying the importance of hunting and
+  its effects, it is a key to search for strategies that allow the conservation
+  of exploited species and at the same time permit the proper subsistence of
+  human communities that rely on exploited species for their survival.%
+    }
+    \field{booktitle}{Ethnozoology}
+    \verb{doi}
+    \verb https://doi.org/10.1016/B978-0-12-809913-1.00007-7
+    \endverb
+    \field{isbn}{978-0-12-809913-1}
+    \field{pages}{95 \bibrangedash  118}
+    \field{title}{Chapter 7 - The Importance of Hunting in Human Societies}
+    \verb{url}
+    \verb http://www.sciencedirect.com/science/article/pii/B9780128099131000077
+    \endverb
     \field{year}{2018}
   \endentry
 
@@ -258,7 +354,7 @@
     \name{author}{3}{}{%
       {{hash=BMM}{%
          family={Barbet-Massin},
-         familyi={B\bibinithyphendelim M\bibinitperiod},
+         familyi={B\bibinitperiod-M\bibinitperiod},
          given={Morgane},
          giveni={M\bibinitperiod},
       }}%
@@ -482,7 +578,7 @@
       }}%
       {{hash=ASD}{%
          family={Ariano-S{\'{a}}nchez},
-         familyi={A\bibinithyphendelim S\bibinitperiod},
+         familyi={A\bibinitperiod-S\bibinitperiod},
          given={Daniel},
          giveni={D\bibinitperiod},
       }}%
@@ -518,13 +614,13 @@
       }}%
       {{hash=BLAF}{%
          family={Barreto-Lima},
-         familyi={B\bibinithyphendelim L\bibinitperiod},
+         familyi={B\bibinitperiod-L\bibinitperiod},
          given={Andr{\'{e}}\bibnamedelima F.},
          giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
       {{hash=BACL}{%
          family={Barrio-Amor{\'{o}}s},
-         familyi={B\bibinithyphendelim A\bibinitperiod},
+         familyi={B\bibinitperiod-A\bibinitperiod},
          given={C{\'{e}}sar\bibnamedelima L.},
          giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
@@ -615,7 +711,7 @@
       }}%
       {{hash=CVJR}{%
          family={Cede{\~{n}}o-V{\'{a}}zquez},
-         familyi={C\bibinithyphendelim V\bibinitperiod},
+         familyi={C\bibinitperiod-V\bibinitperiod},
          given={Jos{\'{e}}\bibnamedelima R.},
          giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
@@ -633,7 +729,7 @@
       }}%
       {{hash=CHDF}{%
          family={Cisneros-Heredia},
-         familyi={C\bibinithyphendelim H\bibinitperiod},
+         familyi={C\bibinitperiod-H\bibinitperiod},
          given={Diego\bibnamedelima F.},
          giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
@@ -675,7 +771,7 @@
       }}%
       {{hash=CIJ}{%
          family={Crnobrnja-Isailovic},
-         familyi={C\bibinithyphendelim I\bibinitperiod},
+         familyi={C\bibinitperiod-I\bibinitperiod},
          given={Jelka},
          giveni={J\bibinitperiod},
       }}%
@@ -815,7 +911,7 @@
       }}%
       {{hash=FVO}{%
          family={Flores-Villela},
-         familyi={F\bibinithyphendelim V\bibinitperiod},
+         familyi={F\bibinitperiod-V\bibinitperiod},
          given={Oscar},
          giveni={O\bibinitperiod},
       }}%
@@ -857,7 +953,7 @@
       }}%
       {{hash=GPJE}{%
          family={Garc{\'{i}}a-P{\'{e}}rez},
-         familyi={G\bibinithyphendelim P\bibinitperiod},
+         familyi={G\bibinitperiod-P\bibinitperiod},
          given={Juan\bibnamedelima E.},
          giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
@@ -960,7 +1056,7 @@
       }}%
       {{hash=HTC}{%
          family={Hilton-Taylor},
-         familyi={H\bibinithyphendelim T\bibinitperiod},
+         familyi={H\bibinitperiod-T\bibinitperiod},
          given={Craig},
          giveni={C\bibinitperiod},
       }}%
@@ -1146,7 +1242,7 @@
       }}%
       {{hash=LLMA}{%
          family={L{\'{o}}pez-Luna},
-         familyi={L\bibinithyphendelim L\bibinitperiod},
+         familyi={L\bibinitperiod-L\bibinitperiod},
          given={Marco\bibnamedelima A.},
          giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -1272,7 +1368,7 @@
       }}%
       {{hash=MQF}{%
          family={Mendoza-Quijano},
-         familyi={M\bibinithyphendelim Q\bibinitperiod},
+         familyi={M\bibinitperiod-Q\bibinitperiod},
          given={Fernando},
          giveni={F\bibinitperiod},
       }}%
@@ -1314,7 +1410,7 @@
       }}%
       {{hash=MAA}{%
          family={Mu{\~{n}}oz-Alonso},
-         familyi={M\bibinithyphendelim A\bibinitperiod},
+         familyi={M\bibinitperiod-A\bibinitperiod},
          given={Antonio},
          giveni={A\bibinitperiod},
       }}%
@@ -1392,13 +1488,13 @@
       }}%
       {{hash=PBN}{%
          family={P{\'{e}}rez-Buitrago},
-         familyi={P\bibinithyphendelim B\bibinitperiod},
+         familyi={P\bibinitperiod-B\bibinitperiod},
          given={N{\'{e}}stor},
          giveni={N\bibinitperiod},
       }}%
       {{hash=PMV}{%
          family={P{\'{e}}rez-Mellado},
-         familyi={P\bibinithyphendelim M\bibinitperiod},
+         familyi={P\bibinitperiod-M\bibinitperiod},
          given={Valent{\'{i}}n},
          giveni={V\bibinitperiod},
       }}%
@@ -1422,7 +1518,7 @@
       }}%
       {{hash=PCP}{%
          family={Ponce-Campos},
-         familyi={P\bibinithyphendelim C\bibinitperiod},
+         familyi={P\bibinitperiod-C\bibinitperiod},
          given={Paulino},
          giveni={P\bibinitperiod},
       }}%
@@ -1544,7 +1640,7 @@
       }}%
       {{hash=SBG}{%
          family={Santos-Barrera},
-         familyi={S\bibinithyphendelim B\bibinitperiod},
+         familyi={S\bibinitperiod-B\bibinitperiod},
          given={Georgina},
          giveni={G\bibinitperiod},
       }}%
@@ -2332,7 +2428,7 @@
       }}%
       {{hash=MSR}{%
          family={Mello-Silva},
-         familyi={M\bibinithyphendelim S\bibinitperiod},
+         familyi={M\bibinitperiod-S\bibinitperiod},
          given={Renato},
          giveni={R\bibinitperiod},
       }}%
@@ -2929,7 +3025,7 @@
     \name{author}{7}{}{%
       {{hash=DFJAF}{%
          family={Diniz-Filho},
-         familyi={D\bibinithyphendelim F\bibinitperiod},
+         familyi={D\bibinitperiod-F\bibinitperiod},
          given={Jose Alexandre\bibnamedelima F.},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
   F\bibinitperiod},
@@ -2948,13 +3044,13 @@
       }}%
       {{hash=MCI}{%
          family={Morales-Castilla},
-         familyi={M\bibinithyphendelim C\bibinitperiod},
+         familyi={M\bibinitperiod-C\bibinitperiod},
          given={Ignacio},
          giveni={I\bibinitperiod},
       }}%
       {{hash=OTMA}{%
          family={Olalla-T{\'{a}}rraga},
-         familyi={O\bibinithyphendelim T\bibinitperiod},
+         familyi={O\bibinitperiod-T\bibinitperiod},
          given={Miguel\bibnamedelima {\'{A}}},
          giveni={M\bibinitperiod\bibinitdelim {\'{A}}\bibinitperiod},
       }}%
@@ -3037,7 +3133,7 @@
       }}%
       {{hash=BEOR}{%
          family={Bininda-Emonds},
-         familyi={B\bibinithyphendelim E\bibinitperiod},
+         familyi={B\bibinitperiod-E\bibinitperiod},
          given={Olaf\bibnamedelima R.P.},
          giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
@@ -3157,7 +3253,7 @@
     \name{author}{2}{}{%
       {{hash=GSM}{%
          family={Gonz{\'{a}}lez-Su{\'{a}}rez},
-         familyi={G\bibinithyphendelim S\bibinitperiod},
+         familyi={G\bibinitperiod-S\bibinitperiod},
          given={Manuela},
          giveni={M\bibinitperiod},
       }}%
@@ -3208,7 +3304,7 @@
     \name{author}{3}{}{%
       {{hash=GSM}{%
          family={Gonz{\'{a}}lez-Su{\'{a}}rez},
-         familyi={G\bibinithyphendelim S\bibinitperiod},
+         familyi={G\bibinitperiod-S\bibinitperiod},
          given={Manuela},
          giveni={M\bibinitperiod},
       }}%
@@ -3444,7 +3540,7 @@
       }}%
       {{hash=MLB}{%
          family={Mart{\'{i}}n-L{\'{o}}pez},
-         familyi={M\bibinithyphendelim L\bibinitperiod},
+         familyi={M\bibinitperiod-L\bibinitperiod},
          given={Berta},
          giveni={B\bibinitperiod},
       }}%
@@ -3456,7 +3552,7 @@
       }}%
       {{hash=GLM}{%
          family={Garc{\'{i}}a-Llorente},
-         familyi={G\bibinithyphendelim L\bibinitperiod},
+         familyi={G\bibinitperiod-L\bibinitperiod},
          given={Marina},
          giveni={M\bibinitperiod},
       }}%
@@ -3955,7 +4051,7 @@
       }}%
       {{hash=DFJAF}{%
          family={Diniz-Filho},
-         familyi={D\bibinithyphendelim F\bibinitperiod},
+         familyi={D\bibinitperiod-F\bibinitperiod},
          given={Jos{\'{e}} Alexandre\bibnamedelima Felizola},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
   F\bibinitperiod},
@@ -4368,7 +4464,7 @@
       }}%
       {{hash=BEORP}{%
          family={Bininda-Emonds},
-         familyi={B\bibinithyphendelim E\bibinitperiod},
+         familyi={B\bibinitperiod-E\bibinitperiod},
          given={Olaf R.\bibnamedelima P.},
          giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
   P\bibinitperiod},
@@ -4437,7 +4533,7 @@
       }}%
       {{hash=BGK}{%
          family={B{\"{o}}hning-Gaese},
-         familyi={B\bibinithyphendelim G\bibinitperiod},
+         familyi={B\bibinitperiod-G\bibinitperiod},
          given={Katrin},
          giveni={K\bibinitperiod},
       }}%
@@ -5033,7 +5129,7 @@
       }}%
       {{hash=CAA}{%
          family={Campos-Arceiz},
-         familyi={C\bibinithyphendelim A\bibinitperiod},
+         familyi={C\bibinitperiod-A\bibinitperiod},
          given={Ahimsa},
          giveni={A\bibinitperiod},
       }}%
@@ -5224,13 +5320,13 @@
     \name{author}{6}{}{%
       {{hash=MVR}{%
          family={Molina-Venegas},
-         familyi={M\bibinithyphendelim V\bibinitperiod},
+         familyi={M\bibinitperiod-V\bibinitperiod},
          given={Rafael},
          giveni={R\bibinitperiod},
       }}%
       {{hash=MSJC}{%
          family={Moreno-Saiz},
-         familyi={M\bibinithyphendelim S\bibinitperiod},
+         familyi={M\bibinitperiod-S\bibinitperiod},
          given={Juan\bibnamedelima Carlos},
          giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
@@ -5248,7 +5344,7 @@
       }}%
       {{hash=PNPR}{%
          family={Peres-Neto},
-         familyi={P\bibinithyphendelim N\bibinitperiod},
+         familyi={P\bibinitperiod-N\bibinitperiod},
          given={Pedro\bibnamedelima R.},
          giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
@@ -5683,7 +5779,7 @@
       }}%
       {{hash=ELS}{%
          family={Echeverria-Londo{\~{n}}o},
-         familyi={E\bibinithyphendelim L\bibinitperiod},
+         familyi={E\bibinitperiod-L\bibinitperiod},
          given={Susy},
          giveni={S\bibinitperiod},
       }}%
@@ -6089,13 +6185,13 @@
       }}%
       {{hash=SPVA}{%
          family={S{\~{a}}o-Pedro},
-         familyi={S\bibinithyphendelim P\bibinitperiod},
+         familyi={S\bibinitperiod-P\bibinitperiod},
          given={Vin{\'{i}}cius\bibnamedelima Avelar},
          giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=SBG}{%
          family={Santos-Barrera},
-         familyi={S\bibinithyphendelim B\bibinitperiod},
+         familyi={S\bibinitperiod-B\bibinitperiod},
          given={Georgina},
          giveni={G\bibinitperiod},
       }}%
@@ -6532,7 +6628,7 @@
       }}%
       {{hash=ZGV}{%
          family={Zamora-Gutierrez},
-         familyi={Z\bibinithyphendelim G\bibinitperiod},
+         familyi={Z\bibinitperiod-G\bibinitperiod},
          given={Veronica},
          giveni={V\bibinitperiod},
       }}%
@@ -6795,7 +6891,7 @@
       }}%
       {{hash=PDD}{%
          family={Pincheira-Donoso},
-         familyi={P\bibinithyphendelim D\bibinitperiod},
+         familyi={P\bibinitperiod-D\bibinitperiod},
          given={Daniel},
          giveni={D\bibinitperiod},
       }}%
@@ -6819,7 +6915,7 @@
       }}%
       {{hash=TCO}{%
          family={Torres-Carvajal},
-         familyi={T\bibinithyphendelim C\bibinitperiod},
+         familyi={T\bibinitperiod-C\bibinitperiod},
          given={Omar},
          giveni={O\bibinitperiod},
       }}%
@@ -7132,7 +7228,7 @@
       }}%
       {{hash=FBM}{%
          family={Festa-Bianchet},
-         familyi={F\bibinithyphendelim B\bibinitperiod},
+         familyi={F\bibinitperiod-B\bibinitperiod},
          given={Marco},
          giveni={M\bibinitperiod},
       }}%
@@ -7162,7 +7258,7 @@
       }}%
       {{hash=GDM}{%
          family={Gimenez-Dixon},
-         familyi={G\bibinithyphendelim D\bibinitperiod},
+         familyi={G\bibinitperiod-D\bibinitperiod},
          given={Mariano},
          giveni={M\bibinitperiod},
       }}%
@@ -7174,7 +7270,7 @@
       }}%
       {{hash=GMJF}{%
          family={Gonzalez-Maya},
-         familyi={G\bibinithyphendelim M\bibinitperiod},
+         familyi={G\bibinitperiod-M\bibinitperiod},
          given={Jose\bibnamedelima Fernando},
          giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
@@ -7252,7 +7348,7 @@
       }}%
       {{hash=HTC}{%
          family={Hilton-Taylor},
-         familyi={H\bibinithyphendelim T\bibinitperiod},
+         familyi={H\bibinitperiod-T\bibinitperiod},
          given={Craig},
          giveni={C\bibinitperiod},
       }}%
@@ -7522,7 +7618,7 @@
       }}%
       {{hash=RARG}{%
          family={Rosell-Ambal},
-         familyi={R\bibinithyphendelim A\bibinitperiod},
+         familyi={R\bibinitperiod-A\bibinitperiod},
          given={Ruth\bibnamedelima Grace},
          giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
@@ -7558,7 +7654,7 @@
       }}%
       {{hash=SSC}{%
          family={Self-Sullivan},
-         familyi={S\bibinithyphendelim S\bibinitperiod},
+         familyi={S\bibinitperiod-S\bibinitperiod},
          given={Caryn},
          giveni={C\bibinitperiod},
       }}%
@@ -7570,7 +7666,7 @@
       }}%
       {{hash=SZC}{%
          family={Sillero-Zubiri},
-         familyi={S\bibinithyphendelim Z\bibinitperiod},
+         familyi={S\bibinitperiod-Z\bibinitperiod},
          given={Claudio},
          giveni={C\bibinitperiod},
       }}%
@@ -8683,7 +8779,7 @@
       }}%
       {{hash=BGK}{%
          family={B{\"{o}}hning-Gaese},
-         familyi={B\bibinithyphendelim G\bibinitperiod},
+         familyi={B\bibinitperiod-G\bibinitperiod},
          given={Katrin},
          giveni={K\bibinitperiod},
       }}%
@@ -8737,7 +8833,7 @@
       }}%
       {{hash=BBH}{%
          family={Bartlam-Brooks},
-         familyi={B\bibinithyphendelim B\bibinitperiod},
+         familyi={B\bibinitperiod-B\bibinitperiod},
          given={Hattie},
          giveni={H\bibinitperiod},
       }}%
@@ -8821,13 +8917,13 @@
       }}%
       {{hash=CAC}{%
          family={Camilo-Alves},
-         familyi={C\bibinithyphendelim A\bibinitperiod},
+         familyi={C\bibinitperiod-A\bibinitperiod},
          given={Constan{\c{c}}a},
          giveni={C\bibinitperiod},
       }}%
       {{hash=CJS}{%
          family={Chamaill{\'{e}}-Jammes},
-         familyi={C\bibinithyphendelim J\bibinitperiod},
+         familyi={C\bibinitperiod-J\bibinitperiod},
          given={Simon},
          giveni={S\bibinitperiod},
       }}%
@@ -8863,7 +8959,7 @@
       }}%
       {{hash=DHI}{%
          family={Douglas-Hamilton},
-         familyi={D\bibinithyphendelim H\bibinitperiod},
+         familyi={D\bibinitperiod-H\bibinitperiod},
          given={Iain},
          giveni={I\bibinitperiod},
       }}%
@@ -9049,7 +9145,7 @@
       }}%
       {{hash=LLP}{%
          family={L{\'{o}}pez-L{\'{o}}pez},
-         familyi={L\bibinithyphendelim L\bibinitperiod},
+         familyi={L\bibinitperiod-L\bibinitperiod},
          given={Pascual},
          giveni={P\bibinitperiod},
       }}%
@@ -9109,7 +9205,7 @@
       }}%
       {{hash=DMSL}{%
          family={D{\'{i}}az-Mu{\~{n}}oz},
-         familyi={D\bibinithyphendelim M\bibinitperiod},
+         familyi={D\bibinitperiod-M\bibinitperiod},
          given={Samuel\bibnamedelima L.},
          giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
@@ -9151,7 +9247,7 @@
       }}%
       {{hash=OSLGR}{%
          family={Oliveira-Santos},
-         familyi={O\bibinithyphendelim S\bibinitperiod},
+         familyi={O\bibinitperiod-S\bibinitperiod},
          given={Luiz Gustavo\bibnamedelima R.},
          giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
   R\bibinitperiod},
@@ -9356,7 +9452,7 @@
       }}%
       {{hash=ZKT}{%
          family={Zwijacz-Kozica},
-         familyi={Z\bibinithyphendelim K\bibinitperiod},
+         familyi={Z\bibinitperiod-K\bibinitperiod},
          given={Tomasz},
          giveni={T\bibinitperiod},
       }}%
@@ -9466,7 +9562,7 @@
       }}%
       {{hash=GOK}{%
          family={Groothuis-Oudshoorn},
-         familyi={G\bibinithyphendelim O\bibinitperiod},
+         familyi={G\bibinitperiod-O\bibinitperiod},
          given={Karin},
          giveni={K\bibinitperiod},
       }}%

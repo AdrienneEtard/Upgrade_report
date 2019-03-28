@@ -6,6 +6,9 @@
 \usepackage{setspace}
 \usepackage{xcolor}
 
+  \usepackage{pdflscape}
+
+
 % captions
 \usepackage[labelfont=bf]{caption} 
 \captionsetup{skip=7pt} 
@@ -78,6 +81,72 @@ Amphibians,Primary diet,3.14,1.16E-10,Original
 
 \end{filecontents*}
 
+\begin{filecontents*}{Continuous_traits_significance_chisquared_modified.csv}
+Class,Trait,lambda,p-value,Phylogeny
+Birds,Body mass,1.000282439,0,Modified
+Birds,Longevity,0.873168801,7.91E-293,Modified
+Birds,Litter/clutch size,0.918407942,0,Modified
+Birds,Diet breadth,0.488743222,2.13E-236,Modified
+Birds,Range size,0.673617656,0,Modified
+Birds,Habitat breadth,0.496666115,0,Modified
+Birds,Generation length,0.98980797,0,Modified
+Reptiles,Body mass,0.357606182,1.90E-298,Modified
+Reptiles,LongevitY,0.819237495,9.06E-161,Modified
+Reptiles,Litter size,0.723182691,0,Modified
+Reptiles,Range size,0.410854278,7.68E-60,Modified
+Reptiles,Habitat breadth,0.385684754,1.51E-169,Modified
+Reptiles,Body length,0.975234106,0,Modified
+Reptiles,Maturity ,0.872076503,1.63E-63,Modified
+Mammals,Body mass,1.000279666,0,Modified
+Mammals,Longevity,0.969559274,0,Modified
+Mammals,Litter size,0.963486598,0,Modified
+Mammals,Diet breadth,0.990593683,0,Modified
+Mammals,Range size,0.987697972,0,Modified
+Mammals,Habitat  breadth,0.699436824,4.48E-184,Modified
+Mammals,Generation length,0.988844871,0,Modified
+Mammals,Body length,1.000602275,0,Modified
+Amphibians,Body mass,0.799841422,1.18E-34,Modified
+Amphibians,Longevity,0.325292945,3.72E-14,Modified
+Amphibians,Litter/clutch size,0.63062639,3.39E-91,Modified
+Amphibians,Diet breadth,0.713108674,1.19E-51,Modified
+Amphibians,Range size,0.541756868,4.77E-101,Modified
+Amphibians,Habitat breadth,0.77267892,0,Modified
+Amphibians,Body length,0.961614214,0,Modified
+\end{filecontents*}
+
+\begin{filecontents*}{Continuous_traits_significance_chisquared_original.csv}
+Class,Trait,lambda,p-value,Phylogeny
+Birds,Body mass,1.000382605,0,Original
+Birds,Longevity,0.891147198,8.45E-240,Original
+Birds,Litter/clutch size,0.923988114,0,Original
+Birds,Diet breadth,0.485258248,2.73E-156,Original
+Birds,Range size,0.657191615,0,Original
+Birds,Habitat breadth,0.479008508,0,Original
+Birds,Generation length,0.991388055,0,Original
+Reptiles,Body mass,0.690538758,2.66E-104,Original
+Reptiles,LongevitY,0.790957852,1.18E-101,Original
+Reptiles,Litter size,0.760285922,3.49E-283,Original
+Reptiles,Range size,0.561740625,7.52E-35,Original
+Reptiles,Habitat breadth,0.406530285,1.10E-104,Original
+Reptiles,Body length,0.999325885,0,Original
+Reptiles,Maturity ,0.864878861,4.61E-47,Original
+Mammals,Body mass,1.000446364,0,Original
+Mammals,Longevity,0.967515288,0,Original
+Mammals,Litter size,0.962055055,0,Original
+Mammals,Diet breadth,0.989612475,0,Original
+Mammals,Range size,0.980207459,0,Original
+Mammals,Habitat  breadth,0.707036926,2.76E-179,Original
+Mammals,Generation length,0.990038999,0,Original
+Mammals,Body length,1.001411348,0,Original
+Amphibians,Body mass,0.722173389,4.82E-18,Original
+Amphibians,Longevity,0.490923073,2.38E-15,Original
+Amphibians,Litter/clutch size,0.583043449,2.94E-56,Original
+Amphibians,Diet breadth,0.516880267,7.60E-17,Original
+Amphibians,Range size,0.622790451,9.21E-57,Original
+Amphibians,Habitat breadth,0.800705224,5.17E-173,Original
+Amphibians,Body length,0.958443602,0,Original
+
+\end{filecontents*}
 
 
 
@@ -116,10 +185,10 @@ The influence of vertebrate species traits on their responses to land-use and cl
 \subsection{Habitat affinities and broad specialisation}
 \paragraph{Habitat preferences.}
 % Pooling in broader habitat categories
-IUCN habitat data records habitat types in which species occur. Habitats are classified into 96 categories, which I pooled into 13 broader habitat variables: 
+The Red List habitat data records habitat types in which species occur. Habitats are classified into 96 categories, which I pooled into 13 broader habitat variables: 
 Forest, Savanna, Grassland, Shrubland, Wetland, Rocky areas, Caves and subterranean, Desert, Marine, Marine intertidal or coastal/supratidal, Artificial, Introduced vegetation and Other/Unknown. Species habitat preferences were described using these variables as binary (taking 1 if a species was known to occur in the habitat and 0 otherwise).
 \paragraph{Habitat breadth.}
-Habitat breadth was calculated as the number of habitats recorded to be used by a species in the IUCN database. Given that information regarding habitat suitability and habitat importance was also available in the IUCN data files, I used a weighted sum to calculate habitat breadth. Suitability was declined in three categories in the IUCN files: `suitable', `marginal' or  `unknown'. Habitats were recorded to be either of major importance, not of major importance or of unknown importance. I used the weights provided in Table \ref{weights} to produce weighted sums of the number of habitats used by each species. A comparison of the distribution of habitat breadths calculated with and without weights shows that weighting did not have a strong impact on the results (Figure \ref{distHB}).
+Habitat breadth was calculated as the number of habitats recorded to be used by a species in the Red List database. Given that information regarding habitat suitability and habitat importance was also available in the Red List data files, I used a weighted sum to calculate habitat breadth. Suitability was declined in three categories in the Red List files: `suitable', `marginal' or  `unknown'. Habitats were recorded to be either of major importance, not of major importance or of unknown importance. I used the weights provided in Table \ref{weights} to produce weighted sums of the number of habitats used by each species. A comparison of the distribution of habitat breadths calculated with and without weights shows that weighting did not have a strong impact on the results (Figure \ref{distHB}).
 
 % table of weigths used for habitat breadth calculations
 \begin{table}[h!]
@@ -151,13 +220,13 @@ Habitat breadth was calculated as the number of habitats recorded to be used by 
 A broad classification was adopted for species degree of specialisation. Using IUCN habitat files, I determined whether species were strictly natural habitat specialists or generalists. Generalists were species for which any habitat, suitable or of unknown suitability, was recorded to be artificial. Else, species were considered to be natural habitat specialists. When a habitat of an unknown type was considered suitable or was of unknown suitability, missing data was introduced. 
 
 
-
+\pagebreak
 \subsection{Tackling taxonomic synonymy}
 
 % Excerpt of the sysnonym table?
 
 \subsubsection{Dropping replicated phylogenetic tips}
-2.6\% of mammalian, 1.5\% of avian, 1\% of amphibian and  1.5\% of reptilian species had multiple multiple phylogenetic positions after taxonomic corrections. Most of these species had only two replicates (as most species with synonyms were found to have two identified synonym, Figure 2.1 in main text). Table \ref{Phyrep} provides the number of replicates across replicated species. Replicated tips corresponding to species described in the format \textit{Genus cf.}, \textit{Genus sp.}, \textit{Genus spp.} or \textit{Genus aff.} were all conserved in the phylogenies.
+2.6\% of mammalian, 1.5\% of avian, 1\% of amphibian and  1.5\% of reptilian species had multiple multiple phylogenetic positions after taxonomic corrections. Most of these species had only two replicates (as most species with synonyms were found to have two identified synonym, c.f. main text). Table \ref{Phyrep} provides the number of replicates across replicated species. Replicated tips corresponding to species described in the format \textit{Genus cf.}, \textit{Genus sp.}, \textit{Genus spp.} or \textit{Genus aff.} were all conserved in the phylogenies.
 
 \begin{table}[h!]
 \renewcommand{\baselinestretch}{1}
@@ -191,88 +260,54 @@ Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips w
 % Replication in phylogenetic tips: case studies
 
 \newpage
-\paragraph{Case studies}
+\subsubsection{Case studies}
 
 %%%% Case study 1
-\subparagraph{Case study 1 (Figure \ref{case1}): replicated tips are sister clades.} In this example, Przewalski's toadhead agama (\textit{Phrynocephalus przewalskii}) figures in the original, uncorrected tree under two names identified as being synonyms (\textit{P. przewalskii} and \textit{P. frontalis}). As such, two replicated tips with the same name appear in the tree after the taxonomic correction. As they are sister clades, one tip is randomly dropped in the final corrected tree. In that case, the `true' phylogenetic position of the species is not affected.
+\subparagraph{Case study 1 (Figure \ref{case1}): replicated tips are sister clades.} In this example, the Przewalski's toadhead agama (\textit{Phrynocephalus przewalskii}) figures in the original, uncorrected tree under two names identified as being synonyms (\textit{P. przewalskii} and \textit{P. frontalis}). As such, two replicated tips with the same name appear in the tree after the taxonomic correction. As they are sister clades, one tip is randomly dropped in the final corrected tree. In that case, the `true' phylogenetic position of the species is not affected.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{figures/Case_studies/Case1}
+\includegraphics[scale=0.8]{figures/Case_studies/Case1}
 \caption[Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the reptilian genus \textit{Phrynocephalus}]{\textbf{Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the reptilian genus \textit{Phrynocephalus}.} The identified accepted name \textit{P. przewalskii}, in blue (A), is identified as being a synonym for \textit{P. frontalis,} which also figures in the uncorrected tree. As these clades are sister in the tree, one tip is dropped at random, and the final phylogenetic position of the species is not affected.}
 \label{case1}
 \end{figure}
 
-
+\pagebreak
 %%%% Case study 2
 \subparagraph{Case study 2 (Figure \ref{case2}): replicated tips are not sister clades, but the accepted name (tip label) figures in the original, uncorrected tree.} In that example, the amphibian species \textit{Ambystoma californiense} (California tiger salamander) was also found under its identified synonym \textit{A. tigrinum} in the original tree. In the final tree, the tip closest to the position of the same tip in the uncorrected tree was kept.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{figures/Case_studies/Case2}
+\includegraphics[scale=0.8]{figures/Case_studies/Case2}
 \caption[Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the amphibian genus \textit{Ambystoma}]{\textbf{Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the amphibian genus \textit{Ambystoma}.} The identified accepted name \textit{A. californiense}, in blue (A), is identified as being a synonym for \textit{A. tigrinum,} which also figures in the uncorrected tree. There are not sister clades; in the final tree, the tip closest to the position of the same tip in the uncorrected tree was kept.}
 \label{case2}
 \end{figure}
 
+\pagebreak
 %%%% Case study 3
 \subparagraph{Case study 3 (Figure \ref{case3}): replicated tips are not sister clades, and the accepted name (tip label) does not figure in the original, uncorrected tree.} These were the problematic species listed in Table \ref{Phyrep}. In this example, the mammalian species \textit{Petinomys sagitta} (arrow flying squirrel) and  \textit{Hylopetes lepidus} (gray-cheeked flying squirrel)  have been identified to be synonymic, but the accepted name does not figure in the original tree. They are not sister clades; hence, one tip is randomly chosen to be dropped.
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{figures/Case_studies/Case3}
+\includegraphics[scale=0.8]{figures/Case_studies/Case3}
 \caption[Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the mammalian genera \textit{Hylopetes} and \textit{Petinomys}]{\textbf{Phylogenetic trees before (A) and after (B) taxonomic correction, and after removing replicated tips (C) for species in the mammalian genera \textit{Hylopetes} and \textit{Petinomys}.} The identified accepted name \textit{H. sagitta}, in blue (B), does not figure in the uncorrected tree. It was identified to be the corresponding accepted name for \textit{P. sagitta} and \textit{H. lepidus}, which are not sister clades. One tip is randomly chosen to be dropped. Such cases were problematic but occurences were rare (Table \ref{Phyrep}).}
 \label{case3}
 \end{figure}
+
 
 \pagebreak
 \section{Trait coverage and completeness for PREDICTS species}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{figures/Predicts}
+\includegraphics[scale=0.65]{figures/Predicts}
 \caption[Trait coverage for species figuring in the PREDICTS database only]{\textbf{Trait coverage for species figuring in the PREDICTS database only.}}
 \label{covPREDICTS}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.7]{figures/Traitcompleteness_PREDICTS}
-\caption[Distribution of completeness values across species figuring in the PREDICTS database only]{\textbf{Distribution of completeness values across species figuring in the PREDICTS database only.} Completeness for reptilian and amphibian species figuring in the trait dataset particularly improved compared to the completeness for the whole dataset.}
-\label{compPREDICTS}
-\end{figure}
-
-\section{Patterns in missing values with regards to phylogenetic trees}
-
-\subsection{Within-family median completeness: plots with tip labels}
-
-\subsubsection{Mammals}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.55]{figures/NA_phylo_patterns/Mammals_completeness}
-\caption[Within-family median completeness for mammals]{\textbf{Within-family median completeness for mammals.}}
-\label{compPREDICTS}
-\end{figure}
-
-\subsubsection{Birds}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.45]{figures/NA_phylo_patterns/Birds_completeness}
-\caption[Within-family median completeness for birds]{\textbf{Within-family median completeness for birds.}}
-\label{compPREDICTS}
-\end{figure}
-
-\subsubsection{Reptiles}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=1.2]{figures/NA_phylo_patterns/Reptiles_completeness}
-\caption[Within-family median completeness for reptiles]{\textbf{Within-family median completeness for reptiles.}}
-\label{compPREDICTS}
-\end{figure}
-
-\subsubsection{Amphibians}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=1.2]{figures/NA_phylo_patterns/Amphibians_completeness}
-\caption[Within-family median completeness for amphibians]{\textbf{Within-family median completeness for amphibians.}}
+\includegraphics[scale=0.65]{figures/Traitcompleteness_PREDICTS}
+\caption[Distribution of completeness values across species figuring in the PREDICTS database only]{\textbf{Distribution of completeness values across species figuring in the PREDICTS database only.}}
 \label{compPREDICTS}
 \end{figure}
 
@@ -300,15 +335,197 @@ Figure \ref{chart_phylorep} describes the procedure I used. If replicated tips w
 \end{center}
 \end{table}
 
+% results for tests phylogenetic signal in categorical traits
 \pagebreak
-\begin{center}
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{center}\fontsize{9}{11}\selectfont
+\caption[Wilcoxon rank sum test results for the significance of phylogenetic signal in categorical traits]{\textbf{Wilcoxon rank sum test result for the significance of phylogenetic signal in categorical traits.} The results are shown here, for phylogenetic signal ($\delta$) computed with both original and modified phylogenies.}
 \csvautotabular{pvaluescat.csv}
 \end{center}
+\end{table}
+
+\pagebreak
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{center}\fontsize{9}{11}\selectfont
+\caption[$\chi$-squared test results for the significance of phylogenetic signal in continuous traits]{\textbf{$\chi$-squared test result for the significance of phylogenetic signal in continuous traits.} The results are shown here, for phylogenetic signal ($\lambda$) computed with \textbf{original} phylogenies.}
+\csvautotabular{Continuous_traits_significance_chisquared_original.csv}
+\end{center}
+\end{table}
+
+\pagebreak
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{center}\fontsize{9}{11}\selectfont
+\caption[$\chi$-squared test results for the significance of phylogenetic signal in continuous traits]{\textbf{$\chi$-squared test result for the significance of phylogenetic signal in continuous traits.} The results are shown here, for phylogenetic signal ($\lambda$) computed with \textbf{modified} phylogenies.}
+\csvautotabular{Continuous_traits_significance_chisquared_modified.csv}
+\end{center}
+\end{table}
 
 
 
 \pagebreak
-\subsection{Imputation robustness}
+\subsection{Imputation congruence in categorical traits}
+Figures \ref{congruenceTL}, \ref{congruencePD}, \ref{congruenceDA} and \ref{congruenceSp} show imputation congruence across the eight imputed datasets for each categorical trait. Here, I assessed the proportion of species for which imputed values were all similar across the eight imputed datasets. If at least one dataset imputed a different value, imputations were considered to not be congruent (contradicting). The results are presented for each class separately. A color code indicates whether the phylogenetic position of the species was initially known.
+
+These figures show that:
+\begin{itemize}
+\item For all classes, imputation congruence was high for trophic level (Figure \ref{congruenceTL}).
+\item For primary diet, congruence was very high for mammals and amphibians. More than half of avian species had similar values imputed. Nevertheless, in birds, there was a substantial amount of species for which at least one dataset imputed a different value (Figure \ref{congruencePD}).
+\item For both diel activity and degree of habitat specialisation, imputation congruence was high for mammals and birds, but less good in amphibians and reptiles (Figures \ref{congruenceDA} and \ref{congruenceSp}).
+\end{itemize}
+
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_categorical_traits/TL}
+\caption[Imputation congruence for trophic level across eight imputed datasets]{\textbf{Imputation congruence for trophic level across eight imputed datasets.} \textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{congruenceTL}
+\end{figure}
+
+\pagebreak
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_categorical_traits/PD}
+\caption[Imputation congruence for primary diet across eight imputed datasets]{\textbf{Imputation congruence for primary diet across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds and \textbf{(D)} amphibians.}
+\label{congruencePD}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_categorical_traits/DA}
+\caption[Imputation congruence for diel activity across eight imputed datasets]{\textbf{Imputation congruence for diel activity across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{congruenceDA}
+\end{figure}
+
+
+\pagebreak
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_categorical_traits/Sp}
+\caption[Imputation congruence for habitat specialisation across eight imputed datasets]{\textbf{Imputation congruence for habitat specialisation across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{congruenceSp}
+\end{figure}
+
+
+\pagebreak
+\subsection{Imputation results for continuous traits}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_continuous_traits/BM}
+\caption[Imputation results for body mass across eight imputed datasets]{\textbf{Imputation results for body mass across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{congruenceBM}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_continuous_traits/LCS}
+\caption[Imputation results for litter/clutch size across eight imputed datasets]{\textbf{Imputation results for litter/clutch size across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{congruenceLCS}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_continuous_traits/LG}
+\caption[Imputation results for longevity across eight imputed datasets]{\textbf{Imputation results for longevity across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{congruenceLG}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_continuous_traits/DB}
+\caption[Imputation results for diet breadth across eight imputed datasets]{\textbf{Imputation results for diet breadth across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds and \textbf{(D)} amphibians.}
+\label{congruenceDB}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_continuous_traits/RS}
+\caption[Imputation results for range size across eight imputed datasets]{\textbf{Imputation results for range size across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{congruenceRS}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Congruence_continuous_traits/HB}
+\caption[Imputation results for habitat breadth across eight imputed datasets]{\textbf{Imputation results for habitat breadth across eight imputed datasets}.\textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{congruenceHB}
+\end{figure}
+
+
+\pagebreak
+
+\subsection{Comparison with data from Cooke et al. (2019)}
+
+\subsubsection{Comparison of imputed values in Cooke et al. (2019) against imputed values in this work}
+Cooke et al. (2019) released a comprehensive database of six avian and mammalian traits. The methods for data collection were very similar to the methods employed in this work. One notable difference in Cooke et al. (2019) was the preselection of traits was had more than 50\% coverage. Our imputation methods also differed, as Cooke et al. employed multivariate chained equations (mice). Using species for which estimates were imputed in both Cooke et al. (2019) and in the present work, I compared the results of both methods for common imputed traits. Most species had different imputed results for  primary diet (Figure \ref{compCookeimp}). The results were overall qualitatively consistent for the other traits (diel activity, litter/clutch size and habitat breadth).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Comparison_Cooke/Comparison_imputed}
+\caption[Values imputed by Cooke et al. against values imputed in this work]{\textbf{Values imputed by Cooke et al. against values imputed in this work}.\textbf{(A)} Litter/clutch size, \textbf{(B)} diel activity, \textbf{(C)} habitat breadth and \textbf{(D)} primary diet.}
+\label{compCookeimp}
+\end{figure}
+
+
+\subsubsection{Comparison of collected VS imputed values}
+Here, I compared values collected by Cooke et al. (2019) for a set of species for which I imputed the values, and vice-versa, when the collection design allowed for such comparisons. missForest seemed to have performed better than mice on continuous trait imputations (Figure \ref{compCooke} A, B, C, D): the correlation coefficients between imputed values and collected values was 0.47 for habitat breadth, imputed with missForest (B), and 0.33 imputed with mice (A).  On litter/clutch size, the correlation coefficient was 0.89 for values imputed by missForest (C) and 0.41 for values imputed by mice (D). For categorical traits, both missForest and mice seemed to have performed well in predicting diel activity, but not well in predicting primary diet. Nevertheless, the sample sizes were low in each case, and the comparisons were conducted on different sets of species, so these results should not be extrapolated or interpreted in terms of imputation robustness.
+
+\begin{landscape}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/Comparison_Cooke/Comparison_imputed_VS_collected}
+\caption[]{\textbf{}.\textbf{(A)} Mammals, \textbf{(B)} birds, \textbf{(C)} reptiles and \textbf{(D)} amphibians.}
+\label{compCooke}
+\end{figure}
+
+\end{landscape}
+
+\pagebreak
+\section{Patterns in missing values with regards to phylogenetic trees: plots with tip labels for within-family median completeness}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.2]{figures/NA_phylo_patterns/Amphibians_completeness}
+\caption[Within-family median completeness for amphibians]{\textbf{Within-family median completeness for amphibians.}}
+\label{}
+\end{figure}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{figures/NA_phylo_patterns/Mammals_completeness}
+\caption[Within-family median completeness for mammals]{\textbf{Within-family median completeness for mammals.}}
+\label{}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.45]{figures/NA_phylo_patterns/Birds_completeness}
+\caption[Within-family median completeness for birds]{\textbf{Within-family median completeness for birds.}}
+\label{}
+\end{figure}
+
+\pagebreak
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=1.2]{figures/NA_phylo_patterns/Reptiles_completeness}
+\caption[Within-family median completeness for reptiles]{\textbf{Within-family median completeness for reptiles.}}
+\label{}
+\end{figure}
+
 
 
 \end{document}
