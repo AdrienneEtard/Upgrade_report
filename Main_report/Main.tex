@@ -26,9 +26,6 @@
 %\usepackage{verbatim} 
 \usepackage{csvsimple}
 
-%Line numbering
-\usepackage{lineno}
-
 % clinkable links 
 \usepackage[hidelinks]{hyperref}
 \hypersetup{
@@ -39,7 +36,7 @@
 
 % Bibliography
 \usepackage[backend=bibtex, natbib=true, url=false, doi=true, isbn=false, style=authoryear-comp, eprint=false, maxbibnames= 20, firstinits=true, maxcitenames=2]{biblatex}
-\addbibresource{library.bib}
+\addbibresource{library2.bib}
 \input{biblatex_options.tex}
 
 \setlength\bibitemsep{1.5\itemsep}
@@ -61,7 +58,11 @@ log(RS):Reptiles,0.00,0.003,0.69,4.92E-01
 \end{filecontents*}
 
 % line spacing
-%\renewcommand{\baselinestretch}{2}
+\renewcommand{\baselinestretch}{1.5}
+
+%Line numbering
+\usepackage{lineno}
+%\linenumbers
 
 \begin{document}
 
@@ -107,13 +108,13 @@ log(RS):Reptiles,0.00,0.003,0.69,4.92E-01
 \chapter{Collecting and imputing ecological trait data across terrestrial vertebrates}
 \input{Chapters/Chapter2}
 
-\chapter{Land-use change impacts on the functional diversity of vertebrate communities}
-\input{Chapters/Chapter3}
+%\chapter{Land-use change impacts on the functional diversity of vertebrate communities}
+%\input{Chapters/Chapter3}
 
-\chapter{Outline of research questions for the next years}
-\input{Chapters/Chapter4}
+%\chapter{Outline of research questions for the next years}
+%\input{Chapters/Chapter4}
 
-\chapter{Conclusion}
+%\chapter{Conclusion}
 
 \clearpage
 \chapter*{Bibliography}

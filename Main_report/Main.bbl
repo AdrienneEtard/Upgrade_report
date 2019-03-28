@@ -2215,6 +2215,347 @@
     \field{year}{2010}
   \endentry
 
+  \entry{Cardoso2017}{article}{}
+    \name{author}{44}{}{%
+      {{hash=CD}{%
+         family={Cardoso},
+         familyi={C\bibinitperiod},
+         given={Domingos},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={S{\"a}rkinen},
+         familyi={S\bibinitperiod},
+         given={Tiina},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=AS}{%
+         family={Alexander},
+         familyi={A\bibinitperiod},
+         given={Sara},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=AAM}{%
+         family={Amorim},
+         familyi={A\bibinitperiod},
+         given={Andr{\'e}\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=BV}{%
+         family={Bittrich},
+         familyi={B\bibinitperiod},
+         given={Volker},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=CM}{%
+         family={Celis},
+         familyi={C\bibinitperiod},
+         given={Marcela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DDC}{%
+         family={Daly},
+         familyi={D\bibinitperiod},
+         given={Douglas\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Fiaschi},
+         familyi={F\bibinitperiod},
+         given={Pedro},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=FVA}{%
+         family={Funk},
+         familyi={F\bibinitperiod},
+         given={Vicki\bibnamedelima A.},
+         giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=GLL}{%
+         family={Giacomin},
+         familyi={G\bibinitperiod},
+         given={Leandro\bibnamedelima L.},
+         giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=GR}{%
+         family={Goldenberg},
+         familyi={G\bibinitperiod},
+         given={Renato},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=HG}{%
+         family={Heiden},
+         familyi={H\bibinitperiod},
+         given={Gustavo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=IJ}{%
+         family={Iganci},
+         familyi={I\bibinitperiod},
+         given={Jo{\~a}o},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=KCL}{%
+         family={Kelloff},
+         familyi={K\bibinitperiod},
+         given={Carol\bibnamedelima L.},
+         giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Knapp},
+         familyi={K\bibinitperiod},
+         given={Sandra},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=CdLH}{%
+         prefix={Cavalcante\bibnamedelima de},
+         prefixi={C\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Lima},
+         familyi={L\bibinitperiod},
+         given={Haroldo},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=MAFP}{%
+         family={Machado},
+         familyi={M\bibinitperiod},
+         given={Anderson F.\bibnamedelima P.},
+         giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=dSRM}{%
+         prefix={dos},
+         prefixi={d\bibinitperiod},
+         family={Santos},
+         familyi={S\bibinitperiod},
+         given={Rubens\bibnamedelima Manoel},
+         giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=MSR}{%
+         family={Mello-Silva},
+         familyi={M\bibinithyphendelim S\bibinitperiod},
+         given={Renato},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MFA}{%
+         family={Michelangeli},
+         familyi={M\bibinitperiod},
+         given={Fabi{\'a}n\bibnamedelima A.},
+         giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mitchell},
+         familyi={M\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MP}{%
+         family={Moonlight},
+         familyi={M\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=dMPLR}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Moraes},
+         familyi={M\bibinitperiod},
+         given={Pedro Lu{\'\i}s\bibnamedelima Rodrigues},
+         giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+      }}%
+      {{hash=MSA}{%
+         family={Mori},
+         familyi={M\bibinitperiod},
+         given={Scott\bibnamedelima A.},
+         giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=NTS}{%
+         family={Nunes},
+         familyi={N\bibinitperiod},
+         given={Teonildes\bibnamedelima Sacramento},
+         giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=PTD}{%
+         family={Pennington},
+         familyi={P\bibinitperiod},
+         given={Terry\bibnamedelima D.},
+         giveni={T\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=PJR}{%
+         family={Pirani},
+         familyi={P\bibinitperiod},
+         given={Jos{\'e}\bibnamedelima Rubens},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=PGT}{%
+         family={Prance},
+         familyi={P\bibinitperiod},
+         given={Ghillean\bibnamedelima T.},
+         giveni={G\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+      {{hash=dQLP}{%
+         prefix={de},
+         prefixi={d\bibinitperiod},
+         family={Queiroz},
+         familyi={Q\bibinitperiod},
+         given={Luciano\bibnamedelima Paganucci},
+         giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Rapini},
+         familyi={R\bibinitperiod},
+         given={Alessandro},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Riina},
+         familyi={R\bibinitperiod},
+         given={Ricarda},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RCAV}{%
+         family={Rincon},
+         familyi={R\bibinitperiod},
+         given={Carlos Alberto\bibnamedelima Vargas},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  V\bibinitperiod},
+      }}%
+      {{hash=RN}{%
+         family={Roque},
+         familyi={R\bibinitperiod},
+         given={N{\'a}dia},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=SG}{%
+         family={Shimizu},
+         familyi={S\bibinitperiod},
+         given={Gustavo},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Sobral},
+         familyi={S\bibinitperiod},
+         given={Marcos},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SJR}{%
+         family={Stehmann},
+         familyi={S\bibinitperiod},
+         given={Jo{\~a}o\bibnamedelima Renato},
+         giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SWD}{%
+         family={Stevens},
+         familyi={S\bibinitperiod},
+         given={Warren\bibnamedelima D.},
+         giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=TCM}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Charlotte\bibnamedelima M.},
+         giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=TM}{%
+         family={Trov{\'o}},
+         familyi={T\bibinitperiod},
+         given={Marcelo},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=vdBC}{%
+         prefix={van\bibnamedelima den},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Berg},
+         familyi={B\bibinitperiod},
+         given={C{\'a}ssio},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=vdWH}{%
+         prefix={van\bibnamedelima der},
+         prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod},
+         family={Werff},
+         familyi={W\bibinitperiod},
+         given={Henk},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=VPL}{%
+         family={Viana},
+         familyi={V\bibinitperiod},
+         given={Pedro\bibnamedelima Lage},
+         giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=ZCE}{%
+         family={Zartman},
+         familyi={Z\bibinitperiod},
+         given={Charles\bibnamedelima E.},
+         giveni={C\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+      {{hash=FRC}{%
+         family={Forzza},
+         familyi={F\bibinitperiod},
+         given={Rafaela\bibnamedelima Campostrini},
+         giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {National Academy of Sciences}%
+    }
+    \strng{namehash}{CD+1}
+  \strng{fullhash}{CDSTASAAMBVCMDDCFPFVAGLLGRHGIJKCLKSLHCdMAFPSRMdMSRMFAMJMPMPLRdMSANTSPTDPJRPGTQLPdRARRRCAVRNSGSMSJRSWDTCMTMBCvdWHvdVPLZCEFRC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2017}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{abstract}{%
+    Large floristic datasets that purportedly represent the diversity and
+  composition of the Amazon tree flora are being widely used to draw
+  conclusions about the patterns and evolution of Amazon plant diversity, but
+  these datasets are fundamentally flawed in both their methodology and the
+  resulting content. We have assembled a comprehensive dataset of Amazonian
+  seed plant species from published sources that includes falsifiable data
+  based on voucher specimens identified by taxonomic specialists. This growing
+  list should serve as a basis for addressing the long-standing debate on the
+  number of plant species in the Amazon, as well as for downstream ecological
+  and evolutionary analyses aimed at understanding the origin and function of
+  the exceptional biodiversity of the vast Amazonian forests.Recent debates on
+  the number of plant species in the vast lowland rain forests of the Amazon
+  have been based largely on model estimates, neglecting published checklists
+  based on verified voucher data. Here we collate taxonomically verified
+  checklists to present a list of seed plant species from lowland Amazon rain
+  forests. Our list comprises 14,003 species, of which 6,727 are trees. These
+  figures are similar to estimates derived from nonparametric ecological
+  models, but they contrast strongly with predictions of much higher tree
+  diversity derived from parametric models. Based on the known proportion of
+  tree species in neotropical lowland rain forest communities as measured in
+  complete plot censuses, and on overall estimates of seed plant diversity in
+  Brazil and in the neotropics in general, it is more likely that tree
+  diversity in the Amazon is closer to the lower estimates derived from
+  nonparametric models. Much remains unknown about Amazonian plant diversity,
+  but this taxonomically verified dataset provides a valid starting point for
+  macroecological and evolutionary studies aimed at understanding the origin,
+  evolution, and ecology of the exceptional biodiversity of Amazonian forests.%
+    }
+    \verb{doi}
+    \verb 10.1073/pnas.1706756114
+    \endverb
+    \verb{eprint}
+    \verb https://www.pnas.org/content/114/40/10695.full.pdf
+    \endverb
+    \field{issn}{0027-8424}
+    \field{number}{40}
+    \field{pages}{10695\bibrangedash 10700}
+    \field{title}{Amazon plant diversity revealed by a taxonomically verified
+  species list}
+    \verb{url}
+    \verb https://www.pnas.org/content/114/40/10695
+    \endverb
+    \field{volume}{114}
+    \field{journaltitle}{Proceedings of the National Academy of Sciences}
+    \field{year}{2017}
+  \endentry
+
   \entry{Carmona2016}{misc}{}
     \name{author}{4}{}{%
       {{hash=CCP}{%
@@ -2290,6 +2631,31 @@
   Across Scales}}
     \field{volume}{31}
     \field{year}{2016}
+  \endentry
+
+  \entry{rredlist}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=CS}{%
+         family={Chamberlain},
+         familyi={C\bibinitperiod},
+         given={Scott},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CS1}
+    \strng{fullhash}{CS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{note}{R package version 0.5.0}
+    \field{title}{rredlist: 'IUCN' Red List Client}
+    \verb{url}
+    \verb https://CRAN.R-project.org/package=rredlist
+    \endverb
+    \field{year}{2018}
   \endentry
 
   \entry{Chamberlain2013}{article}{}
@@ -2787,6 +3153,133 @@
     \field{year}{2018}
   \endentry
 
+  \entry{Gonzalez-Suarez2013a}{article}{}
+    \name{author}{2}{}{%
+      {{hash=GSM}{%
+         family={Gonz{\'{a}}lez-Su{\'{a}}rez},
+         familyi={G\bibinithyphendelim S\bibinitperiod},
+         given={Manuela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Revilla},
+         familyi={R\bibinitperiod},
+         given={Eloy},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Comparative studies,Intraspecific variation,Mammalia,PanTHERIA,Red
+  List,Taxonomically informed regression,Vulnerability}
+    \strng{namehash}{GSMRE1}
+    \strng{fullhash}{GSMRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2013}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    Anthropogenic degradation of the world's ecosystems is leading to a
+  widespread and accelerating loss of biodiversity. However, not all species
+  respond equally to existing threats, raising the question: what makes a
+  species more vulnerable to extinction? We propose that higher intraspecific
+  variability may reduce the risk of extinction, as different individuals and
+  populations within a species may respond differently to occurring threats.
+  Supporting this prediction, our results show that mammalian species with more
+  variable adult body masses, litter sizes, sexual maturity ages and population
+  densities are less vulnerable to extinction. Our findings reveal the role of
+  local variation among populations, particularly of large mammals, as a
+  buffering mechanism against extinction, and emphasise the importance of
+  considering trait variation in comparative analyses and conservation
+  management.%
+    }
+    \verb{doi}
+    \verb 10.1111/ele.12035
+    \endverb
+    \field{isbn}{1461-023X}
+    \field{issn}{1461023X}
+    \field{title}{{Variability in life-history and ecological traits is a
+  buffer against extinction in mammals}}
+    \field{journaltitle}{Ecology Letters}
+    \field{year}{2013}
+  \endentry
+
+  \entry{Gonzalez-Suarez2012}{article}{}
+    \name{author}{3}{}{%
+      {{hash=GSM}{%
+         family={Gonz{\'{a}}lez-Su{\'{a}}rez},
+         familyi={G\bibinithyphendelim S\bibinitperiod},
+         given={Manuela},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LPM}{%
+         family={Lucas},
+         familyi={L\bibinitperiod},
+         given={Pablo\bibnamedelima M.},
+         giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=RE}{%
+         family={Revilla},
+         familyi={R\bibinitperiod},
+         given={Eloy},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \keyw{Data imputation,Extinction risk,Life-history traits,Phylogenetic
+  generalized linear models,Phylopars}
+    \strng{namehash}{GSM+1}
+    \strng{fullhash}{GSMLPMRE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2012}
+    \field{labeldatesource}{year}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{abstract}{%
+    1. Comparative analyses are used to address the key question of what makes
+  a species more prone to extinction by exploring the links between
+  vulnerability and intrinsic species' traits and/or extrinsic factors. This
+  approach requires comprehensive species data but information is rarely
+  available for all species of interest. As a result comparative analyses often
+  rely on subsets of relatively few species that are assumed to be
+  representative samples of the overall studied group. 2. Our study challenges
+  this assumption and quantifies the taxonomic, spatial, and data type biases
+  associated with the quantity of data available for 5415 mammalian species
+  using the freely available life-history database PanTHERIA. 3. Moreover, we
+  explore how existing biases influence results of comparative analyses of
+  extinction risk by using subsets of data that attempt to correct for detected
+  biases. In particular, we focus on links between four species' traits
+  commonly linked to vulnerability (distribution range area, adult body mass,
+  population density and gestation length) and conduct univariate and
+  multivariate analyses to understand how biases affect model predictions. 4.
+  Our results show important biases in data availability with c.22% of mammals
+  completely lacking data. Missing data, which appear to be not missing at
+  random, occur frequently in all traits (14-99% of cases missing). Data
+  availability is explained by intrinsic traits, with larger mammals occupying
+  bigger range areas being the best studied. Importantly, we find that existing
+  biases affect the results of comparative analyses by overestimating the risk
+  of extinction and changing which traits are identified as important
+  predictors. 5. Our results raise concerns over our ability to draw general
+  conclusions regarding what makes a species more prone to extinction. Missing
+  data represent a prevalent problem in comparative analyses, and
+  unfortunately, because data are not missing at random, conventional
+  approaches to fill data gaps, are not valid or present important challenges.
+  These results show the importance of making appropriate inferences from
+  comparative analyses by focusing on the subset of species for which data are
+  available. Ultimately, addressing the data bias problem requires greater
+  investment in data collection and dissemination, as well as the development
+  of methodological approaches to effectively correct existing biases.%
+    }
+    \verb{doi}
+    \verb 10.1111/j.1365-2656.2012.01999.x
+    \endverb
+    \field{issn}{00218790}
+    \field{title}{{Biases in comparative analyses of extinction risk: Mind the
+  gap}}
+    \field{journaltitle}{Journal of Animal Ecology}
+    \field{year}{2012}
+  \endentry
+
   \entry{Gravel2016}{misc}{}
     \name{author}{3}{}{%
       {{hash=GD}{%
@@ -3047,6 +3540,72 @@
   functional traits to ecosystem properties%
     }
     \field{year}{2017}
+  \endentry
+
+  \entry{Hirons2016}{article}{}
+    \name{author}{3}{}{%
+      {{hash=HM}{%
+         family={Hirons},
+         familyi={H\bibinitperiod},
+         given={Mark},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CC}{%
+         family={Comberti},
+         familyi={C\bibinitperiod},
+         given={Claudia},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=DR}{%
+         family={Dunford},
+         familyi={D\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HM+1}
+    \strng{fullhash}{HMCCDR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2016}
+    \field{labeldatesource}{year}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    The ecosystem services (ES) framework was developed to articulate and
+  measure the benefits humans receive from ecosystems. Cultural ecosystem
+  services (CES), usually defined as the intangible and nonmaterial benefits
+  ecosystems provide, have been relatively neglected by researchers and
+  policy-makers compared to provisioning, supporting, and regulating services.
+  Although valuing CES poses several conceptual and methodological
+  difficulties, it is of huge interest and importance because of the linkages
+  between cultural values, valuation methods, and the individual and collective
+  decision-making that influence ecosystems and human wellbeing. This review is
+  not a how-to guide, but rather examines key conceptual issues and maps
+  critical areas of debate. There is a range of potential approaches to
+  assessing CES; however, choices regarding valuation methods and their role in
+  decision-making are shaped by cultural and political dynamics. CES are at a
+  crossroads. They can potentially act as a fruitful conceptual container for a
+  broad range of interdisciplinary research into human-environment relations
+  and transform how decisions regarding the environment are made, but they can
+  also be used to legitimize and entrench modes of decision-making that
+  marginalize and undermine the very values they are intended to protect.%
+    }
+    \verb{doi}
+    \verb 10.1146/annurev-environ-110615-085831
+    \endverb
+    \verb{eprint}
+    \verb https://doi.org/10.1146/annurev-environ-110615-085831
+    \endverb
+    \field{number}{1}
+    \field{pages}{545\bibrangedash 574}
+    \field{title}{Valuing Cultural Ecosystem Services}
+    \verb{url}
+    \verb https://doi.org/10.1146/annurev-environ-110615-085831
+    \endverb
+    \field{volume}{41}
+    \field{journaltitle}{Annual Review of Environment and Resources}
+    \field{year}{2016}
   \endentry
 
   \entry{Hooper2005}{article}{}
@@ -5000,6 +5559,48 @@
     \field{year}{1994}
   \endentry
 
+  \entry{Nakagawa2008}{misc}{}
+    \name{author}{2}{}{%
+      {{hash=NS}{%
+         family={Nakagawa},
+         familyi={N\bibinitperiod},
+         given={Shinichi},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FRP}{%
+         family={Freckleton},
+         familyi={F\bibinitperiod},
+         given={Robert\bibnamedelima P.},
+         giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NSFRP1}
+    \strng{fullhash}{NSFRP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2008}
+    \field{labeldatesource}{year}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{abstract}{%
+    The most common approach to dealing with missing data is to delete cases
+  containing missing observations. However, this approach reduces statistical
+  power and increases estimation bias. A recent study shows how estimates of
+  heritability and selection can be biased when the 'invisible fraction'
+  (missing data due to mortality) is ignored, thus demonstrating the dangers of
+  neglecting missing data in ecology and evolution. We highlight recent
+  advances in the procedures of handling missing data and their relevance and
+  applicability. {\textcopyright} 2008 Elsevier Ltd. All rights reserved.%
+    }
+    \field{booktitle}{Trends in Ecology and Evolution}
+    \verb{doi}
+    \verb 10.1016/j.tree.2008.06.014
+    \endverb
+    \field{issn}{01695347}
+    \field{title}{{Missing inaction: the dangers of ignoring missing data}}
+    \field{year}{2008}
+  \endentry
+
   \entry{Newbold2015}{article}{}
     \name{author}{41}{}{%
       {{hash=NT}{%
@@ -5287,6 +5888,35 @@
   biodiversity}}
     \field{journaltitle}{Nature}
     \field{year}{2015}
+  \endentry
+
+  \entry{PDcalc}{manual}{}
+    \name{author}{2}{}{%
+      {{hash=ND}{%
+         family={Nipperess},
+         familyi={N\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WP}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Peter},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NDWP1}
+    \strng{fullhash}{NDWP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2019}
+    \field{labeldatesource}{year}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{note}{R package version 0.3.2.9000}
+    \field{title}{PDcalc: An implementation of the Phylogenetic Diversity (PD)
+  calculus in R}
+    \field{year}{2019}
   \endentry
 
   \entry{Novosolov2013}{article}{}
@@ -5697,6 +6327,37 @@
   community structure}}
     \field{journaltitle}{Ecology}
     \field{year}{2016}
+  \endentry
+
+  \entry{ape}{article}{}
+    \name{author}{2}{}{%
+      {{hash=PE}{%
+         family={Paradis},
+         familyi={P\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Schliep},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PESK1}
+    \strng{fullhash}{PESK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2018}
+    \field{labeldatesource}{year}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{pages}{xxx\bibrangedash xxx}
+    \field{title}{ape 5.0: an environment for modern phylogenetics and
+  evolutionary analyses in {R}}
+    \field{volume}{xx}
+    \field{journaltitle}{Bioinformatics}
+    \field{year}{2018}
   \endentry
 
   \entry{Pearson2006}{misc}{}
@@ -7775,6 +8436,70 @@
     \field{year}{1994}
   \endentry
 
+  \entry{Tilman2014}{article}{}
+    \name{author}{3}{}{%
+      {{hash=TD}{%
+         family={Tilman},
+         familyi={T\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=IF}{%
+         family={Isbell},
+         familyi={I\bibinitperiod},
+         given={Forest},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=CJM}{%
+         family={Cowles},
+         familyi={C\bibinitperiod},
+         given={Jane\bibnamedelima M.},
+         giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{TD+1}
+    \strng{fullhash}{TDIFCJM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2014}
+    \field{labeldatesource}{year}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{abstract}{%
+    Species diversity is a major determinant of ecosystem productivity,
+  stability, invasibility, and nutrient dynamics. Hundreds of studies spanning
+  terrestrial, aquatic, and marine ecosystems show that high-diversity mixtures
+  are approximately twice as productive as monocultures of the same species and
+  that this difference increases through time. These impacts of higher
+  diversity have multiple causes, including interspecific complementarity,
+  greater use of limiting resources, decreased herbivory and disease, and
+  nutrient-cycling feedbacks that increase nutrient stores and supply rates
+  over the long term. These experimentally observed effects of diversity are
+  consistent with predictions based on a variety of theories that share a
+  common feature: All have trade-off-based mechanisms that allow long-term
+  coexistence of many different competing species. Diversity loss has an effect
+  as great as, or greater than, the effects of herbivory, fire, drought,
+  nitrogen addition, elevated CO2, and other drivers of environmental change.
+  The preservation, conservation, and restoration of biodiversity should be a
+  high global priority.%
+    }
+    \verb{doi}
+    \verb 10.1146/annurev-ecolsys-120213-091917
+    \endverb
+    \verb{eprint}
+    \verb https://doi.org/10.1146/annurev-ecolsys-120213-091917
+    \endverb
+    \field{number}{1}
+    \field{pages}{471\bibrangedash 493}
+    \field{title}{Biodiversity and Ecosystem Functioning}
+    \verb{url}
+    \verb https://doi.org/10.1146/annurev-ecolsys-120213-091917
+    \endverb
+    \field{volume}{45}
+    \field{journaltitle}{Annual Review of Ecology, Evolution, and Systematics}
+    \field{year}{2014}
+  \endentry
+
   \entry{Titley2017}{article}{}
     \name{author}{3}{}{%
       {{hash=TMA}{%
@@ -8729,6 +9454,40 @@
   mammalian movements}}
     \field{journaltitle}{Science}
     \field{year}{2018}
+  \endentry
+
+  \entry{mice}{article}{}
+    \name{author}{2}{}{%
+      {{hash=vS}{%
+         family={{van Buuren}},
+         familyi={v\bibinitperiod},
+         given={Stef},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=GOK}{%
+         family={Groothuis-Oudshoorn},
+         familyi={G\bibinithyphendelim O\bibinitperiod},
+         given={Karin},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{vSGOK1}
+    \strng{fullhash}{vSGOK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2011}
+    \field{labeldatesource}{year}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{number}{3}
+    \field{pages}{1\bibrangedash 67}
+    \field{title}{{mice}: Multivariate Imputation by Chained Equations in R}
+    \verb{url}
+    \verb https://www.jstatsoft.org/v45/i03/
+    \endverb
+    \field{volume}{45}
+    \field{journaltitle}{Journal of Statistical Software}
+    \field{year}{2011}
   \endentry
 
   \entry{Vidan2017}{article}{}

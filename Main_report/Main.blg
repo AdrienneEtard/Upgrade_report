@@ -1,22 +1,16 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Main.aux
 The style file: biblatex.bst
 Database file #1: Main-blx.bib
-Database file #2: library.bib
-Repeated entry---line 10032 of file library.bib
+Database file #2: library2.bib
+Repeated entry---line 12056 of file library2.bib
  : @article{Diniz-Filho2012
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 15181 of file library.bib
+Repeated entry---line 15012 of file library2.bib
  : @article{Luck2012
  :                  ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Tilman2014"
-Warning--I didn't find a database entry for "Hirons"
 Warning--I didn't find a database entry for "Alves2018"
-Warning--I didn't find a database entry for "rredlist"
-Warning--I didn't find a database entry for "ape"
-Warning--I didn't find a database entry for "PDcalc"
-Warning--I didn't find a database entry for "mice"
 Biblatex version: 3.11
 Warning--you've exceeded 250, the entry-string-size, for entry Bohm2013
 while executing--line 2658 of file biblatex.bst
