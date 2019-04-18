@@ -1,30 +1,30 @@
 Class,Trait,lambda,p-value,Phylogeny
-Birds,Body mass,1.000282439,0,Modified
-Birds,Longevity,0.873168801,7.91E-293,Modified
-Birds,Litter/clutch size,0.918407942,0,Modified
-Birds,Diet breadth,0.488743222,2.13E-236,Modified
-Birds,Range size,0.673617656,0,Modified
-Birds,Habitat breadth,0.496666115,0,Modified
-Birds,Generation length,0.98980797,0,Modified
-Reptiles,Body mass,0.357606182,1.90E-298,Modified
-Reptiles,LongevitY,0.819237495,9.06E-161,Modified
-Reptiles,Litter size,0.723182691,0,Modified
-Reptiles,Range size,0.410854278,7.68E-60,Modified
-Reptiles,Habitat breadth,0.385684754,1.51E-169,Modified
-Reptiles,Body length,0.975234106,0,Modified
-Reptiles,Maturity ,0.872076503,1.63E-63,Modified
-Mammals,Body mass,1.000279666,0,Modified
-Mammals,Longevity,0.969559274,0,Modified
-Mammals,Litter size,0.963486598,0,Modified
-Mammals,Diet breadth,0.990593683,0,Modified
-Mammals,Range size,0.987697972,0,Modified
-Mammals,Habitat  breadth,0.699436824,4.48E-184,Modified
-Mammals,Generation length,0.988844871,0,Modified
-Mammals,Body length,1.000602275,0,Modified
-Amphibians,Body mass,0.799841422,1.18E-34,Modified
-Amphibians,Longevity,0.325292945,3.72E-14,Modified
-Amphibians,Litter/clutch size,0.63062639,3.39E-91,Modified
-Amphibians,Diet breadth,0.713108674,1.19E-51,Modified
-Amphibians,Range size,0.541756868,4.77E-101,Modified
-Amphibians,Habitat breadth,0.77267892,0,Modified
-Amphibians,Body length,0.961614214,0,Modified
+Birds,Body mass,9.8E-01,0.0E+00,Modified
+Birds,Longevity,8.4E-01,2.6E-268,Modified
+Birds,Litter/clutch size,9.4E-01,0.0E+00,Modified
+Birds,Diet breath,4.9E-01,2.1E-236,Modified
+Birds,Range size,7.0E-01,0.0E+00,Modified
+Birds,Habitat breadth,6.0E-01,0.0E+00,Modified
+Birds,Generation length,9.8E-01,0.0E+00,Modified
+Reptiles,Body mass,8.8E-01,0.0E+00,Modified
+Reptiles,Longevity,9.3E-01,5.2E-200,Modified
+Reptiles,Litter/clutch size,8.6E-01,0.0E+00,Modified
+Reptiles,Range size,6.9E-01,8.1E-257,Modified
+Reptiles,Habitat breadth,4.5E-01,2.8E-174,Modified
+Reptiles,Body length,9.6E-01,0.0E+00,Modified
+Reptiles,Maturity,9.3E-01,1.1E-78,Modified
+Mammals,Body mass,9.9E-01,0.0E+00,Modified
+Mammals,Longevity,9.3E-01,0.0E+00,Modified
+Mammals,Litter/clutch size,9.7E-01,0.0E+00,Modified
+Mammals,Diet breath,9.9E-01,0.0E+00,Modified
+Mammals,Range size,7.5E-01,1.3E-289,Modified
+Mammals,Habitat breadth,7.1E-01,5.1E-196,Modified
+Mammals,Generation length,9.8E-01,0.0E+00,Modified
+Mammals,Body length,9.9E-01,0.0E+00,Modified
+Amphibians,Body mass,9.7E-01,2.2E-107,Modified
+Amphibians,Longevity,8.3E-01,3.6E-34,Modified
+Amphibians,Litter/clutch size,9.4E-01,1.2E-303,Modified
+Amphibians,Diet breath,7.8E-01,8.1E-62,Modified
+Amphibians,Range size,8.2E-01,0.0E+00,Modified
+Amphibians,Habitat breadth,8.1E-01,0.0E+00,Modified
+Amphibians,Body length,9.5E-01,0.0E+00,Modified
