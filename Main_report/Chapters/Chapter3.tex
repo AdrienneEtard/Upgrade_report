@@ -1,15 +1,31 @@
 \section{Introduction}
-%% Chapter 3: functional diversity analyses
-%Dormann 2012 Collinearity: a review of methods to deal with it and a simulation study evaluating their performance
-% Mouillot et al 2014 
+Global biodiversity is facing unprecedented challenges. In the past decades, vertebrate populations have declined by x\%.  Rates of ongoing extinctions are estimated to be x times higher than those inferred from fossil records. Anthropogenic activities are responsible for the (the great acceleration). Currently, land-use change is the most important of the diverse anthropogenic pressures driving global biodiversity losses. Future projections show that land-use change, alongside climate change, is likely to remain one of the major threats on biodiversity. To enforce efficient conservation measures, it is vital to consolidate our understanding of how land-use change will impact the diversity of ecological communities. Moreover, it is now widely acknowledged that higher biodiversity is a guarantor of ecosystem functioning and resilience. As such, species losses are likely to provoke disturbances in ecosystem functioning, which could ultimately negatively impact the services ecosystems provide, many of which fundamental for human well-being.
+
+In the recent years, diverse indices have been developed to quantify the functional diversity of ecological communities. Functional diversity indices reflect the diversity and variability of species functional traits (see Box 1). Indeed, species can be viewed as a collection of traits that determine species fundamental and realised niches, and that underpin their ecological roles (Cadotte). The quantification of functional diversity can thus inform on processes beyond what other measures of biodiversity (such as species richness) can offer. The diverse metrics that have been developed aim at capturing different facets of functional diversity. For instance, the functional richness index developed by P and G focuses on estimating the total functional distance among species in a community. The functional dispersion index proposed by Laliberte and Legendre quantifies the variability in the trait composition of a given community. For extensive reviews of functional diversity indices, see … . 
+
+Traits are hence central to the calculation of functional diversity indices. In particular, traits that underpin ecosystem processes are termed `effect traits`. Modification in the effect trait composition of a community can lead to changes in ecosystem functioning, even where species richness has remained constant. By measuring facets of biodiversity that can directly link to ecosystem processes, functional indices are particularly relevant to understand how disturbances may impact ecosystem functioning. In that case, functional diversity is used as a proxy for ecosystem functioning. Studies investigating how biodiversity relates to ecosystem functioning, using species traits as a mechanistic link, have been mostly focused on plant communities. Nevertheless, functional diversity metrics have also been used as indicators of ecosystem functioning in other taxa (fishes:; …). As emphasized by Cadotte (2011), for functional indices to be strictly informative of ecosystem functions, they should be based on traits that have explicit links with ecosystem functioning (or effect traits).
+
+As opposed to effect traits, `response traits` qualify traits that influence how species respond to disturbances. For instance, empirical evidence has shown that bigger tetrapods are more sensitive to land-use change than smaller tetrapods. As such, body mass has been identified as a response trait to land-use change in terrestrial vertebrates. Diverse studies have documented changes in the trait composition of local communities affected by land-use change. Such studies provide with empirical evidence that land-use change leads to non-random modifications of the functional composition of terrestrial vertebrates. Functional diversity indices can therefore reflect changes in functional composition due to the uneven sensitivity of species, underpinned by their response traits. 
+Functional diversity indices are therefore useful to investigate how a disturbance affects the trait composition of ecological communities. Whether functional metrics explicitly link to ecosystem functions depends partly on the set of traits included in the calculation. When response and effect traits are coupled, changes in the functional composition of a community mirrors potential changes in ecosystem functioning. On the other hand, when effect and response traits are uncoupled, shifts in the functional composition of a community do not directly reflect changes in ecosystem processes. In terrestrial vertebrates, few studies have investigated the impacts of land-use change on the functional diversity of ecological communities. Most used a set of traits that relates to key ecosystem roles that vertebrates play. Traits notably relate to species resource use and energy transfers. Moreover, most of these effect traits have also been identified to be response traits, so that shifts in functional diversity translate into potential changes in ecosystem functioning.
+
+Flynn et al. notably showed that land-use intensification (from natural to agricultural) constricted the functional richness of over 25\% mammalian and avian communities in the temperate Americas. Other studies looking at the impact of land-use change on terrestrial vertebrates found similar patterns (refs). Nevertheless, to my knowledge, no study has yet investigated how land-use change impacts the functional diversity of terrestrial vertebrates at global scales. Investigating this question is central to understand of global land-use change is reshaping the composition of ecological communities, and how these changes could relate to ecosystem functioning.
+
+In this work, I aimed to assess how land-use change impacts the functional diversity of local terrestrial vertebrate communities at global scales. I used a meta-analytic approach, based upon the PREDICTS database, to test the following hypotheses:
+\begin{itemize}
+\item \textbf{Land-use change leads to decreases in the functional richness of local vertebrate communities.} The range of ecological roles decreases in more disturbed land-uses. Land-use change homogenises the local environment and as such acts as an environmental filter. Species presenting certain traits are not able to persist in disturbed habitats and are selectively removed from disturbed communities. Previous work has shown that larger, longer-lived species are more sensitive to land-use change. Therefore, I hypothesise that the range of functions is likely to be constricted in disturbed habitats compared to natural habitats. 
+\item \textbf{The functional dispersion of vertebrate communities decreases alongside the land-use gradient.} Species in disturbed habitats are more functionally similar than species in more pristine environments, as a consequence of hypothesis (1): species presenting more extreme trait values are being removed from disturbed land-uses, so that remaining species overall have more similar functional roles in disturbed habitats than in more pristine habitats. 
+\item\textbf{The functional redundancy of vertebrate communities increases alongside the land-use gradient.} As species in more disturbed habitats are more functionally similar than species in more pristine environments (hypothesis 2), more species are functionally redundant in disturbed habitats than in pristine environment. With increasing species richness, new functional roles are introduced at higher rates in pristine environments than in disturbed habitats. 
+\end{itemize}
+
+
+
+
 \section{Methods}
 
-\subsection{Data sources and trait selection}
+\subsection{The PREDICTS database: using a `space for time' substitution to assess the impacts of land-use change on local vertebrate communities}
+The impacts of land-use change on the functional diversity of vertebrate communities were assessed using a `space for time' substitution \citep{depalma2018}. A longitudinal approach would require data on the evolution of local community composition as the landscape changes from pristine to disturbed, with experimental designs such as `before-after-control-impact' \citep{depalma2018}. Nevertheless, such data is difficult to obtain at large scales for diverse taxa and for multiple types of environmental change. With the space for time substitution, a spatial gradient is used as a proxy for temporal dynamics. This approach facilitates meta-analytic studies, as data on the community composition of local assemblages in various land-uses is both easier to collect and more abundant. 
 
-\subsubsection{The PREDICTS database: using a `space for time' substitution to assess the impacts of land-use change on local vertebrate communities.}
-The impacts of land-use change on the functional diversity of vertebrate communities was assessed using a `space for time' substitution. A longitudinal approach would require data on the evolution of local community composition as the landscape changes from pristine to disturbed, with experimental designs such as `before-after-control-impact' (REF). Nevertheless, such data is difficult to obtain at large scales for diverse taxa and for multiple types of environmental change. With the space for time substitution, a spatial gradient is used as a proxy for temporal dynamics. This approach facilitates meta-analytic studies, as data on the community composition of local assemblages in various land-uses is both easier to collect and more abundant. 
-
-Such data was compiled in the PREDICTS database (ref). This database is, to my knowledge, the most comprehensive global collection of studies that sampled biodiversity across diverse land-uses. In all studies, species abundance (in most cases) or occurrence was recorded across a variety of sites, each characterised by a land-use. Land-use was divided into six categories: primary vegetation, secondary vegetation, plantation forest, cropland, pasture and urban. Secondary vegetation was further divided in three categories (mature, intermediate and young) according to the stage of recovery of the vegetation. %This global database as such allows to conduct meta-analytic studies of the impact of land-use change on terrestrial communities, using a space for time substitution.
+Such data was compiled in the PREDICTS database \citep{Hudson2014, Hudson2017}. This database is, to my knowledge, the most comprehensive global collection of studies that sampled biodiversity across diverse land-uses. In all studies, species abundance (in most cases) or occurrence was recorded across a variety of sites, each characterised by a land-use (Table \ref{sample_size_LU}). Land-use was divided into six categories: primary vegetation, secondary vegetation, plantation forest, cropland, pasture and urban. Secondary vegetation was further divided in three categories (mature, intermediate and young) according to the stage of recovery of the vegetation. 
 
 I sub-setted the PREDICTS database to retrieve all the sites where vertebrate species were sampled. I selected studies for which the same set of species was consistently sampled across sites, and for which more than one species was considered. Overall, 180 studies were selected (total of 6758 sites). Of these, abundance data was available for 132 studies, and occurrence data for the remaining 48 studies. Figure \ref{PREDICTS_maps} shows the location of all the sites that were considered.
 
@@ -22,11 +38,11 @@ I sub-setted the PREDICTS database to retrieve all the sites where vertebrate sp
 
 As the PREDICTS database was built by collating data from independent studies, its design was imbalanced by construction. As such, nearly half of the selected studies only sampled birds, and nearly 80\% of the studies considered one class only (Table \ref{class_compo}). About 17\% of the studies sampled species from different classes. 
 
-\begin{table}[!htbp] 
+\begin{table}[h!] 
 \renewcommand{\baselinestretch}{1}
 \renewcommand{\arraystretch}{1.2}
 \begin{center}\fontsize{9}{11}\selectfont
-  \caption[Vertebrate classes considered in selected studies]{\textbf{Vertebrate classes considered in selected studies.} As the PREDICTS database consists of a collation of independent studies...} 
+  \caption[Vertebrate classes considered in selected studies]{\textbf{Vertebrate classes considered in selected studies.} As the PREDICTS database consists of a collation of independent studies, its design was imbalanced. Consequently, most studies focused on only one vertebrate class. Nearly half of the studies only sampled birds, whereas only 4\% of the studies sampled reptiles. About 17\% of the studies sampled species from a variety of  classes.} 
   \label{class_compo} 
 \begin{tabular}{@{\extracolsep{1pt}} lcc} 
 \\[-1ex]\hline 
@@ -50,11 +66,11 @@ Mammals, Reptiles & $2$ & $1.1$ \\
 
 Similarly, the number of sites sampled in each land-use category differed across studies. Table \ref{sample_size_LU} shows the sample size (number of sites) for each land-use category (based on all 180 studies). 
 
-\begin{table}[!htbp]
+\begin{table}[h!]
 \renewcommand{\baselinestretch}{1}
 \renewcommand{\arraystretch}{1.2}
 \begin{center}\fontsize{9}{11}\selectfont
-  \caption[Sample size for each land-use category]{\textbf{Sample size for each land-use category.} The number of sites in each land-use is reported here across 180 selected studies.} 
+  \caption[Sample size for each land-use category]{\textbf{Sample size for each land-use category.} The number of sites in each land-use is reported here across 180 selected studies. The sample size varied importantly with land-use. For instance, there were more than 10 times more sites sampled in primary vegetation than in mature secondary vegetation. Secondary vegetation and urban land-uses had the lowest number of sites sampled.} 
   \label{sample_size_LU} 
 \begin{tabular}{@{\extracolsep{5pt}} lcc} 
 \\[-1.8ex]\hline 
@@ -74,42 +90,70 @@ Mature secondary vegetation & $199$ & $2.9$ \\
 \end{center}
 \end{table} 
 
+\subsection{Definition of functional diversity indices}
+In this work, I focused on a few diversity indices aiming at (1) estimating the functional richness of a community; (2) assessing how functionally dissimilar the species in the community are; and (3) measuring the amount of functional redundancy within assemblages. Below, I provide details on the calculation of these indices. 
 
-\paragraph{Trait selection for the calculation of functional indices.}
-In Chapter 3, I collected and imputed the values of ten traits across terrestrial vertebrates. Trait data was used in the current Chapter to calculate functional diversity indices. A crucial step was to select the traits to include in the calculations. Indeed, functional diversity indices can be sensitive to the number of traits (Mouillot et al 2014). On the one hand, not including enough traits may lead to missing important areas in the multidimensional trait space. On the other hand, when there is multicollinearity among the traits, functional indices may be inflated. Multicollinearity can create a form of redundancy in the multidimensional trait space, problematic for the calculation of the indices. Assessing whether traits were linearly related to each other was as such a necessary step. 
+\subsubsection{Functional richness: volume-based index VS dendrogram-based index.}
+For functional richness only, at least four multivariate indices have been developed \citep{Legras2018}. These indices each estimate functional richness differently, and therefore explore a unique facet of the functional richness of a given community. Here, I used two indices, which build upon different conceptual approaches: a dendrogram-based functional richness index (DFR), developed by \citet{Petchey2002}, and a volume-based richness index (FRic), proposed by \citet{Villeger2008}. By construction, both DFR and FRic are likely to be correlated with species richness. Both measures are based on species presence-absence.
 
-I randomly selected one imputed trait dataset among the eight imputed datasets (see Chapter 1). To improve normality, a log-10 transformation was applied to all continuous traits (except habitat breadth, which was square-rooted). Trait values were also centred and scaled to zero-mean and unit-variance across the four vertebrate classes. All traits were subsequently considered, except those relating to species diet (primary diet and diet breadth), as these were unavailable for reptiles. As such,the traits taken into consideration were: body mass; longevity; litter/clutch size; habitat breadth; habitat specialisation; diel activity; trophic level.
+The estimation of dendrogram-based functional richness starts with the calculation of a species$\times$species distance matrix, given a species$\times$trait dataset \citep{Petchey2002}. This distance matrix contains the pairwise dissimilarities among species, based on their traits. The distance matrix is then clustered to obtain a functional dendrogram, where each tip represents a species. The branch length of the functional dendrogram reflects the functional distance among species. For a given community, the functional richness is calculated as the sum of the branch lengths of the dendrogram from root to tip, for the tips corresponding to the species in the community. DFR has been notably criticised for being sensitive to the choice of the clustering algorithm \citep{Legras2018}. Therefore, in addition to DFR, I used another index aiming at estimating the functional richness of ecological communities. 
 
-\begin{comment}
-\subparagraph{Dimensionality reduction}
+The FRic index is a multivariate analogue of the functional range \citep{Legras2018, Villeger2008, Schleuter2010}. It is based on the projection of species into a multidimensional space. This space can be a multidimensional trait space (each axis then corresponds to a trait, and trait values are species coordinates). It can also be an \textit{n}-dimensional space where each axis corresponds to \textit{n} principal components extracted after principal component analysis on the species$\times$species distance matrix. The relative position of the species in the space then constitutes the basis for the calculation of diverse indices, among which FRic. FRic is calculated as the volume of the minimum convex hull containing all the species in a given community. FRic hence measures the total volume in multivariate space occupied by the species of an assemblage. Therefore, FRic does not account for `holes' in the convex hull, corresponding to areas within the hull that are not occupied by any species. Consequently, FRic is highly sensitive to the introduction or removal of outlier species, which will affect the definition of the minimum convex hull. FRic values are likely to capture disturbance effects on a given community only if species located at the extremity of the hull are affected.
+\vspace{0.5cm}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{figures/chapter3/DFR_FRic_chart}
+\caption[Conceptual frameworks for calculating two different functional richness indices: FRic and DFR]{\textbf{Conceptual frameworks for calculating two different functional richness indices: FRic \citep{Villeger2008} and DFR \citep{Petchey2002}}. DFR is based on the clustering of a pairwise distance matrix summarising functional dissimilarities across species. This results in the obtention of a functional dendrogram, where each tip is a species and branch lengths reflect the functional distance among all species. DFR is calculated as the sum of the branch lengths for species in a given community (for example, orange dots). FRic is based on the projection of species in a multidimensional space. Species relative position in the space reflects the functional distances. FRic is the volume of the convex hull that includes species in a given community.} 
+\label{chartFR_calc}
+\end{figure}
 
-%To first assess if collinearity could be a problem, I used a clustering approach for mixed-type data (factor analysis of mixed type data, or FAMD, ref) to represent the contribution of each variables to principal components. The graph shows that body mass - longevity might e correlated and that BM-LCS could be negatively correlated.
 
+\subsubsection{Functional dispersion and Rao's quadratic entropy.}
+Functional dispersion \citep{Laliberte2010} and Rao's quadratic entropy \citep{Rao1982, Botta-Dukat2009} are two highly correlated indices, that both aim to describe the spread of the species in the multidimensional trait space. 
+Both indices are, by construction, independent from species richness \citep{Schleuter2010}. Both can take into account species relative abundance or presence-absence.
+
+Functional dispersion is calculated as the mean distance, in the multidimensional trait space, of each species to the centroid of all species (Figure \ref{chartFDis} and Equation \ref{eqFDis}). It is expressed as:
+\begin{equation}
+FDis=\frac{\sum_{i} p_{i}\cdot z_{i}}{\sum_{i} p_i},
+\label{eqFDis}
+\end{equation}
+where $p_{i}$ is the relative abundance of the $i^{th}$ species and $z_i$ the distance of the $i^{th}$ species to the centroid of all species. See \citet{Laliberte2010} for more details. 
 
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.75]{figures/chapter3/Graph_traits_variables}
-\caption[]{\textbf{}}
-\label{}
+\includegraphics[scale=0.65]{figures/chapter3/FDis/chartFDis}
+\caption[Conceptual framework for the calculation of functional dispersion and Rao's quadratic entropy]{\textbf{Conceptual framework for the calculation of functional dispersion and Rao's quadratic entropy.} Each orange circle represents a species, positioned in a bi-dimensional trait space. \textbf{(A) Functional dispersion}. The black point C represents the centroid of all species (its position depends on whether the calculations are abundance-weighted or not; see for more details). For the $i^{th}$ species, $z_{i}$ is the distance to the centroid. The functional dispersion is the mean distance of all species to the centroid (and can be weighted by the relative abundance of each species, $p_i$).  \textbf{(B) Rao's quadratic entropy}. $d_{i,j}$ is the pairwise distance between species \textit{i} and \textit{j}. Rao's quadratic entropy is the sum of pairwise distances weighted by the product of pairwise relative abundances.}
+\label{chartFDis}
 \end{figure}
 
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.75]{figures/chapter3/Individual_factor_map}
-\caption[]{\textbf{}}
-\label{}
-\end{figure}
+Rao's quadratic entropy describes the average functional distance among species. It is conceptually similar to functional dispersion, but its calculation relies on the functional distance within each species pair rather than on distances to the centroid. Rao's quadratic entropy is expressed as:
+\begin{equation}
+Q=\sum_{i, j} p_{i}\cdot  p_{j} \cdot d_{i,j}, 
+\label{eqFDis}
+\end{equation}
+where $p_{i}$ is the relative abundance of the $i^{th}$ species, $p_{j}$ the relative abundance of the $j^{th}$ species and $d_{i,j}$ is the functional distance between species $i$ and $j$, obtained from the species$\times$species distance matrix. 
 
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.75]{figures/chapter3/Quantitative_variables}
-\caption[]{\textbf{}}
-\label{}
-\end{figure}
-\end{comment}
+\subsubsection{Functional redundancy.}
+Here, I used the framework developed by \citet{Ricotta2016} to calculate the functional redundancy of an ecological community. \citet{Ricotta2016} derived an index to estimate functional redundancy from Rao's quadratic entropy and from the Simpson's diversity index. Functional redundancy is expressed as:
+\begin{equation}
+R=1-\frac{Q}{D},
+\label{eqFRed}
+\end{equation} 
+where $Q$ is Rao's quadratic entropy and $D$ is Simpson's diversity index:
+\begin{equation}
+D=\sum_{i}p_{i}(1-p_{i}),
+\end{equation} 
+where $p_{i}$ is the relative abundance of the $i^{th}$ species in the community.
 
-\subparagraph{Assessing the degree of multicollinearity across traits.}
-To first assess whether multicollinearity could be a problem, I estimated Pearson's pairwise correlation coefficients among continuous traits, as high correlation coefficients can be an indicator of collinearity. A threshold of 0.7 is usually used for detecting potential collinearity (Dormann 2012). The determinant of the correlation matrix can also be assessed, with values close to 0 indicating high degrees of multicollinearity (Dormann 2012).
+\subsection{Calculation of functional diversity indices}
+
+\subsubsection{Trait selection.}
+In Chapter 3, I collected and imputed the values of ten traits across terrestrial vertebrates. I used these data here to calculate the functional diversity indices. A crucial step was to select the traits to include in the calculations. Indeed, functional diversity indices can be sensitive to the number of traits included \citep{Mouillot2014, Cadotte2011}. A larger number of traits allows to detect functional differences among species that could be missed with less traits \citep{Petchey2002}. Not including enough traits may lead to missing important areas in the multidimensional trait space. On the other hand, the inclusion of correlated traits or neutral traits can inflate functional metrics or cause them to artificially converge with species diversity metrics \citep{Cadotte2011, Naeem2003}. Assessing the degree of multicollinearity among traits is thus a necessary step before calculating functional diversity indices. 
+
+I randomly selected one imputed trait dataset among the eight imputed datasets (see Chapter 3). To improve normality, a log-10 transformation was applied to all continuous traits (except habitat breadth, which was square-rooted). Trait values were also centred and scaled to zero-mean and unit-variance across the four vertebrate classes. All traits were subsequently considered, except those relating to species diet (primary diet and diet breadth), as these were unavailable for reptiles. As such,the traits taken into consideration were: body mass; longevity; litter/clutch size; habitat breadth; habitat specialisation; diel activity; and trophic level.
+
+\paragraph{Assessing the degree of multicollinearity across traits.}
+To first assess whether multicollinearity could be a problem, I estimated Pearson's pairwise correlation coefficients among continuous traits, as high correlation coefficients can be an indicator of collinearity. A threshold of 0.7 is usually used for detecting potential collinearity \citep{Dormann2013}. The determinant of the correlation matrix can also be assessed, with values close to 0 indicating high degrees of multicollinearity \citep{Dormann2013}.
 
 Table \ref{corcont} shows the pairwise correlation coefficients among continuous traits. Body mass and longevity were the two variables that had the highest correlation coefficient (0.51). The determinant of the correlation matrix was 0.67, thus indicating that the degree of multicollinearity was likely to be low among continuous traits. 
 
@@ -117,7 +161,7 @@ Table \ref{corcont} shows the pairwise correlation coefficients among continuous
 \renewcommand{\baselinestretch}{1}
 \renewcommand{\arraystretch}{1.2}
 \begin{center}\fontsize{9}{11}\selectfont
-  \caption{} 
+  \caption[Pearson's pairwise correlation coefficients among continuous traits]{\textbf{Pearson's pairwise correlation coefficients among continuous traits.} Overall, continuous traits were poorly or moderately correlated. Body mass and longevity had the highest correlation coefficient (0.51), which did not exceed the threshold value of 0.7 used across diverse field as an indicator of problematic collinearity. The determinant of the correlation matrix was 0.67, indicating that multicollinearity was likely not to be problematic among continuous traits.} 
   \label{corcont} 
 \begin{tabular}{@{\extracolsep{5pt}} lcccc} 
 \\[-1.8ex]\hline 
@@ -133,7 +177,7 @@ Habitat breadth & $0.167$ & $0.134$ & $0.194$ & $1$ \\
 \end{center}
 \end{table}
 
-Nevertheless, the previous diagnostics did not take into consideration categorical traits. Potential associations between categorical and continuous traits, or among categorical traits, also needed to be assessed. To that end, I used generalised variance inflation factors (GVIF) or variance inflation factors (VIF), as developed by Fox and Monette (1992), to detect multicollinearity across all traits. Given a regression model, variance inflation factors quantify the overestimation in the variance of estimated regression coefficients due to multicollinearity among the predictors. A VIF or GVIF value of 5 or 10 is commonly used as a threshold to select out collinear predictors (Dormann 2012). I used the function stepwise.vif of the package Rnalytica (ref), in which a normally-distributed dummy variable was used as a dependent variable in a linear regression model where all traits were used as predictors. The VIF or GVIF of each predictor was then assessed.  Multicollinearity across predictors was not detected to be problematically high, as all predictors had a VIF or GVIF value below 2 (Table \ref{GVIF}). As such, all the traits figuring in Table \ref{GVIF} were included in the calculations of functional indices. 
+Nevertheless, the previous diagnostics did not take into consideration categorical traits. Potential associations between categorical and continuous traits, or among categorical traits, also needed to be assessed. To that end, I used generalised variance inflation factors (GVIF) or variance inflation factors (VIF), as developed by \citep{Fox1992}, to detect multicollinearity across all traits. Given a regression model, variance inflation factors quantify the overestimation in the variance of estimated regression coefficients due to multicollinearity among the predictors. A VIF or GVIF value of 5 or 10 is commonly used as a threshold to select out collinear predictors \citep{Dormann2013}. I used the function stepwise.vif of the package Rnalytica \citep{Rnalytica}, in which a normally-distributed dummy variable was used as a dependent variable in a linear regression model where all traits were used as predictors. The VIF or GVIF of each predictor was then assessed.  Multicollinearity across predictors was not detected to be problematically high, as all predictors had a VIF or GVIF value below 2 (Table \ref{GVIF}). As such, all the traits figuring in Table \ref{GVIF} were included in the calculations of functional indices. 
 
 % https://www.rdocumentation.org/packages/pedometrics/versions/0.6-6/topics/stepVIF
 %% Table GVIF values among traits
@@ -141,11 +185,11 @@ Nevertheless, the previous diagnostics did not take into consideration categoric
 \renewcommand{\baselinestretch}{1}
 \renewcommand{\arraystretch}{1.2}
 \begin{center}\fontsize{9}{11}\selectfont
-  \caption[Variance inflation factor of estimated regression coefficient for each trait treated as a predictor in a linear regression model.]{\textbf{Variance inflation factor of estimated regression coefficient for each trait treated as a predictor in a linear regression model.} For categorical traits, the GVIF was calculated rather than the VIF. All traits had a VIF or GVIF below 2: multicollinearity was not problematic among the traits.} 
+  \caption[Variance inflation factor of estimated regression coefficients for each trait treated as a predictor in a linear regression model.]{\textbf{Variance inflation factor of estimated regression coefficients for each trait treated as a predictor in a linear regression model.} For categorical traits, the GVIF was calculated rather than the VIF. All traits had a VIF or GVIF below 2: multicollinearity was not problematic among all traits.} 
   \label{GVIF} 
 \begin{tabular}{@{\extracolsep{5pt}} lc} 
 \\[-1ex]\hline 
-%\hline \\[-1.8ex] 
+\hline \\[-1.8ex] 
  Predictor & VIF or GVIF \\ 
 \hline \\[-1.8ex] 
 Diel activity & $1.145$ \\ 
@@ -161,40 +205,120 @@ Body mass & $1.584$ \\
 \end{table} 
 
 
-\subparagraph{Ecological relevance of the traits.} See Introduction to Chapter 3. 
+\paragraph{Ecological relevance of the traits.} See Chapter 1, 2 and Introduction to Chapter 3.
+ 
+% table response / effect with explanations and references
 % body mass; longevity; litter/clutch size; trophic level;  habitat breadth; degree of habitat specialisation; and diel activity.
 
-\subsection{Definition and calculation of functional diversity indices}
+\subsubsection{Calculation of functional diversity metrics across PREDICTS vertebrate communities.}
 
+\paragraph{Overview.}
+Functional diversity indices were calculated for each local vertebrate community of the PREDICTS database (in other words, for each PREDICTS site, Figure  \ref{FDcalc_chart}A). Functional richness indices (DFR and FRic) were calculated across the 180 studies for which species occurrence was available. Functional dispersion, Rao's quadratic entropy and functional redundancy were abundance-weighted, and calculated over the 132 studies which provided species relative abundance.
+ 
+\paragraph{Implementation details.}
+Previous to the calculations of the functional indices, a Gower distance matrix was computed from the species$\times$trait dataset containing all terrestrial vertebrates, using the gowdis function (FD package: \citet{Laliberte2010, Laliberte2015}). Gower distances allowed to include mixed type variables in the computation. As such, the pairwise dissimilarities among 34,377 terrestrial vertebrates was calculated. This distance matrix was then sub-setted for the species figuring in the PREDICTS database (using the dist$\textunderscore$subset function of the usedist package: \citet{usedist}).
 
-\subsubsection{Calculation of functional diversity metrics across PREDICTS vertebrate communities}
-Functional diversity indices were calculated for each local vertebrate community of the PREDICTS database (in other words, for each PREDICTS site, Figure  \ref{FDcalc_chart} A). All indices were calculated across the 180 studies for which species occurrence was available. In addition, indices which could be abundance-weighted were calculated across the 132 studies which provided species relative abundance. 
+\subparagraph{Dendrogram-based functional richness.} For the calculation of DFR, the Gower distance matrix was clustered into a functional dendrogram, using the function hclust (base R). I selected the `UPGMA' clustering algorithm (unweighted pair group method with arithmetic mean). This method provided the best correlation coefficient between cophenetic distances and original distances in the Gower distance matrix, of all the methods proposed in the hclust function. Then, for each PREDICTS community, the total branch length of the functional dendrogram corresponding to species in the assemblage was calculated using treedive (vegan package: \citet{vegan}). 
 
-Rao's quadratic entropy was calculated using the dbFD package (ref).
+\subparagraph{Volume based functional richness, functional dispersion and Rao's quadratic entropy.} FRic, FDis and Q were calculated for each site using the FD package \citep{Laliberte2015}. The Gower distance matrix was directly passed as an argument in this function. In complement, I calculated the Simpson's diversity index; I then combined Rao's quadratic entropy and the Simpson's index to estimate functional redundancy (Equation \ref{eqFRed}). 
 
 \subsection{Assessing the impacts of land-use change on functional diversity indices}
 
-	\subsubsection{Functional indices independent from species richness}
+Functional diversity metrics, notably those aiming at estimating functional richness, can be correlated with species richness. For such indices, disentangling the effects of species richness from the effecsts of land-use is vital. Indeed, an observed decrease in the main effect of land-use on a functional richness index correlated with species richness may be driven by changes in species richness alone. For indices that do not correlate with species richness, the mean effects of land-use on the metrics can be directly estimated.
 
-	\subsubsection{Functional indices dependent on species richness}
+	\subsubsection{Functional indices independent from species richness.}
+As expected by construction, functional dispersion, Rao's quadratic entropy and functional redundancy were not strongly correlated with species richness (Table \ref{cordis}). Surprisingly, volume-based functional richness was also not strongly correlated with species richness (Table \ref{corFR}, Figure \ref{SR_FR_points}A). There was hence no need to disentangle the effects of land-use from the effects of species richness on these indices. The impact of land-use was assessed using mixed-effect models (lme4 package: \citet{lme4}), specified as follows: $\textsf{Metric} \sim \textsf{Land-use} + \textsf{RE}$, where $\textsf{Land-use}$ was the recorded predominant land-use in each site, and $\textsf{RE}$ all random effects. To account for variation in experimental design across studies, the random effects included the identity of each study and block, as well as the Class of vertebrates considered in each study (Table \ref{class_compo}).
 
-		\paragraph{How does land-use change impact the species-richness--functional richness relationship?}
+	\subsubsection{Functional indices dependent on species richness.}
+Dendrogram-based functional richness was highly correlated with species richness (Table \ref{corFR}, Figure \ref{SR_FR_points}B). Consequently, it was not possible to directly assess the impacts of land-use change on DFR, as decreases in species richness alongside the land-use gradient could have confounding effects. To overcome this problem, different studies have investigated how the species richness--functional richness relationship is affected by a disturbance of interest. I used the same approach here.
 
-		\paragraph{Disentangling the effects of species richness from the effects of land-use on functional diversity indices through simulations: an adequate approach with PREDICTS?}
+% correlation coefficients for DFR, FRic and log(SR)
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{center}\fontsize{9}{11}\selectfont
+  \caption[Pearson's correlation coefficients between species richness and indices estimating functional richness]{\textbf{Pearson's correlation coefficients between species richness and indices estimating functional richness.} Volume-based functional richness (FRic) was not strongly correlated with species richness. On the hand other, the correlation between species richness and dendrogram-based functional richness (DFR) was higher. DFR and FRic were not strongly associated.} 
+  \label{corFR} 
+\begin{tabular}{@{\extracolsep{5pt}} cccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & DFR & FRic & log(SR) \\ 
+\hline \\[-1.8ex] 
+DFR & $1$ & $ $ & $ $ \\ 
+FRic & $0.46$ & $1$ & $ $ \\ 
+log(SR) & $0.71$ & $0.26$ & $1$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{center}
+\end{table} 
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.5]{figures/chapter3/SR_metrics/Richness}
+\caption[Functional richness against species richness]{\textbf{Functional richness against species richness.} \textbf{(A) FRic}. FRic appeared to be independent from species richness. FRic was standardised so as to be constrained between 0 and 1. \textbf{(B) DFR}. DFR and species richness appeared to be positively associated. By definition, the functional richness for communities with only one species was 0.}
+\label{SR_FR_points}
+\end{figure}
+
+
+% correlation coefficients for the other metrics (multivariate dispersion and redundancy)
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{center}\fontsize{9}{11}\selectfont
+  \caption[Pearson's correlation coefficients between species richness and indices estimating multivariate functional spread.]{\textbf{Pearson's correlation coefficients between species richness and indices estimating multivariate functional spread.} As expected by construction, the correlation coefficients between functional dispersion, Rao's quadratic entropy, functional redundancy and species richness were small. FDis and Q were expectedly strongly correlated. Here, all functional indices were abundance-weighted.} 
+  \label{cordis} 
+\begin{tabular}{@{\extracolsep{5pt}} ccccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & FDis & Q & Redundancy & log(SR) \\ 
+\hline \\[-1.8ex] 
+FDis & $1$ & $ $ & $ $ & $ $ \\ 
+Q & $0.94$ & $1$ & $ $ & $ $ \\ 
+Redundancy & $$-$0.82$ & $$-$0.91$ & $1$ & $ $ \\ 
+log(SR) & $0.27$ & $0.17$ & $0.07$ & $1$ \\ 
+\hline \\[-1.8ex] 
+\end{tabular} 
+\end{center}
+\end{table} 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{figures/chapter3/SR_metrics/Multivariate_spread}
+\caption[Functional dispersion, Rao's quadratic entropy and functional redundancy against species richness]{\textbf{Functional dispersion, Rao's quadratic entropy and functional redundancy against species richness.} \textbf{(A) Functional dispersion}.  \textbf{(B) Rao's quadratic entropy}. \textbf{(C) Functional redundancy}. All three indices were not associated with species richness. Due to their conceptual similarity and high correlation, the behaviour of functional dispersion and Rao's quadratic entropy was similar against species richness. Functional redundancy was closely associated to both dispersion and Rao's quadratic entropy by construction.}
+\label{SR_FR_points}
+\end{figure}
+
+
+
+\paragraph{How does land-use change impact the species richness--DFR relationship?}
+Species richness was log-transformed to improve normality and linearity. I then investigated how land-use change affected the slope of the species richness--DFR relationship.  To that end, I used a mixed-effect model written as follows:  
+$\textsf{DFR} \sim \textsf{log(SR)} + \textsf{Land-use} + \textsf{log(SR):Land-use} + \textsf{RE}$. Land-use was added as a main effect with interaction: the model allowed land-use to affect both the estimated intercept and slope. By definition, the dendrogram-based functional richness of a community with a richness of one is 0. As such, I did not focus on interpreting the estimated intercepts, as they were not ecologically meaningful. 
+The estimated slopes were the focus of this analysis. According to the hypotheses presented in the introduction, I expected to observe decreases in the slope of the relationship between species richness and DFR along the land-use gradient (Figure \ref{DFRchart}). Indeed, this would signify that with a similar increase in species richness, more disturbed environments gain new functions at lower rates than more pristine environments.  In other words, this would mean that the functional redundancy in disturbed land-uses is higher than the functional redundancy in undisturbed land-uses. Moreover, for a given species richness, the theory would then predict that the functional richness in pristine habitats is higher than in perturbed habitats (given a similar intercept).
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{figures/chapter3/DFR/DFRchart}
+\caption[Expectations for the effect of land-use change on the DFR--species richness relationship]{\textbf{Expectations for the effect of land-use change on the DFR--species richness relationship.} As by construction, the DFR of a community with only one species is 0, interpreting the effect of land-use on the estimated intercept of the DFR--species richness relationship was not relevant. On the other hand, by affecting the slope of the relationship, land-use change could impact on the functional redundancy of vertebrate communities. Indeed, higher slopes signify that new functions are gained or lost at higher rates with a variation in species richness. I hypothesized that land-use change leads to increases in the functional redundancy of vertebrate communities. As such, I expected decreases in the estimated slope of the DFR--species relationship along an increasingly disturbed land-use gradient.}
+\label{DFRchart}
+\end{figure}
+
+\paragraph{Disentangling the effects of species richness from the effects of land-use on functional diversity indices through simulations: an adequate approach with PREDICTS?}
 
 \subparagraph{Approach.}
-Functional diversity metrics, notably those aiming at estimating functional richness, can be correlated with species richness. For such indices, disentangling the effects of species richness from the effects of land-use is vital. Indeed, an observed decrease in the main effect of land-use on a functional richness index correlated with species richness may be driven by changes in species richness alone. Above, I detailed how investigating how land-use change affects the species richness -- functional index relationship allows to overcome the species richness problem. Here, I focus on an alternative approach to disentangle the effects of species richness from the effects of another environmental variable.
+Above, I detailed how investigating how land-use change affects the species richness -- functional index relationship allows to overcome the `species richness problem' stemming from a high correlation between species richness and the metric of interest. Here, I focus on an alternative approach, classically used in diverse studies, to disentangle the effects of species richness from the effects of land-use change.
 
-This approach is based on the randomisation of the species composition of local assemblages. Given a species richness, randomising community composition \textit{m} times allows to generate null expectations of the values of functional indices. These null expectations can then be compared to the empirical (observed) values. Along a species richness gradient, such an approach allows to understand the impact of the variable of interest independently from the impact of species richness on the calculated metrics. Here, such an approach was not necessary \textit{per se}, as most indices were independent from species richness by construction, and for those that were not, I focused on the relationship between species richness and the index rather than on the mean effect of land-use on the effect. Nevertheless, I implemented a simulation approach aiming at examining whether it would be a suitable method given the PREDICTS database.
+This approach is based on the randomisation of the species composition of local assemblages.  It is based upon the formulation of null expectations.  Given a species richness, randomising community composition \textit{m} times allows to generate a distribution of null expectations for a given functional index. These null expectations can then be compared to the empirical (observed) values. Along a species richness gradient that relates to a land-use gradient, such an approach allows to disentangle the impacts of land-use independently from the impacts of species richness on the calculated metrics. Here, such an approach was not necessary \textit{per se}, as most indices were independent from species richness by construction; and for DFR, I focused on the relationship between species richness and the index. Nevertheless, I implemented a simulation approach aiming at examining whether it would be a suitable method given the PREDICTS database.
 
 Specifically, the community composition in each site was randomised by re-sampling species in the corresponding study's species pool, maintaining the species richness of each site (Figure \ref{FDcalc_chart}). Community composition was randomised 1000 times (for metrics calculated with dbFD) or 10,000 times (for DFR). For each randomised community in each site, the functional diversity indices were calculated. Null expectations of functional diversity indices were then generated for each site by taking the median value obtained across simulations.
 
-Although only DFR was strongly correlated with species richness, I implemented this simulation approach for all functional indices that I considered. My expectations were that:
+Although only DFR was strongly correlated with species richness, I implemented this simulation approach for all functional indices that I considered. The effects of land-use were assessed using the mixed effect models detailed above. My expectations were that:
 \begin{itemize}
-\item For indices independent from species richness by construction, the mean effect of land-use on simulated indices should be similar. Specifically, the mean effect observed for primary vegetation, the most pristine land-use type in the dataset, should not differ from the mean effect observed in other land-uses (\textit{expectation 1}).
-\item For indices that correlate with species richness, the slope of the metric--species richness relationship should be similar across land-uses (\textit{expectation 2}). 
+\item For indices independent from species richness by construction, or uncorrelated with species richness, (FDis, Q and FRic), the mean effect of land-use on simulated indices should be similar. Specifically, the mean effect observed for primary vegetation, the most pristine land-use type in the dataset, should not differ from the mean effect observed in other land-uses (\textit{expectation 1}).
+\item For the index that correlated with species richness (DFR), the slope of the metric--species richness relationship should be similar across land-uses (\textit{expectation 2}). 
 \end{itemize} 
 
+\textbf{NB:} For the simulations, FDis and Q were not abundance-weighted, as the simulations were based upon the randomisation of species presence-absence. 
 
 \begin{figure}[h!]
 \centering
@@ -204,52 +328,104 @@ Although only DFR was strongly correlated with species richness, I implemented t
 \end{figure}
 
 \subparagraph{Simulation results, and hypotheses as to why simulations may be inadequate.}
-Simulation results showed that land-use was having an effect on median simulated values. A decrease in the mean effect was observed for xx and xx, decrease which was significant in some cases, contradicting \textit{expectation 1}. Similarly, a decrease in the slope of the DFR--species richness relationship was observed, contradicting \textit{expectation 2}. I here propose a mechanism that may explain why simulated results differed from my expectations. Simulations were based on the randomisation of the species composition of each site. Species were drawn at random from the species pool, defined as the set of species in each study (equivalent to a `regional' species pool). As such, simulations were sensitive to the composition of the species pool. Nevertheless, the PREDICTS database has an imbalanced design, such that each study do not have sites in all of the land-uses. This may be constricting species pools in some cases. For instance, for a site of land-use `Pasture' belonging to a study where primary vegetation was also sampled, the species pool may be bigger than for a site of land-use `Pasture' where only pasture and plantation forest were sampled. As such, biases in species pool may influence simulation results. Simulation results may capture trends reflecting differences in the size and composition of species pool, which may explain the patterns observed in Figure xx and xx. Figure XX shows Rao's quadratic entropy calculated on the study species pool of each study.
+Simulation results showed that land-use was having an effect on null expectations, even for indices independent from species richness by construction (Figure \ref{simresults}). A significant decrease in the mean effect was observed for FRic, FDis and Q in a number of land-uses, contradicting \textit{expectation 1}. Moreover, a significant decrease in the slope of the DFR--species richness relationship was observed for all land-uses except mature secondary vegetation, contradicting \textit{expectation 2}. 
 
-\subparagraph{Simulation approach: conclusion.} The imbalanced design of the PREDICTS database may be causing biases in species pool, which may render simulation approaches difficult to interpret. As such, the simulation approach was not developed further here.
+Hereafter, I propose a mechanism that may explain why simulated results differed from \textit{expectations }1 and \textit{2}. Simulations were based on the randomisation of the species composition of each site. Species were drawn at random from the species pool, defined as the set of species in each study (equivalent to a `regional' species pool). As such, simulations were sensitive to the composition of the species pool. Nevertheless, the PREDICTS database has an imbalanced design, such that each study do not have sites in all of the land-uses. This may be constricting species pools in some cases. For instance, for a site of land-use `Pasture' belonging to a study where primary vegetation was also sampled, the species pool may be bigger than for a site of land-use `Pasture' where only pasture and plantation forest were sampled. As such, biases in species pool may influence simulation results (Figure \ref{speciespool}). Simulation results may capture trends reflecting differences in the size and composition of species pool, which may explain the patterns observed in Figure \ref{simresults}. 
 
-\subsubsection{Dendrogram-based functional richness}
-A Gower dissimilarity matrix was first computed from the trait dataset, using the gowdis R function (FD package). This distance matrix contained pairwise distances across all terrestrial vertebrates, based on their trait values. Gower distances allowed to include mixed type variables in the computation. In a second step, this dissimilarity matrix was clustered, to obtain a functional dendrogram, where species presenting similar functional characteristics were closer than more dissimilar species. I used the hclust function, which offers a range of clustering methods. As different clustering methods can have a strong influence on the output dendrogram, I selected the clustering method that best reflected the initial distances in the Gower matrix (correlation coefficient between cophenetic distances obtained from the cluster dendrograms and between the initial dissimilarities in the Gower matrix). The `average' method (unweighted pair group method with arithmetic mean, UPGMA) presented the best correlation coefficient and was as such selected. The resulting cluster dendrogram was a functional dendrogram with 34377 tips, where each tip represented a species. Species position in the tree depended on their functional attributes: species that were functionally more similar were more closely related in the tree.
+For instance, I plotted the distribution of the size of the species pool for all sites in each land-use type (Figure \ref{speciespool}A). 
+%Figure XX shows Rao's quadratic entropy calculated on the study species pool of each study.
 
-Finally, functional richness was calculated across all PREDICTS sites. At each site, vertebrate community composition was assessed (species presence/absence), and the functional dendrogram was subsetted according to local community composition. For a site, functional richness was calculated as the sum of the branch length, from root to tip, for the local subset of the functional dendrogram (treedive).
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.70]{figures/chapter3/Simulations/p_sim}
+\caption[Simulation results.]{\textbf{Simulation results.} Here, null expectations for each index were generated by randomising species presence-absence in each site, maintaining the local species richness. Species were drawn at random from a `regional' pool of species corresponding to all species sampled within studies. In theory, land-use should not have any effect on simulated values. Contrary to this expectation, land-use had a significant effect on the simulated values of all functional metrics for a number of land-uses. As such, I questioned the validity of the simulation approach employed here.}
+\label{simresults}
+\end{figure}
+
+\subparagraph{Simulation approach: conclusion.} The imbalanced design of the PREDICTS database may be causing biases in species pool, which may render simulation approaches difficult to interpret. As such, the simulation approach was not developed further here. For that reason, simulation results are not detailed in the Results section below.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.70]{figures/chapter3/Simulations/pool_species_FDis}
+\caption[]{\textbf{}}
+\label{speciespool}
+\end{figure}
 
 
+\pagebreak
 \section{Results}
 
-\subsection{Land-use change constricts the multivariate trait range}
+\subsection{Land-use change constricts the multivariate functional range}
 Land-use had a significant effect on volume-based functional richness (Figure \ref{LU_mean_FRic}). For mature and intermediate secondary vegetation, the mean functional richness was similar to that of primary vegetation. For all other more disturbed land-uses, mean functional richness was significantly different from the mean functional richness of primary vegetation, and decreased alongside the land-use gradient. 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.70]{figures/chapter3/FRic/Mean_effect_LU}
-\caption[Mean effect of land-use on the volume-based functional richness of vertebrate communities]{\textbf{Mean effect of land-use on the volume-based functional richness of vertebrate communities.} PV: primary vegetation; MSV; mature secondary vegetation; ISV: intermediate secondary vegetation; YSV: young secondary vegetation; PF: plantation forest; CR: cropland; UR: urban. The mean effect corresponds to the estimated fixed effect of a mixed-effect model.}
+\caption[Mean effect of land-use on the volume-based functional richness of vertebrate communities (FRic)]{\textbf{Mean effect of land-use on the volume-based functional richness of vertebrate communities (FRic).} \textbf{PV:} primary vegetation; \textbf{MSV:} mature secondary vegetation; \textbf{ISV:} intermediate secondary vegetation; \textbf{YSV:} young secondary vegetation; \textbf{PF:} plantation forest; \textbf{CR:} cropland; \textbf{UR:} urban. A significant effect on the functional richness of local vertebrate communities was detected for young secondary vegetation as well as all agricultural and urban land-uses. The mean functional richness tended to decline with increasing land-use disturbance. Land-use change induced a constriction of the multivariate functional range of species}
 \label{LU_mean_FRic}
 \end{figure}
 
-Because volume-based functional richness is a multivariate analogue of the functional range, Figure \ref{LU_mean_FRic} shows that land-use change significantly impacts the functional composition of local vertebrate communities: species located at the periphery of the functional convex hull are likely to be removed in disturbed land-uses. As such, land-use change significantly impacts the functional composition of local vertebrate communities by constricting the breadth of functions.   
+Because volume-based functional richness is a multivariate analogue of the functional range, Figure \ref{LU_mean_FRic} shows that global land-use change significantly impacts the functional composition of local vertebrate communities: species located at the periphery of the functional convex hull are more likely to be removed in disturbed land-uses. As such, land-use change significantly impacts the functional composition of local vertebrate communities by constricting the breadth of functions. Land-use change acts as an environmental filter which excludes species having combination of trait values placing them at the extremity of the convex hull. 
 
 \subsection{Land-use change promotes the functional homogenisation of local vertebrate communities}
 
-\subsubsection{Significant decreases in multivariate trait dispersion}
+\subsubsection{Land-use change reduces multivariate functional dispersion.}
+
+Land-use significantly impacted the functional dispersion of vertebrate communities. 
+
+\textbf{NB:} The mean effects of land-use on Rao's quadratic entropy are similar to the mean effects of land-use on functional dispersion (see SI). This is expected due to the high correlation between these two indices.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.70]{figures/chapter3/FDis/Mean_effect}
+\caption[Mean effects of land-use on the functional dispersion of local vertebrate communities]{\textbf{Mean effects of land-use on the functional dispersion of local vertebrate communities (FDis).} \textbf{PV:} primary vegetation; \textbf{MSV:} mature secondary vegetation; \textbf{ISV:} intermediate secondary vegetation; \textbf{YSV:} young secondary vegetation; \textbf{PF:} plantation forest; \textbf{CR:} cropland; \textbf{UR:} urban.}
+\label{LU_mean_RaoQ}
+\end{figure}
+
+\begin{comment}
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.70]{figures/chapter3/RaoQ/Mean_effect_FRaoQ}
-\caption[Mean effect of land-use on Rao's quadratic entropy in vertebrate communities]{\textbf{Mean effect of land-use on Rao's quadratic entropy in vertebrate communities.} PV: primary vegetation; MSV; mature secondary vegetation; ISV: intermediate secondary vegetation; YSV: young secondary vegetation; PF: plantation forest; CR: cropland; UR: urban. The mean effect corresponds to the estimated fixed effect of a mixed-effect model.}
-\label{LU_mean_FRic}
+\caption[Mean effect of land-use on Rao's quadratic entropy in vertebrate communities]{\textbf{Mean effect of land-use on Rao's quadratic entropy in vertebrate communities.} \textbf{PV:} primary vegetation; \textbf{MSV:} mature secondary vegetation; \textbf{ISV:} intermediate secondary vegetation; \textbf{YSV:} young secondary vegetation; \textbf{PF:} plantation forest; \textbf{CR:} cropland; \textbf{UR:} urban. Mean effects correspond to the estimated fixed effects of the fitted mixed-effect model.}
+\label{LU_mean_RaoQ}
 \end{figure}
+\end{comment}
 
-%% decreases of functional dissimilarities among species: species become more similar
 
-\subsubsection{Functional redundancy increases}
+\subsubsection{Land-use change enhances the functional redundancy of local vertebrate communities.}
+
+\paragraph{Functional redundancy derived from Rao's quadratic entropy and the Simpson's diversity index.}
+Here, functional redundancy was calculated from Rao's quadratic entropy and the Simpson's diversity index. The mean functional redundancy of local communities tended to increase along the land-use gradient from mature secondary vegetation to urban. Nevertheless, local functional redundancy was only significantly higher than that of primary vegetation in urban land-uses. 
+
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.70]{figures/chapter3/FRedundancy/Mean_effect_LU}
-\caption[Mean effect of land-use on the functional redundancy of vertebrate communities]{\textbf{Mean effect of land-use on the functional redundancy of vertebrate communities.} PV: primary vegetation; MSV; mature secondary vegetation; ISV: intermediate secondary vegetation; YSV: young secondary vegetation; PF: plantation forest; CR: cropland; UR: urban. The mean effect corresponds to the estimated fixed effect of a mixed-effect model.}
+\caption[Mean effect of land-use on the functional redundancy of vertebrate communities]{\textbf{Mean effect of land-use on the functional redundancy of vertebrate communities.} \textbf{PV:} primary vegetation; \textbf{MSV:} mature secondary vegetation; \textbf{ISV:} intermediate secondary vegetation; \textbf{YSV:} young secondary vegetation; \textbf{PF:} plantation forest; \textbf{CR:} cropland; \textbf{UR:} urban.}
 \label{LU_mean_FRic}
 \end{figure}
 
+\paragraph{Functional redundancy inferred from the slope of the functional-richness -- species richness relationship.}
+Here, I investigated how land-use affected the slope of the DFR--species richness relationship. 
 
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.70]{figures/chapter3/DFR/Mean_effect}
+\caption[Effect of land-use on the slope of the reltionship between species richness and dendrogram-based functional richness]{\textbf{Effect of land-use on the slope of the reltionship between species richness and dendrogram-based functional richness.} \textbf{PV:} primary vegetation; \textbf{MSV:} mature secondary vegetation; \textbf{ISV:} intermediate secondary vegetation; \textbf{YSV:} young secondary vegetation; \textbf{PF:} plantation forest; \textbf{CR:} cropland; \textbf{UR:} urban.}
+\label{LU_mean_FRic}
+\end{figure}
+
+% regression lines
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.70]{figures/chapter3/DFR/regression_lines}
+\caption[]{\textbf{} \textbf{PV:} primary vegetation; \textbf{MSV:} mature secondary vegetation; \textbf{ISV:} intermediate secondary vegetation; \textbf{YSV:} young secondary vegetation; \textbf{PF:} plantation forest; \textbf{CR:} cropland; \textbf{UR:} urban.}
+\label{LU_mean_FRic}
+\end{figure}
 
 \section{Discussion}
 % sensitivity to trait inclusion
 % traits that were not considered that could be important, noably home range, dispersal abilities, or volancy -- traits relating to species abilities to move.
+
+
+
+
