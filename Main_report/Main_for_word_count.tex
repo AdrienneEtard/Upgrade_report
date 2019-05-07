@@ -1,12 +1,13 @@
 % TO DO
-% abbreviations
-% future research questions!!
-% finish literature review -- figures and table
+% future research questions
+% finish literature review
 % write abstract
-% word count per chapter X
+% word count per chapter
 % plot for Rao Q in SI
 % revise chapter 3 and 4
-% discussion chapter 4 include null model + how these metrics rekate to ecosystem functioning
+
+% for word count submit to https://app.uio.no/ifi/texcount/online.php
+
 
 \documentclass[11pt]{report}
 \usepackage{graphicx}
@@ -16,7 +17,6 @@
 \usepackage{tikz}
 \usepackage{amsmath}
 \usepackage{verbatim}
-\usepackage{lscape}
 
 % checkmarks
 \def\checkmark{\tikz\fill[scale=0.4](0,.35) -- (.25,0) -- (1,.7) -- (.25,.15) -- cycle;} 
@@ -88,7 +88,7 @@ log(RS):Reptiles,0.00,0.003,0.69,4.92E-01
 % Declarations and acknowledgements here
 
 \chapter*{Abstract}
-
+Land-use and climate change are one of the most important drivers of biodiversity loss. Land-use change globally impacts vertebrate ecological communities by reducing local species richness. Nevertheless, not all species respond similarly to land-use. Species ability to cope with anthropogenic pressures is dependent on their functional traits: empirical evidence has shown that long-lived, slow breeding specialists respond more negatively to land-use change than shorter-lived, generalist animals. By preferentially removing certain functional types, land-use change is reshaping the functional composition of ecological communities. Understanding how land-use change impacts the functional diversity of ecological systems is key to assess the potential consequences on ecosystem functioning. Here, I used a meta-analytic approach to investigate how land-use change impacts the functional diversity of terrestrial vertebrate communities at global scales. Land-use change globally promotes the functional homogenisation of ecological assemblages by favouring species that are both less functionally distinct and less functionally rare. Where functional indices correlate with species richness, reduction of functional diversity in human-disturbed habitats exceeds expected decreases based on species loss alone. As such, land-use change is likely to globally impact local ecosystem processes, and, consequently, services rendered by terrestrial vertebrates.
 
 \vspace{1cm}
 \textbf{Key words:} vertebrates; traits; missing values imputation; land-use change; functional diversity.
@@ -116,6 +116,7 @@ log(RS):Reptiles,0.00,0.003,0.69,4.92E-01
 \chapter*{List of abbreviations}
 \input{Abbreviations}
 
+\begin{counted}
 \clearpage
 \chapter{Introduction}
 \input{Chapters/Introduction}
@@ -134,6 +135,8 @@ log(RS):Reptiles,0.00,0.003,0.69,4.92E-01
 %\input{Chapters/Chapter4}
 
 %\chapter{Conclusion}
+\end{counted}
+\thewords
 
 \clearpage
 \chapter*{Bibliography}
