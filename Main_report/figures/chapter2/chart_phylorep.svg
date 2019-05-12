@@ -10,9 +10,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="182.64633mm"
+   width="186.64633mm"
    height="34.422211mm"
-   viewBox="0 0 182.64634 34.422211"
+   viewBox="0 0 186.64634 34.422211"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -295,17 +295,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.78444658"
-     inkscape:cx="303.24794"
-     inkscape:cy="65.336159"
+     inkscape:zoom="1.109375"
+     inkscape:cx="178.1329"
+     inkscape:cy="17.191589"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:snap-text-baseline="false"
-     inkscape:window-width="1315"
-     inkscape:window-height="713"
-     inkscape:window-x="51"
-     inkscape:window-y="27"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      fit-margin-top="0"
      fit-margin-left="0"
@@ -348,7 +348,7 @@
          sodipodi:role="line"
          id="tspan6305"
          x="14.214221"
-         y="90.565628"
+         y="90.579727"
          style="stroke-width:0.26458332px" /></text>
     <rect
        style="fill:none;fill-opacity:1;stroke-width:0.26499999;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
@@ -379,19 +379,19 @@
       </g>
       <text
          id="text6311"
-         y="103.0602"
-         x="4.3365402"
+         y="103.2987"
+         x="7.3041487"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:125%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            style="font-size:4.23333311px;stroke-width:0.26458332px"
-           y="103.0602"
-           x="4.3365402"
+           y="103.2987"
+           x="7.3041487"
            id="tspan6309"
            sodipodi:role="line">Replicated tips</tspan><tspan
            id="tspan6313"
            style="font-size:4.23333311px;stroke-width:0.26458332px"
-           y="109.41709"
-           x="4.3365402"
+           y="109.6576"
+           x="7.3041487"
            sodipodi:role="line">are sister clades</tspan></text>
       <rect
          y="98.033333"
@@ -405,14 +405,16 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:125%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="58.298126"
+           x="59.395523"
            y="98.151443"
            id="text6275"><tspan
              sodipodi:role="line"
              id="tspan6273"
-             x="58.298126"
+             x="59.395523"
              y="98.151443"
-             style="font-size:4.23333311px;stroke-width:0.26458332px">yes: drop at random</tspan></text>
+             style="font-size:4.23333311px;stroke-width:0.26458332px">yes: drop at random <tspan
+   style="font-weight:bold"
+   id="tspan1003">(75)</tspan></tspan></text>
         <rect
            style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22860441;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
            id="rect7813-1"
@@ -426,20 +428,20 @@
          transform="translate(0,16.437329)">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:125%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="58.298126"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:114.99999762%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="63.78511"
            y="96.563942"
            id="text6275-7"><tspan
              sodipodi:role="line"
              id="tspan6273-4"
-             x="58.298126"
+             x="63.78511"
              y="96.563942"
-             style="font-size:4.23333311px;stroke-width:0.26458332px">no: is tip name </tspan><tspan
+             style="font-size:4.23333311px;line-height:114.99999762%;stroke-width:0.26458332px">no: is tip name </tspan><tspan
              id="tspan8922"
              sodipodi:role="line"
-             x="58.298126"
-             y="102.92083"
-             style="font-size:4.23333311px;stroke-width:0.26458332px">in uncorrected tree?</tspan></text>
+             x="63.78511"
+             y="102.24366"
+             style="font-size:4.23333311px;line-height:114.99999762%;stroke-width:0.26458332px">in uncorrected tree?</tspan></text>
         <g
            transform="translate(0,-1.5875)"
            id="g8925">
@@ -457,22 +459,29 @@
          transform="translate(64.293749,9.8074156)">
         <text
            xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:125%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="58.298126"
-           y="98.151443"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:114.99999762%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="63.236412"
+           y="93.918106"
            id="text6275-1"><tspan
              sodipodi:role="line"
-             id="tspan6273-3"
-             x="58.298126"
-             y="98.151443"
-             style="font-size:4.23333311px;stroke-width:0.26458332px">yes: keep original position</tspan></text>
+             x="63.236412"
+             y="93.918106"
+             style="font-size:4.23333311px;line-height:114.99999762%;stroke-width:0.26458332px"
+             id="tspan997">yes: keep tip with same name</tspan><tspan
+             sodipodi:role="line"
+             x="63.236412"
+             y="99.597824"
+             style="font-size:4.23333311px;line-height:114.99999762%;stroke-width:0.26458332px"
+             id="tspan1001"> in uncorrected tree <tspan
+   style="font-weight:bold"
+   id="tspan1005">(341)</tspan></tspan></text>
         <rect
-           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.25408828;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.3190116;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
            id="rect7813-1-8"
            width="62.942833"
-           height="8.4743385"
-           x="54.782749"
-           y="92.984581" />
+           height="13.358247"
+           x="56.019253"
+           y="88.577667" />
       </g>
       <g
          transform="translate(64.356924,9.4024056)"
@@ -497,14 +506,16 @@
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.93888855px;line-height:125%;font-family:serif;-inkscape-font-specification:serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="58.298126"
+           x="60.49292"
            y="98.151443"
            id="text6275-2"><tspan
              sodipodi:role="line"
              id="tspan6273-6"
-             x="58.298126"
+             x="60.49292"
              y="98.151443"
-             style="font-size:4.23333311px;stroke-width:0.26458332px">no: drop at random</tspan></text>
+             style="font-size:4.23333311px;stroke-width:0.26458332px">no: drop at random <tspan
+   style="font-weight:bold"
+   id="tspan1007">(15)</tspan></tspan></text>
         <rect
            style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.22860441;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
            id="rect7813-1-6"
@@ -516,7 +527,7 @@
     </g>
     <g
        id="g994"
-       transform="translate(71.167476,-47.051483)">
+       transform="translate(71.696643,-47.051483)">
       <ellipse
          ry="3.4571879"
          rx="3.3728662"
@@ -538,7 +549,7 @@
     </g>
     <g
        id="g994-3"
-       transform="translate(144.5738,-37.691777)">
+       transform="translate(146.69048,-39.279278)">
       <ellipse
          ry="3.4571879"
          rx="3.3728662"
@@ -560,7 +571,7 @@
     </g>
     <g
        id="g994-35"
-       transform="translate(132.96065,-21.50202)">
+       transform="translate(134.01899,-21.50202)">
       <ellipse
          ry="3.4571879"
          rx="3.3728662"

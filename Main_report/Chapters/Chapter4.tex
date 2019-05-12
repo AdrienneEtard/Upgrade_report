@@ -1,12 +1,91 @@
-% Outline for future research questions
-\section{Systematic biases in trait sampling}
+Here, I outline the future Chapters that I aim to include in my PhD thesis.
 
+\section{Chapter 4: Which traits render species more sensitive to land-use change? }
+In Chapter 3, I used functional diversity indices, which enabled to consider multiple traits at the same time to assess the trait composition of ecological communities. Although land-use change was shown to significantly alter the functional diversity of local vertebrate communities, the analyses did not allow to understand which traits conferred species with increased sensitivity to land-use change. Here, I propose to investigate whether species traits render them more sensitive to land-use change. This question has, to my knowledge, never been tackled at global scales comparatively across all four terrestrial vertebrate classes.
+
+Contrary to the previous analyses using functional diversity indices -- where trait composition was summarised into various functional diversity metrics, which were then used as dependent variables in mixed-effect models --, traits will be used as explanatory variables, to explain species occurrence or abundance across land-uses.
+
+Previous work has notably been conducted on tropical forest birds. For instance, \citet{Newbold2013} showed that long-lived, large, non-migratory specialist birds were more sensitive to land-use change than shorter-lived, smaller, migratory generalists. Nevertheless, there is to date no global comparative analyses across the four terrestrial vertebrate classes.
+
+I aim to assess the individual effects of traits on species’ sensitivity to land-use using the PREDICTS database. The analyses I propose here are similar to analyses developed in \citet{Newbold2013}. Specifically, I propose to explain species occurrence probability, and given presence, species abundance in each land-use with species traits. The generic mixed-effect models will be written as:  Species occurrence (or abundance)$\sim$Land-use + Traits + Land-use:Traits + RE, where RE is the set of random effects to be included in the model to account for differences in study design across the PREDICTS database (e.g. study identity). Using model selection approaches, I propose to select the best set of traits that explain species presence or species abundances. Then, the analyses of estimated parameters for each trait would indicate the directionality of the effects (and whether effects are consistent across Classes).
+
+\section{Chapter 5: Which traits render species more sensitive to climate change? }
+I propose several complementary approaches to investigate which traits are likely to influence species responses to climate change. Using a range of methods would allow to test whether results are robust and consistent. Past studies have used range filling limitations (\cite{Estrada2018, Estrada2016}; see below, \textit{Range filling approach}), historic population trends or recent changes in distributions \citep{Angert2011, Pacifici2017, Mccain2014} or simulation approaches (e.g. comparing empirical estimates with theoretical predictions in \citet{Schloss2012}, or simulating population dynamics to identify the most important predictors of extinction risk in \citet{Pearson2014}), to assess whether certain traits rendered species more sensitive to climate change. Nevertheless, there has been no global study investigating this question across all terrestrial vertebrates.
+
+\subsection{Climatic niche approach}
+Here, I propose to use species climatic requirements as a proxy for species sensitivity to future climate change. Species with broader climatic tolerances could be assumed to be less sensitive to future changes.  For a species, climatic tolerances would be measured as the breadth of climatic space covered by the distribution of the species. Climate variables could include temperature, precipitation, water availability for example. Nevertheless, assuming that broader tolerances would indicate lower sensitivity has limitations; species with broader climatic tolerances could be negatively impacted by climate change, if the climate changed beyond the limits of these tolerances, so that much of the climatic space is lost. Similarly, a species with narrow requirements could expand its range if climate change leads to suitable climatic conditions for the species. As such, rather than climatic tolerances, the upper or lower limit of climatic variables could be used. 
+For instance, the upper thermal limit of each species could be obtained and compared with projections of future mean temperature in each grid cell. The difference between species upper thermal limit and mean future temperature could be used as a proxy for species exposure to future climate change. 
+The aim is then to then assess whether species traits explain species climatic tolerances or exposure, using statistical models (likely, linear models). 
+
+\subsection{Range filling approach}
+In this second approach, I propose to investigate whether species traits explain species range filling limitations \citep{Estrada2018}. The range filling of a species is the extent to which the species occupies the area that is climatically suitable. \citet{Estrada2018} suggests that range filling can be used as a proxy for species’ abilities to shift their range under climate change. Indeed, several factors could explain that species do not occupy all climatically suitable areas: these non-climatic range filling limitations include, for example, geographical barriers, biotic interactions, edaphic conditions, and life-history traits. 
+The degree to which life-history traits explain range limitations could inform on species’ ability to track climate change, hence on their sensitivity to the threat. \citet{Estrada2018} conducted an analysis of range filling limitations on European birds, mammals and plants, finding that traits related to establishment and proliferation had a significant effect on mammalian and avian range filling.  To my knowledge, no similar study has been conducted at global scales. Using this approach, I propose to investigate whether vertebrate species traits explain species range filling.
+
+Here, range filling will be assessed by comparing species current ranges to species potential ranges. Species current ranges will be obtained from extent of occurrence maps. Species potential ranges will be determined using species distribution modelling techniques. Potential ranges will be defined as all areas that are climatically suitable for a species. The proportion of the potential range that species actually occupy will then be assessed and will constitute the range filling metric.
+
+\subsection{Population trends approach}
+Here, I propose to use historic data on population trends to assess whether both recent climate change and life-history traits explain variation in population trends. The BioTIME dataset \citep{Dornelas2018} contains abundance records for many species, including vertebrates, in the form of time series with a minimal span of one year, allowing for global analyses of historic trends. 
+
+Historic trend data has been used in previous studies to identify traits that correlated with species recent declines due to climate change (for instance at global scales for mammals and birds in \citet{Pacifici2017}; and in mostly North American mammals in \citet{Mccain2014}). Nevertheless, to my knowledge, no study has attempted to consider all terrestrial vertebrates simultaneously. 
+
+One complication when looking at historic climate change is that potential confounding effects could have been shaping species responses (importantly, land-use change). \citet{Spooner2018} analysed global historic avian and mammalian population trends notably using rates of climatic warming, rates of land-use conversion and body mass as explanatory variables. Body mass did not have a significant effect on average rates of population change. Nevertheless, in \citet{Spooner2018}, the effects of land-use and climate change were not studied in isolation. 
+
+I propose to select populations known to have been affected by climate change only. To isolate such populations, I propose to identify areas where primary vegetation is the predominant land-cover (so that it is safe to assume that land-use change has not been not a driver of population change in these areas). For these populations, I propose to investigate whether rates of population change are explained by traits using linear models.
+
+\section{Chapter 6: Projecting species responses to future climate and land-use change: functional diversity under future climate and land-uses} 
+Results from Chapter 4 and 5 will allow to assess whether similar traits are likely to put species at greater risk from both land-use and climate change, or whether response traits to land-use and to climate change do not overlap.  Assessing whether the same set of traits is likely to render species more sensitive to both pressures is important to forecast possible interactive effects. 
+
+Here, I propose to use the previous results to build models aiming at projecting species responses to both land-use and climate change given different scenarios. Projections of species occurrence for a scenario of future climate and land-use change will allow several further analyses.
+
+For example, I propose to compare the current functional diversity of vertebrate assemblages to the future functional diversity based on projections. \citet{BarbetMassin2015} conducted such an analysis on birds, with climate change as the pressure being exerted on communities. Nevertheless, to my knowledge, there has been no study looking at the future functional diversity of mammalian and herptilian assemblages, or all vertebrate classes together. 
+
+Both current and future community composition will be assessed using a spatial approach where the intersection between future species ranges will determine assemblage composition in each grid cell. The difference in functional diversity between current and future projections ($\Delta$FD) will then be assessed. 
+
+I will then determine whether future land-use and climate change is likely to have profound impacts on the functional diversity of local vertebrate assemblages by looking at the strength and directionality of $\Delta$FD.  I will assess whether effects are uniform across space and whether certain areas stand out as being particularly sensitive to future climate and land-use change. 
+
+
+\section{Chapter 7: Will land-use and climate change disrupt important ecosystem functions sustained by terrestrial vertebrates?}
+The aim of this part will be to assess whether land-use and climate change are likely to disrupt important ecosystem functions sustained by terrestrial vertebrates. Functional diversity indices calculated in the previous Chapters are unlikely to correlate with specific ecosystem functions, and as such should not be used as proxies for ecosystem functioning. Current knowledge of how land-use and climate change is likely to impact ecosystem processes sustained by vertebrates remains limited at global scales.
+
+I propose to identify vertebrate species that contribute to important ecosystem functions, such as pollination, seed dispersal or nutrient cycling (for instance, scavenging species). Specifically, whether a species belongs to a functional group will be inferred from the species diet. For instance, pollinators will be identified as having nectar and/or flowers as major food items in their diet. Such identification would rely on the trait database compiled in Chapter 2. As reptilian diet is still lacking, reptiles in each functional group could be identified using literature searches. Overall, all identifications could be validated by literature searches, aiming to identify studies that have confirmed experimentally that a given species belongs to a given functional group. Then, I propose to investigate the questions exposed below.
+
+\paragraph{How does land-use change currently affect species in each functional group?}
+Here, I propose to investigate whether land-use change adversely impacts the functions sustained by vertebrate species. Species occurrence or abundance in each functional group will be used as a proxy reflecting the maintenance of the associated ecosystem process.
+
+As such, I propose to use the PREDICTS database to investigate whether and how land-use change affects species occurrence or abundance, comparatively across functional groups. To that end, I will build mixed-effect models to explain species occurrence or abundance with land-use, within each functional group. The generic model would be written as: Occurrence (or abundance)$\sim$LU+RE. I will assess whether, on average, certain functional groups are more affected by land-use change than others. The maintenance or endangerment of ecosystem processes sustained by species in each group under land-use change will be inferred from these results.
+ 
+\paragraph{Are all species equally sensitive to land-use and climate change within functional groups?}
+Here, I will assess whether species in each functional group are likely to be disproportionally sensitive to land-use or climate change. To that end, I propose to assess the trait composition of each functional group. Using previous results (Chapters 4 and 5), I will assess whether species within each functional group are likely to be equally sensitive to land-use or climate change, or whether there are important variations in species sensitivity to land-use and climate change within each functional group. This question is important to tackle to determine whether certain species could compensate for the loss of other species within each functional group, by performing the same functions at higher rates. 
+
+\paragraph{How will future climate and land-use change impact species in each functional group?}	
+Here, I aim to build predictive models of how species in each group will respond to future land-use and climate change, using results from previous Chapters. The likelihood of maintenance or endangerment of ecosystem processes sustained by each functional group will be inferred from future projections. 
+
+\section{Proposed planning}
+
+
+\begin{landscape}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.9]{figures/chapter4/Ganttchart}
+\end{figure}\end{landscape}
+
+\newpage
+\addcontentsline{toc}{chapter}{Conclusion}
+\chapter*{Conclusion}
+I hope to enhance the trait dataset I compiled this last year in the future months of my PhD, notably by adding important traits such as species dispersal ability, volancy, and ability to thermo-regulate. The compilation of diet information for reptiles would also be an important improvement. The analyses of functional diversity indices (as conducted in Chapter 3) could then be conducted again using a broader set of traits. Enhancing the dataset would be beneficial for all further analyses proposed in Chapter 4. Eventually, I hope the trait dataset could be useful to other researchers.
+\vskip 0.5cm
+
+In addition to the work presented here, I have followed the trainings and workshops listed below:
 \begin{itemize}
-\item Geographical biases: species richness
-\item Species rarity
-\item Species conservation status
+\item Introduction to Doctoral Skills Development and the UCL Research Student Log (October 2018); 
+\item Arena One Gateway Workshop (mandatory training to teach at UCL) (November 2018); 
+\item  Workshop at London Institute of Zoology on the future of biodiversity modelling (November 2018);
+\item Management Skills for Researchers (March 2019); 
+\item Sweet Dreams; Cultivating Strategies for a Restful Sleep (April 2019); 
+\item Nature Research Author Workshop (May 2019);
+\item CBER Journal club (throughout the whole year).
 \end{itemize}
 
-\section{}
 
-\section{climate change}
+
+

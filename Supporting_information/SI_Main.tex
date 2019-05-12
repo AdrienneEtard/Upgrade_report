@@ -240,10 +240,10 @@ A broad classification was adopted for species degree of specialisation. Using I
 \hline
 \multicolumn{1}{|c|}{\multirow{2}{*}{\textbf{Class}}} & \multicolumn{3}{c|}{\textbf{Replicates}} & \multirow{2}{*}{\textbf{Sister clades}} & \multirow{2}{*}{\textbf{In uncorrected tree}} & \multicolumn{1}{c|}{\multirow{2}{*}{\textbf{`Problematic'}}}                                                                                                                                                            \\ \cline{2-4}
 \multicolumn{1}{|c|}{}                                & \textbf{2}   & \textbf{\textcolor{white}{1}3 }  & \textbf{$>$3 }  &                                         &                                               & \multicolumn{1}{c|}{}                                                                                                                                                                                                   \\ \hline
-\textbf{Mammals}                                      & 141          & 8           & 2           & 29                                      & 143                                           & \textit{\begin{tabular}[c]{@{}l@{}}Heterogeomys cherriei\\ Heterogeomys dariensis\\ Hylopetes sagitta\\ Marmosa paraguayana\\Neoromicia brunnea\\ Neoromicia malagasyensis\\ Plecturocebus discolor\\ Proechimys trinitatis\end{tabular}}   \\ \hline
-\textbf{Birds}                                        & 158          & 7           & 0           & 21                                      & 160                                           & \textit{\begin{tabular}[c]{@{}l@{}} Antrostomus arizonae\\ Calendulauda erythrochlamys\\ Myiothlypis rivularis\\Spermestes bicolor\end{tabular}} \\ \hline
-\textbf{Reptiles}                                     & 68           & 2           & 0           & 17                                      & 69                                            & \textit{\begin{tabular}[c]{@{}l@{}} Salvator merianae\end{tabular}}                                                                                                                               \\ \hline
-\textbf{Amphibians}                                   & 41           & 4           & 2           & 8                                       & 44                                            & \textit{\begin{tabular}[c]{@{}l@{}}Lithobates berlandieri\\ Uperodon taprobanicus\end{tabular}}                                                                                                                         \\ \hline
+\textbf{Mammals}                                      & 141          & 8           & 2           & 29                                      & 143 (114 not sister clades)                                         & \textit{\begin{tabular}[c]{@{}l@{}}Heterogeomys cherriei\\ Heterogeomys dariensis\\ Hylopetes sagitta\\ Marmosa paraguayana\\Neoromicia brunnea\\ Neoromicia malagasyensis\\ Plecturocebus discolor\\ Proechimys trinitatis\end{tabular}}   \\ \hline
+\textbf{Birds}                                        & 158          & 7           & 0           & 21                                      & 160 (139 not sister clades)                                      & \textit{\begin{tabular}[c]{@{}l@{}} Antrostomus arizonae\\ Calendulauda erythrochlamys\\ Myiothlypis rivularis\\Spermestes bicolor\end{tabular}} \\ \hline
+\textbf{Reptiles}                                     & 68           & 2           & 0           & 17                                      & 69 (52 not sister clades)                                           & \textit{\begin{tabular}[c]{@{}l@{}} Salvator merianae\end{tabular}}                                                                                                                               \\ \hline
+\textbf{Amphibians}                                   & 41           & 4           & 2           & 8                                       & 44 (36 not sister clades)                                            & \textit{\begin{tabular}[c]{@{}l@{}}Lithobates berlandieri\\ Uperodon taprobanicus\end{tabular}}                                                                                                                         \\ \hline
 \end{tabular}
 \end{center}
 \end{table}
@@ -495,7 +495,7 @@ Here, I compared values collected by Cooke et al. (2019) for a set of species fo
 \end{landscape}
 
 \pagebreak
-\section{Patterns in missing values with regards to phylogenetic trees: plots with tip labels for within-family median completeness}
+\section{Phylogenetic patterns in missing trait values: plots with tip labels for within-family median completeness}
 
 \pagebreak
 
@@ -537,6 +537,17 @@ Here, I compared values collected by Cooke et al. (2019) for a set of species fo
 
 
 \clearpage
+
+\section{Spatial biases of trait completeness: Poisson model coefficients}
+\begin{table}[h!]
+\renewcommand{\baselinestretch}{1}
+\renewcommand{\arraystretch}{1.2}
+\begin{center}\fontsize{9}{11}\selectfont
+\caption[Model coefficients]{\textbf{Model coefficients.} A generalised linear model with a Poisson error distribution was fitted to the number of sampled traits, with range size and class as interacting explanatory variables. All effects were significant, except for the interaction between reptile and range size.}
+\csvautotabular{tables/Poisson_model_coefficients.csv}
+\end{center}
+\label{Poisson_model_coef}
+\end{table}
 
 \section{Mean effect of land-use on Rao's quadratic entropy}
 \begin{figure}[h!]
