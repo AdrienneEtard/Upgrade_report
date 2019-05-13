@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.0 $
+% $ biblatex bbl format version 2.9 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -174,7 +174,7 @@
       }}%
       {{hash=FFH}{%
          family={Fernandes-Ferreira},
-         familyi={F\bibinithyphendelim F\bibinitperiod},
+         familyi={F\bibinitperiod-F\bibinitperiod},
          given={Hugo},
          giveni={H\bibinitperiod},
       }}%
@@ -514,7 +514,7 @@
     \name{author}{2}{}{%
       {{hash=BMM}{%
          family={Barbet-Massin},
-         familyi={B\bibinithyphendelim M\bibinitperiod},
+         familyi={B\bibinitperiod-M\bibinitperiod},
          given={Morgane},
          giveni={M\bibinitperiod},
       }}%
@@ -575,7 +575,7 @@
     \name{author}{3}{}{%
       {{hash=BMM}{%
          family={Barbet-Massin},
-         familyi={B\bibinithyphendelim M\bibinitperiod},
+         familyi={B\bibinitperiod-M\bibinitperiod},
          given={Morgane},
          giveni={M\bibinitperiod},
       }}%
@@ -1249,7 +1249,7 @@
       }}%
       {{hash=ASD}{%
          family={Ariano-S{\'{a}}nchez},
-         familyi={A\bibinithyphendelim S\bibinitperiod},
+         familyi={A\bibinitperiod-S\bibinitperiod},
          given={Daniel},
          giveni={D\bibinitperiod},
       }}%
@@ -1285,13 +1285,13 @@
       }}%
       {{hash=BLAF}{%
          family={Barreto-Lima},
-         familyi={B\bibinithyphendelim L\bibinitperiod},
+         familyi={B\bibinitperiod-L\bibinitperiod},
          given={Andr{\'{e}}\bibnamedelima F.},
          giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
       {{hash=BACL}{%
          family={Barrio-Amor{\'{o}}s},
-         familyi={B\bibinithyphendelim A\bibinitperiod},
+         familyi={B\bibinitperiod-A\bibinitperiod},
          given={C{\'{e}}sar\bibnamedelima L.},
          giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
@@ -1382,7 +1382,7 @@
       }}%
       {{hash=CVJR}{%
          family={Cede{\~{n}}o-V{\'{a}}zquez},
-         familyi={C\bibinithyphendelim V\bibinitperiod},
+         familyi={C\bibinitperiod-V\bibinitperiod},
          given={Jos{\'{e}}\bibnamedelima R.},
          giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
@@ -1400,7 +1400,7 @@
       }}%
       {{hash=CHDF}{%
          family={Cisneros-Heredia},
-         familyi={C\bibinithyphendelim H\bibinitperiod},
+         familyi={C\bibinitperiod-H\bibinitperiod},
          given={Diego\bibnamedelima F.},
          giveni={D\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
@@ -1442,7 +1442,7 @@
       }}%
       {{hash=CIJ}{%
          family={Crnobrnja-Isailovic},
-         familyi={C\bibinithyphendelim I\bibinitperiod},
+         familyi={C\bibinitperiod-I\bibinitperiod},
          given={Jelka},
          giveni={J\bibinitperiod},
       }}%
@@ -1582,7 +1582,7 @@
       }}%
       {{hash=FVO}{%
          family={Flores-Villela},
-         familyi={F\bibinithyphendelim V\bibinitperiod},
+         familyi={F\bibinitperiod-V\bibinitperiod},
          given={Oscar},
          giveni={O\bibinitperiod},
       }}%
@@ -1624,7 +1624,7 @@
       }}%
       {{hash=GPJE}{%
          family={Garc{\'{i}}a-P{\'{e}}rez},
-         familyi={G\bibinithyphendelim P\bibinitperiod},
+         familyi={G\bibinitperiod-P\bibinitperiod},
          given={Juan\bibnamedelima E.},
          giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
@@ -1727,7 +1727,7 @@
       }}%
       {{hash=HTC}{%
          family={Hilton-Taylor},
-         familyi={H\bibinithyphendelim T\bibinitperiod},
+         familyi={H\bibinitperiod-T\bibinitperiod},
          given={Craig},
          giveni={C\bibinitperiod},
       }}%
@@ -1913,7 +1913,7 @@
       }}%
       {{hash=LLMA}{%
          family={L{\'{o}}pez-Luna},
-         familyi={L\bibinithyphendelim L\bibinitperiod},
+         familyi={L\bibinitperiod-L\bibinitperiod},
          given={Marco\bibnamedelima A.},
          giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -2039,7 +2039,7 @@
       }}%
       {{hash=MQF}{%
          family={Mendoza-Quijano},
-         familyi={M\bibinithyphendelim Q\bibinitperiod},
+         familyi={M\bibinitperiod-Q\bibinitperiod},
          given={Fernando},
          giveni={F\bibinitperiod},
       }}%
@@ -2081,7 +2081,7 @@
       }}%
       {{hash=MAA}{%
          family={Mu{\~{n}}oz-Alonso},
-         familyi={M\bibinithyphendelim A\bibinitperiod},
+         familyi={M\bibinitperiod-A\bibinitperiod},
          given={Antonio},
          giveni={A\bibinitperiod},
       }}%
@@ -2159,13 +2159,13 @@
       }}%
       {{hash=PBN}{%
          family={P{\'{e}}rez-Buitrago},
-         familyi={P\bibinithyphendelim B\bibinitperiod},
+         familyi={P\bibinitperiod-B\bibinitperiod},
          given={N{\'{e}}stor},
          giveni={N\bibinitperiod},
       }}%
       {{hash=PMV}{%
          family={P{\'{e}}rez-Mellado},
-         familyi={P\bibinithyphendelim M\bibinitperiod},
+         familyi={P\bibinitperiod-M\bibinitperiod},
          given={Valent{\'{i}}n},
          giveni={V\bibinitperiod},
       }}%
@@ -2189,7 +2189,7 @@
       }}%
       {{hash=PCP}{%
          family={Ponce-Campos},
-         familyi={P\bibinithyphendelim C\bibinitperiod},
+         familyi={P\bibinitperiod-C\bibinitperiod},
          given={Paulino},
          giveni={P\bibinitperiod},
       }}%
@@ -2311,7 +2311,7 @@
       }}%
       {{hash=SBG}{%
          family={Santos-Barrera},
-         familyi={S\bibinithyphendelim B\bibinitperiod},
+         familyi={S\bibinitperiod-B\bibinitperiod},
          given={Georgina},
          giveni={G\bibinitperiod},
       }}%
@@ -2658,7 +2658,7 @@
       }}%
       {{hash=PKP}{%
          family={Pearce-Kelly},
-         familyi={P\bibinithyphendelim K\bibinitperiod},
+         familyi={P\bibinitperiod-K\bibinitperiod},
          given={Paul},
          giveni={P\bibinitperiod},
       }}%
@@ -2718,7 +2718,7 @@
     \field{year}{2016}
   \endentry
 
-  \entry{Bolnick2011}{misc}{}
+  \entry{Bolnick2011}{article}{}
     \name{author}{10}{}{%
       {{hash=BDI}{%
          family={Bolnick},
@@ -2803,7 +2803,6 @@
   indirect effects arising from the role of genetic variation in trait
   evolution. {\textcopyright} 2011 Elsevier Ltd.%
     }
-    \field{booktitle}{Trends in Ecology and Evolution}
     \verb{doi}
     \verb 10.1016/j.tree.2011.01.009
     \endverb
@@ -2811,6 +2810,7 @@
     \field{issn}{01695347}
     \field{title}{{Why intraspecific trait variation matters in community
   ecology}}
+    \field{journaltitle}{Trends in Ecology and Evolution}
     \field{year}{2011}
   \endentry
 
@@ -2897,7 +2897,7 @@
     \name{author}{1}{}{%
       {{hash=BDZ}{%
          family={Botta-Duk{\'{a}}t},
-         familyi={B\bibinithyphendelim D\bibinitperiod},
+         familyi={B\bibinitperiod-D\bibinitperiod},
          given={Zolt{\'{a}}n},
          giveni={Z\bibinitperiod},
       }}%
@@ -3258,7 +3258,7 @@
     \name{author}{7}{}{%
       {{hash=CCM}{%
          family={Calvino-Cancela},
-         familyi={C\bibinithyphendelim C\bibinitperiod},
+         familyi={C\bibinitperiod-C\bibinitperiod},
          given={Maria},
          giveni={M\bibinitperiod},
       }}%
@@ -3270,7 +3270,7 @@
       }}%
       {{hash=RPJ}{%
          family={Rodriguez-Perez},
-         familyi={R\bibinithyphendelim P\bibinitperiod},
+         familyi={R\bibinitperiod-P\bibinitperiod},
          given={Javier},
          giveni={J\bibinitperiod},
       }}%
@@ -3288,7 +3288,7 @@
       }}%
       {{hash=VAG}{%
          family={Velo-Antón},
-         familyi={V\bibinithyphendelim A\bibinitperiod},
+         familyi={V\bibinitperiod-A\bibinitperiod},
          given={Guillermo},
          giveni={G\bibinitperiod},
       }}%
@@ -3436,7 +3436,7 @@
       }}%
       {{hash=MSR}{%
          family={Mello-Silva},
-         familyi={M\bibinithyphendelim S\bibinitperiod},
+         familyi={M\bibinitperiod-S\bibinitperiod},
          given={Renato},
          giveni={R\bibinitperiod},
       }}%
@@ -4084,7 +4084,7 @@
       }}%
       {{hash=MVA}{%
          family={Maceda-Veiga},
-         familyi={M\bibinithyphendelim V\bibinitperiod},
+         familyi={M\bibinitperiod-V\bibinitperiod},
          given={Alberto},
          giveni={A\bibinitperiod},
       }}%
@@ -4209,7 +4209,7 @@
       }}%
       {{hash=HTC}{%
          family={Hilton-Taylor},
-         familyi={H\bibinithyphendelim T\bibinitperiod},
+         familyi={H\bibinitperiod-T\bibinitperiod},
          given={Craig},
          giveni={C\bibinitperiod},
       }}%
@@ -4268,11 +4268,12 @@
 
   \entry{Cooke2019}{article}{}
     \name{author}{3}{}{%
-      {{hash=CRS}{%
+      {{hash=CRSC}{%
          family={Cooke},
          familyi={C\bibinitperiod},
-         given={Robert\bibnamedelima S.C.},
-         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+         given={Robert S.\bibnamedelima C.},
+         giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  C\bibinitperiod},
       }}%
       {{hash=BAE}{%
          family={Bates},
@@ -4287,9 +4288,10 @@
          giveni={F\bibinitperiod},
       }}%
     }
-    \keyw{birds,ecoregion,function,insurance,mammals,response diversity,traits}
-    \strng{namehash}{CRS+1}
-    \strng{fullhash}{CRSBAEEF1}
+    \keyw{birds, ecoregion, function, insurance, mammals, response diversity,
+  traits}
+    \strng{namehash}{CRSC+1}
+    \strng{fullhash}{CRSCBAEEF1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2019}
@@ -4299,15 +4301,17 @@
     \verb{doi}
     \verb 10.1111/geb.12869
     \endverb
-    \field{issn}{14668238}
-    \field{number}{October 2018}
-    \field{pages}{1\bibrangedash 12}
-    \field{title}{{Global trade-offs of functional redundancy and functional
-  dispersion for birds and mammals}}
-    \verb{file}
-    \verb :C\:/Users/Adrienne/Downloads/Global_trade-offs_of_functional_redunda
-    \verb ncy_and_fun.pdf:pdf
+    \verb{eprint}
+    \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/geb.12869
     \endverb
+    \field{number}{4}
+    \field{pages}{484\bibrangedash 495}
+    \field{title}{Global trade-offs of functional redundancy and functional
+  dispersion for birds and mammals}
+    \verb{url}
+    \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/geb.12869
+    \endverb
+    \field{volume}{28}
     \field{journaltitle}{Global Ecology and Biogeography}
     \field{year}{2019}
   \endentry
@@ -4625,9 +4629,10 @@
 
   \entry{AnAge}{article}{}
     \name{author}{2}{}{%
-      {{hash=DMJP}{%
-         family={De\bibnamedelima Magalhães},
-         familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+      {{hash=DMaJP}{%
+         family={De\bibnamedelima Magalh\~aes},
+         familyi={D\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim
+  a\bibinitperiod},
          given={J.\bibnamedelima P.},
          giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
@@ -4639,8 +4644,8 @@
       }}%
     }
     \keyw{bioinformatics, comparative studies, lifespan, senescence}
-    \strng{namehash}{DMJPCJ1}
-    \strng{fullhash}{DMJPCJ1}
+    \strng{namehash}{DMaJPCJ1}
+    \strng{fullhash}{DMaJPCJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2009}
@@ -4810,7 +4815,7 @@
       }}%
       {{hash=SOK}{%
          family={Sanchez-Ortiz},
-         familyi={S\bibinithyphendelim O\bibinitperiod},
+         familyi={S\bibinitperiod-O\bibinitperiod},
          given={Katia},
          giveni={K\bibinitperiod},
       }}%
@@ -5127,7 +5132,7 @@
       }}%
       {{hash=NMI}{%
          family={Noy-Meir},
-         familyi={N\bibinithyphendelim M\bibinitperiod},
+         familyi={N\bibinitperiod-M\bibinitperiod},
          given={Imanuel},
          giveni={I\bibinitperiod},
       }}%
@@ -5237,7 +5242,7 @@
     \name{author}{7}{}{%
       {{hash=DFJAF}{%
          family={Diniz-Filho},
-         familyi={D\bibinithyphendelim F\bibinitperiod},
+         familyi={D\bibinitperiod-F\bibinitperiod},
          given={Jose Alexandre\bibnamedelima F},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
   F\bibinitperiod},
@@ -5256,13 +5261,13 @@
       }}%
       {{hash=MCI}{%
          family={Morales-Castilla},
-         familyi={M\bibinithyphendelim C\bibinitperiod},
+         familyi={M\bibinitperiod-C\bibinitperiod},
          given={Ignacio},
          giveni={I\bibinitperiod},
       }}%
       {{hash=OTMA}{%
          family={Olalla-T{\'{a}}rraga},
-         familyi={O\bibinithyphendelim T\bibinitperiod},
+         familyi={O\bibinitperiod-T\bibinitperiod},
          given={Miguel\bibnamedelima {\'{A}}},
          giveni={M\bibinitperiod\bibinitdelim {\'{A}}\bibinitperiod},
       }}%
@@ -5612,7 +5617,7 @@
       }}%
       {{hash=BCL}{%
          family={Benedetti-Cecchi},
-         familyi={B\bibinithyphendelim C\bibinitperiod},
+         familyi={B\bibinitperiod-C\bibinitperiod},
          given={Lisandro},
          giveni={L\bibinitperiod},
       }}%
@@ -5696,7 +5701,7 @@
       }}%
       {{hash=CME}{%
          family={Casta{\~{n}}eda-Moya},
-         familyi={C\bibinithyphendelim M\bibinitperiod},
+         familyi={C\bibinitperiod-M\bibinitperiod},
          given={Edward},
          giveni={E\bibinitperiod},
       }}%
@@ -5949,7 +5954,7 @@
       }}%
       {{hash=GBE}{%
          family={Gorgone-Barbosa},
-         familyi={G\bibinithyphendelim B\bibinitperiod},
+         familyi={G\bibinitperiod-B\bibinitperiod},
          given={Elizabeth},
          giveni={E\bibinitperiod},
       }}%
@@ -6227,7 +6232,7 @@
       }}%
       {{hash=LMC}{%
          family={Laguionie-Marchais},
-         familyi={L\bibinithyphendelim M\bibinitperiod},
+         familyi={L\bibinitperiod-M\bibinitperiod},
          given={Claire},
          giveni={C\bibinitperiod},
       }}%
@@ -6275,7 +6280,7 @@
       }}%
       {{hash=LBA}{%
          family={L{\'{o}}pez-Baucells},
-         familyi={L\bibinithyphendelim B\bibinitperiod},
+         familyi={L\bibinitperiod-B\bibinitperiod},
          given={Adri{\`{a}}},
          giveni={A\bibinitperiod},
       }}%
@@ -6407,7 +6412,7 @@
       }}%
       {{hash=MSIH}{%
          family={Myers-Smith},
-         familyi={M\bibinithyphendelim S\bibinitperiod},
+         familyi={M\bibinitperiod-S\bibinitperiod},
          given={Isla\bibnamedelima H.},
          giveni={I\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
@@ -6515,7 +6520,7 @@
       }}%
       {{hash=PMA}{%
          family={P{\'{e}}rez-Matus},
-         familyi={P\bibinithyphendelim M\bibinitperiod},
+         familyi={P\bibinitperiod-M\bibinitperiod},
          given={Alejandro},
          giveni={A\bibinitperiod},
       }}%
@@ -6637,7 +6642,7 @@
       }}%
       {{hash=RMVH}{%
          family={Rivera-Monroy},
-         familyi={R\bibinithyphendelim M\bibinitperiod},
+         familyi={R\bibinitperiod-M\bibinitperiod},
          given={Victor\bibnamedelima H.},
          giveni={V\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
@@ -6721,7 +6726,7 @@
       }}%
       {{hash=SCAP}{%
          family={Savassi-Coutinho},
-         familyi={S\bibinithyphendelim C\bibinitperiod},
+         familyi={S\bibinitperiod-C\bibinitperiod},
          given={Ana\bibnamedelima Paula},
          giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
@@ -6879,7 +6884,7 @@
       }}%
       {{hash=SSR}{%
          family={Stuart-Smith},
-         familyi={S\bibinithyphendelim S\bibinitperiod},
+         familyi={S\bibinitperiod-S\bibinitperiod},
          given={Rick},
          giveni={R\bibinitperiod},
       }}%
@@ -7374,7 +7379,7 @@
       }}%
       {{hash=OYA}{%
          family={Oteng-Yeboah},
-         familyi={O\bibinithyphendelim Y\bibinitperiod},
+         familyi={O\bibinitperiod-Y\bibinitperiod},
          given={{Alfred A.}},
          giveni={A\bibinitperiod},
       }}%
@@ -7453,7 +7458,7 @@
     \field{year}{2005}
   \endentry
 
-  \entry{Estrada2016}{misc}{}
+  \entry{Estrada2016}{article}{}
     \name{author}{4}{}{%
       {{hash=EA}{%
          family={Estrada},
@@ -7463,7 +7468,7 @@
       }}%
       {{hash=MCI}{%
          family={Morales-Castilla},
-         familyi={M\bibinithyphendelim C\bibinitperiod},
+         familyi={M\bibinitperiod-C\bibinitperiod},
          given={Ignacio},
          giveni={I\bibinitperiod},
       }}%
@@ -7513,13 +7518,13 @@
   reproductive strategy, and intraspecific competitive ability should be
   considered for inclusion in range-shift evaluations.%
     }
-    \field{booktitle}{Trends in Ecology and Evolution}
     \verb{doi}
     \verb 10.1016/j.tree.2015.12.014
     \endverb
     \field{isbn}{1872-8383 (Electronic) 0169-5347 (Linking)}
     \field{issn}{01695347}
     \field{title}{{Usefulness of Species Traits in Predicting Range Shifts}}
+    \field{journaltitle}{Trends in Ecology and Evolution}
     \field{year}{2016}
   \endentry
 
@@ -7533,7 +7538,7 @@
       }}%
       {{hash=MCI}{%
          family={Morales-Castilla},
-         familyi={M\bibinithyphendelim C\bibinitperiod},
+         familyi={M\bibinitperiod-C\bibinitperiod},
          given={Ignacio},
          giveni={I\bibinitperiod},
       }}%
@@ -7830,7 +7835,7 @@
       }}%
       {{hash=GPM}{%
          family={Gogol-Prokurat},
-         familyi={G\bibinithyphendelim P\bibinitperiod},
+         familyi={G\bibinitperiod-P\bibinitperiod},
          given={Melanie},
          giveni={M\bibinitperiod},
       }}%
@@ -8416,7 +8421,7 @@
       }}%
       {{hash=BEOR}{%
          family={Bininda-Emonds},
-         familyi={B\bibinithyphendelim E\bibinitperiod},
+         familyi={B\bibinitperiod-E\bibinitperiod},
          given={Olaf\bibnamedelima R.P.},
          giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
@@ -8466,7 +8471,7 @@
     \field{year}{2009}
   \endentry
 
-  \entry{Gainsbury2018}{misc}{}
+  \entry{Gainsbury2018}{article}{}
     \name{author}{3}{}{%
       {{hash=GAM}{%
          family={Gainsbury},
@@ -8522,13 +8527,13 @@
   greater level of accuracy and provide a more robust data set for further
   ecological and evolutionary analysis.%
     }
-    \field{booktitle}{Mammal Review}
     \verb{doi}
     \verb 10.1111/mam.12119
     \endverb
     \field{issn}{13652907}
     \field{title}{{An updated global data set for diet preferences in
   terrestrial mammals: testing the validity of extrapolation}}
+    \field{journaltitle}{Mammal Review}
     \field{year}{2018}
   \endentry
 
@@ -8605,7 +8610,7 @@
     \name{author}{2}{}{%
       {{hash=GSM}{%
          family={Gonz{\'{a}}lez-Su{\'{a}}rez},
-         familyi={G\bibinithyphendelim S\bibinitperiod},
+         familyi={G\bibinitperiod-S\bibinitperiod},
          given={Manuela},
          giveni={M\bibinitperiod},
       }}%
@@ -8656,7 +8661,7 @@
     \name{author}{3}{}{%
       {{hash=GSM}{%
          family={Gonz{\'{a}}lez-Su{\'{a}}rez},
-         familyi={G\bibinithyphendelim S\bibinitperiod},
+         familyi={G\bibinitperiod-S\bibinitperiod},
          given={Manuela},
          giveni={M\bibinitperiod},
       }}%
@@ -8732,7 +8737,7 @@
     \name{author}{3}{}{%
       {{hash=GSM}{%
          family={Gonzalez-Suarez},
-         familyi={G\bibinithyphendelim S\bibinitperiod},
+         familyi={G\bibinitperiod-S\bibinitperiod},
          given={Manuela},
          giveni={M\bibinitperiod},
       }}%
@@ -8791,7 +8796,7 @@
     \field{year}{2013}
   \endentry
 
-  \entry{Gravel2016}{misc}{}
+  \entry{Gravel2016}{article}{}
     \name{author}{3}{}{%
       {{hash=GD}{%
          family={Gravel},
@@ -8851,8 +8856,6 @@
   conclude with propositions for new research avenues for both theoreticians
   and empiricists.%
     }
-    \field{booktitle}{Philosophical Transactions of the Royal Society B:
-  Biological Sciences}
     \verb{doi}
     \verb 10.1098/rstb.2015.0268
     \endverb
@@ -8863,6 +8866,8 @@
     \field{issn}{14712970}
     \field{title}{{The meaning of functional trait composition of food webs for
   ecosystem functioning}}
+    \field{journaltitle}{Philosophical Transactions of the Royal Society B:
+  Biological Sciences}
     \field{eprinttype}{arXiv}
     \field{eprintclass}{http:}
     \field{year}{2016}
@@ -9146,7 +9151,7 @@
     \field{year}{2011}
   \endentry
 
-  \entry{Hatfield2018}{misc}{}
+  \entry{Hatfield2018}{article}{}
     \name{author}{3}{}{%
       {{hash=HJH}{%
          family={Hatfield},
@@ -9163,7 +9168,7 @@
       }}%
       {{hash=BLC}{%
          family={Banks-Leite},
-         familyi={B\bibinithyphendelim L\bibinitperiod},
+         familyi={B\bibinitperiod-L\bibinitperiod},
          given={Cristina},
          giveni={C\bibinitperiod},
       }}%
@@ -9199,7 +9204,6 @@
   consensus regarding how landscape modification affects functional diversity
   metrics.%
     }
-    \field{booktitle}{Current Landscape Ecology Reports}
     \verb{doi}
     \verb 10.1007/s40823-018-0032-x
     \endverb
@@ -9208,6 +9212,7 @@
     \field{title}{{Functional Diversity Metrics: How They Are Affected by
   Landscape Change and How They Represent Ecosystem Functioning in the
   Tropics}}
+    \field{journaltitle}{Current Landscape Ecology Reports}
     \field{year}{2018}
   \endentry
 
@@ -9287,7 +9292,7 @@
       }}%
       {{hash=HDK}{%
          family={Huss-Danell},
-         familyi={H\bibinithyphendelim D\bibinitperiod},
+         familyi={H\bibinitperiod-D\bibinitperiod},
          given={K.},
          giveni={K\bibinitperiod},
       }}%
@@ -9366,7 +9371,7 @@
       }}%
       {{hash=SLM}{%
          family={Scherer-Lorenzen},
-         familyi={S\bibinithyphendelim L\bibinitperiod},
+         familyi={S\bibinitperiod-L\bibinitperiod},
          given={M.},
          giveni={M\bibinitperiod},
       }}%
@@ -9374,14 +9379,13 @@
          family={Schulze},
          familyi={S\bibinitperiod},
          given={E.-D.},
-         giveni={E\bibinithyphendelim D\bibinitperiod},
+         giveni={E\bibinitperiod-D\bibinitperiod},
       }}%
       {{hash=SASD}{%
          family={Siamantziouras},
          familyi={S\bibinitperiod},
          given={A.-S.\bibnamedelima D.},
-         giveni={A\bibinithyphendelim S\bibinitperiod\bibinitdelim
-  D\bibinitperiod},
+         giveni={A\bibinitperiod-S\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
       {{hash=SEM}{%
          family={Spehn},
@@ -9624,7 +9628,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{Hevia2017}{misc}{}
+  \entry{Hevia2017}{article}{}
     \name{author}{6}{}{%
       {{hash=HV}{%
          family={Hevia},
@@ -9634,7 +9638,7 @@
       }}%
       {{hash=MLB}{%
          family={Mart{\'{i}}n-L{\'{o}}pez},
-         familyi={M\bibinithyphendelim L\bibinitperiod},
+         familyi={M\bibinitperiod-L\bibinitperiod},
          given={Berta},
          giveni={B\bibinitperiod},
       }}%
@@ -9646,7 +9650,7 @@
       }}%
       {{hash=GLM}{%
          family={Garc{\'{i}}a-Llorente},
-         familyi={G\bibinithyphendelim L\bibinitperiod},
+         familyi={G\bibinitperiod-L\bibinitperiod},
          given={Marina},
          giveni={M\bibinitperiod},
       }}%
@@ -9701,7 +9705,6 @@
   in biodiversity and their effects on ecosystem functioning and ecosystem
   services supply.%
     }
-    \field{booktitle}{Ecology and Evolution}
     \verb{doi}
     \verb 10.1002/ece3.2692
     \endverb
@@ -9715,6 +9718,7 @@
     \verb between the drivers of change and ecosystem services Synthesizing exi
     \verb sting.pdf:pdf
     \endverb
+    \field{journaltitle}{Ecology and Evolution}
     \field{annotation}{%
     Aim: Using metanalysis: synthetize empirical evidence on the effect of
   drivers of change on ecosystem services mediated by functional traits Linking
@@ -10215,7 +10219,7 @@
       }}%
       {{hash=DFJAF}{%
          family={Diniz-Filho},
-         familyi={D\bibinithyphendelim F\bibinitperiod},
+         familyi={D\bibinitperiod-F\bibinitperiod},
          given={Jos{\'{e}} Alexandre\bibnamedelima Felizola},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
   F\bibinitperiod},
@@ -10356,7 +10360,7 @@
       }}%
       {{hash=ELS}{%
          family={Echeverr{\'{i}}a-Londo{\~{n}}o},
-         familyi={E\bibinithyphendelim L\bibinitperiod},
+         familyi={E\bibinitperiod-L\bibinitperiod},
          given={Susy},
          giveni={S\bibinitperiod},
       }}%
@@ -10434,7 +10438,7 @@
       }}%
       {{hash=ABV}{%
          family={Aguilar-Barquero},
-         familyi={A\bibinithyphendelim B\bibinitperiod},
+         familyi={A\bibinitperiod-B\bibinitperiod},
          given={Virginia},
          giveni={V\bibinitperiod},
       }}%
@@ -10452,7 +10456,7 @@
       }}%
       {{hash=ACE}{%
          family={Arbel{\'{a}}ez-Cort{\'{e}}s},
-         familyi={A\bibinithyphendelim C\bibinitperiod},
+         familyi={A\bibinitperiod-C\bibinitperiod},
          given={Enrique},
          giveni={E\bibinitperiod},
       }}%
@@ -10548,7 +10552,7 @@
       }}%
       {{hash=BGK}{%
          family={B{\"{o}}hning-Gaese},
-         familyi={B\bibinithyphendelim G\bibinitperiod},
+         familyi={B\bibinitperiod-G\bibinitperiod},
          given={Katrin},
          giveni={K\bibinitperiod},
       }}%
@@ -10602,13 +10606,13 @@
       }}%
       {{hash=CGJ}{%
          family={Cabra-Garc{\'{i}}a},
-         familyi={C\bibinithyphendelim G\bibinitperiod},
+         familyi={C\bibinitperiod-G\bibinitperiod},
          given={Jimmy},
          giveni={J\bibinitperiod},
       }}%
       {{hash=CCM}{%
          family={Calvi{\~{n}}o-Cancela},
-         familyi={C\bibinithyphendelim C\bibinitperiod},
+         familyi={C\bibinitperiod-C\bibinitperiod},
          given={Mar{\'{i}}a},
          giveni={M\bibinitperiod},
       }}%
@@ -10644,7 +10648,7 @@
       }}%
       {{hash=CLAA}{%
          family={Castro-Luna},
-         familyi={C\bibinithyphendelim L\bibinitperiod},
+         familyi={C\bibinitperiod-L\bibinitperiod},
          given={Alejandro\bibnamedelima A.},
          giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -10724,7 +10728,7 @@
       }}%
       {{hash=DHY}{%
          family={Dominguez-Haydar},
-         familyi={D\bibinithyphendelim H\bibinitperiod},
+         familyi={D\bibinitperiod-H\bibinitperiod},
          given={Yamileth},
          giveni={Y\bibinitperiod},
       }}%
@@ -10844,7 +10848,7 @@
       }}%
       {{hash=GCC}{%
          family={Gheler-Costa},
-         familyi={G\bibinithyphendelim C\bibinitperiod},
+         familyi={G\bibinitperiod-C\bibinitperiod},
          given={Carla},
          giveni={C\bibinitperiod},
       }}%
@@ -10940,7 +10944,7 @@
       }}%
       {{hash=HDD}{%
          family={Higuera-Diaz},
-         familyi={H\bibinithyphendelim D\bibinitperiod},
+         familyi={H\bibinitperiod-D\bibinitperiod},
          given={Diego},
          giveni={D\bibinitperiod},
       }}%
@@ -10970,7 +10974,7 @@
       }}%
       {{hash=ICP}{%
          family={Isaacs-Cubides},
-         familyi={I\bibinithyphendelim C\bibinitperiod},
+         familyi={I\bibinitperiod-C\bibinitperiod},
          given={Paola},
          giveni={P\bibinitperiod},
       }}%
@@ -11096,7 +11100,7 @@
       }}%
       {{hash=LQCA}{%
          family={L{\'{o}}pez-Quintero},
-         familyi={L\bibinithyphendelim Q\bibinitperiod},
+         familyi={L\bibinitperiod-Q\bibinitperiod},
          given={Carlos\bibnamedelima A.},
          giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -11114,7 +11118,7 @@
       }}%
       {{hash=LBME}{%
          family={Lucas-Borja},
-         familyi={L\bibinithyphendelim B\bibinitperiod},
+         familyi={L\bibinitperiod-B\bibinitperiod},
          given={Manuel\bibnamedelima Esteban},
          giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
@@ -11144,7 +11148,7 @@
       }}%
       {{hash=MSE}{%
          family={Marin-Spiotta},
-         familyi={M\bibinithyphendelim S\bibinitperiod},
+         familyi={M\bibinitperiod-S\bibinitperiod},
          given={Erika},
          giveni={E\bibinitperiod},
       }}%
@@ -11222,7 +11226,7 @@
       }}%
       {{hash=NPG}{%
          family={Nates-Parra},
-         familyi={N\bibinithyphendelim P\bibinitperiod},
+         familyi={N\bibinitperiod-P\bibinitperiod},
          given={Guiomar},
          giveni={G\bibinitperiod},
       }}%
@@ -11276,7 +11280,7 @@
       }}%
       {{hash=OBC}{%
          family={Ofori-Boateng},
-         familyi={O\bibinithyphendelim B\bibinitperiod},
+         familyi={O\bibinitperiod-B\bibinitperiod},
          given={Caleb},
          giveni={C\bibinitperiod},
       }}%
@@ -11300,7 +11304,7 @@
       }}%
       {{hash=PHA}{%
          family={Parra-H},
-         familyi={P\bibinithyphendelim H\bibinitperiod},
+         familyi={P\bibinitperiod-H\bibinitperiod},
          given={Alejandro},
          giveni={A\bibinitperiod},
       }}%
@@ -11378,7 +11382,7 @@
       }}%
       {{hash=RDNA}{%
          family={Redpath-Downing},
-         familyi={R\bibinithyphendelim D\bibinitperiod},
+         familyi={R\bibinitperiod-D\bibinitperiod},
          given={Nicola\bibnamedelima A.},
          giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -11426,7 +11430,7 @@
       }}%
       {{hash=RDLP}{%
          family={Romero-Duque},
-         familyi={R\bibinithyphendelim D\bibinitperiod},
+         familyi={R\bibinitperiod-D\bibinitperiod},
          given={Luz\bibnamedelima Piedad},
          giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
@@ -11468,7 +11472,7 @@
       }}%
       {{hash=SVRA}{%
          family={Salda{\~{n}}a-V{\'{a}}zquez},
-         familyi={S\bibinithyphendelim V\bibinitperiod},
+         familyi={S\bibinitperiod-V\bibinitperiod},
          given={Romeo\bibnamedelima A.},
          giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -11522,7 +11526,7 @@
       }}%
       {{hash=SPAH}{%
          family={Smith-Pardo},
-         familyi={S\bibinithyphendelim P\bibinitperiod},
+         familyi={S\bibinitperiod-P\bibinitperiod},
          given={Allan\bibnamedelima H.},
          giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
@@ -11883,7 +11887,7 @@
       }}%
       {{hash=ELS}{%
          family={Echeverr{\"{i}}¿½a-Londo{\"{i}}¿½o},
-         familyi={E\bibinithyphendelim L\bibinitperiod},
+         familyi={E\bibinitperiod-L\bibinitperiod},
          given={Susy},
          giveni={S\bibinitperiod},
       }}%
@@ -11949,7 +11953,7 @@
       }}%
       {{hash=PHGD}{%
          family={Pask-Hale},
-         familyi={P\bibinithyphendelim H\bibinitperiod},
+         familyi={P\bibinitperiod-H\bibinitperiod},
          given={Gwilym\bibnamedelima D.},
          giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
@@ -11967,7 +11971,7 @@
       }}%
       {{hash=SOK}{%
          family={Sanchez-Ortiz},
-         familyi={S\bibinithyphendelim O\bibinitperiod},
+         familyi={S\bibinitperiod-O\bibinitperiod},
          given={Katia},
          giveni={K\bibinitperiod},
       }}%
@@ -12015,7 +12019,7 @@
       }}%
       {{hash=ABV}{%
          family={Aguilar-Barquero},
-         familyi={A\bibinithyphendelim B\bibinitperiod},
+         familyi={A\bibinitperiod-B\bibinitperiod},
          given={Virginia},
          giveni={V\bibinitperiod},
       }}%
@@ -12063,7 +12067,7 @@
       }}%
       {{hash=ACE}{%
          family={Arbel{\"{i}}¿½ez-Cort{\"{i}}¿½s},
-         familyi={A\bibinithyphendelim C\bibinitperiod},
+         familyi={A\bibinitperiod-C\bibinitperiod},
          given={Enrique},
          giveni={E\bibinitperiod},
       }}%
@@ -12075,7 +12079,7 @@
       }}%
       {{hash=ARV}{%
          family={Arroyo-Rodr{\"{i}}¿½guez},
-         familyi={A\bibinithyphendelim R\bibinitperiod},
+         familyi={A\bibinitperiod-R\bibinitperiod},
          given={V{\"{i}}¿½ctor},
          giveni={V\bibinitperiod},
       }}%
@@ -12267,7 +12271,7 @@
       }}%
       {{hash=BGK}{%
          family={B{\"{i}}¿½hning-Gaese},
-         familyi={B\bibinithyphendelim G\bibinitperiod},
+         familyi={B\bibinitperiod-G\bibinitperiod},
          given={Katrin},
          giveni={K\bibinitperiod},
       }}%
@@ -12369,7 +12373,7 @@
       }}%
       {{hash=CGJ}{%
          family={Cabra-Garc{\"{i}}¿½a},
-         familyi={C\bibinithyphendelim G\bibinitperiod},
+         familyi={C\bibinitperiod-G\bibinitperiod},
          given={Jimmy},
          giveni={J\bibinitperiod},
       }}%
@@ -12387,7 +12391,7 @@
       }}%
       {{hash=CCM}{%
          family={Calvi{\"{i}}¿½o-Cancela},
-         familyi={C\bibinithyphendelim C\bibinitperiod},
+         familyi={C\bibinitperiod-C\bibinitperiod},
          given={Mar{\"{i}}¿½a},
          giveni={M\bibinitperiod},
       }}%
@@ -12447,7 +12451,7 @@
       }}%
       {{hash=CLAA}{%
          family={Castro-Luna},
-         familyi={C\bibinithyphendelim L\bibinitperiod},
+         familyi={C\bibinitperiod-L\bibinitperiod},
          given={Alejandro\bibnamedelima A.},
          giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -12513,7 +12517,7 @@
       }}%
       {{hash=CLL}{%
          family={Cruz-L{\"{i}}¿½pez},
-         familyi={C\bibinithyphendelim L\bibinitperiod},
+         familyi={C\bibinitperiod-L\bibinitperiod},
          given={Leopoldo},
          giveni={L\bibinitperiod},
       }}%
@@ -12633,7 +12637,7 @@
       }}%
       {{hash=DHY}{%
          family={Dominguez-Haydar},
-         familyi={D\bibinithyphendelim H\bibinitperiod},
+         familyi={D\bibinitperiod-H\bibinitperiod},
          given={Yamileth},
          giveni={Y\bibinitperiod},
       }}%
@@ -12881,7 +12885,7 @@
       }}%
       {{hash=GRJC}{%
          family={Garcia-R},
-         familyi={G\bibinithyphendelim R\bibinitperiod},
+         familyi={G\bibinitperiod-R\bibinitperiod},
          given={Juan\bibnamedelima C.},
          giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
@@ -12905,7 +12909,7 @@
       }}%
       {{hash=GBB}{%
          family={Gendreau-Berthiaume},
-         familyi={G\bibinithyphendelim B\bibinitperiod},
+         familyi={G\bibinitperiod-B\bibinitperiod},
          given={Benoit},
          giveni={B\bibinitperiod},
       }}%
@@ -12917,7 +12921,7 @@
       }}%
       {{hash=GCC}{%
          family={Gheler-Costa},
-         familyi={G\bibinithyphendelim C\bibinitperiod},
+         familyi={G\bibinitperiod-C\bibinitperiod},
          given={Carla},
          giveni={C\bibinitperiod},
       }}%
@@ -13019,7 +13023,7 @@
       }}%
       {{hash=GLDL}{%
          family={Guti{\"{i}}¿½rrez-Lamus},
-         familyi={G\bibinithyphendelim L\bibinitperiod},
+         familyi={G\bibinitperiod-L\bibinitperiod},
          given={Doris\bibnamedelima L.},
          giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
@@ -13121,7 +13125,7 @@
       }}%
       {{hash=HDD}{%
          family={Higuera-Diaz},
-         familyi={H\bibinithyphendelim D\bibinitperiod},
+         familyi={H\bibinitperiod-D\bibinitperiod},
          given={Diego},
          giveni={D\bibinitperiod},
       }}%
@@ -13169,7 +13173,7 @@
       }}%
       {{hash=ICP}{%
          family={Isaacs-Cubides},
-         familyi={I\bibinithyphendelim C\bibinitperiod},
+         familyi={I\bibinitperiod-C\bibinitperiod},
          given={Paola},
          giveni={P\bibinitperiod},
       }}%
@@ -13469,13 +13473,13 @@
       }}%
       {{hash=LMHN}{%
          family={Lo-Man-Hung},
-         familyi={L\bibinithyphendelim M\bibinithyphendelim H\bibinitperiod},
+         familyi={L\bibinitperiod-M\bibinitperiod-H\bibinitperiod},
          given={Nancy},
          giveni={N\bibinitperiod},
       }}%
       {{hash=LQCA}{%
          family={L{\"{i}}¿½pez-Quintero},
-         familyi={L\bibinithyphendelim Q\bibinitperiod},
+         familyi={L\bibinitperiod-Q\bibinitperiod},
          given={Carlos\bibnamedelima A.},
          giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -13493,7 +13497,7 @@
       }}%
       {{hash=LBME}{%
          family={Lucas-Borja},
-         familyi={L\bibinithyphendelim B\bibinitperiod},
+         familyi={L\bibinitperiod-B\bibinitperiod},
          given={Manuel\bibnamedelima Esteban},
          giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
@@ -13547,7 +13551,7 @@
       }}%
       {{hash=MOJ}{%
          family={Malumbres-Olarte},
-         familyi={M\bibinithyphendelim O\bibinitperiod},
+         familyi={M\bibinitperiod-O\bibinitperiod},
          given={Jagoba},
          giveni={J\bibinitperiod},
       }}%
@@ -13565,7 +13569,7 @@
       }}%
       {{hash=MSE}{%
          family={Marin-Spiotta},
-         familyi={M\bibinithyphendelim S\bibinitperiod},
+         familyi={M\bibinitperiod-S\bibinitperiod},
          given={Erika},
          giveni={E\bibinitperiod},
       }}%
@@ -13679,7 +13683,7 @@
       }}%
       {{hash=MEDR}{%
          family={Miranda-Esquivel},
-         familyi={M\bibinithyphendelim E\bibinitperiod},
+         familyi={M\bibinitperiod-E\bibinitperiod},
          given={Daniel\bibnamedelima R.},
          giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
@@ -13709,7 +13713,7 @@
       }}%
       {{hash=MSS}{%
          family={Mudri-Stojnic},
-         familyi={M\bibinithyphendelim S\bibinitperiod},
+         familyi={M\bibinitperiod-S\bibinitperiod},
          given={Sonja},
          giveni={S\bibinitperiod},
       }}%
@@ -13721,7 +13725,7 @@
       }}%
       {{hash=MAA}{%
          family={Muo{\"{i}}¿½z-Alonso},
-         familyi={M\bibinithyphendelim A\bibinitperiod},
+         familyi={M\bibinitperiod-A\bibinitperiod},
          given={Antonio},
          giveni={A\bibinitperiod},
       }}%
@@ -13769,7 +13773,7 @@
       }}%
       {{hash=NPG}{%
          family={Nates-Parra},
-         familyi={N\bibinithyphendelim P\bibinitperiod},
+         familyi={N\bibinitperiod-P\bibinitperiod},
          given={Guiomar},
          giveni={G\bibinitperiod},
       }}%
@@ -13781,7 +13785,7 @@
       }}%
       {{hash=NIL}{%
          family={Navarro-Iriarte},
-         familyi={N\bibinithyphendelim I\bibinitperiod},
+         familyi={N\bibinitperiod-I\bibinitperiod},
          given={Luis},
          giveni={L\bibinitperiod},
       }}%
@@ -13883,7 +13887,7 @@
       }}%
       {{hash=OBC}{%
          family={Ofori-Boateng},
-         familyi={O\bibinithyphendelim B\bibinitperiod},
+         familyi={O\bibinitperiod-B\bibinitperiod},
          given={Caleb},
          giveni={C\bibinitperiod},
       }}%
@@ -13925,7 +13929,7 @@
       }}%
       {{hash=PHA}{%
          family={Parra-H},
-         familyi={P\bibinithyphendelim H\bibinitperiod},
+         familyi={P\bibinitperiod-H\bibinitperiod},
          given={Alejandro},
          giveni={A\bibinitperiod},
       }}%
@@ -14015,7 +14019,7 @@
       }}%
       {{hash=PUJ}{%
          family={Pincheira-Ulbrich},
-         familyi={P\bibinithyphendelim U\bibinitperiod},
+         familyi={P\bibinitperiod-U\bibinitperiod},
          given={Jimmy},
          giveni={J\bibinitperiod},
       }}%
@@ -14033,7 +14037,7 @@
       }}%
       {{hash=PAJ}{%
          family={Pizarro-Araya},
-         familyi={P\bibinithyphendelim A\bibinitperiod},
+         familyi={P\bibinitperiod-A\bibinitperiod},
          given={Jaime},
          giveni={J\bibinitperiod},
       }}%
@@ -14111,7 +14115,7 @@
       }}%
       {{hash=RPMP}{%
          family={Ramirez-Pinilla},
-         familyi={R\bibinithyphendelim P\bibinitperiod},
+         familyi={R\bibinitperiod-P\bibinitperiod},
          given={Martha\bibnamedelima P.},
          giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
@@ -14129,7 +14133,7 @@
       }}%
       {{hash=RDNA}{%
          family={Redpath-Downing},
-         familyi={R\bibinithyphendelim D\bibinitperiod},
+         familyi={R\bibinitperiod-D\bibinitperiod},
          given={Nicola\bibnamedelima A.},
          giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -14153,7 +14157,7 @@
       }}%
       {{hash=RVJC}{%
          family={Rey-Velasco},
-         familyi={R\bibinithyphendelim V\bibinitperiod},
+         familyi={R\bibinitperiod-V\bibinitperiod},
          given={Juan\bibnamedelima Carlos},
          giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
@@ -14213,7 +14217,7 @@
       }}%
       {{hash=RDLP}{%
          family={Romero-Duque},
-         familyi={R\bibinithyphendelim D\bibinitperiod},
+         familyi={R\bibinitperiod-D\bibinitperiod},
          given={Luz\bibnamedelima Piedad},
          giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
@@ -14279,7 +14283,7 @@
       }}%
       {{hash=SVRA}{%
          family={Salda{\"{i}}¿½a-V{\"{i}}¿½zquez},
-         familyi={S\bibinithyphendelim V\bibinitperiod},
+         familyi={S\bibinitperiod-V\bibinitperiod},
          given={Romeo\bibnamedelima A.},
          giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
@@ -14447,7 +14451,7 @@
       }}%
       {{hash=SPAH}{%
          family={Smith-Pardo},
-         familyi={S\bibinithyphendelim P\bibinitperiod},
+         familyi={S\bibinitperiod-P\bibinitperiod},
          given={Allan\bibnamedelima H.},
          giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
@@ -14477,7 +14481,7 @@
       }}%
       {{hash=SLMH}{%
          family={St-Laurent},
-         familyi={S\bibinithyphendelim L\bibinitperiod},
+         familyi={S\bibinitperiod-L\bibinitperiod},
          given={Martin\bibnamedelima Hugues},
          giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
@@ -14495,7 +14499,7 @@
       }}%
       {{hash=SDI}{%
          family={Steffan-Dewenter},
-         familyi={S\bibinithyphendelim D\bibinitperiod},
+         familyi={S\bibinitperiod-D\bibinitperiod},
          given={Ingolf},
          giveni={I\bibinitperiod},
       }}%
@@ -14531,7 +14535,7 @@
       }}%
       {{hash=SRM}{%
          family={Suarez-Rubio},
-         familyi={S\bibinithyphendelim R\bibinitperiod},
+         familyi={S\bibinitperiod-R\bibinitperiod},
          given={Marcela},
          giveni={M\bibinitperiod},
       }}%
@@ -14627,13 +14631,13 @@
       }}%
       {{hash=UPM}{%
          family={Uehara-Prado},
-         familyi={U\bibinithyphendelim P\bibinitperiod},
+         familyi={U\bibinitperiod-P\bibinitperiod},
          given={Marcio},
          giveni={M\bibinitperiod},
       }}%
       {{hash=UCN}{%
          family={Urbina-Cardona},
-         familyi={U\bibinithyphendelim C\bibinitperiod},
+         familyi={U\bibinitperiod-C\bibinitperiod},
          given={Nicolas},
          giveni={N\bibinitperiod},
       }}%
@@ -15461,7 +15465,7 @@
       }}%
       {{hash=BEORP}{%
          family={Bininda-Emonds},
-         familyi={B\bibinithyphendelim E\bibinitperiod},
+         familyi={B\bibinitperiod-E\bibinitperiod},
          given={Olaf R.\bibnamedelima P.},
          giveni={O\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim
   P\bibinitperiod},
@@ -15530,7 +15534,7 @@
       }}%
       {{hash=BGK}{%
          family={B{\"{o}}hning-Gaese},
-         familyi={B\bibinithyphendelim G\bibinitperiod},
+         familyi={B\bibinitperiod-G\bibinitperiod},
          given={Katrin},
          giveni={K\bibinitperiod},
       }}%
@@ -15829,7 +15833,7 @@
       }}%
       {{hash=MFI}{%
          family={MacGregor-Fors},
-         familyi={M\bibinithyphendelim F\bibinitperiod},
+         familyi={M\bibinitperiod-F\bibinitperiod},
          given={Ian},
          giveni={I\bibinitperiod},
       }}%
@@ -16181,7 +16185,7 @@
     \field{year}{2005}
   \endentry
 
-  \entry{Laureto2015}{misc}{}
+  \entry{Laureto2015}{article}{}
     \name{author}{3}{}{%
       {{hash=LLMO}{%
          family={Laureto},
@@ -16236,13 +16240,13 @@
   functions and services of ecosystems. We present empirical evidence
   supporting this statement.%
     }
-    \field{booktitle}{Natureza e Conservacao}
     \verb{doi}
     \verb 10.1016/j.ncon.2015.11.001
     \endverb
     \field{issn}{16790073}
     \field{title}{{Functional diversity: An overview of its history and
   applicability}}
+    \field{journaltitle}{Natureza e Conservacao}
     \field{year}{2015}
   \endentry
 
@@ -16306,7 +16310,6 @@
   experimental studies of relationships between plant diversity and ecosystem
   properties.%
     }
-    \field{booktitle}{Functional Ecology}
     \verb{doi}
     \verb 10.1046/j.1365-2435.2002.00664.x
     \endverb
@@ -16314,6 +16317,7 @@
     \field{issn}{02698463}
     \field{title}{{Predicting changes in community composition and ecosystem
   functioning from plant traits: Revisiting the Holy Grail}}
+    \field{journaltitle}{Functional Ecology}
     \field{year}{2002}
   \endentry
 
@@ -16820,7 +16824,7 @@
          family={Svenning},
          familyi={S\bibinitperiod},
          given={Jens-Christian},
-         giveni={J\bibinithyphendelim C\bibinitperiod},
+         giveni={J\bibinitperiod-C\bibinitperiod},
       }}%
       {{hash=TJW}{%
          family={Terborgh},
@@ -17080,7 +17084,7 @@
     \field{year}{2014}
   \endentry
 
-  \entry{McConkey2012}{misc}{}
+  \entry{McConkey2012}{article}{}
     \name{author}{7}{}{%
       {{hash=MKR}{%
          family={McConkey},
@@ -17102,7 +17106,7 @@
       }}%
       {{hash=CAA}{%
          family={Campos-Arceiz},
-         familyi={C\bibinithyphendelim A\bibinitperiod},
+         familyi={C\bibinitperiod-A\bibinitperiod},
          given={Ahimsa},
          giveni={A\bibinitperiod},
       }}%
@@ -17162,13 +17166,13 @@
   the simultaneous impacts of multiple drivers on community-wide seed dispersal
   networks. {\textcopyright} 2011 Elsevier Ltd.%
     }
-    \field{booktitle}{Biological Conservation}
     \verb{doi}
     \verb 10.1016/j.biocon.2011.09.018
     \endverb
     \field{isbn}{0006-3207}
     \field{issn}{00063207}
     \field{title}{{Seed dispersal in changing landscapes}}
+    \field{journaltitle}{Biological Conservation}
     \field{year}{2012}
   \endentry
 
@@ -17337,17 +17341,17 @@
     \field{year}{2014}
   \endentry
 
-  \entry{Molina-Venegas2018}{misc}{}
+  \entry{Molina-Venegas2018}{article}{}
     \name{author}{6}{}{%
       {{hash=MVR}{%
          family={Molina-Venegas},
-         familyi={M\bibinithyphendelim V\bibinitperiod},
+         familyi={M\bibinitperiod-V\bibinitperiod},
          given={Rafael},
          giveni={R\bibinitperiod},
       }}%
       {{hash=MSJC}{%
          family={Moreno-Saiz},
-         familyi={M\bibinithyphendelim S\bibinitperiod},
+         familyi={M\bibinitperiod-S\bibinitperiod},
          given={Juan\bibnamedelima Carlos},
          giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
       }}%
@@ -17365,7 +17369,7 @@
       }}%
       {{hash=PNPR}{%
          family={Peres-Neto},
-         familyi={P\bibinithyphendelim N\bibinitperiod},
+         familyi={P\bibinitperiod-N\bibinitperiod},
          given={Pedro\bibnamedelima R.},
          giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
       }}%
@@ -17417,7 +17421,6 @@
   values are more uncertain. This article is protected by copyright. All rights
   reserved.%
     }
-    \field{booktitle}{Ecography}
     \verb{doi}
     \verb 10.1111/ecog.03480
     \endverb
@@ -17425,6 +17428,7 @@
     \field{issn}{16000587}
     \field{title}{{Assessing among-lineage variability in phylogenetic
   imputation of functional trait datasets}}
+    \field{journaltitle}{Ecography}
     \field{year}{2018}
   \endentry
 
@@ -17462,7 +17466,7 @@
       }}%
       {{hash=HVM}{%
          family={Harmelin-Vivien},
-         familyi={H\bibinithyphendelim V\bibinitperiod},
+         familyi={H\bibinitperiod-V\bibinitperiod},
          given={Mireille},
          giveni={M\bibinitperiod},
       }}%
@@ -17560,7 +17564,7 @@
       }}%
       {{hash=AGJE}{%
          family={Arias-Gonz{\'{a}}lez},
-         familyi={A\bibinithyphendelim G\bibinitperiod},
+         familyi={A\bibinitperiod-G\bibinitperiod},
          given={Jesus\bibnamedelima Ernesto},
          giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
@@ -17934,7 +17938,7 @@
     \field{year}{1994}
   \endentry
 
-  \entry{Nakagawa2008}{misc}{}
+  \entry{Nakagawa2008}{article}{}
     \name{author}{2}{}{%
       {{hash=NS}{%
          family={Nakagawa},
@@ -17967,12 +17971,12 @@
   advances in the procedures of handling missing data and their relevance and
   applicability. {\textcopyright} 2008 Elsevier Ltd. All rights reserved.%
     }
-    \field{booktitle}{Trends in Ecology and Evolution}
     \verb{doi}
     \verb 10.1016/j.tree.2008.06.014
     \endverb
     \field{issn}{01695347}
     \field{title}{{Missing inaction: the dangers of ignoring missing data}}
+    \field{journaltitle}{Trends in Ecology and Evolution}
     \field{year}{2008}
   \endentry
 
@@ -18118,9 +18122,9 @@
          giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim
   M\bibinitperiod},
       }}%
-      {{hash=eCH}{%
+      {{hash=�CH}{%
          family={Şekercioğlu},
-         familyi={e\bibinitperiod},
+         familyi={�\bibinitperiod},
          given={{\c{C}}ağan\bibnamedelima H.},
          giveni={{\c{C}}\bibinitperiod\bibinitdelim H\bibinitperiod},
       }}%
@@ -18146,7 +18150,7 @@
     \keyw{Biodiversity,Birds,Community composition,Dietary guilds,Functional
   traits,Land-use change,Tropical forest,Uncertainty}
     \strng{namehash}{NT+1}
-    \strng{fullhash}{NTSJPWBSHMeCHJLARPDW1}
+    \strng{fullhash}{NTSJPWBSHM�CHJLARPDW1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
     \field{labelyear}{2014}
@@ -18276,7 +18280,7 @@
       }}%
       {{hash=ELS}{%
          family={Echeverria-Londo{\~{n}}o},
-         familyi={E\bibinithyphendelim L\bibinitperiod},
+         familyi={E\bibinitperiod-L\bibinitperiod},
          given={Susy},
          giveni={S\bibinitperiod},
       }}%
@@ -19151,13 +19155,13 @@
       }}%
       {{hash=SPVA}{%
          family={S{\~{a}}o-Pedro},
-         familyi={S\bibinithyphendelim P\bibinitperiod},
+         familyi={S\bibinitperiod-P\bibinitperiod},
          given={Vin{\'{i}}cius\bibnamedelima Avelar},
          giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
       }}%
       {{hash=SBG}{%
          family={Santos-Barrera},
-         familyi={S\bibinithyphendelim B\bibinitperiod},
+         familyi={S\bibinitperiod-B\bibinitperiod},
          given={Georgina},
          giveni={G\bibinitperiod},
       }}%
@@ -19227,7 +19231,7 @@
       }}%
       {{hash=IAJD}{%
          family={Ib{\'{a}}{\~{n}}ez-{\'{A}}lamo},
-         familyi={I\bibinithyphendelim {\'{A}}\bibinitperiod},
+         familyi={I\bibinitperiod-{\'{A}}\bibinitperiod},
          given={Juan\bibnamedelima D.},
          giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
       }}%
@@ -19295,7 +19299,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{Oliver2015}{misc}{}
+  \entry{Oliver2015}{article}{}
     \name{author}{17}{}{%
       {{hash=OTH}{%
          family={Oliver},
@@ -19384,7 +19388,7 @@
       }}%
       {{hash=MLB}{%
          family={Mart{\'{i}}n-L{\'{o}}pez},
-         familyi={M\bibinithyphendelim L\bibinitperiod},
+         familyi={M\bibinitperiod-L\bibinitperiod},
          given={Berta},
          giveni={B\bibinitperiod},
       }}%
@@ -19426,12 +19430,12 @@
   crucial for the longer-term resilience of ecosystem functions and the
   services that they underpin.%
     }
-    \field{booktitle}{Trends in Ecology and Evolution}
     \verb{doi}
     \verb 10.1016/j.tree.2015.08.009
     \endverb
     \field{issn}{01695347}
     \field{title}{{Biodiversity and Resilience of Ecosystem Functions}}
+    \field{journaltitle}{Trends in Ecology and Evolution}
     \field{year}{2015}
   \endentry
 
@@ -19522,7 +19526,7 @@
     \field{year}{2013}
   \endentry
 
-  \entry{Pacifici2015}{misc}{}
+  \entry{Pacifici2015}{article}{}
     \name{author}{22}{}{%
       {{hash=PM}{%
          family={Pacifici},
@@ -19622,7 +19626,7 @@
       }}%
       {{hash=PKP}{%
          family={Pearce-Kelly},
-         familyi={P\bibinithyphendelim K\bibinitperiod},
+         familyi={P\bibinitperiod-K\bibinitperiod},
          given={Paul},
          giveni={P\bibinitperiod},
       }}%
@@ -19682,7 +19686,6 @@
   appropriate approach(es) for their planning needs and highlight priority
   areas for further assessments.%
     }
-    \field{booktitle}{Nature Climate Change}
     \verb{doi}
     \verb 10.1038/nclimate2448
     \endverb
@@ -19692,6 +19695,7 @@
     \field{isbn}{1758-678X}
     \field{issn}{17586798}
     \field{title}{{Assessing species vulnerability to climate change}}
+    \field{journaltitle}{Nature Climate Change}
     \field{eprinttype}{arXiv}
     \field{year}{2015}
   \endentry
@@ -19774,7 +19778,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{Pagel1999}{misc}{}
+  \entry{Pagel1999}{article}{}
     \name{author}{1}{}{%
       {{hash=PM}{%
          family={Pagel},
@@ -19799,13 +19803,13 @@
   the analysis of biological evolution is challenging widely held beliefs about
   the history and evolution of life on Earth.%
     }
-    \field{booktitle}{Nature}
     \verb{doi}
     \verb 10.1038/44766
     \endverb
     \field{isbn}{0028-0836}
     \field{issn}{00280836}
     \field{title}{{Inferring the historical patterns of biological evolution}}
+    \field{journaltitle}{Nature}
     \field{year}{1999}
   \endentry
 
@@ -19890,15 +19894,13 @@
     \field{labeldatesource}{year}
     \field{sortinit}{P}
     \field{sortinithash}{P}
-    \field{pages}{xxx\bibrangedash xxx}
     \field{title}{ape 5.0: an environment for modern phylogenetics and
   evolutionary analyses in {R}}
-    \field{volume}{xx}
     \field{journaltitle}{Bioinformatics}
     \field{year}{2018}
   \endentry
 
-  \entry{Pearson2006}{misc}{}
+  \entry{Pearson2006}{article}{}
     \name{author}{1}{}{%
       {{hash=PRG}{%
          family={Pearson},
@@ -19925,13 +19927,13 @@
   that some of our most catastrophic projections might be overstated.
   {\textcopyright} 2005 Elsevier Ltd. All rights reserved.%
     }
-    \field{booktitle}{Trends in Ecology and Evolution}
     \verb{doi}
     \verb 10.1016/j.tree.2005.11.022
     \endverb
     \field{isbn}{0169-5347}
     \field{issn}{01695347}
     \field{title}{{Climate change and the migration capacity of species}}
+    \field{journaltitle}{Trends in Ecology and Evolution}
     \field{year}{2006}
   \endentry
 
@@ -19957,7 +19959,7 @@
       }}%
       {{hash=ALME}{%
          family={Aiello-Lammens},
-         familyi={A\bibinithyphendelim L\bibinitperiod},
+         familyi={A\bibinitperiod-L\bibinitperiod},
          given={Matthew\bibnamedelima E.},
          giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
       }}%
@@ -20270,7 +20272,7 @@
     \field{year}{2002}
   \endentry
 
-  \entry{Petchey2006a}{misc}{}
+  \entry{Petchey2006}{article}{}
     \name{author}{2}{}{%
       {{hash=POL}{%
          family={Petchey},
@@ -20329,7 +20331,6 @@
   addressed using ideas about functional diversity, and suggest some directions
   for novel research.%
     }
-    \field{booktitle}{Ecology Letters}
     \verb{doi}
     \verb 10.1111/j.1461-0248.2006.00924.x
     \endverb
@@ -20339,6 +20340,7 @@
     \field{isbn}{1461-023X}
     \field{issn}{1461023X}
     \field{title}{{Functional diversity: Back to basics and looking forward}}
+    \field{journaltitle}{Ecology Letters}
     \field{eprinttype}{arXiv}
     \field{year}{2006}
   \endentry
@@ -20646,7 +20648,7 @@
     \field{year}{2017}
   \endentry
 
-  \entry{Ratto2018}{misc}{}
+  \entry{Ratto2018}{article}{}
     \name{author}{10}{}{%
       {{hash=RF}{%
          family={Ratto},
@@ -20668,7 +20670,7 @@
       }}%
       {{hash=ZGV}{%
          family={Zamora-Gutierrez},
-         familyi={Z\bibinithyphendelim G\bibinitperiod},
+         familyi={Z\bibinitperiod-G\bibinitperiod},
          given={Veronica},
          giveni={V\bibinitperiod},
       }}%
@@ -20736,7 +20738,6 @@
   vertebrate species. Additional research on how such changes might affect
   wider ecosystems is also required.%
     }
-    \field{booktitle}{Frontiers in Ecology and the Environment}
     \verb{doi}
     \verb 10.1002/fee.1763
     \endverb
@@ -20746,6 +20747,7 @@
     \field{issn}{15409309}
     \field{title}{{Global importance of vertebrate pollinators for plant
   reproductive success: a meta-analysis}}
+    \field{journaltitle}{Frontiers in Ecology and the Environment}
     \field{year}{2018}
   \endentry
 
@@ -21046,13 +21048,13 @@
       }}%
       {{hash=AMK}{%
          family={Armour-Marshall},
-         familyi={A\bibinithyphendelim M\bibinitperiod},
+         familyi={A\bibinitperiod-M\bibinitperiod},
          given={Katrina},
          giveni={K\bibinitperiod},
       }}%
       {{hash=DFJAF}{%
          family={Diniz-Filho},
-         familyi={D\bibinithyphendelim F\bibinitperiod},
+         familyi={D\bibinitperiod-F\bibinitperiod},
          given={Jos{\'{e}} Alexandre\bibnamedelima F.},
          giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
   F\bibinitperiod},
@@ -21226,7 +21228,7 @@
       }}%
       {{hash=PDD}{%
          family={Pincheira-Donoso},
-         familyi={P\bibinithyphendelim D\bibinitperiod},
+         familyi={P\bibinitperiod-D\bibinitperiod},
          given={Daniel},
          giveni={D\bibinitperiod},
       }}%
@@ -21250,7 +21252,7 @@
       }}%
       {{hash=TCO}{%
          family={Torres-Carvajal},
-         familyi={T\bibinithyphendelim C\bibinitperiod},
+         familyi={T\bibinitperiod-C\bibinitperiod},
          given={Omar},
          giveni={O\bibinitperiod},
       }}%
@@ -21563,7 +21565,7 @@
       }}%
       {{hash=FBM}{%
          family={Festa-Bianchet},
-         familyi={F\bibinithyphendelim B\bibinitperiod},
+         familyi={F\bibinitperiod-B\bibinitperiod},
          given={Marco},
          giveni={M\bibinitperiod},
       }}%
@@ -21593,7 +21595,7 @@
       }}%
       {{hash=GDM}{%
          family={Gimenez-Dixon},
-         familyi={G\bibinithyphendelim D\bibinitperiod},
+         familyi={G\bibinitperiod-D\bibinitperiod},
          given={Mariano},
          giveni={M\bibinitperiod},
       }}%
@@ -21605,7 +21607,7 @@
       }}%
       {{hash=GMJF}{%
          family={Gonzalez-Maya},
-         familyi={G\bibinithyphendelim M\bibinitperiod},
+         familyi={G\bibinitperiod-M\bibinitperiod},
          given={Jose\bibnamedelima Fernando},
          giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
       }}%
@@ -21683,7 +21685,7 @@
       }}%
       {{hash=HTC}{%
          family={Hilton-Taylor},
-         familyi={H\bibinithyphendelim T\bibinitperiod},
+         familyi={H\bibinitperiod-T\bibinitperiod},
          given={Craig},
          giveni={C\bibinitperiod},
       }}%
@@ -21953,7 +21955,7 @@
       }}%
       {{hash=RARG}{%
          family={Rosell-Ambal},
-         familyi={R\bibinithyphendelim A\bibinitperiod},
+         familyi={R\bibinitperiod-A\bibinitperiod},
          given={Ruth\bibnamedelima Grace},
          giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
       }}%
@@ -21989,7 +21991,7 @@
       }}%
       {{hash=SSC}{%
          family={Self-Sullivan},
-         familyi={S\bibinithyphendelim S\bibinitperiod},
+         familyi={S\bibinitperiod-S\bibinitperiod},
          given={Caryn},
          giveni={C\bibinitperiod},
       }}%
@@ -22001,7 +22003,7 @@
       }}%
       {{hash=SZC}{%
          family={Sillero-Zubiri},
-         familyi={S\bibinithyphendelim Z\bibinitperiod},
+         familyi={S\bibinitperiod-Z\bibinitperiod},
          given={Claudio},
          giveni={C\bibinitperiod},
       }}%
@@ -22687,7 +22689,7 @@
       }}%
       {{hash=BPYL}{%
          family={Bagousse-Pinguet},
-         familyi={B\bibinithyphendelim P\bibinitperiod},
+         familyi={B\bibinitperiod-P\bibinitperiod},
          given={Yoann\bibnamedelima Le},
          giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
@@ -22729,7 +22731,7 @@
       }}%
       {{hash=PRIM}{%
          family={Pérez-Ramos},
-         familyi={P\bibinithyphendelim R\bibinitperiod},
+         familyi={P\bibinitperiod-R\bibinitperiod},
          given={I.\bibnamedelima M.},
          giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod},
       }}%
@@ -23156,7 +23158,7 @@
     \field{year}{2018}
   \endentry
 
-  \entry{Steffen2015}{misc}{}
+  \entry{Steffen2015}{article}{}
     \name{author}{5}{}{%
       {{hash=SW}{%
          family={Steffen},
@@ -23222,12 +23224,12 @@
   Acceleration is by far the most convincing from an Earth System science
   perspective.%
     }
-    \field{booktitle}{Anthropocene Review}
     \verb{doi}
     \verb 10.1177/2053019614564785
     \endverb
     \field{issn}{2053020X}
     \field{title}{{The trajectory of the anthropocene: The great acceleration}}
+    \field{journaltitle}{Anthropocene Review}
     \field{year}{2015}
   \endentry
 
@@ -23781,7 +23783,7 @@
       }}%
       {{hash=BMM}{%
          family={Barbet-Massin},
-         familyi={B\bibinithyphendelim M\bibinitperiod},
+         familyi={B\bibinitperiod-M\bibinitperiod},
          given={Morgane},
          giveni={M\bibinitperiod},
       }}%
@@ -24262,7 +24264,7 @@
       }}%
       {{hash=BGK}{%
          family={B{\"{o}}hning-Gaese},
-         familyi={B\bibinithyphendelim G\bibinitperiod},
+         familyi={B\bibinitperiod-G\bibinitperiod},
          given={Katrin},
          giveni={K\bibinitperiod},
       }}%
@@ -24316,7 +24318,7 @@
       }}%
       {{hash=BBH}{%
          family={Bartlam-Brooks},
-         familyi={B\bibinithyphendelim B\bibinitperiod},
+         familyi={B\bibinitperiod-B\bibinitperiod},
          given={Hattie},
          giveni={H\bibinitperiod},
       }}%
@@ -24400,13 +24402,13 @@
       }}%
       {{hash=CAC}{%
          family={Camilo-Alves},
-         familyi={C\bibinithyphendelim A\bibinitperiod},
+         familyi={C\bibinitperiod-A\bibinitperiod},
          given={Constan{\c{c}}a},
          giveni={C\bibinitperiod},
       }}%
       {{hash=CJS}{%
          family={Chamaill{\'{e}}-Jammes},
-         familyi={C\bibinithyphendelim J\bibinitperiod},
+         familyi={C\bibinitperiod-J\bibinitperiod},
          given={Simon},
          giveni={S\bibinitperiod},
       }}%
@@ -24442,7 +24444,7 @@
       }}%
       {{hash=DHI}{%
          family={Douglas-Hamilton},
-         familyi={D\bibinithyphendelim H\bibinitperiod},
+         familyi={D\bibinitperiod-H\bibinitperiod},
          given={Iain},
          giveni={I\bibinitperiod},
       }}%
@@ -24628,7 +24630,7 @@
       }}%
       {{hash=LLP}{%
          family={L{\'{o}}pez-L{\'{o}}pez},
-         familyi={L\bibinithyphendelim L\bibinitperiod},
+         familyi={L\bibinitperiod-L\bibinitperiod},
          given={Pascual},
          giveni={P\bibinitperiod},
       }}%
@@ -24688,7 +24690,7 @@
       }}%
       {{hash=DMSL}{%
          family={D{\'{i}}az-Mu{\~{n}}oz},
-         familyi={D\bibinithyphendelim M\bibinitperiod},
+         familyi={D\bibinitperiod-M\bibinitperiod},
          given={Samuel\bibnamedelima L.},
          giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
       }}%
@@ -24730,7 +24732,7 @@
       }}%
       {{hash=OSLGR}{%
          family={Oliveira-Santos},
-         familyi={O\bibinithyphendelim S\bibinitperiod},
+         familyi={O\bibinitperiod-S\bibinitperiod},
          given={Luiz Gustavo\bibnamedelima R.},
          giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
   R\bibinitperiod},
@@ -24935,7 +24937,7 @@
       }}%
       {{hash=ZKT}{%
          family={Zwijacz-Kozica},
-         familyi={Z\bibinithyphendelim K\bibinitperiod},
+         familyi={Z\bibinitperiod-K\bibinitperiod},
          given={Tomasz},
          giveni={T\bibinitperiod},
       }}%
@@ -25045,7 +25047,7 @@
       }}%
       {{hash=GOK}{%
          family={Groothuis-Oudshoorn},
-         familyi={G\bibinithyphendelim O\bibinitperiod},
+         familyi={G\bibinitperiod-O\bibinitperiod},
          given={Karin},
          giveni={K\bibinitperiod},
       }}%
@@ -25075,7 +25077,7 @@
          family={Verberk},
          familyi={V\bibinitperiod},
          given={W.\bibnamedelima C. E.\bibnamedelima P.},
-         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim
+         giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod
   E\bibinitperiod\bibinitdelim P\bibinitperiod},
       }}%
       {{hash=vNCGE}{%
@@ -25302,7 +25304,7 @@
     \field{year}{2008}
   \endentry
 
-  \entry{Violle2007}{misc}{}
+  \entry{Violle2007}{article}{}
     \name{author}{7}{}{%
       {{hash=VC}{%
          family={Violle},
@@ -25378,17 +25380,17 @@
   functional response (community level) and effect (ecosystem level)
   algorithms.%
     }
-    \field{booktitle}{Oikos}
     \verb{doi}
     \verb 10.1111/j.0030-1299.2007.15559.x
     \endverb
     \field{isbn}{0030-1299}
     \field{issn}{16000706}
     \field{title}{{Let the concept of trait be functional!}}
+    \field{journaltitle}{Oikos}
     \field{year}{2007}
   \endentry
 
-  \entry{Violle2012}{misc}{}
+  \entry{Violle2012}{article}{}
     \name{author}{8}{}{%
       {{hash=VC}{%
          family={Violle},
@@ -25464,7 +25466,6 @@
   insights into the primary forces structuring communities. {\textcopyright}
   2011 Elsevier Ltd.%
     }
-    \field{booktitle}{Trends in Ecology and Evolution}
     \verb{doi}
     \verb 10.1016/j.tree.2011.11.014
     \endverb
@@ -25472,6 +25473,7 @@
     \field{issn}{01695347}
     \field{title}{{The return of the variance: Intraspecific variability in
   community ecology}}
+    \field{journaltitle}{Trends in Ecology and Evolution}
     \field{year}{2012}
   \endentry
 
@@ -25724,7 +25726,7 @@
       }}%
       {{hash=SLM}{%
          family={Scherer-Lorenzen},
-         familyi={S\bibinithyphendelim L\bibinitperiod},
+         familyi={S\bibinitperiod-L\bibinitperiod},
          given={Michael},
          giveni={M\bibinitperiod},
       }}%
@@ -25774,7 +25776,7 @@
          family={Schulze},
          familyi={S\bibinitperiod},
          given={Ernst-Detlef},
-         giveni={E\bibinithyphendelim D\bibinitperiod},
+         giveni={E\bibinitperiod-D\bibinitperiod},
       }}%
       {{hash=SB}{%
          family={Schmid},
@@ -25838,7 +25840,7 @@
       }}%
       {{hash=PHJW}{%
          family={Pearce-Higgins},
-         familyi={P\bibinithyphendelim H\bibinitperiod},
+         familyi={P\bibinitperiod-H\bibinitperiod},
          given={James\bibnamedelima W.},
          giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
       }}%
@@ -26218,7 +26220,7 @@
     \field{year}{2014}
   \endentry
 
-  \entry{Wilson2011}{misc}{}
+  \entry{Wilson2011}{article}{}
     \name{author}{2}{}{%
       {{hash=WEE}{%
          family={Wilson},
@@ -26256,17 +26258,17 @@
   research should consider scavenging, especially in light of how major global
   changes can affect scavengers. {\textcopyright} 2010 Elsevier Ltd.%
     }
-    \field{booktitle}{Trends in Ecology and Evolution}
     \verb{doi}
     \verb 10.1016/j.tree.2010.12.011
     \endverb
     \field{issn}{01695347}
     \field{title}{{Scavenging: How carnivores and carrion structure
   communities}}
+    \field{journaltitle}{Trends in Ecology and Evolution}
     \field{year}{2011}
   \endentry
 
-  \entry{Wong2018}{misc}{}
+  \entry{Wong2018}{article}{}
     \name{author}{3}{}{%
       {{hash=WMK}{%
          family={Wong},
@@ -26344,12 +26346,12 @@
   of the trait-based framework to advance ecological insights from the most
   diverse eukaryotic organisms on Earth.%
     }
-    \field{booktitle}{Biological Reviews}
     \verb{doi}
     \verb 10.1111/brv.12488
     \endverb
     \field{issn}{1469185X}
     \field{title}{{Trait-based ecology of terrestrial arthropods}}
+    \field{journaltitle}{Biological Reviews}
     \field{year}{2018}
   \endentry
 
